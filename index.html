@@ -6,7 +6,7 @@
   <title>Le Journal des Écoles — Classements et orientation des écoles supérieures</title>
   <meta name="description" content="Classements 2026 des écoles de commerce, d'ingénieurs et de design, parcours métiers, salaires de sortie et conseils d'orientation, par un média indépendant.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -87,7 +87,7 @@
         "name": "Les classements 2026 du Journal des Écoles",
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Classement 2026 des écoles de commerce", "url": "https://lejournaldesecoles.fr/classements/ecoles-de-commerce/" },
+          { "@type": "ListItem", "position": 1, "name": "Classement des meilleures écoles de commerce en France 2026 (SIGEM, L'Étudiant, Financial Times)", "url": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-commerce-france/" },
           { "@type": "ListItem", "position": 2, "name": "Classement 2026 des écoles d'ingénieurs", "url": "https://lejournaldesecoles.fr/classements/ecoles-ingenieurs/" },
           { "@type": "ListItem", "position": 3, "name": "Classement 2026 des écoles de design", "url": "https://lejournaldesecoles.fr/classements/ecoles-design/" },
           { "@type": "ListItem", "position": 4, "name": "Classement 2026 des écoles de communication", "url": "https://lejournaldesecoles.fr/classements/ecoles-communication/" },
@@ -130,709 +130,7 @@
   }
   </script>
 
-  <style>
-    /* ————————————————————————————————
-       LE JOURNAL DES ÉCOLES — feuille de style
-       Papier porcelaine · Quadrillage cahier · Encre nuit · Marine · Or
-       ADN typographique commun avec Le Journal du Vin, fond propre à la marque
-    ———————————————————————————————— */
-    :root{
-      --paper:      #F6F8FA;
-      --paper-soft: #EBEFF4;
-      --paper-deep: #DEE5EC;
-      --ink:        #131A22;
-      --ink-soft:   #414B55;
-      --marine:     #1E4B87;
-      --marine-deep:#122E56;
-      --gold:       #A9822F;
-      --gold-soft:  #C8A96A;
-      --night:      #0D1520;
-      --grid:       rgba(30,75,135,.042);
-      --hairline:   rgba(19,26,34,.15);
-      --hairline-strong: rgba(19,26,34,.5);
-      --serif: "Playfair Display", "Georgia", "Times New Roman", serif;
-      --sans:  "Hanken Grotesk", "Avenir Next", "Helvetica Neue", sans-serif;
-      --w: min(1240px, calc(100vw - 48px));
-      --ease: cubic-bezier(.22,.61,.21,1);
-    }
-    *{ margin:0; padding:0; box-sizing:border-box; }
-    html{ scroll-behavior:smooth; }
-    body{
-      background-color:var(--paper);
-      /* grain de papier + quadrillage cahier, fondus dans le fond */
-      background-image:
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"),
-        repeating-linear-gradient(to bottom, var(--grid) 0, var(--grid) 1px, transparent 1px, transparent 32px),
-        repeating-linear-gradient(to right,  var(--grid) 0, var(--grid) 1px, transparent 1px, transparent 32px);
-      color:var(--ink);
-      font-family:var(--sans);
-      font-weight:400;
-      font-size:17px;
-      line-height:1.65;
-      overflow-x:clip;
-      -webkit-font-smoothing:antialiased;
-      text-rendering:optimizeLegibility;
-    }
-    .sr-only{
-      position:absolute; width:1px; height:1px; overflow:hidden;
-      clip:rect(0 0 0 0); white-space:nowrap;
-    }
-    ::selection{ background:var(--marine); color:var(--paper); }
-    img{ max-width:100%; display:block; }
-    a{ color:inherit; text-decoration:none; }
-    ul{ list-style:none; }
-    .wrap{ width:var(--w); margin-inline:auto; position:relative; z-index:1; }
-
-    a:focus-visible, button:focus-visible, input:focus-visible{
-      outline:2px solid var(--gold); outline-offset:3px; border-radius:1px;
-    }
-
-    /* ——— utilitaires typographiques ——— */
-    .kicker{
-      font-family:var(--sans); font-weight:600; font-size:.72rem;
-      letter-spacing:.24em; text-transform:uppercase; color:var(--gold);
-    }
-    .kicker--marine{ color:var(--marine); }
-
-    /* ================= TOP BAR ================= */
-    .topbar{
-      border-bottom:1px solid var(--hairline);
-      font-size:.72rem; letter-spacing:.18em; text-transform:uppercase; font-weight:400;
-      position:relative; z-index:5; background:var(--paper);
-    }
-    .topbar .wrap{
-      display:flex; justify-content:space-between; align-items:center;
-      padding:.65rem 0; gap:1rem;
-    }
-    .topbar span i{ font-style:normal; color:var(--gold); margin:0 .6em; }
-    .topbar a{ border-bottom:1px solid transparent; transition:border-color .25s; white-space:nowrap; }
-    .topbar a:hover{ border-color:var(--gold); }
-    .topbar .edition{ color:var(--ink-soft); }
-
-    /* ================= MASTHEAD ================= */
-    .masthead{ position:relative; z-index:4; background:var(--paper); }
-    .masthead .wrap{
-      display:grid; grid-template-columns:1fr auto 1fr; align-items:center;
-      padding:2.6rem 0 2rem; gap:2rem;
-    }
-    .masthead-side{
-      font-size:.7rem; letter-spacing:.22em; text-transform:uppercase;
-      color:var(--ink-soft); font-weight:400; line-height:2;
-    }
-    .masthead-side.right{ text-align:right; }
-    .masthead-side b{ display:block; color:var(--ink); font-weight:500; }
-    .brand{ text-align:center; position:relative; display:inline-block; justify-self:center; }
-    .brand h1{
-      font-family:var(--serif); font-weight:700; color:var(--ink);
-      line-height:.95; letter-spacing:.02em; text-transform:uppercase;
-    }
-    .brand h1 .l1{ display:block; font-size:clamp(1.6rem, 3.4vw, 2.6rem); }
-    .brand h1 .l2{ display:block; font-size:clamp(2.05rem, 4.4vw, 3.45rem); letter-spacing:.03em; }
-    .brand .cap{
-      position:absolute; top:-1.9rem; right:-3.4rem; width:clamp(60px, 6.6vw, 88px);
-      color:var(--marine); transform:rotate(6deg);
-    }
-    .brand .tagline{
-      margin-top:.9rem; font-size:.7rem; letter-spacing:.34em; text-transform:uppercase;
-      color:var(--marine); font-weight:400;
-    }
-
-    /* ================= NAV ================= */
-    .nav{
-      position:sticky; top:0; z-index:50;
-      background:var(--paper);
-      border-top:1px solid var(--hairline-strong);
-      border-bottom:1px solid var(--hairline-strong);
-      transition:box-shadow .3s var(--ease);
-    }
-    .nav.scrolled{ box-shadow:0 10px 30px -18px rgba(19,26,34,.35); }
-    .nav .wrap{ display:flex; align-items:center; justify-content:center; gap:.5rem; }
-    .nav-mono{
-      display:none; align-items:center; margin-right:auto;
-      font-family:var(--serif); font-weight:700; font-size:1.15rem; letter-spacing:.02em;
-    }
-    .nav-mono em{ font-style:normal; color:var(--marine); }
-    .nav.scrolled .nav-mono{ display:flex; }
-    .nav ul{ display:flex; flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; }
-    .nav ul::-webkit-scrollbar{ display:none; }
-    .nav li a{
-      display:block; padding:1.05rem 1.05rem;
-      font-size:.74rem; font-weight:500; letter-spacing:.18em; text-transform:uppercase;
-      position:relative; white-space:nowrap; transition:color .25s;
-    }
-    .nav li a::after{
-      content:""; position:absolute; left:1.05rem; right:1.05rem; bottom:.7rem;
-      border-bottom:2px solid var(--marine);
-      transform:scaleX(0); transform-origin:left; transition:transform .3s var(--ease);
-    }
-    .nav li a:hover{ color:var(--marine); }
-    .nav li a:hover::after{ transform:scaleX(1); }
-    .nav .search{
-      margin-left:auto; display:flex; align-items:center; gap:.5rem;
-      font-size:.72rem; letter-spacing:.2em; text-transform:uppercase; font-weight:500;
-      padding:.55rem 0; color:var(--ink-soft); background:none; border:none; cursor:pointer;
-      font-family:var(--sans); transition:color .25s;
-    }
-    .nav .search:hover{ color:var(--marine); }
-    .nav .search svg{ width:15px; height:15px; }
-
-    /* ================= TICKER ================= */
-    .ticker{
-      border-bottom:1px solid var(--hairline);
-      background:var(--paper-soft);
-      overflow:hidden; position:relative; z-index:1;
-      contain:content;
-    }
-    .ticker .inner{ display:flex; width:max-content; animation:tick 46s linear infinite; will-change:transform; }
-    .ticker:hover .inner{ animation-play-state:paused; }
-    .ticker ul{ display:flex; align-items:center; padding:.55rem 0; }
-    .ticker li{
-      font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; font-weight:400;
-      white-space:nowrap; padding:0 1.4rem; display:flex; align-items:center; gap:1.4rem;
-      color:var(--ink-soft);
-    }
-    .ticker li::after{ content:"◆"; font-size:.5rem; color:var(--gold); }
-    .ticker li b{ font-weight:500; color:var(--marine); }
-    @keyframes tick{ to{ transform:translateX(-50%); } }
-
-    /* ================= HERO ================= */
-    .hero{ padding:3.2rem 0 4rem; }
-    .hero .wrap{
-      display:grid; grid-template-columns:7.2fr 4.8fr; gap:3.4rem; align-items:start;
-    }
-    .feature{ position:relative; }
-    .feature .imgbox{
-      position:relative; overflow:hidden; aspect-ratio:16/10; background:var(--paper-deep);
-    }
-    .feature .imgbox::after{
-      content:""; position:absolute; inset:10px; border:1px solid rgba(246,248,250,.55);
-      pointer-events:none;
-    }
-    .feature img, .card img, .route-card img, .arch img{
-      width:100%; height:100%; object-fit:cover;
-      transition:transform 1.2s var(--ease);
-    }
-    .feature a:hover img{ transform:scale(1.035); }
-    .feature figcaption{
-      margin-top:.5rem; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase;
-      color:var(--ink-soft); text-align:right;
-    }
-    .feature .kicker{ display:inline-block; margin:1.6rem 0 .8rem; }
-    .feature h2{
-      font-family:var(--serif); font-weight:600;
-      font-size:clamp(1.9rem, 3.6vw, 3.1rem); line-height:1.06; letter-spacing:.005em;
-    }
-    .feature h2 a{ background-image:linear-gradient(var(--gold), var(--gold));
-      background-size:0% 2px; background-repeat:no-repeat; background-position:0 96%;
-      transition:background-size .5s var(--ease);
-    }
-    .feature h2 a:hover{ background-size:100% 2px; }
-    .feature .standfirst{
-      margin-top:1.1rem; font-family:var(--serif); font-style:italic; font-weight:400;
-      font-size:1.18rem; line-height:1.5; color:var(--ink-soft); max-width:56ch;
-    }
-    .byline{
-      margin-top:1.2rem; font-size:.72rem; letter-spacing:.16em; text-transform:uppercase;
-      color:var(--ink-soft);
-    }
-    .byline b{ font-weight:600; color:var(--ink); }
-    .byline b a{ border-bottom:1px solid var(--gold); transition:color .25s; }
-    .byline b a:hover{ color:var(--marine); }
-    .byline i{ font-style:normal; color:var(--gold); margin:0 .55em; }
-
-    .rail h3.rail-title{
-      font-size:.74rem; letter-spacing:.26em; text-transform:uppercase; font-weight:500;
-      color:var(--ink); display:flex; align-items:center; gap:1rem; margin-bottom:.4rem;
-    }
-    .rail h3.rail-title::after{ content:""; flex:1; border-top:1px solid var(--hairline-strong); }
-    .rail ol{ list-style:none; counter-reset:rail; }
-    .rail li{
-      counter-increment:rail; padding:1.35rem 0; border-bottom:1px solid var(--hairline);
-      display:grid; grid-template-columns:auto 1fr; gap:1.2rem; align-items:baseline;
-    }
-    .rail li:last-child{ border-bottom:none; }
-    .rail li::before{
-      content:counter(rail, decimal-leading-zero);
-      font-family:var(--serif); font-size:1.7rem; font-weight:400; font-style:italic;
-      color:var(--gold); line-height:1;
-    }
-    .rail .cat{
-      display:block; font-size:.66rem; letter-spacing:.22em; text-transform:uppercase;
-      color:var(--marine); font-weight:600; margin-bottom:.35rem;
-    }
-    .rail h4{
-      font-family:var(--serif); font-weight:500; font-size:1.18rem; line-height:1.25;
-    }
-    .rail h4 a{ transition:color .25s; }
-    .rail h4 a:hover{ color:var(--marine); }
-    .rail .more{
-      display:inline-flex; align-items:center; gap:.6rem; margin-top:1.4rem;
-      font-size:.72rem; letter-spacing:.22em; text-transform:uppercase; font-weight:500;
-      color:var(--marine);
-    }
-    .rail .more .arrow{ transition:transform .3s var(--ease); }
-    .rail .more:hover .arrow{ transform:translateX(6px); }
-
-    /* ————— entêtes de section ————— */
-    .section-head{ text-align:center; margin-bottom:2.8rem; }
-    .section-head .kicker{ display:block; margin-bottom:.7rem; }
-    .section-head h2{
-      font-family:var(--serif); font-weight:500; font-style:italic;
-      font-size:clamp(1.9rem, 3.4vw, 2.9rem); line-height:1.1; letter-spacing:.01em;
-    }
-    .section-head .orn{
-      display:flex; align-items:center; justify-content:center; gap:1.1rem;
-      margin-top:1.15rem; color:var(--gold);
-    }
-    .section-head .orn::before, .section-head .orn::after{
-      content:""; width:72px; border-top:1px solid var(--hairline-strong);
-    }
-    .section-head .orn svg{ width:14px; height:14px; }
-
-    /* ================= LE MÉDIA EN BREF (bloc réponse + chiffres) ================= */
-    .apropos{ padding:0 0 4.2rem; }
-    .apropos .box{
-      border:1px solid var(--hairline-strong); position:relative;
-      padding:2.6rem clamp(1.4rem, 4vw, 3.4rem) 2.4rem;
-    }
-    .apropos .box::after{
-      content:""; position:absolute; inset:6px; border:1px solid var(--hairline); pointer-events:none;
-    }
-    .apropos .kicker{ display:block; text-align:center; margin-bottom:1.1rem; }
-    .apropos .lead{
-      font-family:var(--serif); font-size:clamp(1.05rem, 1.8vw, 1.3rem); line-height:1.6;
-      font-weight:400; text-align:center; max-width:74ch; margin-inline:auto;
-    }
-    .apropos .stats{
-      display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; margin-top:2.2rem;
-      text-align:center;
-    }
-    .apropos .stat{ padding:1.1rem .8rem; border-top:1px solid var(--hairline-strong); }
-    .apropos .stat b{
-      display:block; font-family:var(--serif); font-style:italic; font-weight:500;
-      font-size:2.1rem; color:var(--marine); line-height:1.1;
-    }
-    .apropos .stat span{
-      display:block; margin-top:.45rem; font-size:.68rem; letter-spacing:.2em;
-      text-transform:uppercase; color:var(--ink-soft);
-    }
-    .apropos .methodo{
-      display:block; text-align:center; margin-top:1.9rem;
-      font-size:.72rem; letter-spacing:.22em; text-transform:uppercase; font-weight:500;
-      color:var(--marine);
-    }
-    .apropos .methodo .arrow{ display:inline-block; transition:transform .3s var(--ease); }
-    .apropos .methodo:hover .arrow{ transform:translateX(6px); }
-
-    /* ================= UNIVERS (arches) ================= */
-    .univers{ padding:4.2rem 0 4.6rem; border-top:1px solid var(--hairline); }
-    .univers-grid{
-      display:grid; grid-template-columns:repeat(5, 1fr); gap:1.6rem;
-    }
-    .arch{ text-align:center; display:block; }
-    .arch .frame{
-      position:relative; border-radius:999px 999px 0 0; overflow:hidden;
-      aspect-ratio:3/4.3; background:var(--paper-deep);
-      box-shadow:0 0 0 1px var(--gold-soft), inset 0 0 0 1px var(--gold-soft);
-      transition:transform .5s var(--ease), box-shadow .5s var(--ease);
-    }
-    .arch .frame::after{
-      content:""; position:absolute; inset:7px; border:1px solid rgba(246,248,250,.6);
-      border-radius:999px 999px 0 0; pointer-events:none;
-    }
-    .arch:hover .frame{ transform:translateY(-8px); box-shadow:0 0 0 1px var(--gold), inset 0 0 0 1px var(--gold), 0 24px 34px -22px rgba(19,26,34,.45); }
-    .arch:hover img{ transform:scale(1.06); }
-    .arch h3{
-      margin-top:1.15rem; font-family:var(--serif); font-weight:600; font-size:1.18rem;
-      letter-spacing:.02em;
-    }
-    .arch p{
-      font-size:.68rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft);
-      margin-top:.3rem;
-    }
-
-    /* ================= CLASSEMENTS ================= */
-    .guides{ padding:4.4rem 0 5rem; background:var(--paper-soft); border-top:1px solid var(--hairline); border-bottom:1px solid var(--hairline); }
-    .guides-grid{
-      display:grid; grid-template-columns:1.6fr 1fr 1fr; grid-template-rows:auto auto; gap:2.2rem;
-    }
-    .card{ display:flex; flex-direction:column; }
-    .card .imgwrap{ position:relative; }
-    .card .chip{
-      position:absolute; z-index:2; top:0; left:50%; transform:translate(-50%,-50%);
-      background:var(--paper); color:var(--marine); padding:.42rem 1.15rem;
-      font-size:.62rem; letter-spacing:.22em; text-transform:uppercase; font-weight:600;
-      white-space:nowrap; box-shadow:0 0 0 1px var(--hairline);
-    }
-    .card .imgbox{ overflow:hidden; aspect-ratio:4/3; background:var(--paper-deep); position:relative; }
-    .card--lead{ grid-row:span 2; }
-    .card--lead .imgbox{ aspect-ratio:4/4.6; }
-    .card a.imglink:hover img{ transform:scale(1.05); }
-    .card h3{
-      margin-top:1.15rem;
-      font-family:var(--serif); font-weight:500; font-size:1.32rem; line-height:1.22;
-    }
-    .card--lead h3{ font-size:clamp(1.6rem, 2.4vw, 2.15rem); font-weight:600; line-height:1.12; }
-    .card h3 a{ transition:color .25s; }
-    .card h3 a:hover{ color:var(--marine); }
-    .card .excerpt{
-      margin-top:.65rem; font-size:.98rem; color:var(--ink-soft); line-height:1.62;
-      display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
-    }
-    .card .meta{
-      margin-top:auto; padding-top:.9rem; font-size:.68rem; letter-spacing:.14em;
-      text-transform:uppercase; color:var(--ink-soft);
-    }
-    .card .meta i{ font-style:normal; color:var(--gold); margin:0 .5em; }
-
-    .btn{
-      display:inline-block; padding:.95rem 2.4rem; border:1px solid var(--ink);
-      font-size:.72rem; letter-spacing:.26em; text-transform:uppercase; font-weight:600;
-      transition:background .3s, color .3s, border-color .3s; cursor:pointer; background:transparent;
-      font-family:var(--sans); color:var(--ink);
-    }
-    .btn:hover{ background:var(--marine); border-color:var(--marine); color:var(--paper); }
-    .center{ text-align:center; }
-    .guides .center{ margin-top:3rem; }
-
-    /* ————— podium (extrait de classement) ————— */
-    .podium{ margin-top:3.4rem; border:1px solid var(--hairline-strong); background:var(--paper); position:relative; }
-    .podium::after{ content:""; position:absolute; inset:6px; border:1px solid var(--hairline); pointer-events:none; }
-    .podium .inner{ padding:2.2rem clamp(1.2rem, 3.4vw, 2.8rem) 2rem; position:relative; z-index:1; }
-    .podium .head{
-      display:flex; align-items:baseline; justify-content:space-between; gap:1rem;
-      margin-bottom:1.4rem; flex-wrap:wrap;
-    }
-    .podium h3{
-      font-family:var(--serif); font-weight:600; font-size:clamp(1.3rem, 2.2vw, 1.7rem);
-    }
-    .podium .maj{
-      font-size:.66rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft);
-    }
-    .podium table{ width:100%; border-collapse:collapse; }
-    .podium th{
-      text-align:left; font-family:var(--sans); font-weight:500; font-size:.66rem;
-      letter-spacing:.22em; text-transform:uppercase; color:var(--ink-soft);
-      padding:.7rem .6rem; border-bottom:1px solid var(--hairline-strong);
-    }
-    .podium td{
-      padding:.95rem .6rem; border-bottom:1px solid var(--hairline);
-      font-size:.98rem; vertical-align:baseline;
-    }
-    .podium tr:last-child td{ border-bottom:none; }
-    .podium .rang{
-      font-family:var(--serif); font-style:italic; font-weight:500; font-size:1.35rem;
-      color:var(--gold); width:3.2rem;
-    }
-    .podium tr:nth-child(-n+3) .rang{ color:var(--marine); }
-    .podium .ecole{ font-family:var(--serif); font-weight:500; font-size:1.12rem; }
-    .podium .ville{ color:var(--ink-soft); font-size:.86rem; letter-spacing:.06em; text-transform:uppercase; }
-    .podium .note{
-      text-align:right; font-family:var(--serif); font-weight:500;
-    }
-    .podium .note b{ font-weight:600; color:var(--marine); font-size:1.12rem; }
-    .podium .note span{ color:var(--ink-soft); font-size:.85rem; }
-    .podium .foot{
-      margin-top:1.3rem; font-size:.8rem; color:var(--ink-soft); font-style:italic;
-      font-family:var(--serif); display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap;
-    }
-    .podium .foot a{
-      font-family:var(--sans); font-style:normal; font-size:.7rem; letter-spacing:.2em;
-      text-transform:uppercase; font-weight:500; color:var(--marine); white-space:nowrap;
-    }
-    .podium .foot a .arrow{ display:inline-block; transition:transform .3s var(--ease); }
-    .podium .foot a:hover .arrow{ transform:translateX(6px); }
-
-    /* ================= CITATION ================= */
-    .quote{ padding:5.6rem 0; text-align:center; position:relative; }
-    .quote .mark{
-      font-family:var(--serif); font-size:5.4rem; line-height:.4; color:var(--gold);
-      display:block; margin-bottom:1.6rem; font-style:italic;
-    }
-    .quote blockquote p{
-      font-family:var(--serif); font-style:italic; font-weight:500;
-      font-size:clamp(1.5rem, 3.2vw, 2.5rem); line-height:1.28; max-width:30ch; margin-inline:auto;
-    }
-    .quote cite{
-      display:block; margin-top:1.6rem; font-style:normal;
-      font-size:.72rem; letter-spacing:.28em; text-transform:uppercase; color:var(--ink-soft);
-    }
-    .quote cite::before{ content:"— "; color:var(--gold); }
-
-    /* ================= PARCOURS (du bac au métier) ================= */
-    .routes{ background:var(--night); color:var(--paper); padding:5rem 0 5.4rem; position:relative; }
-    .routes::before{
-      content:""; position:absolute; inset:0;
-      background:radial-gradient(ellipse 90% 60% at 50% -10%, rgba(30,75,135,.55), transparent 60%);
-      pointer-events:none;
-    }
-    .routes .section-head h2{ color:var(--paper); }
-    .routes .section-head .orn::before, .routes .section-head .orn::after{ border-color:rgba(246,248,250,.28); }
-    .routes-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; }
-    .route-card{ position:relative; display:block; }
-    .route-card .imgbox{ overflow:hidden; aspect-ratio:4/5; position:relative; background:#16202C; }
-    .route-card .imgbox::after{
-      content:""; position:absolute; inset:0;
-      background:linear-gradient(to top, rgba(9,11,16,.85) 8%, rgba(9,11,16,.14) 48%, transparent 70%);
-    }
-    .route-card:hover img{ transform:scale(1.05); }
-    .route-card .num{
-      position:absolute; top:1.2rem; left:1.4rem; z-index:2;
-      font-family:var(--serif); font-style:italic; font-size:2rem; color:var(--gold-soft);
-      text-shadow:0 2px 14px rgba(0,0,0,.5);
-    }
-    .route-card .body{ position:absolute; left:1.6rem; right:1.6rem; bottom:1.5rem; z-index:2; }
-    .route-card .region{
-      font-size:.66rem; letter-spacing:.26em; text-transform:uppercase; color:var(--gold-soft);
-      font-weight:500;
-    }
-    .route-card h3{
-      font-family:var(--serif); font-weight:600; font-size:1.5rem; line-height:1.15;
-      margin:.5rem 0 .8rem; color:#F2F6FA;
-    }
-    .route-card .specs{
-      display:flex; gap:1.1rem; font-size:.68rem; letter-spacing:.14em; text-transform:uppercase;
-      color:rgba(246,248,250,.75); flex-wrap:wrap;
-    }
-    .route-card .specs span::before{ content:"◆ "; color:var(--gold); font-size:.55rem; }
-    .routes .center{ margin-top:3.2rem; }
-    .routes .btn{ border-color:rgba(246,248,250,.5); color:var(--paper); }
-    .routes .btn:hover{ background:var(--gold); border-color:var(--gold); color:var(--ink); }
-
-    /* ================= QUELLE ÉCOLE POUR… ================= */
-    .occasions{ padding:4.6rem 0 5rem; }
-    .occasions-grid{
-      display:grid; grid-template-columns:repeat(6, 1fr); gap:1.2rem;
-    }
-    .occ{
-      border:1px solid var(--hairline-strong); text-align:center; padding:2.1rem .8rem 1.9rem;
-      position:relative; transition:background .35s var(--ease), border-color .35s, transform .35s var(--ease);
-      display:block; background:var(--paper);
-    }
-    .occ::after{
-      content:""; position:absolute; inset:5px; border:1px solid transparent; transition:border-color .35s;
-      pointer-events:none;
-    }
-    .occ .pict{ height:34px; display:flex; align-items:center; justify-content:center; margin-bottom:1rem; color:var(--marine); transition:color .35s; }
-    .occ .pict svg{ height:30px; width:auto; }
-    .occ h3{ font-family:var(--serif); font-weight:500; font-size:1.12rem; }
-    .occ p{ font-size:.64rem; letter-spacing:.18em; text-transform:uppercase; color:var(--ink-soft); margin-top:.3rem; transition:color .35s; }
-    .occ:hover{ background:var(--marine); border-color:var(--marine); transform:translateY(-5px); color:var(--paper); }
-    .occ:hover::after{ border-color:rgba(246,248,250,.35); }
-    .occ:hover .pict{ color:var(--gold-soft); }
-    .occ:hover p{ color:rgba(246,248,250,.72); }
-
-    /* ================= NEWSLETTER ================= */
-    .news{
-      background:var(--marine); color:var(--paper); padding:4.8rem 0; position:relative; overflow:hidden;
-    }
-    .news::before{
-      content:""; position:absolute; inset:0; opacity:.5; pointer-events:none;
-      background:
-        radial-gradient(ellipse 70% 120% at 110% 50%, rgba(19,26,34,.4), transparent 60%),
-        radial-gradient(ellipse 70% 120% at -10% 50%, rgba(19,26,34,.4), transparent 60%);
-    }
-    .news .wrap{ display:grid; grid-template-columns:1.1fr 1fr; gap:3rem; align-items:center; }
-    .news .kicker{ color:var(--gold-soft); }
-    .news h2{
-      font-family:var(--serif); font-weight:600; font-size:clamp(1.8rem, 3.2vw, 2.7rem);
-      line-height:1.1; margin-top:.8rem;
-    }
-    .news .sub{ margin-top:1rem; font-size:1.02rem; color:rgba(246,248,250,.82); max-width:44ch; }
-    .news form{ display:flex; border:1px solid rgba(246,248,250,.55); }
-    .news input{
-      flex:1; background:transparent; border:none; padding:1.1rem 1.3rem; color:var(--paper);
-      font-family:var(--sans); font-size:.95rem; letter-spacing:.04em; min-width:0;
-    }
-    .news input::placeholder{ color:rgba(246,248,250,.55); }
-    .news button{
-      background:var(--gold); color:var(--ink); border:none; padding:1.1rem 2rem;
-      font-family:var(--sans); font-size:.72rem; letter-spacing:.24em; text-transform:uppercase;
-      font-weight:600; cursor:pointer; transition:background .3s;
-    }
-    .news button:hover{ background:var(--gold-soft); }
-    .news .rgpd{
-      margin-top:.9rem; font-size:.7rem; color:rgba(246,248,250,.55); letter-spacing:.03em;
-    }
-
-    /* ================= FAQ ================= */
-    .faq{ padding:4.6rem 0 5rem; }
-    .faq .inner{ max-width:860px; margin-inline:auto; }
-    .faq details{
-      border-bottom:1px solid var(--hairline);
-    }
-    .faq details:first-of-type{ border-top:1px solid var(--hairline-strong); }
-    .faq summary{
-      list-style:none; cursor:pointer; padding:1.5rem .2rem;
-      display:flex; align-items:baseline; justify-content:space-between; gap:1.4rem;
-      font-family:var(--serif); font-weight:500; font-size:1.22rem; line-height:1.3;
-      transition:color .25s;
-    }
-    .faq summary::-webkit-details-marker{ display:none; }
-    .faq summary:hover{ color:var(--marine); }
-    .faq summary .plus{
-      font-family:var(--serif); font-style:italic; color:var(--gold); font-size:1.5rem;
-      line-height:1; flex:none; transition:transform .35s var(--ease);
-    }
-    .faq details[open] summary .plus{ transform:rotate(45deg); }
-    .faq .answer{
-      padding:0 .2rem 1.7rem; max-width:70ch;
-      font-size:1.02rem; line-height:1.7; color:var(--ink-soft);
-    }
-    .faq .answer a{ border-bottom:1px solid var(--gold); }
-
-    /* ================= MANIFESTE ================= */
-    .manifesto{ padding:4.8rem 0; border-top:1px solid var(--hairline); border-bottom:1px solid var(--hairline); }
-    .manifesto .wrap{ max-width:820px; text-align:center; }
-    .manifesto .kicker{ display:block; margin-bottom:1.3rem; }
-    .manifesto p{
-      font-family:var(--serif); font-size:clamp(1.15rem, 2vw, 1.45rem); line-height:1.65; font-weight:400;
-    }
-    .manifesto p + p{ margin-top:1.2rem; }
-    .manifesto a{ border-bottom:1px solid var(--gold); transition:color .25s; }
-    .manifesto a:hover{ color:var(--marine); }
-
-    /* ================= FOOTER ================= */
-    footer{ background:var(--night); color:rgba(246,248,250,.78); }
-    .foot-main{ padding:4.2rem 0 3.4rem; }
-    .foot-main .wrap{ display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:3rem; }
-    .foot-brand .mono{
-      font-family:var(--serif); font-weight:700; font-size:1.5rem; color:var(--paper);
-      margin-bottom:1.2rem;
-    }
-    .foot-brand .mono em{ font-style:normal; color:var(--gold-soft); }
-    .foot-brand p{ font-size:.92rem; line-height:1.7; max-width:34ch; }
-    .foot-brand .sig{
-      margin-top:1.4rem; font-family:var(--serif); font-style:italic; font-size:1.05rem; color:var(--gold-soft);
-    }
-    footer h4{
-      font-size:.7rem; letter-spacing:.26em; text-transform:uppercase; font-weight:500;
-      color:var(--paper); margin-bottom:1.3rem;
-    }
-    footer li{ margin-bottom:.7rem; font-size:.92rem; font-weight:300; }
-    footer li a{ transition:color .25s; }
-    footer li a:hover{ color:var(--gold-soft); }
-    .foot-bottom{ border-top:1px solid rgba(246,248,250,.14); }
-    .foot-bottom .wrap{
-      display:flex; justify-content:space-between; align-items:center; padding:1.4rem 0; gap:1rem;
-      font-size:.7rem; letter-spacing:.16em; text-transform:uppercase;
-    }
-    .foot-bottom .soc{ display:flex; gap:1.6rem; }
-    .foot-bottom a:hover{ color:var(--gold-soft); }
-    .foot-bottom .indep{ color:rgba(246,248,250,.45); font-size:.66rem; letter-spacing:.1em; text-transform:none; }
-
-    /* ————— reveal on scroll ————— */
-    .reveal{ opacity:0; transform:translateY(26px); transition:opacity .9s var(--ease), transform .9s var(--ease); }
-    .reveal.in{ opacity:1; transform:none; }
-    .d1{ transition-delay:.08s; } .d2{ transition-delay:.16s; } .d3{ transition-delay:.24s; }
-    .d4{ transition-delay:.32s; } .d5{ transition-delay:.4s; }
-
-    @media (prefers-reduced-motion: reduce){
-      *{ animation:none !important; transition:none !important; }
-      .reveal{ opacity:1; transform:none; }
-      html{ scroll-behavior:auto; }
-    }
-
-    /* ================= RECHERCHE (overlay) ================= */
-    .search-overlay{
-      position:fixed; inset:0; z-index:120; display:none;
-      background-color:var(--paper);
-      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-    }
-    .search-overlay.open{ display:block; }
-    .search-overlay .inner{
-      width:min(880px, calc(100vw - 48px)); margin-inline:auto; padding-top:20vh;
-    }
-    .search-overlay.open .inner > *{ animation:so-rise .6s var(--ease) both; }
-    .search-overlay.open .inner > *:nth-child(2){ animation-delay:.08s; }
-    .search-overlay.open .inner > *:nth-child(3){ animation-delay:.16s; }
-    @keyframes so-rise{ from{ opacity:0; transform:translateY(18px); } to{ opacity:1; transform:none; } }
-    .search-overlay .kicker{ display:block; margin-bottom:1.4rem; }
-    .search-overlay input[type="search"]{
-      width:100%; background:transparent; border:none;
-      border-bottom:2px solid var(--hairline-strong);
-      font-family:var(--serif); font-style:italic; font-weight:500;
-      font-size:clamp(1.7rem, 4.6vw, 3rem); line-height:1.2;
-      padding:.35em 0; color:var(--ink); border-radius:0;
-      -webkit-appearance:none; appearance:none;
-    }
-    .search-overlay input[type="search"]::placeholder{ color:rgba(19,26,34,.32); }
-    .search-overlay input[type="search"]:focus{ outline:none; border-color:var(--marine); }
-    .search-overlay .hint{
-      margin-top:1rem; font-size:.72rem; letter-spacing:.18em; text-transform:uppercase;
-      color:var(--ink-soft);
-    }
-    .search-overlay .hint b{ font-weight:500; color:var(--marine); }
-    .search-overlay .sug{
-      margin-top:2.6rem; display:flex; flex-wrap:wrap; gap:.7rem; align-items:center;
-    }
-    .search-overlay .sug span{
-      font-size:.68rem; letter-spacing:.2em; text-transform:uppercase; color:var(--ink-soft);
-      margin-right:.4rem;
-    }
-    .search-overlay .sug a{
-      border:1px solid var(--hairline-strong); padding:.5rem 1.1rem;
-      font-size:.7rem; letter-spacing:.18em; text-transform:uppercase; font-weight:500;
-      transition:background .3s, color .3s, border-color .3s;
-    }
-    .search-overlay .sug a:hover{ background:var(--marine); border-color:var(--marine); color:var(--paper); }
-    .search-overlay .close{
-      position:absolute; top:1.8rem; right:2.2rem;
-      background:none; border:none; cursor:pointer; font-family:var(--sans);
-      font-size:.72rem; letter-spacing:.22em; text-transform:uppercase; font-weight:500;
-      color:var(--ink-soft); display:flex; align-items:center; gap:.6rem; padding:.5rem;
-      transition:color .25s;
-    }
-    .search-overlay .close:hover{ color:var(--marine); }
-    .search-overlay .close i{ font-style:normal; font-size:1.05rem; line-height:1; }
-
-    /* ————— fond « cahier » commun aux bandeaux ————— */
-    .topbar, .masthead, .nav, .search-overlay{
-      background-color:var(--paper);
-      background-image:
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"),
-        repeating-linear-gradient(to bottom, var(--grid) 0, var(--grid) 1px, transparent 1px, transparent 32px),
-        repeating-linear-gradient(to right,  var(--grid) 0, var(--grid) 1px, transparent 1px, transparent 32px);
-    }
-
-    /* zones de lecture sur fond uni : le quadrillage reste un décor, jamais sous les longs textes */
-    .hero, .faq, .manifesto{ background:var(--paper); }
-    .apropos .box{ background:var(--paper); }
-
-    /* ================= RESPONSIVE ================= */
-    @media (max-width: 1080px){
-      .univers-grid{ grid-template-columns:repeat(3, 1fr); }
-      .occasions-grid{ grid-template-columns:repeat(3, 1fr); }
-      .guides-grid{ grid-template-columns:1fr 1fr; }
-      .card--lead{ grid-row:auto; grid-column:span 2; }
-      .card--lead .imgbox{ aspect-ratio:16/9; }
-      .apropos .stats{ gap:.8rem; }
-    }
-    @media (max-width: 880px){
-      .hero .wrap{ grid-template-columns:1fr; gap:2.6rem; }
-      .masthead .wrap{ grid-template-columns:1fr; padding:2rem 0 1.6rem; }
-      .masthead-side{ display:none; }
-      .brand .cap{ right:-2.4rem; }
-      .news .wrap{ grid-template-columns:1fr; gap:2rem; }
-      .routes-grid{ grid-template-columns:1fr; max-width:460px; margin-inline:auto; }
-      .foot-main .wrap{ grid-template-columns:1fr 1fr; gap:2.4rem; }
-      .topbar .tagline-top{ display:none; }
-      .podium .ville, .podium th:nth-child(3){ display:none; }
-    }
-    @media (max-width: 640px){
-      .univers-grid{ grid-template-columns:repeat(2, 1fr); gap:1.1rem; }
-      .guides-grid{ grid-template-columns:1fr; }
-      .card--lead{ grid-column:auto; }
-      .occasions-grid{ grid-template-columns:repeat(2, 1fr); }
-      .nav .search span{ display:none; }
-      .topbar .ed-label{ display:none; }
-      .brand .cap{ right:-1.1rem; top:-2.3rem; width:52px; }
-      .foot-bottom .wrap{ flex-direction:column; gap:.8rem; }
-      .news form{ flex-direction:column; border:none; gap:.8rem; }
-      .news input{ border:1px solid rgba(246,248,250,.55); }
-      .apropos .stats{ grid-template-columns:1fr; }
-    }
-  </style>
+  <link rel="stylesheet" href="/assets/jde.css">
 </head>
 <body>
 
@@ -902,7 +200,7 @@
   <div class="ticker" aria-hidden="true">
     <div class="inner">
       <ul>
-        <li><b>Classements 2026</b> — HEC, ESSEC, ESCP : le trio de tête de notre palmarès commerce</li>
+        <li><b>Classements 2026</b> — SIGEM, L’Étudiant, FT : notre comparatif des écoles de commerce est en ligne</li>
         <li><b>Parcoursup</b> — la phase complémentaire est ouverte jusqu’au 10 septembre</li>
         <li><b>Salaires</b> — 43 500 € brut : la sortie médiane des écoles d’ingénieurs</li>
         <li><b>Alternance</b> — près de 7 étudiants sur 10 en apprentissage en fin de cursus commerce</li>
@@ -910,7 +208,7 @@
         <li><b>Masters</b> — droit, psycho, STAPS : les mentions les plus demandées à l’université</li>
       </ul>
       <ul>
-        <li><b>Classements 2026</b> — HEC, ESSEC, ESCP : le trio de tête de notre palmarès commerce</li>
+        <li><b>Classements 2026</b> — SIGEM, L’Étudiant, FT : notre comparatif des écoles de commerce est en ligne</li>
         <li><b>Parcoursup</b> — la phase complémentaire est ouverte jusqu’au 10 septembre</li>
         <li><b>Salaires</b> — 43 500 € brut : la sortie médiane des écoles d’ingénieurs</li>
         <li><b>Alternance</b> — près de 7 étudiants sur 10 en apprentissage en fin de cursus commerce</li>
@@ -926,30 +224,24 @@
     <section class="hero" aria-label="À la une">
       <div class="wrap">
         <article class="feature">
-          <a href="#" class="imglink" aria-hidden="true" tabindex="-1">
+          <a href="/classement-meilleures-ecoles-commerce-france/" class="imglink" aria-hidden="true" tabindex="-1">
             <figure>
               <div class="imgbox">
-                <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1400&auto=format&fit=crop"
-                     alt="Grande bibliothèque universitaire, symbole de l'excellence académique" width="1400" height="875" fetchpriority="high">
+                <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1400&auto=format&fit=crop"
+                     alt="Diplômés d'une école de commerce lançant leur toque lors de la remise des diplômes" width="1400" height="875" fetchpriority="high">
               </div>
-              <figcaption>Grandes écoles — © Le Journal des Écoles</figcaption>
+              <figcaption>Remise des diplômes — © Le Journal des Écoles</figcaption>
             </figure>
           </a>
           <span class="kicker kicker--marine">Classements — Écoles de commerce</span>
-          <h2><a href="#">Classement 2026 des écoles de commerce&nbsp;: notre palmarès des 38 programmes grande école</a></h2>
-          <p class="standfirst">Insertion professionnelle, salaires de sortie, excellence académique, ouverture internationale&nbsp;: la rédaction a passé au crible les 38 écoles délivrant le grade de master. Verdict, méthodologie publique et surprises de cette première édition.</p>
-          <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i><time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 14 min</p>
+          <h2><a href="/classement-meilleures-ecoles-commerce-france/">Classement des meilleures écoles de commerce en France 2026&nbsp;: SIGEM, L’Étudiant, Financial Times</a></h2>
+          <p class="standfirst">Il n’existe pas un classement des écoles de commerce, il en existe trois — et ils ne racontent pas la même histoire. Préférences réelles des bi-admis, 85 critères académiques, regard paneuropéen&nbsp;: notre comparatif croisé, sourcé poste par poste.</p>
+          <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i><time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 18 min</p>
         </article>
 
         <aside class="rail" aria-label="Les indispensables">
           <h3 class="rail-title">Les indispensables</h3>
           <ol>
-            <li>
-              <div>
-                <span class="cat">Classements — Commerce</span>
-                <h4><a href="#">Écoles de commerce&nbsp;: le classement 2026 des programmes grande école</a></h4>
-              </div>
-            </li>
             <li>
               <div>
                 <span class="cat">Ingénieurs — Salaires</span>
@@ -966,6 +258,12 @@
               <div>
                 <span class="cat">Masters — Sélection</span>
                 <h4><a href="#">Les 15 masters les plus sélectifs de France (et comment y entrer)</a></h4>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="cat">Classements — Design</span>
+                <h4><a href="#">Écoles de design&nbsp;: les 20 formations que les studios s’arrachent</a></h4>
               </div>
             </li>
           </ol>
@@ -985,7 +283,7 @@
             <div class="stat"><b>12</b><span>classements par an</span></div>
             <div class="stat"><b>250</b><span>fiches métiers &amp; parcours</span></div>
           </div>
-          <a class="methodo" href="#">Notre méthodologie <span class="arrow">→</span></a>
+          <a class="methodo" href="/classement-meilleures-ecoles-commerce-france/#methodologie">Notre méthodologie <span class="arrow">→</span></a>
         </div>
       </div>
     </section>
@@ -1044,15 +342,15 @@
           <article class="card card--lead reveal">
             <div class="imgwrap">
               <span class="chip">Classement — Commerce</span>
-              <a class="imglink" href="#" aria-hidden="true" tabindex="-1">
+              <a class="imglink" href="/classement-meilleures-ecoles-commerce-france/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=900&auto=format&fit=crop" alt="Diplômés lançant leur toque lors de la remise de diplôme" width="900" height="1035">
+                  <img loading="lazy" src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=900&auto=format&fit=crop" alt="Grande bibliothèque universitaire, symbole de l'excellence académique" width="900" height="1035">
                 </div>
               </a>
             </div>
-            <h3><a href="#">Classement 2026 des écoles de commerce&nbsp;: les 38 programmes grande école au banc d’essai</a></h3>
-            <p class="excerpt">Salaires à la sortie, poids international, sélectivité, accréditations&nbsp;: notre palmarès annuel départage les écoles délivrant le grade de master — et bouscule quelques idées reçues.</p>
-            <p class="meta"><time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 14 min</p>
+            <h3><a href="/classement-meilleures-ecoles-commerce-france/">Écoles de commerce&nbsp;: le comparatif 2026 des trois classements de référence</a></h3>
+            <p class="excerpt">SIGEM, L’Étudiant, Financial Times&nbsp;: trois palmarès qui ne mesurent pas la même chose. Fiches détaillées des 10 premières écoles, budgets, salaires CGE et calendrier des concours 2026.</p>
+            <p class="meta"><time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 18 min</p>
           </article>
 
           <article class="card reveal d1">
@@ -1116,51 +414,51 @@
               <span class="maj">Mis à jour le <time datetime="2026-07-17">17 juillet 2026</time></span>
             </div>
             <table>
-              <caption class="sr-only">Extrait du classement 2026 des écoles de commerce du Journal des Écoles&nbsp;: les cinq premières écoles, leur ville et leur note sur vingt.</caption>
+              <caption class="sr-only">Les cinq premières écoles de commerce françaises&nbsp;: rang SIGEM 2025, rang Financial Times European Business Schools 2025 et score L’Étudiant 2025 sur 68 points.</caption>
               <thead>
                 <tr>
-                  <th scope="col">Rang</th>
+                  <th scope="col">Rang SIGEM</th>
                   <th scope="col">École</th>
-                  <th scope="col">Campus</th>
-                  <th scope="col" style="text-align:right;">Note</th>
+                  <th scope="col">Rang FT Europe</th>
+                  <th scope="col" style="text-align:right;">L’Étudiant</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td class="rang">1</td>
                   <td class="ecole">HEC Paris</td>
-                  <td class="ville">Jouy-en-Josas</td>
-                  <td class="note"><b>19,2</b><span>/20</span></td>
+                  <td class="ville">2ᵉ</td>
+                  <td class="note"><b>56,5</b><span>/68</span></td>
                 </tr>
                 <tr>
                   <td class="rang">2</td>
                   <td class="ecole">ESSEC Business School</td>
-                  <td class="ville">Cergy</td>
-                  <td class="note"><b>18,6</b><span>/20</span></td>
+                  <td class="ville">7ᵉ</td>
+                  <td class="note"><b>56</b><span>/68</span></td>
                 </tr>
                 <tr>
                   <td class="rang">3</td>
                   <td class="ecole">ESCP Business School</td>
-                  <td class="ville">Paris</td>
-                  <td class="note"><b>18,4</b><span>/20</span></td>
+                  <td class="ville">4ᵉ</td>
+                  <td class="note"><b>55</b><span>/68</span></td>
                 </tr>
                 <tr>
                   <td class="rang">4</td>
                   <td class="ecole">EDHEC Business School</td>
-                  <td class="ville">Lille</td>
-                  <td class="note"><b>17,9</b><span>/20</span></td>
+                  <td class="ville">9ᵉ</td>
+                  <td class="note"><b>52</b><span>/68</span></td>
                 </tr>
                 <tr>
                   <td class="rang">5</td>
                   <td class="ecole">emlyon business school</td>
-                  <td class="ville">Lyon</td>
-                  <td class="note"><b>17,5</b><span>/20</span></td>
+                  <td class="ville">10ᵉ</td>
+                  <td class="note"><b>56</b><span>/68</span></td>
                 </tr>
               </tbody>
             </table>
             <p class="foot">
-              Note sur 20 — synthèse de nos quatre familles de critères, méthodologie publique.
-              <a href="#">Le classement complet <span class="arrow">→</span></a>
+              Ordre SIGEM 2025 ◆ rang Financial Times European Business Schools 2025 ◆ score L’Étudiant 2025 sur 68.
+              <a href="/classement-meilleures-ecoles-commerce-france/">Le comparatif complet <span class="arrow">→</span></a>
             </p>
           </div>
         </div>
@@ -1290,7 +588,7 @@
     <section class="news" id="newsletter" aria-label="Newsletter">
       <div class="wrap">
         <div class="reveal">
-          <span class="kicker">La lettre du Journal des Écoles</span>
+          <span class="kicker">La newsletter du Journal des Écoles</span>
           <h2>«&nbsp;L’Amphi&nbsp;», chaque jeudi matin</h2>
           <p class="sub">Classements, décryptages et conseils d’orientation, résumés en cinq minutes de lecture. Rien d’autre, promis.</p>
         </div>
@@ -1318,7 +616,7 @@
         <div class="inner reveal">
           <details>
             <summary>Quelle est la meilleure école de commerce de France en 2026&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-            <p class="answer">HEC Paris arrive en tête de notre classement 2026 des programmes grande école, devant l’ESSEC et l’ESCP. Le trio domine sur l’insertion professionnelle et le rayonnement international&nbsp;; l’EDHEC et emlyon progressent sur les salaires de sortie. Le «&nbsp;meilleur&nbsp;» choix dépend toutefois du projet&nbsp;: <a href="#">notre méthodologie</a> détaille chaque critère.</p>
+            <p class="answer">HEC Paris arrive en tête de notre classement 2026 des programmes grande école, devant l’ESSEC et l’ESCP. Le trio domine sur l’insertion professionnelle et le rayonnement international&nbsp;; l’EDHEC et emlyon progressent sur les salaires de sortie. Le «&nbsp;meilleur&nbsp;» choix dépend toutefois du projet&nbsp;: <a href="/classement-meilleures-ecoles-commerce-france/#methodologie">notre méthodologie</a> détaille chaque critère.</p>
           </details>
           <details>
             <summary>Peut-on intégrer une grande école sans passer par une prépa&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -1373,7 +671,7 @@
         <nav aria-label="Classements et guides">
           <h4>Classements &amp; guides</h4>
           <ul>
-            <li><a href="#classements">Écoles de commerce</a></li>
+            <li><a href="/classement-meilleures-ecoles-commerce-france/">Écoles de commerce</a></li>
             <li><a href="#classements">Écoles d’ingénieurs</a></li>
             <li><a href="#classements">Écoles de design</a></li>
             <li><a href="#classements">Masters &amp; MSc</a></li>
@@ -1385,7 +683,7 @@
           <h4>Le Journal</h4>
           <ul>
             <li><a href="#">À propos &amp; rédaction</a></li>
-            <li><a href="#">Méthodologie des classements</a></li>
+            <li><a href="/classement-meilleures-ecoles-commerce-france/#methodologie">Méthodologie des classements</a></li>
             <li><a href="#">Charte éditoriale</a></li>
             <li><a href="mailto:lucas@triaina.fr">Contact &amp; partenariats</a></li>
             <li><a href="#">Mentions légales</a></li>
@@ -1413,22 +711,25 @@
     <button class="close" type="button" id="search-close"><i>✕</i> Fermer</button>
     <div class="inner">
       <span class="kicker">Rechercher sur Le Journal des Écoles</span>
-      <form action="#" method="get" role="search">
+      <form action="/recherche/" method="get" role="search">
         <label class="sr-only" for="search-input">Votre recherche</label>
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
+        <button type="submit" class="sr-only">Rechercher</button>
       </form>
       <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
-        <a href="#">Classement écoles de commerce</a>
-        <a href="#">Parcoursup</a>
-        <a href="#">Salaires ingénieurs</a>
-        <a href="#">Master communication</a>
-        <a href="#">Alternance</a>
+        <a href="/recherche/?q=classement+écoles+de+commerce">Classement écoles de commerce</a>
+        <a href="/recherche/?q=parcoursup">Parcoursup</a>
+        <a href="/recherche/?q=salaires">Salaires</a>
+        <a href="/recherche/?q=concours+BCE">Concours BCE</a>
+        <a href="/recherche/?q=alternance">Alternance</a>
       </div>
     </div>
   </div>
 
+  <script src="/assets/search.js"></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){
@@ -1449,6 +750,7 @@
       openBtn.addEventListener('click', open);
       closeBtn.addEventListener('click', close);
       document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && overlay.classList.contains('open')) close(); });
+      JDESearch.bindOverlay(input, document.getElementById('live-results'));
     })();
 
     // Apparition au défilement
