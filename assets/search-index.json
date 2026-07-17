@@ -1,6 +1,78 @@
 [
   {
     "type": "Article",
+    "cat": "Classements — Design",
+    "title": "Classement des meilleures écoles de design en France",
+    "url": "/classement-meilleures-ecoles-design-france/",
+    "date": "2026-07-18",
+    "excerpt": "ENSAD, ENSCI, Boulle, Camondo, Strate : palmarès Figaro 2026, classement mondial QS, Indice ROI exclusif du Journal des Écoles, admissions et débouchés par spécialité.",
+    "keywords": "classement école de design ensad ensci les ateliers ensaama olivier de serres école boulle camondo esad saint-étienne nantes atlantique strate esad reims la martinière penninghen figaro étudiant qs art design palmarès meilleure école design arts décoratifs"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Indice ROI",
+    "title": "L'Indice ROI Design : l'analyse exclusive du Journal des Écoles",
+    "url": "/classement-meilleures-ecoles-design-france/#roi",
+    "date": "2026-07-18",
+    "excerpt": "Salaire à 3 ans divisé par le coût total des études : de ×20 pour l'École Boulle à ×0,46 pour Penninghen — un ratio propriétaire que personne d'autre ne calcule.",
+    "keywords": "indice roi design ratio retour investissement coût études frais scolarité salaire boulle ensci ensad camondo strate penninghen public privé"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Calculateur",
+    "title": "Calculez votre ROI études de design",
+    "url": "/classement-meilleures-ecoles-design-france/#calculateur",
+    "date": "2026-07-18",
+    "excerpt": "Frais annuels, durée du cursus, salaire espéré à 3 ans : le calculateur applique la méthode de l'Indice ROI Design à votre projet d'études.",
+    "keywords": "calculateur roi simulateur coût études design budget frais scolarité"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Podium",
+    "title": "Top 10 des écoles de design françaises (palmarès Figaro 2026)",
+    "url": "/classement-meilleures-ecoles-design-france/#podium",
+    "date": "2026-07-18",
+    "excerpt": "ENSAD 1ʳᵉ (18/20), ENSCI 2ᵉ (17,8), ENSAAMA 3ᵉ (17,7), Boulle 4ᵉ, Camondo 5ᵉ : le tableau complet avec statut public ou privé.",
+    "keywords": "top 10 podium tableau ensad ensci ensaama boulle camondo esad nantes strate reims martinière note statut public privé"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Fiches écoles",
+    "title": "ENSAD, ENSCI, Boulle, Camondo, Strate, Penninghen : les fiches détaillées",
+    "url": "/classement-meilleures-ecoles-design-france/#fiches",
+    "date": "2026-07-18",
+    "excerpt": "Frais réels, taux d'admission (4 % à l'ENSAD, 6 % à l'ENSCI), modalités de concours et spécialités de chaque école du podium.",
+    "keywords": "fiche école ensad rue d'ulm ensci vidéo delf boulle dnmade dsaa camondo toulon parcoursup strate sèvres lyon rncp penninghen frais admission concours portfolio"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Spécialités",
+    "title": "Design produit, graphique, espace, UX : quelle école pour quel métier",
+    "url": "/classement-meilleures-ecoles-design-france/#specialites",
+    "date": "2026-07-18",
+    "excerpt": "Salaires de départ par spécialité (24 000 à 45 000 €), écoles recommandées et le boom de l'UX/UI, segment le plus recruteur de 2025-2026.",
+    "keywords": "spécialités débouchés design produit industriel graphique direction artistique espace architecture intérieure ux ui product design salaire métier gobelins"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Admissions",
+    "title": "Admissions en école de design : concours, Parcoursup, portfolio, prépa MANAA",
+    "url": "/classement-meilleures-ecoles-design-france/#admissions",
+    "date": "2026-07-18",
+    "excerpt": "Concours propres (ENSAD, ENSCI), Parcoursup avec dossier créatif (Camondo, Strate, Boulle), dossier simple (Penninghen) et le rôle décisif du portfolio.",
+    "keywords": "admission concours parcoursup portfolio book dossier créatif prépa design manaa creapole ecv esma lisaa brassart std2a"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — International",
+    "title": "QS, Red Dot, ECAL : le design français sur la scène mondiale",
+    "url": "/classement-meilleures-ecoles-design-france/#international",
+    "date": "2026-07-18",
+    "excerpt": "ENSAD 13ᵉ et ENSCI 15ᵉ au classement mondial QS 2025, un Red Dot Best of the Best pour l'ENSCI, et la référence suisse ECAL en point de comparaison.",
+    "keywords": "international qs world university rankings art design red dot award best of the best ecal lausanne beaux-arts paris rayonnement mondial"
+  },
+  {
+    "type": "Article",
     "cat": "Classements — Ingénieurs",
     "title": "Classement des meilleures écoles d'ingénieurs en France 2026 : Polytechnique, Mines, CentraleSupélec",
     "url": "/classement-meilleures-ecoles-ingenieurs-france/",
