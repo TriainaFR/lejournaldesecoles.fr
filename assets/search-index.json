@@ -1,6 +1,87 @@
 [
   {
     "type": "Article",
+    "cat": "Classements — Ingénieurs",
+    "title": "Classement des meilleures écoles d'ingénieurs en France 2026 : Polytechnique, Mines, CentraleSupélec",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/",
+    "date": "2026-07-17",
+    "excerpt": "Figaro Étudiant, L'Étudiant, DAUR, L'Usine Nouvelle, Shanghai ARWU : cinq classements croisés, fiches des 12 écoles du top, salaires CGE 2025, insertion à 6 mois et toutes les voies d'admission.",
+    "keywords": "classement école ingénieurs polytechnique l'x mines paris psl centralesupélec ponts paristech télécom paris ensae ensta isae-supaéro espci chimie paristech insa lyon utc compiègne figaro étudiant daur usine nouvelle shanghai arwu cti palmarès meilleure école ingénieur"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Méthodologie",
+    "title": "Cinq classements d'écoles d'ingénieurs, cinq façons de mesurer l'excellence",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#methodologie",
+    "date": "2026-07-17",
+    "excerpt": "Figaro (3 critères), L'Étudiant (119 points), DAUR (notation AAA), L'Usine Nouvelle (prisme industrie) et Shanghai ARWU : ce que chaque classement compte vraiment.",
+    "keywords": "méthodologie figaro étudiant daur rankings usine nouvelle shanghai arwu critères notation aaa international emploi académique ip paris"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Podium",
+    "title": "Top 10 des écoles d'ingénieurs post-prépa (tableau croisé 2026)",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#podium",
+    "date": "2026-07-17",
+    "excerpt": "Polytechnique, Mines Paris-PSL, CentraleSupélec, Ponts, Télécom Paris, ENSAE, ENSTA, ISAE-Supaéro, ESPCI, Chimie ParisTech : notes Figaro, scores L'Étudiant et rangs DAUR.",
+    "keywords": "top 10 podium tableau polytechnique mines centralesupélec ponts télécom ensae ensta supaéro espci chimie rang note"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Post-bac",
+    "title": "Écoles d'ingénieurs post-bac : INSA Lyon et UTC Compiègne en tête",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#post-bac",
+    "date": "2026-07-17",
+    "excerpt": "INSA Lyon 1ʳᵉ (18,2/20), UTC Compiègne 2ᵉ (17/20), Epita 3ᵉ : le podium des écoles accessibles directement après le bac, sur Parcoursup.",
+    "keywords": "post-bac parcoursup insa lyon toulouse utc compiègne utt epita polytech prépa intégrée sans prépa"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Simulateur",
+    "title": "Simulateur : quelle voie vers l'école d'ingénieurs selon votre profil ?",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#simulateur",
+    "date": "2026-07-17",
+    "excerpt": "Terminale, prépa MP/PC/PSI ou Bac+2 : le simulateur affiche les concours ouverts, les écoles accessibles et le calendrier correspondant à votre profil.",
+    "keywords": "simulateur voie admission profil terminale prépa filière mp mpi pc psi pt tsi bcpst bac+2 bac+3"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — CTI",
+    "title": "L'accréditation CTI : le prérequis non négociable",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#cti",
+    "date": "2026-07-17",
+    "excerpt": "Sans habilitation de la Commission des Titres d'Ingénieur, pas de titre d'ingénieur ni de grade de master reconnus par l'État. Durée, procédure, label EUR-ACE.",
+    "keywords": "cti commission titres ingénieur accréditation habilitation titre grade master eur-ace enaee référentiel"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Salaires",
+    "title": "Salaires des ingénieurs 2025 : ce que révèlent les chiffres CGE",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#salaires",
+    "date": "2026-07-17",
+    "excerpt": "39 129 € brut moyen hors primes, 58 000 € médian pour un polytechnicien, écart femmes-hommes de 4,9 % : le vrai décryptage des rémunérations d'ingénieurs.",
+    "keywords": "salaire ingénieur sortie rémunération cge 2025 39 129 58 000 polytechnicien cifre apprentis conseil tic btp suisse"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Insertion",
+    "title": "Insertion des ingénieurs à 6 mois : de 80 % à 99 % selon l'école",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#insertion",
+    "date": "2026-07-17",
+    "excerpt": "83,3 % de taux net d'emploi moyen, mais un écart de 20 points entre écoles : Mines Paris-PSL 99 %, Télécom Paris 98 %, Ponts 96 %, Polytechnique 89 %.",
+    "keywords": "insertion professionnelle taux emploi 6 mois cdi apec marché cadre stage fin études alternance"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Admissions",
+    "title": "Admissions en école d'ingénieurs : concours, calendrier et voies parallèles",
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/#admissions",
+    "date": "2026-07-17",
+    "excerpt": "Mines-Télécom, Centrale-Supélec, CCINP, X-ENS, e3a-Polytech côté prépa ; Advance Parallèle et AvenirPlus côté admissions parallèles ; Parcoursup côté post-bac.",
+    "keywords": "admission concours mines-télécom mines-ponts centrale-supélec ccinp x-ens e3a polytech scei calendrier advance parallèle avenirplus parcoursup dates"
+  },
+  {
+    "type": "Article",
     "cat": "Classements — Grandes écoles",
     "title": "Top 10 des grandes écoles de commerce : HEC, ESSEC, ESCP",
     "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/",
