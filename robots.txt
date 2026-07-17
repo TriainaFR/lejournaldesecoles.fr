@@ -1,0 +1,59 @@
+# Le Journal des Écoles — lejournaldesecoles.fr
+# Média indépendant des études supérieures.
+
+User-agent: *
+Allow: /
+
+# ————————————————————————————————————————————————
+# Moteurs de réponse et crawlers IA — autorisés explicitement.
+# Sans cela, aucune citation possible dans ChatGPT, Perplexity,
+# Claude, Gemini ou les AI Overviews de Google.
+# ————————————————————————————————————————————————
+
+# OpenAI — entraînement, index de recherche, navigation à la demande
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Google — Gemini et AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft — Copilot / Bing
+User-agent: bingbot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (corpus repris par de nombreux modèles)
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://lejournaldesecoles.fr/sitemap.xml

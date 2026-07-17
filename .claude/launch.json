@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lejournaldesecoles",
+      "runtimeExecutable": "/Users/l.l/.claude/skills/seo/.venv/bin/python",
+      "runtimeArgs": ["-m", "http.server", "8000"],
+      "port": 8000
+    }
+  ]
+}

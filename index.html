@@ -41,6 +41,17 @@
         }
       },
       {
+        "@type": "Person",
+        "@id": "https://lejournaldesecoles.fr/#charlotte-montant",
+        "name": "Charlotte Montant",
+        "jobTitle": "Rédactrice et Consultante",
+        "knowsAbout": ["Enseignement supérieur", "Écoles de commerce", "Écoles d'ingénieurs", "Orientation", "Classements d'écoles"],
+        "worksFor": { "@id": "https://lejournaldesecoles.fr/#organization" },
+        "sameAs": [
+          "https://www.linkedin.com/in/charlotte-montant-3b6393402/"
+        ]
+      },
+      {
         "@type": "NewsMediaOrganization",
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
@@ -54,6 +65,16 @@
         "foundingDate": "2026",
         "areaServed": "FR",
         "publishingPrinciples": "https://lejournaldesecoles.fr/charte-editoriale/",
+        "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
+        "employee": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "partnerships",
+            "email": "lucas@triaina.fr",
+            "availableLanguage": "French"
+          }
+        ],
         "sameAs": [
           "https://www.linkedin.com/company/lejournaldesecoles",
           "https://www.instagram.com/lejournaldesecoles",
@@ -64,6 +85,7 @@
         "@type": "ItemList",
         "@id": "https://lejournaldesecoles.fr/#classements",
         "name": "Les classements 2026 du Journal des Écoles",
+        "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Classement 2026 des écoles de commerce", "url": "https://lejournaldesecoles.fr/classements/ecoles-de-commerce/" },
           { "@type": "ListItem", "position": 2, "name": "Classement 2026 des écoles d'ingénieurs", "url": "https://lejournaldesecoles.fr/classements/ecoles-ingenieurs/" },
@@ -313,7 +335,9 @@
       margin-top:1.2rem; font-size:.72rem; letter-spacing:.16em; text-transform:uppercase;
       color:var(--ink-soft);
     }
-    .byline b{ font-weight:500; color:var(--ink); }
+    .byline b{ font-weight:600; color:var(--ink); }
+    .byline b a{ border-bottom:1px solid var(--gold); transition:color .25s; }
+    .byline b a:hover{ color:var(--marine); }
     .byline i{ font-style:normal; color:var(--gold); margin:0 .55em; }
 
     .rail h3.rail-title{
@@ -914,7 +938,7 @@
           <span class="kicker kicker--marine">Classements — Écoles de commerce</span>
           <h2><a href="#">Classement 2026 des écoles de commerce&nbsp;: notre palmarès des 38 programmes grande école</a></h2>
           <p class="standfirst">Insertion professionnelle, salaires de sortie, excellence académique, ouverture internationale&nbsp;: la rédaction a passé au crible les 38 écoles délivrant le grade de master. Verdict, méthodologie publique et surprises de cette première édition.</p>
-          <p class="byline">Par <b>la rédaction</b><i>◆</i><time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 14 min</p>
+          <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i><time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 14 min</p>
         </article>
 
         <aside class="rail" aria-label="Les indispensables">
@@ -1363,7 +1387,7 @@
             <li><a href="#">À propos &amp; rédaction</a></li>
             <li><a href="#">Méthodologie des classements</a></li>
             <li><a href="#">Charte éditoriale</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="mailto:lucas@triaina.fr">Contact &amp; partenariats</a></li>
             <li><a href="#">Mentions légales</a></li>
             <li><a href="#">Politique de confidentialité</a></li>
           </ul>
