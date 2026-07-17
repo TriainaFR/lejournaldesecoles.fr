@@ -1,6 +1,60 @@
 [
   {
     "type": "Article",
+    "cat": "Classements — Grandes écoles",
+    "title": "Top 10 des grandes écoles de commerce : HEC, ESSEC, ESCP",
+    "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/",
+    "date": "2026-07-17",
+    "excerpt": "Trois écoles, trois siècles, un même podium : histoire, pédagogies opposées, classements FT Global MBA et Masters in Finance, débouchés sectoriels du trio de tête — et l'essentiel sur le reste du top 10.",
+    "keywords": "hec paris essec escp trio tête grandes écoles commerce comparatif différence choisir histoire 1819 1881 1907 napoléon legret brodart jouy-en-josas cergy campus berlin londres madrid turin varsovie ft global mba masters in finance qs mim triple couronne"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Histoire",
+    "title": "Histoire et fondation : ESCP 1819, HEC 1881, ESSEC 1907",
+    "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/#histoire",
+    "date": "2026-07-17",
+    "excerpt": "ESCP née de deux soldats de Napoléon, HEC créée par la Chambre de commerce de Paris, ESSEC issue d'un institut jésuite : trois trajectoires vers le même podium.",
+    "keywords": "histoire fondation escp 1819 plus ancienne école de commerce monde hec 1881 ccip essec 1907 sainte-geneviève jésuite jean-baptiste say napoléon"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Programmes",
+    "title": "HEC, ESSEC, ESCP : trois philosophies pédagogiques comparées",
+    "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/#programmes",
+    "date": "2026-07-17",
+    "excerpt": "Parcours structuré et 20+ majeures chez HEC, cursus à la carte et stages obligatoires à l'ESSEC, mobilité européenne obligatoire chez ESCP.",
+    "keywords": "programme grande école pge majeures spécialisation trium global executive mba intensive track flexible track apprentissage alternance global bba imhi cornell mobilité campus"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Classements FT",
+    "title": "FT Global MBA, Masters in Finance, QS : qui domine quoi",
+    "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/#classements-ft",
+    "date": "2026-07-17",
+    "excerpt": "HEC 6ᵉ mondiale au FT Global MBA 2026, ESCP n°1 mondial en Masters in Finance pour la 4ᵉ année consécutive, ESSEC 4ᵉ : le détail des classements internationaux.",
+    "keywords": "financial times ft global mba 2026 masters in finance pre-experience qs masters in management marketing rang mondial classement international insead skema"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Comparateur",
+    "title": "Comparateur HEC / ESSEC / ESCP : le duel en six critères",
+    "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/#comparateur",
+    "date": "2026-07-17",
+    "excerpt": "Ancienneté, frais du PGE, réseau alumni, campus, rangs FT et QS : les trois écoles comparées critère par critère.",
+    "keywords": "comparateur comparaison duel critères hec essec escp frais alumni campus"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Débouchés",
+    "title": "Débouchés et réseaux alumni : où vont vraiment les diplômés du trio",
+    "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/#debouches",
+    "date": "2026-07-17",
+    "excerpt": "Conseil MBB et luxe chez HEC, banque d'affaires à l'ESSEC, conseil et polyvalence européenne chez ESCP — avec 236 000 alumni cumulés.",
+    "keywords": "débouchés alumni réseau conseil stratégie mbb mckinsey bcg bain finance banque affaires goldman sachs jp morgan lazard rothschild luxe lvmh l'oréal kering salaire sortie"
+  },
+  {
+    "type": "Article",
     "cat": "Classements — Commerce",
     "title": "Classement des meilleures écoles de commerce en France 2026 : SIGEM, L'Étudiant, Financial Times",
     "url": "/classement-meilleures-ecoles-commerce-france/",
