@@ -2,6 +2,15 @@
   {
     "type": "Page",
     "cat": "Le Journal des Écoles",
+    "title": "Mentions légales et données personnelles",
+    "url": "/mentions-legales/",
+    "date": "2026-07-18",
+    "excerpt": "Site édité par Triaina (SAS, RCS Paris 999 402 654), directeur de la publication Lucas Lecoq-Pellizzon. Hébergement, propriété intellectuelle, RGPD et cookies.",
+    "keywords": "mentions légales éditeur triaina siren siret rcs tva directeur publication hébergeur railway cloudflare données personnelles rgpd cookies confidentialité crédits"
+  },
+  {
+    "type": "Page",
+    "cat": "Le Journal des Écoles",
     "title": "Contact & partenariats : joindre la rédaction, proposer une donnée",
     "url": "/contact-partenariats/",
     "date": "2026-07-18",
