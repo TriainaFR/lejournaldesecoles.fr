@@ -7,6 +7,7 @@
   <meta name="description" content="Palmarès 2026 des écoles de communication : CELSA, ISCOM, EFAP, Sup de Pub - classement Figaro, Indice ROI exclusif, insertion et débouchés par spécialité.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/classement-meilleures-ecoles-communication-france/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -21,10 +22,9 @@
   <meta property="article:section" content="Classements">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
   {
@@ -39,6 +39,7 @@
         "datePublished": "2026-07-18",
         "dateModified": "2026-07-18",
         "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
         "articleSection": "Classements",
         "about": ["Écoles de communication", "CELSA", "ISCOM", "EFAP", "Indice ROI"],
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
@@ -61,7 +62,7 @@
       {
         "@type": "ItemList",
         "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-communication-france/#top10",
-        "name": "Top 10 des écoles de communication françaises — palmarès Figaro Étudiant 2026",
+        "name": "Top 10 des écoles de communication françaises - palmarès Figaro Étudiant 2026",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "numberOfItems": 10,
         "itemListElement": [
@@ -128,6 +129,23 @@
         ]
       },
       {
+        "@type": "Dataset",
+        "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-communication-france/#dataset",
+        "name": "Indice ROI Communication 2026 - écoles de communication françaises",
+        "description": "Ratio propriétaire du Journal des Écoles : salaire brut annuel estimé à 3-5 ans divisé par le coût total de la scolarité, calculé pour quatre écoles de communication à partir des frais officiels et des enquêtes d'insertion publiques. De ×26,7 (CELSA) à ×0,80 (EFAP).",
+        "url": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-communication-france/#roi",
+        "creator": { "@id": "https://lejournaldesecoles.fr/#organization" },
+        "isPartOf": { "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-communication-france/#article" },
+        "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-07-18",
+        "temporalCoverage": "2025/2026",
+        "spatialCoverage": "France",
+        "variableMeasured": "Ratio ROI : salaire brut annuel estimé à 3-5 ans ÷ coût total de la scolarité sur 5 ans",
+        "measurementMethod": "Données publiques exclusivement : frais de scolarité officiels publiés par chaque école, enquêtes d'insertion (CGE, écoles) et volumes d'admission publiés par les concours et Parcoursup. Méthodologie détaillée : https://lejournaldesecoles.fr/notre-histoire/#methode",
+        "license": "https://lejournaldesecoles.fr/mentions-legales/#propriete"
+      },
+      {
         "@type": "Person",
         "@id": "https://lejournaldesecoles.fr/#charlotte-montant",
         "name": "Charlotte Montant",
@@ -141,8 +159,12 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/favicon.svg" },
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
         "foundingDate": "2026",
+        "areaServed": "FR",
+        "publishingPrinciples": "https://lejournaldesecoles.fr/notre-histoire/",
+        "correctionsPolicy": "https://lejournaldesecoles.fr/contact-partenariats/#signaler",
+        "actionableFeedbackPolicy": "https://lejournaldesecoles.fr/contact-partenariats/",
         "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
         "contactPoint": [{ "@type": "ContactPoint", "contactType": "partnerships", "email": "lucas@yonder.fr", "availableLanguage": "French" }],
         "sameAs": [
@@ -395,7 +417,7 @@
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -412,7 +434,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -438,16 +460,16 @@
           <a href="/classements/">Classements</a><i>◆</i>
           <span>Écoles de communication</span>
         </nav>
-        <span class="kicker kicker--marine">Classements — Écoles de communication</span>
+        <span class="kicker kicker--marine">Classements - Écoles de communication</span>
         <h1>Meilleures écoles de communication&nbsp;: classement et débouchés</h1>
-        <p class="standfirst">Le CELSA règne pour la troisième année consécutive, l’ISCOM le talonne à un dixième de point — et notre Indice ROI révèle un facteur 27 entre le public et le privé. Palmarès Figaro 2026, fiches écoles, admissions et débouchés par spécialité.</p>
+        <p class="standfirst">Le CELSA règne pour la troisième année consécutive, l’ISCOM le talonne à un dixième de point - et notre Indice ROI révèle un facteur 27 entre le public et le privé. Palmarès Figaro 2026, fiches écoles, admissions et débouchés par spécialité.</p>
         <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Publié le <time datetime="2026-07-18">18 juillet 2026</time><i>◆</i>Lecture 15 min</p>
         <figure class="article-hero">
           <div class="imgbox">
-            <img src="/assets/img/presse-quotidienne-medias.webp"
+            <img src="/assets/img/presse-quotidienne-medias.webp" srcset="/assets/img/presse-quotidienne-medias-480.webp 480w, /assets/img/presse-quotidienne-medias-960.webp 960w, /assets/img/presse-quotidienne-medias.webp 1600w" sizes="(max-width: 1280px) 100vw, 1240px"
                  alt="Pile de journaux quotidiens, symbole des métiers de la communication et des médias" width="1600" height="686" fetchpriority="high">
           </div>
-          <figcaption>Communication &amp; médias — © Le Journal des Écoles</figcaption>
+          <figcaption>Communication &amp; médias - © Le Journal des Écoles</figcaption>
         </figure>
       </div>
     </div>
@@ -463,11 +485,11 @@
             <p>Le CELSA reste la référence absolue en 2026, mais l’écart avec le privé s’est resserré depuis l’an dernier.</p>
             <ul>
               <li><p><strong>Le Figaro Étudiant 2026</strong> place le <strong>CELSA</strong> en tête (16,3/20, statut public), devant l’<strong>ISCOM</strong> (16,2/20) et <strong>SciencesCom - Audencia Nantes</strong> (15,8/20). Suivent l’<strong>ISTC</strong> (15,3/20), l’<strong>EFAP</strong> (15,2/20), l’<strong>ESP</strong>, <strong>Sup de Pub</strong> (14,8/20), l’<strong>ISCPA</strong> (13,7/20), <strong>Excelia Communication School</strong> et <strong>Cesacom</strong>.</p></li>
-              <li><p><strong>En 2025</strong>, le CELSA affichait 17,4/20 — la baisse de note en 2026 ne l’empêche pas de conserver sa 1ʳᵉ place pour la troisième année consécutive, un fait que l’école elle-même revendique.</p></li>
+              <li><p><strong>En 2025</strong>, le CELSA affichait 17,4/20 - la baisse de note en 2026 ne l’empêche pas de conserver sa 1ʳᵉ place pour la troisième année consécutive, un fait que l’école elle-même revendique.</p></li>
               <li><p><strong>Eduniversal 2025-2026</strong> confirme cette hiérarchie côté masters spécialisés&nbsp;: <strong>Audencia SciencesCom</strong> est classée <strong>2ᵉ meilleur master communication</strong> de France, et le <strong>MBA Communication &amp; Management Événementiel de l’EFAP</strong> décroche la <strong>1ʳᵉ place nationale</strong> en événementiel.</p></li>
               <li><p><strong>Le budget change tout</strong>&nbsp;: environ <strong>1&nbsp;500&nbsp;€</strong> sur cinq ans au CELSA (école publique, frais de 243 à 380&nbsp;€ par an) contre <strong>46&nbsp;500 à 49&nbsp;000&nbsp;€</strong> dans les grandes écoles privées comme l’ISCOM ou l’EFAP.</p></li>
               <li><p><strong>L’admission</strong> suit trois logiques bien distinctes&nbsp;: concours écrit et oral hors Parcoursup pour le CELSA (2&nbsp;500 candidats pour 140 places en L3), dossier + entretien pour la quasi-totalité des écoles privées, et alternance possible dès la 3ᵉ ou 4ᵉ année dans presque tous les cursus.</p></li>
-              <li><p><strong>L’insertion professionnelle</strong> dépasse 90&nbsp;% à 6 mois chez l’ISCOM, Sup de Pub et l’EFAP — des chiffres proches, voire supérieurs, à ceux du CELSA en début de carrière (70-75&nbsp;% à 3 mois), qui rattrape son retard en filière journalisme (plus de 90&nbsp;%).</p></li>
+              <li><p><strong>L’insertion professionnelle</strong> dépasse 90&nbsp;% à 6 mois chez l’ISCOM, Sup de Pub et l’EFAP - des chiffres proches, voire supérieurs, à ceux du CELSA en début de carrière (70-75&nbsp;% à 3 mois), qui rattrape son retard en filière journalisme (plus de 90&nbsp;%).</p></li>
             </ul>
           </section>
 
@@ -480,15 +502,15 @@
           </div>
 
           <h2 id="methodologie">Méthodologie&nbsp;: deux classements, deux angles de lecture</h2>
-          <p>Le paysage des écoles de communication françaises se lit à travers deux sources qui ne mesurent pas la même chose — les confondre fait perdre du temps aux candidats.</p>
+          <p>Le paysage des écoles de communication françaises se lit à travers deux sources qui ne mesurent pas la même chose - les confondre fait perdre du temps aux candidats.</p>
           <ul>
             <li><p><strong>Le Figaro Étudiant</strong> est le palmarès généraliste de référence pour ce secteur. L’édition 2026 évalue les écoles délivrant un titre RNCP de niveau 7 (Bac+5) sur quatre piliers&nbsp;: la <strong>reconnaissance des diplômes par l’État</strong>, l’<strong>insertion professionnelle</strong>, la <strong>reconnaissance par les professionnels</strong>, et l’<strong>ouverture à l’international</strong>. Le CELSA domine ce classement grâce à son ancrage universitaire (Sorbonne Université) et son excellent taux d’insertion, tandis que l’ISCOM tire sa 2ᵉ place d’une note internationale particulièrement élevée.</p></li>
-            <li><p><strong>Eduniversal</strong> ne classe pas les écoles dans leur ensemble, mais leurs <strong>masters et MBA spécialisés</strong>, filière par filière. C’est cette source qui révèle qu’<strong>Audencia SciencesCom</strong> est le 2ᵉ meilleur master communication de France, et que le <strong>MBA Communication &amp; Management Événementiel de l’EFAP</strong> est n°1 national sur sa spécialité — un signal que le classement généraliste du Figaro (5ᵉ place pour l’EFAP) ne montre pas.</p></li>
+            <li><p><strong>Eduniversal</strong> ne classe pas les écoles dans leur ensemble, mais leurs <strong>masters et MBA spécialisés</strong>, filière par filière. C’est cette source qui révèle qu’<strong>Audencia SciencesCom</strong> est le 2ᵉ meilleur master communication de France, et que le <strong>MBA Communication &amp; Management Événementiel de l’EFAP</strong> est n°1 national sur sa spécialité - un signal que le classement généraliste du Figaro (5ᵉ place pour l’EFAP) ne montre pas.</p></li>
           </ul>
-          <p>Ces deux classements ne se contredisent pas&nbsp;: ils éclairent deux échelles différentes — l’établissement dans son ensemble pour le Figaro Étudiant, le programme précis pour Eduniversal. Un candidat qui vise spécifiquement l’événementiel a donc intérêt à regarder le classement Eduniversal plutôt que le rang générique de son école.</p>
+          <p>Ces deux classements ne se contredisent pas&nbsp;: ils éclairent deux échelles différentes - l’établissement dans son ensemble pour le Figaro Étudiant, le programme précis pour Eduniversal. Un candidat qui vise spécifiquement l’événementiel a donc intérêt à regarder le classement Eduniversal plutôt que le rang générique de son école.</p>
 
           <h2 id="podium">Podium 2026&nbsp;: le top 10 des écoles de communication françaises</h2>
-          <p>Voici le classement complet du Figaro Étudiant 2026, avec le statut public ou privé de chaque établissement — une donnée qui pèse lourd sur le budget à prévoir sur cinq ans.</p>
+          <p>Voici le classement complet du Figaro Étudiant 2026, avec le statut public ou privé de chaque établissement - une donnée qui pèse lourd sur le budget à prévoir sur cinq ans.</p>
 
           <div class="tablewrap">
             <table>
@@ -507,25 +529,25 @@
                 <tr><td>3</td><td>SciencesCom (Audencia Nantes)</td><td>15,8</td><td>Privé</td></tr>
                 <tr><td>4</td><td>ISTC</td><td>15,3</td><td>Privé</td></tr>
                 <tr><td>5</td><td>EFAP</td><td>15,2</td><td>Privé</td></tr>
-                <tr><td>6</td><td>ESP</td><td>—</td><td>Privé</td></tr>
+                <tr><td>6</td><td>ESP</td><td> - </td><td>Privé</td></tr>
                 <tr><td>7</td><td>Sup de Pub</td><td>14,8</td><td>Privé</td></tr>
                 <tr><td>8</td><td>ISCPA</td><td>13,7</td><td>Privé</td></tr>
-                <tr><td>9</td><td>Excelia Communication School</td><td>—</td><td>Privé</td></tr>
-                <tr><td>12</td><td>Cesacom</td><td>—</td><td>Privé</td></tr>
+                <tr><td>9</td><td>Excelia Communication School</td><td> - </td><td>Privé</td></tr>
+                <tr><td>12</td><td>Cesacom</td><td> - </td><td>Privé</td></tr>
               </tbody>
             </table>
           </div>
 
           <p><strong>Ce que révèle ce classement&nbsp;:</strong></p>
           <ul>
-            <li><p><strong>9 écoles privées sur 10</strong> — l’inverse presque exact du design, où le public domine. La communication française, hors CELSA, s’est construite sur un modèle d’écoles privées professionnalisantes.</p></li>
+            <li><p><strong>9 écoles privées sur 10</strong> - l’inverse presque exact du design, où le public domine. La communication française, hors CELSA, s’est construite sur un modèle d’écoles privées professionnalisantes.</p></li>
             <li><p><strong>Le CELSA reste seul représentant du public</strong> dans ce top 10, et c’est justement ce statut qui explique une bonne partie de son avance sur les critères de reconnaissance académique.</p></li>
-            <li><p><strong>Écart resserré entre 2ᵉ et 5ᵉ place</strong>&nbsp;: ISCOM (16,2), SciencesCom (15,8), ISTC (15,3) et EFAP (15,2) se tiennent en moins d’un point — une bataille de milieu de tableau qui bouge chaque année selon les critères pondérés.</p></li>
+            <li><p><strong>Écart resserré entre 2ᵉ et 5ᵉ place</strong>&nbsp;: ISCOM (16,2), SciencesCom (15,8), ISTC (15,3) et EFAP (15,2) se tiennent en moins d’un point - une bataille de milieu de tableau qui bouge chaque année selon les critères pondérés.</p></li>
             <li><p><strong>Sup de Pub recule de la 3ᵉ à la 7ᵉ place</strong> entre 2025 et 2026 (elle était ex&nbsp;æquo avec l’ISCOM à 16,1/20 en 2025), pendant que l’ISTC fait une entrée remarquée en 4ᵉ position.</p></li>
           </ul>
 
           <h2 id="roi">L’Indice ROI Communication du Journal des Écoles&nbsp;: ce que révèlent vraiment les chiffres</h2>
-          <p><strong>Précision méthodologique avant toute chose</strong>&nbsp;: cet indice est une <strong>analyse propriétaire du Journal des Écoles</strong>, construite à partir de données publiques — frais de scolarité officiels affichés par chaque école et salaires estimés à partir des enquêtes d’insertion citées dans cet article. Ce n’est <strong>ni un classement officiel, ni une donnée publiée par un tiers</strong> (Figaro Étudiant, Eduniversal, L’Étudiant). Personne d’autre ne calcule ce ratio aujourd’hui, à notre connaissance.</p>
+          <p><strong>Précision méthodologique avant toute chose</strong>&nbsp;: cet indice est une <strong>analyse propriétaire du Journal des Écoles</strong>, construite à partir de données publiques - frais de scolarité officiels affichés par chaque école et salaires estimés à partir des enquêtes d’insertion citées dans cet article. Ce n’est <strong>ni un classement officiel, ni une donnée publiée par un tiers</strong> (Figaro Étudiant, Eduniversal, L’Étudiant). Personne d’autre ne calcule ce ratio aujourd’hui, à notre connaissance.</p>
           <p><strong>Le principe est simple</strong>&nbsp;: on divise le salaire brut annuel estimé 3 à 5 ans après le diplôme par le coût total cumulé de la formation (frais de scolarité annuels × 5 ans, jusqu’au Bac+5). Plus le ratio est élevé, plus l’euro investi dans la scolarité «&nbsp;rapporte&nbsp;» vite en salaire.</p>
 
           <div class="tablewrap roi">
@@ -550,18 +572,18 @@
           </div>
           <p class="table-note">Coûts et salaires arrondis à titre indicatif. Le coût total du CELSA correspond aux droits d’inscription universitaires (licence à 243&nbsp;€, master à 380&nbsp;€) cumulés sur 5 ans&nbsp;; les frais des écoles privées intègrent la progression tarifaire entre 1ʳᵉ et 5ᵉ année. Les salaires «&nbsp;3-5 ans&nbsp;» sont des estimations d’évolution construites à partir des salaires de sortie immédiats communiqués par chaque école.</p>
 
-          <p><strong>Ce que dit ce tableau, sans détour</strong>&nbsp;: l’écart n’est pas de quelques points, il est d’un facteur 27 à 33 entre le CELSA et le reste du classement. Un diplômé du CELSA récupère environ <strong>27&nbsp;€ de salaire annuel pour chaque euro investi en scolarité</strong> dès la troisième à cinquième année de carrière. À l’ISCOM, à l’EFAP ou à Sup de Pub, ce ratio tombe autour de 0,8 à 1 — il faut compter grosso modo l’équivalent d’une année de salaire complète pour «&nbsp;rembourser&nbsp;» le coût cumulé des études.</p>
+          <p><strong>Ce que dit ce tableau, sans détour</strong>&nbsp;: l’écart n’est pas de quelques points, il est d’un facteur 27 à 33 entre le CELSA et le reste du classement. Un diplômé du CELSA récupère environ <strong>27&nbsp;€ de salaire annuel pour chaque euro investi en scolarité</strong> dès la troisième à cinquième année de carrière. À l’ISCOM, à l’EFAP ou à Sup de Pub, ce ratio tombe autour de 0,8 à 1 - il faut compter grosso modo l’équivalent d’une année de salaire complète pour «&nbsp;rembourser&nbsp;» le coût cumulé des études.</p>
           <p><strong>La lecture brute serait trompeuse, et il faut la nuancer tout de suite</strong>&nbsp;:</p>
           <ul>
             <li><p>Ce ROI écrasant du CELSA tient à un fait simple&nbsp;: <strong>l’État finance l’essentiel du coût réel de la formation</strong>, que l’étudiant ne paie pas directement. Le «&nbsp;coût&nbsp;» mesuré ici est celui <strong>supporté par l’étudiant</strong>, pas le coût réel de sa formation pour la collectivité.</p></li>
-            <li><p><strong>La sélectivité limite drastiquement l’accès à ce ROI.</strong> Le concours d’entrée en L3 au CELSA a opposé 2&nbsp;500 candidats à 140 places en 2024 — un taux d’admission autour de 5-6&nbsp;%. Pour un lycéen ou un étudiant en réorientation, la question du ROI est largement théorique tant que le concours écrit et oral n’est pas franchi.</p></li>
+            <li><p><strong>La sélectivité limite drastiquement l’accès à ce ROI.</strong> Le concours d’entrée en L3 au CELSA a opposé 2&nbsp;500 candidats à 140 places en 2024 - un taux d’admission autour de 5-6&nbsp;%. Pour un lycéen ou un étudiant en réorientation, la question du ROI est largement théorique tant que le concours écrit et oral n’est pas franchi.</p></li>
             <li><p>À l’inverse, <strong>les écoles privées vendent un accès plus large, plus prévisible, et un réseau professionnel immédiat</strong>&nbsp;: admission sur dossier et entretien, réseau alumni actif (plus de 20&nbsp;000 anciens chez Sup de Pub), 100&nbsp;% de placement en stage annoncé par l’EFAP grâce à ses 10&nbsp;000 offres partenaires. Le ROI financier est moins bon, mais l’employabilité rapide et le carnet d’adresses professionnel compensent une partie du delta de coût.</p></li>
             <li><p>Le ROI ne mesure ni la qualité pédagogique, ni la spécialisation, ni le réseau&nbsp;: l’ISCOM affiche le meilleur ratio du privé (0,97) tout en revendiquant un taux d’insertion de 95&nbsp;% à 12 mois, supérieur à celui du CELSA à 3 mois.</p></li>
           </ul>
 
           <div class="edito">
             <span class="kicker">La lecture de la rédaction</span>
-            <p>Ce tableau ne dit pas «&nbsp;évitez les écoles privées de communication&nbsp;» — il dit que le vrai coût d’opportunité du CELSA n’est pas l’argent, mais le risque de ne pas être admis au concours. Si vous avez le niveau pour tenter le CELSA, le calcul financier penche lourdement en sa faveur. Si le concours reste hors de portée immédiate, le ROI d’une école privée comme l’ISCOM ou l’EFAP redevient un investissement à évaluer au cas par cas, en tenant compte du réseau et de la spécialisation visée.</p>
+            <p>Ce tableau ne dit pas «&nbsp;évitez les écoles privées de communication&nbsp;» - il dit que le vrai coût d’opportunité du CELSA n’est pas l’argent, mais le risque de ne pas être admis au concours. Si vous avez le niveau pour tenter le CELSA, le calcul financier penche lourdement en sa faveur. Si le concours reste hors de portée immédiate, le ROI d’une école privée comme l’ISCOM ou l’EFAP redevient un investissement à évaluer au cas par cas, en tenant compte du réseau et de la spécialisation visée.</p>
             <p class="sig">Signé <b>Charlotte Montant</b>, pour la rédaction</p>
           </div>
 
@@ -590,21 +612,21 @@
             </div>
             <div class="out">
               <span class="ratio" id="roi-ratio">×0,97</span>
-              <p class="verdict" id="roi-verdict"></p>
+              <p class="verdict" id="roi-verdict">Coût total : <b>46 500 €</b> sur 5 ans. Chaque euro investi rapporte <b>0,97 €</b> de salaire annuel à 3-5 ans - un profil qui se situe entre l’ISCOM (×0,97) et Sup de Pub (×0,86).</p>
             </div>
-            <p class="src">Indice ROI Communication — méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à 3-5 ans ÷ coût total de la scolarité. Repères&nbsp;: CELSA ×26,7 · ISCOM ×0,97 · Sup de Pub ×0,86 · EFAP ×0,80.</p>
+            <p class="src">Indice ROI Communication - méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à 3-5 ans ÷ coût total de la scolarité. Repères&nbsp;: CELSA ×26,7 · ISCOM ×0,97 · Sup de Pub ×0,86 · EFAP ×0,80.</p>
           </div>
 
           <h2 id="fiches">Fiches détaillées&nbsp;: les écoles qui font la différence</h2>
-          <p>Frais réels, modalités d’admission et spécificité de chaque établissement du podium — de quoi comparer sans se fier au seul chiffre du classement.</p>
+          <p>Frais réels, modalités d’admission et spécificité de chaque établissement du podium - de quoi comparer sans se fier au seul chiffre du classement.</p>
 
           <div class="fiche">
             <h3>CELSA (Sorbonne Université)</h3>
             <ul>
               <li><p><strong>Statut</strong>&nbsp;: école publique, composante de Sorbonne Université, Paris.</p></li>
               <li><p><strong>Frais 2025-2026</strong>&nbsp;: droits d’inscription universitaires classiques, <strong>243&nbsp;€ en licence, 380&nbsp;€ en master</strong>, plus la CVEC (105&nbsp;€). Sans commune mesure avec le privé.</p></li>
-              <li><p><strong>Admission, hors Parcoursup</strong>&nbsp;: concours propre en deux temps pour la L3 (entrée principale) — <strong>épreuve écrite d’admissibilité</strong> (culture générale, actualité) puis <strong>entretien oral</strong> devant jury. En 2024, <strong>2&nbsp;500 candidats se sont disputés 140 places</strong>, soit un taux d’admission très sélectif. Les masters (Métiers de la communication, Communication et industries créatives, Marque et stratégies de communication) recrutent sur dossier puis entretien, via MonMaster.gouv.fr pour la voie communication et un concours propre pour le master journalisme.</p></li>
-              <li><p><strong>Insertion</strong>&nbsp;: <strong>70 à 75&nbsp;% en emploi à 3 mois</strong> (enquête 2025, promotion 2024), mais <strong>plus de 90&nbsp;% en 2 mois</strong> pour la filière journalisme spécifiquement — l’écart entre filières est important au CELSA.</p></li>
+              <li><p><strong>Admission, hors Parcoursup</strong>&nbsp;: concours propre en deux temps pour la L3 (entrée principale) - <strong>épreuve écrite d’admissibilité</strong> (culture générale, actualité) puis <strong>entretien oral</strong> devant jury. En 2024, <strong>2&nbsp;500 candidats se sont disputés 140 places</strong>, soit un taux d’admission très sélectif. Les masters (Métiers de la communication, Communication et industries créatives, Marque et stratégies de communication) recrutent sur dossier puis entretien, via MonMaster.gouv.fr pour la voie communication et un concours propre pour le master journalisme.</p></li>
+              <li><p><strong>Insertion</strong>&nbsp;: <strong>70 à 75&nbsp;% en emploi à 3 mois</strong> (enquête 2025, promotion 2024), mais <strong>plus de 90&nbsp;% en 2 mois</strong> pour la filière journalisme spécifiquement - l’écart entre filières est important au CELSA.</p></li>
               <li><p><strong>Salaire</strong>&nbsp;: <strong>36,2 à 36,9&nbsp;K€ hors primes</strong> à la sortie (37,7-38,7&nbsp;K€ avec primes), parmi les plus élevés du secteur dès l’entrée sur le marché.</p></li>
             </ul>
           </div>
@@ -614,8 +636,8 @@
             <ul>
               <li><p><strong>Statut</strong>&nbsp;: école privée, campus Paris et régions (Lyon, Bordeaux, Lille, Toulouse, Rouen, Strasbourg, Montpellier, Rennes, Nice).</p></li>
               <li><p><strong>Frais 2025-2026</strong>&nbsp;: <strong>9&nbsp;300&nbsp;€/an</strong> à Paris (1ʳᵉ à 3ᵉ année), 9&nbsp;800&nbsp;€/an en 4ᵉ-5ᵉ année&nbsp;; environ 8&nbsp;300&nbsp;€ en régions. <strong>0&nbsp;€ en alternance</strong>, prise en charge intégrale par l’OPCO de l’entreprise.</p></li>
-              <li><p><strong>Admission</strong>&nbsp;: concours propre — QCM de culture générale, QCM d’anglais, puis <strong>entretien individuel de motivation</strong> de 45 minutes. Frais de concours&nbsp;: 100&nbsp;€.</p></li>
-              <li><p><strong>Insertion</strong>&nbsp;: <strong>plus de 90&nbsp;% en emploi à 6 mois</strong>, jusqu’à <strong>95&nbsp;% à 12 mois</strong> selon l’école — l’un des meilleurs taux du secteur, revendiqué comme critère n°1 auprès des recruteurs.</p></li>
+              <li><p><strong>Admission</strong>&nbsp;: concours propre - QCM de culture générale, QCM d’anglais, puis <strong>entretien individuel de motivation</strong> de 45 minutes. Frais de concours&nbsp;: 100&nbsp;€.</p></li>
+              <li><p><strong>Insertion</strong>&nbsp;: <strong>plus de 90&nbsp;% en emploi à 6 mois</strong>, jusqu’à <strong>95&nbsp;% à 12 mois</strong> selon l’école - l’un des meilleurs taux du secteur, revendiqué comme critère n°1 auprès des recruteurs.</p></li>
               <li><p><strong>Salaire</strong>&nbsp;: environ <strong>31&nbsp;500&nbsp;€</strong> en moyenne pour les débutants, avec une évolution vers <strong>45&nbsp;000&nbsp;€</strong> à 3 ans&nbsp;; fourchette de 24&nbsp;000&nbsp;€ (Bachelor) à 42&nbsp;000&nbsp;€ (MBA Bac+5) selon le niveau de diplôme.</p></li>
             </ul>
           </div>
@@ -627,14 +649,14 @@
               <li><p><strong>Frais 2025-2026</strong>&nbsp;: environ <strong>9&nbsp;800 à 10&nbsp;000&nbsp;€/an</strong> à Paris, 8&nbsp;000&nbsp;€/an à Montpellier. Un supplément de 1&nbsp;000&nbsp;€ s’applique aux étudiants hors UE en 1ʳᵉ année.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours écrit (3 épreuves, dissertation/créativité, QCM, anglais) + <strong>entretien oral de 20 minutes</strong> pour les années 1 à 3&nbsp;; dossier + entretien d’une heure pour les admissions parallèles en 4ᵉ et 5ᵉ année.</p></li>
               <li><p><strong>Insertion</strong>&nbsp;: <strong>90&nbsp;% en emploi à 6 mois</strong>, et un <strong>taux de placement en stage de 100&nbsp;%</strong> grâce à un volume de 10&nbsp;000 offres de stage par an sur son réseau.</p></li>
-              <li><p><strong>Spécialité forte</strong>&nbsp;: le <strong>MBA Communication &amp; Management Événementiel</strong> est classé <strong>n°1 national</strong> par Eduniversal 2025 — la référence incontournable pour viser l’événementiel après l’EFAP.</p></li>
+              <li><p><strong>Spécialité forte</strong>&nbsp;: le <strong>MBA Communication &amp; Management Événementiel</strong> est classé <strong>n°1 national</strong> par Eduniversal 2025 - la référence incontournable pour viser l’événementiel après l’EFAP.</p></li>
               <li><p><strong>Salaire</strong>&nbsp;: entre <strong>28&nbsp;000 et 30&nbsp;000&nbsp;€</strong> au démarrage, évoluant vers <strong>38&nbsp;000 à 40&nbsp;000&nbsp;€</strong> après 3 à 5 ans d’expérience.</p></li>
             </ul>
           </div>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/micro-studio-communication.webp"
+              <img loading="lazy" src="/assets/img/micro-studio-communication.webp" srcset="/assets/img/micro-studio-communication-480.webp 480w, /assets/img/micro-studio-communication-960.webp 960w, /assets/img/micro-studio-communication.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Micro de studio professionnel, univers des métiers de la communication et des médias" width="1400" height="788">
             </div>
             <figcaption>RP, digital, publicité, événementiel&nbsp;: un mot, des dizaines de métiers</figcaption>
@@ -645,7 +667,7 @@
             <ul>
               <li><p><strong>Statut</strong>&nbsp;: école privée (groupe OMNES Education), campus Paris, Lyon, Bordeaux, Rennes, Toulouse, Marseille (nouveau campus 2026).</p></li>
               <li><p><strong>Admission</strong>&nbsp;: dossier de candidature en ligne, sans Parcoursup, suivi d’épreuves écrites et d’un entretien de motivation.</p></li>
-              <li><p><strong>Insertion</strong>&nbsp;: <strong>93&nbsp;% de taux d’emploi net à 6 mois</strong> (bilan Qualimétrie, RNCP Manager du Contenu, promotion 2024) — l’un des meilleurs scores du classement, malgré une 7ᵉ place au palmarès généraliste.</p></li>
+              <li><p><strong>Insertion</strong>&nbsp;: <strong>93&nbsp;% de taux d’emploi net à 6 mois</strong> (bilan Qualimétrie, RNCP Manager du Contenu, promotion 2024) - l’un des meilleurs scores du classement, malgré une 7ᵉ place au palmarès généraliste.</p></li>
               <li><p><strong>Points forts</strong>&nbsp;: école la plus primée aux Trophées Stratégies de la créativité des écoles 2026 (4 médailles d’or), réseau de 10&nbsp;000 entreprises partenaires, plus de 3&nbsp;000 alternants placés en 2024-2025.</p></li>
             </ul>
           </div>
@@ -654,8 +676,8 @@
             <h3>ISCPA</h3>
             <ul>
               <li><p><strong>Statut</strong>&nbsp;: école privée spécialisée journalisme, communication et production, campus Paris, Lyon, Toulouse.</p></li>
-              <li><p><strong>Admission</strong>&nbsp;: concours propre hors Parcoursup — QCM de culture générale et actualité (80 questions), épreuve écrite d’analyse (1h à 1h30), puis <strong>entretien de motivation de 40 minutes</strong>. Frais de concours&nbsp;: 60&nbsp;€.</p></li>
-              <li><p><strong>Insertion, très variable selon la filière</strong>&nbsp;: de <strong>78,6&nbsp;%</strong> (Bachelor journalisme) à <strong>94&nbsp;%</strong> (métiers visés du mastère 2024), en passant par <strong>100&nbsp;%</strong> pour la filière communication et <strong>92&nbsp;%</strong> pour la filière production selon les enquêtes internes — un écart qui invite à regarder la filière précise plutôt que le taux global.</p></li>
+              <li><p><strong>Admission</strong>&nbsp;: concours propre hors Parcoursup - QCM de culture générale et actualité (80 questions), épreuve écrite d’analyse (1h à 1h30), puis <strong>entretien de motivation de 40 minutes</strong>. Frais de concours&nbsp;: 60&nbsp;€.</p></li>
+              <li><p><strong>Insertion, très variable selon la filière</strong>&nbsp;: de <strong>78,6&nbsp;%</strong> (Bachelor journalisme) à <strong>94&nbsp;%</strong> (métiers visés du mastère 2024), en passant par <strong>100&nbsp;%</strong> pour la filière communication et <strong>92&nbsp;%</strong> pour la filière production selon les enquêtes internes - un écart qui invite à regarder la filière précise plutôt que le taux global.</p></li>
             </ul>
           </div>
 
@@ -666,7 +688,7 @@
               <li><p><strong>Frais</strong>&nbsp;: <strong>8&nbsp;700&nbsp;€/an</strong> pour le Bachelor en communication&nbsp;; le cycle Master (Bac+5 visé État) est nettement plus élevé, autour de 16&nbsp;600 à 18&nbsp;100&nbsp;€/an selon l’année.</p></li>
               <li><p><strong>Admission Bachelor</strong>&nbsp;: exclusivement via <strong>Parcoursup</strong>, avec un dossier scolaire (50&nbsp;% de la note) et des <strong>épreuves orales</strong> (commentaire de publicité + entretien de motivation) au Médiacampus.</p></li>
               <li><p><strong>Insertion</strong>&nbsp;: <strong>supérieure à 85&nbsp;%</strong>, jusqu’à 90&nbsp;% selon les années, à 6 mois.</p></li>
-              <li><p><strong>Reconnaissance</strong>&nbsp;: <strong>2ᵉ meilleur master communication de France</strong> selon Eduniversal 2025-2026, un diplôme visé par l’État — un atout rare pour une école privée.</p></li>
+              <li><p><strong>Reconnaissance</strong>&nbsp;: <strong>2ᵉ meilleur master communication de France</strong> selon Eduniversal 2025-2026, un diplôme visé par l’État - un atout rare pour une école privée.</p></li>
             </ul>
           </div>
 
@@ -676,16 +698,16 @@
             <li><p><strong>Relations presse / RP</strong>&nbsp;: attaché de presse, chargé de relations presse, responsable RP. Débouchés dans le luxe, la mode, les institutions publiques et les agences. Salaire débutant&nbsp;: 28&nbsp;000 à 35&nbsp;000&nbsp;€ brut annuel, jusqu’à 60&nbsp;000&nbsp;€ avec l’expérience. <strong>Écoles recommandées</strong>&nbsp;: ISCOM (spécialisation «&nbsp;Événementiel, influence et réputation&nbsp;»), CELSA (option «&nbsp;Communication des entreprises et des institutions&nbsp;»).</p></li>
             <li><p><strong>Communication digitale</strong>&nbsp;: community manager, chef de projet digital, social media manager, chargé de communication digitale. Le segment souvent le mieux rémunéré du secteur&nbsp;: 25&nbsp;000 à 40&nbsp;000&nbsp;€ brut/an pour un community manager, jusqu’à 50&nbsp;000&nbsp;€ pour un chef de projet digital confirmé. <strong>Écoles recommandées</strong>&nbsp;: ISCOM (spécialisation «&nbsp;Communication et marketing digital&nbsp;»), Sup de Pub (spécialité «&nbsp;Stratégie digitale&nbsp;»), EFAP.</p></li>
             <li><p><strong>Publicité</strong>&nbsp;: concepteur-rédacteur, directeur artistique, chef de publicité, directeur de création. Débouchés en agences de publicité et chez les annonceurs. <strong>Écoles recommandées</strong>&nbsp;: ISCOM (spécialisation «&nbsp;Marketing, stratégies de marque et publicité&nbsp;»), EFAP (MBA «&nbsp;Création &amp; Stratégies Publicitaires&nbsp;»), Sup de Pub.</p></li>
-            <li><p><strong>Événementiel</strong>&nbsp;: chef de projet événementiel, responsable communication événementielle, consultant en stratégie événementielle. <strong>École recommandée en priorité</strong>&nbsp;: EFAP, dont le <strong>MBA Communication &amp; Management Événementiel est classé n°1 national par Eduniversal</strong> — la référence incontestée sur cette spécialité.</p></li>
+            <li><p><strong>Événementiel</strong>&nbsp;: chef de projet événementiel, responsable communication événementielle, consultant en stratégie événementielle. <strong>École recommandée en priorité</strong>&nbsp;: EFAP, dont le <strong>MBA Communication &amp; Management Événementiel est classé n°1 national par Eduniversal</strong> - la référence incontestée sur cette spécialité.</p></li>
             <li><p><strong>Communication corporate</strong>&nbsp;: chargé de communication interne, responsable communication institutionnelle, consultant en stratégie corporate. Débouchés dans les grandes entreprises et les collectivités. <strong>Écoles recommandées</strong>&nbsp;: CELSA (parcours «&nbsp;Entreprises et institutions&nbsp;»), Sup de Pub (spécialité «&nbsp;Brand Content&nbsp;»), ISTC.</p></li>
           </ul>
 
-          <h2 id="admissions">Admissions&nbsp;: concours, dossier, Parcoursup — le mode d’emploi</h2>
+          <h2 id="admissions">Admissions&nbsp;: concours, dossier, Parcoursup - le mode d’emploi</h2>
           <p>Trois logiques de recrutement coexistent en France, et confondre les procédures fait perdre du temps à beaucoup de candidats.</p>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp"
+              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp" srcset="/assets/img/etudiant-prise-de-notes-concours-480.webp 480w, /assets/img/etudiant-prise-de-notes-concours-960.webp 960w, /assets/img/etudiant-prise-de-notes-concours.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Candidat préparant le concours d'entrée d'une école de communication" width="1400" height="788">
             </div>
             <figcaption>Concours CELSA&nbsp;: 2 500 candidats pour 140 places en L3</figcaption>
@@ -693,7 +715,7 @@
 
           <h3>Concours écrit + oral, hors Parcoursup</h3>
           <ul>
-            <li><p>Le <strong>CELSA</strong> organise son propre concours en L3 (épreuve écrite d’admissibilité + entretien oral), totalement indépendant de Parcoursup — c’est la voie d’accès la plus sélective du secteur.</p></li>
+            <li><p>Le <strong>CELSA</strong> organise son propre concours en L3 (épreuve écrite d’admissibilité + entretien oral), totalement indépendant de Parcoursup - c’est la voie d’accès la plus sélective du secteur.</p></li>
             <li><p><strong>ISCOM</strong>, <strong>EFAP</strong> et <strong>ISCPA</strong> recrutent aussi leurs premières années via un concours propre (QCM de culture générale, QCM d’anglais, épreuve écrite) suivi d’un <strong>entretien de motivation</strong>, mais restent nettement moins sélectifs que le concours CELSA.</p></li>
           </ul>
 
@@ -706,13 +728,13 @@
           <h3>Parcoursup</h3>
           <ul>
             <li><p><strong>Audencia SciencesCom</strong> est la principale école du classement à recruter sa 1ʳᵉ année <strong>exclusivement via Parcoursup</strong>, avec un dossier scolaire pesant 50&nbsp;% de la note et des épreuves orales sur place.</p></li>
-            <li><p>La plupart des autres écoles de ce comparatif (ISCOM, EFAP, Sup de Pub, ISCPA) <strong>ne passent pas par Parcoursup</strong> — une différence de taille pour les lycéens qui pensent candidater partout via la même plateforme.</p></li>
+            <li><p>La plupart des autres écoles de ce comparatif (ISCOM, EFAP, Sup de Pub, ISCPA) <strong>ne passent pas par Parcoursup</strong> - une différence de taille pour les lycéens qui pensent candidater partout via la même plateforme.</p></li>
           </ul>
 
           <h3>L’alternance, un levier quasi systématique</h3>
           <ul>
             <li><p><strong>L’alternance est possible dans la quasi-totalité des écoles</strong>, généralement à partir de la 3ᵉ ou 4ᵉ année&nbsp;: elle permet de faire financer intégralement les frais de scolarité par l’OPCO de l’entreprise d’accueil (0&nbsp;€ à charge de l’étudiant à l’ISCOM en 4ᵉ-5ᵉ année, par exemple).</p></li>
-            <li><p>C’est souvent le meilleur levier pour compenser le coût d’une école privée sans concours CELSA en poche — à condition de trouver l’entreprise d’accueil, ce qui reste la vraie difficulté du dispositif.</p></li>
+            <li><p>C’est souvent le meilleur levier pour compenser le coût d’une école privée sans concours CELSA en poche - à condition de trouver l’entreprise d’accueil, ce qui reste la vraie difficulté du dispositif.</p></li>
           </ul>
 
           <h2 id="aller-plus-loin">Pour aller plus loin sur les classements de l’enseignement supérieur</h2>
@@ -755,16 +777,16 @@
           <h2 id="sources">Sources</h2>
           <div class="sources">
             <ol>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://etudiant.lefigaro.fr/etudes/digital-com-journalisme/classement-communication/">Le palmarès 2026 des écoles de communication — Le Figaro Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://etudiant.lefigaro.fr/article/etudes/palmares-2025-des-meilleures-ecoles-de-communication-du-figaro-le-celsa-en-tete-20250312/">Palmarès 2025 des meilleures écoles de communication — Le Figaro Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.audencia.com/actualites/audencia-sciencescom-2e-meilleur-master-communication-selon-le-dernier-classement-eduniversal">Audencia SciencesCom, 2ᵉ meilleur master communication selon Eduniversal</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.celsa.fr/nos-formations/licence-information-et-communication/">CELSA — Admission et rentrée en Licence Information et Communication</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.celsa.fr/assets/uploads/2025/12/Chiffres-cles-2025-Enquete-Insertion-Professionnelle-Promotion-2024.pdf">CELSA — Chiffres clés 2025, Enquête Insertion Professionnelle Promotion 2024</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.iscom.fr/taux-insertion">ISCOM — Taux d’insertion et tarifs des formations</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.efap.com/lp/insertion-professionnelle-ecole-communication-efap">EFAP — Insertion professionnelle en école de communication</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.supdepub.com">Sup de Pub — Résultats d’insertion et présentation de l’école</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.iscpa-ecoles.com/ecole/epreuves-admission">ISCPA — Épreuves d’admission</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.audencia.com/les-formations/programmes-en-communication/bachelor-en-communication/carriere">Audencia SciencesCom — Bachelor en communication, admission Parcoursup</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://etudiant.lefigaro.fr/etudes/digital-com-journalisme/classement-communication/">Le palmarès 2026 des écoles de communication - Le Figaro Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://etudiant.lefigaro.fr/article/etudes/palmares-2025-des-meilleures-ecoles-de-communication-du-figaro-le-celsa-en-tete-20250312/">Palmarès 2025 des meilleures écoles de communication - Le Figaro Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.audencia.com/actualites/audencia-sciencescom-2e-meilleur-master-communication-selon-le-dernier-classement-eduniversal">Audencia SciencesCom, 2ᵉ meilleur master communication selon Eduniversal</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.celsa.fr/nos-formations/licence-information-et-communication/">CELSA - Admission et rentrée en Licence Information et Communication</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.celsa.fr/assets/uploads/2025/12/Chiffres-cles-2025-Enquete-Insertion-Professionnelle-Promotion-2024.pdf">CELSA - Chiffres clés 2025, Enquête Insertion Professionnelle Promotion 2024</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.iscom.fr/taux-insertion">ISCOM - Taux d’insertion et tarifs des formations</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.efap.com/lp/insertion-professionnelle-ecole-communication-efap">EFAP - Insertion professionnelle en école de communication</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.supdepub.com">Sup de Pub - Résultats d’insertion et présentation de l’école</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.iscpa-ecoles.com/ecole/epreuves-admission">ISCPA - Épreuves d’admission</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.audencia.com/les-formations/programmes-en-communication/bachelor-en-communication/carriere">Audencia SciencesCom - Bachelor en communication, admission Parcoursup</a></li>
             </ol>
           </div>
 
@@ -867,7 +889,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -889,7 +911,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -902,8 +924,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){
@@ -966,7 +988,7 @@
         var cout = f * d;
         if(cout <= 0){
           out.textContent = '∞';
-          verdict.innerHTML = 'Scolarité quasi gratuite : votre ROI est virtuellement infini — le modèle du <b>CELSA</b> (~1 500 € sur 5 ans).';
+          verdict.innerHTML = 'Scolarité quasi gratuite : votre ROI est virtuellement infini - le modèle du <b>CELSA</b> (~1 500 € sur 5 ans).';
           return;
         }
         var ratio = s / cout;
@@ -983,7 +1005,7 @@
         else if(!mieux){ pos = 'derrière toutes les écoles de notre tableau, y compris ' + REPERES[REPERES.length-1][0] + ' (×0,80)'; }
         else { pos = 'entre ' + moinsBien[0] + ' (×' + String(moinsBien[1]).replace('.', ',') + ') et ' + mieux[0] + ' (×' + String(mieux[1]).replace('.', ',') + ')'; }
         verdict.innerHTML = 'Coût total : <b>' + fmt(cout) + ' €</b> sur ' + d + ' ans. Chaque euro investi rapporte <b>' +
-          String(ratio >= 10 ? ratio.toFixed(0) : ratio.toFixed(2)).replace('.', ',') + ' €</b> de salaire annuel à 3-5 ans — un profil qui se situe ' + pos + '.';
+          String(ratio >= 10 ? ratio.toFixed(0) : ratio.toFixed(2)).replace('.', ',') + ' €</b> de salaire annuel à 3-5 ans - un profil qui se situe ' + pos + '.';
       }
       [frais, duree, salaire].forEach(function(el){ el.addEventListener('input', render); });
       render();

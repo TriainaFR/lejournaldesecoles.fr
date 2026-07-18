@@ -17,15 +17,15 @@ RUBRIQUES = {
     "classements": {
         "nav": "Classements",
         "h1": "Classements",
-        "title": "Classements des écoles supérieures — Le Journal des Écoles",
+        "title": "Classements des écoles supérieures - Le Journal des Écoles",
         "meta": "Tous les classements du Journal des Écoles : écoles de commerce, d'ingénieurs, de design et de communication, croisés avec notre Indice ROI exclusif.",
-        "desc": "Tous les classements du Journal des Écoles : commerce, ingénieurs, design, communication. Des palmarès croisés (SIGEM, Figaro Étudiant, L'Étudiant, Financial Times, QS) complétés par notre Indice ROI exclusif — le coût réel des études rapporté au salaire de sortie.",
+        "desc": "Tous les classements du Journal des Écoles : commerce, ingénieurs, design, communication. Des palmarès croisés (SIGEM, Figaro Étudiant, L'Étudiant, Financial Times, QS) complétés par notre Indice ROI exclusif - le coût réel des études rapporté au salaire de sortie.",
         "index": True,
     },
     "commerce": {
         "nav": "Commerce",
         "h1": "Commerce & Management",
-        "title": "Écoles de commerce & management — Le Journal des Écoles",
+        "title": "Écoles de commerce & management - Le Journal des Écoles",
         "meta": "Écoles de commerce : classements SIGEM, L'Étudiant et Financial Times, frais des PGE, salaires de sortie, admissions BCE/Ecricome et alternance.",
         "desc": "Écoles de commerce et de management : classements SIGEM, L'Étudiant et Financial Times, frais des programmes grande école, salaires de sortie, admissions BCE et Ecricome, alternance. Les enquêtes de la rédaction, sourcées école par école.",
         "index": True,
@@ -33,7 +33,7 @@ RUBRIQUES = {
     "ingenieurs": {
         "nav": "Ingénieurs",
         "h1": "Ingénieurs",
-        "title": "Écoles d'ingénieurs — Le Journal des Écoles",
+        "title": "Écoles d'ingénieurs - Le Journal des Écoles",
         "meta": "Écoles d'ingénieurs : palmarès Figaro, L'Étudiant et DAUR, accréditation CTI, salaires CGE, concours Mines-Télécom, Centrale-Supélec, X-ENS et voies post-bac.",
         "desc": "Écoles d'ingénieurs : palmarès Figaro Étudiant, L'Étudiant et DAUR croisés, accréditation CTI, salaires CGE, concours Mines-Télécom, Centrale-Supélec et X-ENS, et les voies post-bac (INSA, universités de technologie, réseau Polytech).",
         "index": True,
@@ -41,7 +41,7 @@ RUBRIQUES = {
     "design-architecture": {
         "nav": "Design &amp; Archi",
         "h1": "Design & Architecture",
-        "title": "Écoles de design & d'architecture — Le Journal des Écoles",
+        "title": "Écoles de design & d'architecture - Le Journal des Écoles",
         "meta": "Écoles de design et d'architecture : palmarès Figaro et QS, ENSAD, ENSCI, Boulle, Camondo, admissions avec portfolio et Indice ROI public/privé.",
         "desc": "Écoles de design et d'architecture : palmarès Figaro Étudiant et classement mondial QS, fiches ENSAD, ENSCI, Boulle et Camondo, admissions avec portfolio, prépas MANAA et notre Indice ROI public/privé.",
         "index": True,
@@ -49,28 +49,28 @@ RUBRIQUES = {
     "communication": {
         "nav": "Communication",
         "h1": "Communication & Médias",
-        "title": "Écoles de communication & médias — Le Journal des Écoles",
-        "meta": "Écoles de communication : CELSA, ISCOM, EFAP, Sup de Pub — palmarès Figaro, masters Eduniversal, débouchés RP, digital et événementiel.",
-        "desc": "Écoles de communication et de médias : CELSA, ISCOM, EFAP, Sup de Pub — palmarès Figaro Étudiant, masters classés par Eduniversal, admissions et débouchés en relations presse, communication digitale, publicité et événementiel.",
+        "title": "Écoles de communication & médias - Le Journal des Écoles",
+        "meta": "Écoles de communication : CELSA, ISCOM, EFAP, Sup de Pub - palmarès Figaro, masters Eduniversal, débouchés RP, digital et événementiel.",
+        "desc": "Écoles de communication et de médias : CELSA, ISCOM, EFAP, Sup de Pub - palmarès Figaro Étudiant, masters classés par Eduniversal, admissions et débouchés en relations presse, communication digitale, publicité et événementiel.",
         "index": True,
     },
     "rh-gestion": {
         "nav": "RH &amp; Gestion",
         "h1": "RH & Gestion",
-        "title": "RH & gestion — Le Journal des Écoles",
-        "meta": "Ressources humaines et gestion : masters RH, droit social et management — les classements et parcours de la rédaction arrivent.",
+        "title": "RH & gestion - Le Journal des Écoles",
+        "meta": "Ressources humaines et gestion : masters RH, droit social et management - les classements et parcours de la rédaction arrivent.",
         "desc": "Ressources humaines, gestion et management : masters RH, droit social, paie et administration des entreprises. Les premières enquêtes et classements de la rédaction sur cette filière arrivent.",
         "index": False,
-        "empty": "Les premières enquêtes de la rédaction sur les filières RH et gestion sont en préparation. En attendant, explorez nos classements déjà publiés — ou abonnez-vous à « L'Amphi » pour être prévenu de leur sortie.",
+        "empty": "Les premières enquêtes de la rédaction sur les filières RH et gestion sont en préparation. En attendant, explorez nos classements déjà publiés - ou abonnez-vous à « L'Amphi » pour être prévenu de leur sortie.",
     },
     "metiers": {
         "nav": "Métiers",
         "h1": "Métiers & Parcours",
-        "title": "Métiers & parcours — Le Journal des Écoles",
+        "title": "Métiers & parcours - Le Journal des Écoles",
         "meta": "Parcours métiers : du bac au premier poste, salaires de sortie et itinéraires d'excellence en finance, ingénierie et création.",
         "desc": "Du bac au premier poste : itinéraires d'excellence, salaires de sortie et voies d'accès vers la finance, l'ingénierie, la création et les médias. Les fiches métiers détaillées de la rédaction arrivent.",
         "index": False,
-        "empty": "Les fiches métiers détaillées sont en préparation. Découvrez déjà les parcours d'excellence présentés en une — de la prépa ECG à la banque d'affaires, de la prépa MP au bureau d'études — ou explorez nos classements par filière.",
+        "empty": "Les fiches métiers détaillées sont en préparation. Découvrez déjà les parcours d'excellence présentés en une - de la prépa ECG à la banque d'affaires, de la prépa MP au bureau d'études - ou explorez nos classements par filière.",
     },
 }
 
@@ -85,6 +85,7 @@ PAGE = """<!DOCTYPE html>
   <meta name="description" content="{meta}">{robots}
   <link rel="canonical" href="{site}/{slug}/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -95,10 +96,9 @@ PAGE = """<!DOCTYPE html>
   <meta property="og:image" content="{site}{ogimg}">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
 {jsonld}
@@ -124,7 +124,7 @@ PAGE = """<!DOCTYPE html>
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -141,7 +141,7 @@ PAGE = """<!DOCTYPE html>
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
 {navitems}
       </ul>
@@ -238,7 +238,7 @@ PAGE = """<!DOCTYPE html>
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -260,7 +260,7 @@ PAGE = """<!DOCTYPE html>
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -273,8 +273,8 @@ PAGE = """<!DOCTYPE html>
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     (function(){{
       var nav = document.getElementById('nav');
@@ -304,6 +304,20 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
+def srcset(image):
+    """srcset des dérivés responsives existants (générés lors des publications)."""
+    stem = image.rsplit("/", 1)[-1].removesuffix(".webp")
+    parts = []
+    for t in (480, 960):
+        if (ROOT / "assets/img" / f"{stem}-{t}.webp").exists():
+            parts.append(f"/assets/img/{stem}-{t}.webp {t}w")
+    if not parts:
+        return ""
+    native = 1600 if any(p.endswith("960w") for p in parts) else 800
+    parts.append(f"{image} {native}w")
+    return f' srcset="{", ".join(parts)}" sizes="(max-width: 700px) 100vw, 280px"'
+
+
 def build():
     articles = json.loads((ROOT / "assets/articles.json").read_text(encoding="utf-8"))
     for slug, r in RUBRIQUES.items():
@@ -311,13 +325,13 @@ def build():
         h1_plain = r["h1"]
         url = f"{SITE}/{slug}/"
 
-        # — contenu : liste d'articles ou état vide
+        # - contenu : liste d'articles ou état vide
         if arts:
             rows = []
             for a in arts:
                 rows.append(f"""        <article class="art-row">
           <a class="thumb" href="{a['url']}" aria-hidden="true" tabindex="-1">
-            <img loading="lazy" src="{a['image']}" alt="{esc(a['alt'])}" width="800" height="500">
+            <img loading="lazy" src="{a['image']}"{srcset(a['image'])} alt="{esc(a['alt'])}" width="800" height="500">
           </a>
           <div>
             <span class="cat">{esc(a['cat'])}</span>
@@ -342,14 +356,34 @@ def build():
         </div>"""
             ogimg = "/assets/img/bibliotheque-ancienne-grandes-ecoles.webp"
 
-        # — navigation avec onglet actif
+        # - navigation avec onglet actif
         navitems = "\n".join(
             f'        <li><a href="/{s}/"{" aria-current=\"page\"" if s == slug else ""}>{RUBRIQUES[s]["nav"]}</a></li>'
             for s in NAV_ORDER
         )
 
-        # — JSON-LD : CollectionPage + Breadcrumb + ItemList
+        # - JSON-LD : CollectionPage + Breadcrumb + ItemList + entités site (autonomie GEO)
         graph = [
+            {
+                "@type": "WebSite",
+                "@id": f"{SITE}/#website",
+                "url": f"{SITE}/",
+                "name": "Le Journal des Écoles",
+                "inLanguage": "fr-FR",
+                "publisher": {"@id": f"{SITE}/#organization"},
+            },
+            {
+                "@type": "NewsMediaOrganization",
+                "@id": f"{SITE}/#organization",
+                "name": "Le Journal des Écoles",
+                "url": f"{SITE}/",
+                "logo": {"@type": "ImageObject", "url": f"{SITE}/assets/img/logo-jde.png", "width": 512, "height": 512},
+                "foundingDate": "2026",
+                "areaServed": "FR",
+                "publishingPrinciples": f"{SITE}/notre-histoire/",
+                "correctionsPolicy": f"{SITE}/contact-partenariats/#signaler",
+                "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
+            },
             {
                 "@type": "CollectionPage",
                 "@id": f"{url}#page",
@@ -374,7 +408,7 @@ def build():
             graph.append({
                 "@type": "ItemList",
                 "@id": f"{url}#liste",
-                "name": f"Derniers articles — {r['h1']}",
+                "name": f"Derniers articles - {r['h1']}",
                 "itemListElement": [
                     {"@type": "ListItem", "position": i + 1, "name": a["title"], "url": f"{SITE}{a['url']}"}
                     for i, a in enumerate(arts)
@@ -394,7 +428,7 @@ def build():
         out = ROOT / slug / "index.html"
         out.parent.mkdir(exist_ok=True)
         out.write_text(html, encoding="utf-8")
-        print(f"  /{slug}/ — {len(arts)} article(s){' (noindex)' if not r['index'] else ''}")
+        print(f"  /{slug}/ - {len(arts)} article(s){' (noindex)' if not r['index'] else ''}")
 
 
 if __name__ == "__main__":

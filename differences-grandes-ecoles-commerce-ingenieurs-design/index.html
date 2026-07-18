@@ -7,6 +7,7 @@
   <meta name="description" content="Commerce, ingénieurs, design : comparatif complet des filières grandes écoles - admissions, profils, salaires et Comparateur ROI Inter-Filières exclusif.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/differences-grandes-ecoles-commerce-ingenieurs-design/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -21,10 +22,9 @@
   <meta property="article:section" content="Orientation">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
   {
@@ -39,6 +39,7 @@
         "datePublished": "2026-07-18",
         "dateModified": "2026-07-18",
         "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
         "articleSection": "Orientation",
         "about": ["Grandes écoles", "CPGE", "Écoles de commerce", "Écoles d'ingénieurs", "Écoles de design", "Comparateur ROI Inter-Filières"],
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
@@ -104,6 +105,23 @@
         ]
       },
       {
+        "@type": "Dataset",
+        "@id": "https://lejournaldesecoles.fr/differences-grandes-ecoles-commerce-ingenieurs-design/#dataset",
+        "name": "Comparateur ROI Inter-Filières 2026 - commerce, ingénieurs, design, communication",
+        "description": "Mise en perspective propriétaire du Journal des Écoles : ratio ROI (salaire estimé à 3 ans ÷ coût total de la scolarité sur 5 ans) calculé sur la même échelle pour dix écoles publiques et privées des filières design, communication, ingénierie et commerce. De ×26,7 (CELSA) à ×0,46 (Penninghen).",
+        "url": "https://lejournaldesecoles.fr/differences-grandes-ecoles-commerce-ingenieurs-design/#roi",
+        "creator": { "@id": "https://lejournaldesecoles.fr/#organization" },
+        "isPartOf": { "@id": "https://lejournaldesecoles.fr/differences-grandes-ecoles-commerce-ingenieurs-design/#article" },
+        "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-07-18",
+        "temporalCoverage": "2025/2026",
+        "spatialCoverage": "France",
+        "variableMeasured": "Ratio ROI : salaire brut annuel estimé à 3 ans ÷ coût total de la scolarité sur 5 ans, comparé entre filières",
+        "measurementMethod": "Données publiques exclusivement : frais de scolarité officiels publiés par chaque école, enquêtes d'insertion (CGE, écoles) et volumes d'admission publiés par les concours et Parcoursup. Méthodologie détaillée : https://lejournaldesecoles.fr/notre-histoire/#methode",
+        "license": "https://lejournaldesecoles.fr/mentions-legales/#propriete"
+      },
+      {
         "@type": "Person",
         "@id": "https://lejournaldesecoles.fr/#charlotte-montant",
         "name": "Charlotte Montant",
@@ -117,8 +135,12 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/favicon.svg" },
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
         "foundingDate": "2026",
+        "areaServed": "FR",
+        "publishingPrinciples": "https://lejournaldesecoles.fr/notre-histoire/",
+        "correctionsPolicy": "https://lejournaldesecoles.fr/contact-partenariats/#signaler",
+        "actionableFeedbackPolicy": "https://lejournaldesecoles.fr/contact-partenariats/",
         "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
         "contactPoint": [{ "@type": "ContactPoint", "contactType": "partnerships", "email": "lucas@yonder.fr", "availableLanguage": "French" }],
         "sameAs": [
@@ -377,7 +399,7 @@
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -394,7 +416,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -426,7 +448,7 @@
         <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Publié le <time datetime="2026-07-18">18 juillet 2026</time><i>◆</i>Lecture 14 min</p>
         <figure class="article-hero">
           <div class="imgbox">
-            <img src="/assets/img/remise-diplomes-ecole-commerce.webp"
+            <img src="/assets/img/remise-diplomes-ecole-commerce.webp" srcset="/assets/img/remise-diplomes-ecole-commerce-480.webp 480w, /assets/img/remise-diplomes-ecole-commerce-960.webp 960w, /assets/img/remise-diplomes-ecole-commerce.webp 1600w" sizes="(max-width: 1280px) 100vw, 1240px"
                  alt="Diplômés de grande école lançant leur toque lors de la remise des diplômes" width="1600" height="686" fetchpriority="high">
           </div>
           <figcaption>Commerce, ingénieurs, design&nbsp;: trois voies vers le diplôme - © Le Journal des Écoles</figcaption>
@@ -497,7 +519,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/quartier-affaires-tours.webp"
+              <img loading="lazy" src="/assets/img/quartier-affaires-tours.webp" srcset="/assets/img/quartier-affaires-tours-480.webp 480w, /assets/img/quartier-affaires-tours-960.webp 960w, /assets/img/quartier-affaires-tours.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Tours de bureaux d'un quartier d'affaires, débouchés des écoles de commerce" width="1400" height="788">
             </div>
             <figcaption>Conseil, finance, marketing&nbsp;: les débouchés types du PGE</figcaption>
@@ -518,7 +540,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/fusee-decollage-ingenierie.webp"
+              <img loading="lazy" src="/assets/img/fusee-decollage-ingenierie.webp" srcset="/assets/img/fusee-decollage-ingenierie-480.webp 480w, /assets/img/fusee-decollage-ingenierie-960.webp 960w, /assets/img/fusee-decollage-ingenierie.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Fusée au décollage, symbole des carrières d'ingénieur" width="1400" height="788">
             </div>
             <figcaption>R&amp;D, industrie, data, conseil&nbsp;: le marché le plus solide des trois filières</figcaption>
@@ -539,7 +561,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp"
+              <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp" srcset="/assets/img/nuanciers-design-creation-480.webp 480w, /assets/img/nuanciers-design-creation-960.webp 960w, /assets/img/nuanciers-design-creation.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Nuanciers et matériel de création d'un studio de design" width="1400" height="788">
             </div>
             <figcaption>Le portfolio pèse plus lourd que le bulletin scolaire</figcaption>
@@ -642,7 +664,7 @@
             </div>
             <div class="out">
               <span class="ratio" id="quiz-resultat">Ingénieurs</span>
-              <p class="verdict" id="quiz-verdict"></p>
+              <p class="verdict" id="quiz-verdict">Dominante <b>Ingénieurs</b> (4 réponse(s) sur 4). Votre terrain naturel est la <b>prépa scientifique</b> (MPSI, PCSI, MP2I...) ou une école post-bac type INSA et UT. Commencez par notre <a href="/classement-meilleures-ecoles-ingenieurs-france/">classement des écoles d’ingénieurs</a>.</p>
             </div>
             <p class="src">Quiz indicatif du Journal des Écoles&nbsp;: il pointe une dominante de profil, pas une prédiction d’admission. Croisez le résultat avec vos résultats scolaires réels et les modalités d’admission détaillées dans cet article.</p>
           </div>
@@ -703,12 +725,12 @@
           <h2 id="sources">Sources</h2>
           <div class="sources">
             <ol>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cge.asso.fr/wp-content/uploads/2025/06/Enquete-insertion-2025-de-la-CGE-Rapport-final.pdf">Enquête Insertion 2025 - Conférence des Grandes Écoles (CGE)</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/les-cpge-classes-preparatoires-aux-grandes-ecoles">Les CPGE, classes préparatoires aux grandes écoles - Onisep</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cti-commission.fr/accreditation">Commission des Titres d’Ingénieur (CTI) - Accréditation</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.enseignementsup-recherche.gouv.fr/fr/les-effectifs-en-classes-preparatoires-aux-grandes-ecoles-la-rentree-2025-2026-100950">Les effectifs en CPGE à la rentrée 2025-2026 - Ministère de l’Enseignement supérieur</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.letudiant.fr/etudes/parcoursup/parcoursup-les-attendus-pour-entrer-en-ecole-d-art.html">Parcoursup&nbsp;: les attendus pour entrer en école d’art - L’Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.concours-bce.com/sites/default/files/2025-11/Reglement_Concours_BCE_2026_VA_VF_0_0.pdf">Règlement du concours BCE 2026</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cge.asso.fr/wp-content/uploads/2025/06/Enquete-insertion-2025-de-la-CGE-Rapport-final.pdf">Enquête Insertion 2025 - Conférence des Grandes Écoles (CGE)</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.onisep.fr/formation/apres-le-bac-les-etudes-superieures/les-principales-filieres-d-etudes-superieures/les-cpge-classes-preparatoires-aux-grandes-ecoles">Les CPGE, classes préparatoires aux grandes écoles - Onisep</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cti-commission.fr/accreditation">Commission des Titres d’Ingénieur (CTI) - Accréditation</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.enseignementsup-recherche.gouv.fr/fr/les-effectifs-en-classes-preparatoires-aux-grandes-ecoles-la-rentree-2025-2026-100950">Les effectifs en CPGE à la rentrée 2025-2026 - Ministère de l’Enseignement supérieur</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.letudiant.fr/etudes/parcoursup/parcoursup-les-attendus-pour-entrer-en-ecole-d-art.html">Parcoursup&nbsp;: les attendus pour entrer en école d’art - L’Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.concours-bce.com/sites/default/files/2025-11/Reglement_Concours_BCE_2026_VA_VF_0_0.pdf">Règlement du concours BCE 2026</a></li>
             </ol>
           </div>
 
@@ -812,7 +834,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -834,7 +856,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -847,8 +869,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){

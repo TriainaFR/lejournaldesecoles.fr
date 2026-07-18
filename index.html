@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Le Journal des Écoles — Classements et orientation des écoles supérieures</title>
+  <title>Le Journal des Écoles - Classements et orientation des écoles supérieures</title>
   <meta name="description" content="Classements 2026 des écoles de commerce, d'ingénieurs et de design, parcours métiers, salaires de sortie et conseils d'orientation, par un média indépendant.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Le Journal des Écoles">
   <meta property="og:locale" content="fr_FR">
-  <meta property="og:title" content="Le Journal des Écoles — Le média des études supérieures">
+  <meta property="og:title" content="Le Journal des Écoles - Le média des études supérieures">
   <meta property="og:description" content="Classements exigeants, parcours métiers et conseils d'orientation : le média indépendant des écoles de commerce, d'ingénieurs, de design et de communication.">
   <meta property="og:url" content="https://lejournaldesecoles.fr/">
   <meta property="og:image" content="https://lejournaldesecoles.fr/assets/img/remise-diplomes-ecole-commerce.webp">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -56,11 +54,8 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://lejournaldesecoles.fr/assets/favicon.svg"
-        },
-        "description": "Le Journal des Écoles est un média français indépendant qui analyse, compare et classe les écoles supérieures — commerce, ingénieurs, design, architecture, communication, RH — et décrypte les parcours qui mènent aux métiers.",
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
+        "description": "Le Journal des Écoles est un média français indépendant qui analyse, compare et classe les écoles supérieures - commerce, ingénieurs, design, architecture, communication, RH - et décrypte les parcours qui mènent aux métiers.",
         "knowsAbout": ["Écoles de commerce", "Écoles d'ingénieurs", "Écoles de design", "Architecture", "Communication", "Ressources humaines", "Masters", "Classements de l'enseignement supérieur", "Orientation", "Parcoursup", "Alternance", "Insertion professionnelle"],
         "foundingDate": "2026",
         "areaServed": "FR",
@@ -129,7 +124,9 @@
   }
   </script>
 
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 </head>
 <body>
 
@@ -151,7 +148,7 @@
       </div>
       <div class="brand">
         <h1>
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span class="l1">Le Journal</span>
             <span class="l2">des Écoles</span>
           </a>
@@ -178,7 +175,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -230,7 +227,7 @@
           <a href="/differences-grandes-ecoles-commerce-ingenieurs-design/" class="imglink" aria-hidden="true" tabindex="-1">
             <figure>
               <div class="imgbox">
-                <img src="/assets/img/remise-diplomes-ecole-commerce.webp"
+                <img src="/assets/img/remise-diplomes-ecole-commerce.webp" srcset="/assets/img/remise-diplomes-ecole-commerce-480.webp 480w, /assets/img/remise-diplomes-ecole-commerce-960.webp 960w, /assets/img/remise-diplomes-ecole-commerce.webp 1600w" sizes="(max-width: 1280px) 100vw, 1240px"
                      alt="Diplômés de grande école lançant leur toque lors de la remise des diplômes" width="1400" height="875" fetchpriority="high">
               </div>
               <figcaption>Commerce, ingénieurs, design - © Le Journal des Écoles</figcaption>
@@ -259,13 +256,13 @@
             </li>
             <li>
               <div>
-                <span class="cat">Classements — Design</span>
+                <span class="cat">Classements - Design</span>
                 <h4><a href="/classement-meilleures-ecoles-design-france/">Écoles de design&nbsp;: le palmarès 2026 et notre Indice ROI exclusif</a></h4>
               </div>
             </li>
             <li>
               <div>
-                <span class="cat">Classements — Ingénieurs</span>
+                <span class="cat">Classements - Ingénieurs</span>
                 <h4><a href="/classement-meilleures-ecoles-ingenieurs-france/">Écoles d’ingénieurs 2026&nbsp;: Polytechnique, Mines, CentraleSupélec</a></h4>
               </div>
             </li>
@@ -280,7 +277,7 @@
       <div class="wrap">
         <div class="box reveal">
           <span class="kicker">Le média, en bref</span>
-          <p class="lead">Le Journal des Écoles est un média français indépendant consacré à l’enseignement supérieur. Nous analysons plus de 400 écoles — commerce, ingénieurs, design, architecture, communication, RH — et publions chaque année 12 classements fondés sur des critères publics&nbsp;: insertion professionnelle, salaires de sortie, sélectivité, accréditations.</p>
+          <p class="lead">Le Journal des Écoles est un média français indépendant consacré à l’enseignement supérieur. Nous analysons plus de 400 écoles - commerce, ingénieurs, design, architecture, communication, RH - et publions chaque année 12 classements fondés sur des critères publics&nbsp;: insertion professionnelle, salaires de sortie, sélectivité, accréditations.</p>
           <div class="stats">
             <div class="stat"><b>400+</b><span>écoles analysées</span></div>
             <div class="stat"><b>12</b><span>classements par an</span></div>
@@ -303,27 +300,27 @@
         </div>
         <div class="univers-grid">
           <a class="arch reveal" href="/commerce/">
-            <div class="frame"><img loading="lazy" src="/assets/img/quartier-affaires-tours.webp" alt="Tours de bureaux, symbole des carrières en école de commerce" width="700" height="1000"></div>
+            <div class="frame"><img loading="lazy" src="/assets/img/quartier-affaires-tours.webp" srcset="/assets/img/quartier-affaires-tours-480.webp 480w, /assets/img/quartier-affaires-tours-960.webp 960w, /assets/img/quartier-affaires-tours.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Tours de bureaux, symbole des carrières en école de commerce" width="700" height="1000"></div>
             <h3>Commerce &amp; Management</h3>
             <p>PGE · Bachelors · MBA</p>
           </a>
           <a class="arch reveal d1" href="/ingenieurs/">
-            <div class="frame"><img loading="lazy" src="/assets/img/fusee-decollage-ingenierie.webp" alt="Fusée au décollage, univers des écoles d'ingénieurs" width="700" height="1000"></div>
+            <div class="frame"><img loading="lazy" src="/assets/img/fusee-decollage-ingenierie.webp" srcset="/assets/img/fusee-decollage-ingenierie-480.webp 480w, /assets/img/fusee-decollage-ingenierie-960.webp 960w, /assets/img/fusee-decollage-ingenierie.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Fusée au décollage, univers des écoles d'ingénieurs" width="700" height="1000"></div>
             <h3>Ingénieurs</h3>
             <p>Prépas · Post-bac · Cycles</p>
           </a>
           <a class="arch reveal d2" href="/design-architecture/">
-            <div class="frame"><img loading="lazy" src="/assets/img/architecture-contemporaine-blanche.webp" alt="Architecture contemporaine blanche" width="700" height="1000"></div>
+            <div class="frame"><img loading="lazy" src="/assets/img/architecture-contemporaine-blanche.webp" srcset="/assets/img/architecture-contemporaine-blanche-480.webp 480w, /assets/img/architecture-contemporaine-blanche-960.webp 960w, /assets/img/architecture-contemporaine-blanche.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Architecture contemporaine blanche" width="700" height="1000"></div>
             <h3>Design &amp; Architecture</h3>
             <p>Création · Archi · Arts appliqués</p>
           </a>
           <a class="arch reveal d3" href="/communication/">
-            <div class="frame"><img loading="lazy" src="/assets/img/presse-journaux-communication.webp" alt="Journaux imprimés, symbole des métiers de la communication et des médias" width="700" height="1000"></div>
+            <div class="frame"><img loading="lazy" src="/assets/img/presse-journaux-communication.webp" srcset="/assets/img/presse-journaux-communication-480.webp 480w, /assets/img/presse-journaux-communication-960.webp 960w, /assets/img/presse-journaux-communication.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Journaux imprimés, symbole des métiers de la communication et des médias" width="700" height="1000"></div>
             <h3>Communication &amp; Médias</h3>
             <p>Com · Journalisme · Digital</p>
           </a>
           <a class="arch reveal d4" href="/rh-gestion/">
-            <div class="frame"><img loading="lazy" src="/assets/img/equipe-travail-ressources-humaines.webp" alt="Équipe au travail, symbole des métiers des ressources humaines" width="700" height="1000"></div>
+            <div class="frame"><img loading="lazy" src="/assets/img/equipe-travail-ressources-humaines.webp" srcset="/assets/img/equipe-travail-ressources-humaines-480.webp 480w, /assets/img/equipe-travail-ressources-humaines.webp 800w" sizes="(max-width: 1080px) 50vw, 400px" alt="Équipe au travail, symbole des métiers des ressources humaines" width="700" height="1000"></div>
             <h3>RH &amp; Gestion</h3>
             <p>RH · Management · Droit social</p>
           </a>
@@ -344,10 +341,10 @@
         <div class="guides-grid">
           <article class="card card--lead reveal">
             <div class="imgwrap">
-              <span class="chip">Classement — Commerce</span>
+              <span class="chip">Classement - Commerce</span>
               <a class="imglink" href="/classement-meilleures-ecoles-commerce-france/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="/assets/img/remise-diplomes-ecole-commerce.webp" alt="Diplômés lançant leur toque lors de la remise des diplômes" width="900" height="1035">
+                  <img loading="lazy" src="/assets/img/remise-diplomes-ecole-commerce.webp" srcset="/assets/img/remise-diplomes-ecole-commerce-480.webp 480w, /assets/img/remise-diplomes-ecole-commerce-960.webp 960w, /assets/img/remise-diplomes-ecole-commerce.webp 1600w" sizes="(max-width: 1080px) 100vw, 520px" alt="Diplômés lançant leur toque lors de la remise des diplômes" width="900" height="1035">
                 </div>
               </a>
             </div>
@@ -358,10 +355,10 @@
 
           <article class="card reveal d1">
             <div class="imgwrap">
-              <span class="chip">Classement — Ingénieurs</span>
+              <span class="chip">Classement - Ingénieurs</span>
               <a class="imglink" href="/classement-meilleures-ecoles-ingenieurs-france/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="/assets/img/ingenieurs-salle-de-controle.webp" alt="Ingénieurs au travail sur leurs écrans de contrôle" width="700" height="525">
+                  <img loading="lazy" src="/assets/img/ingenieurs-salle-de-controle.webp" srcset="/assets/img/ingenieurs-salle-de-controle-480.webp 480w, /assets/img/ingenieurs-salle-de-controle.webp 800w" sizes="(max-width: 1080px) 50vw, 400px" alt="Ingénieurs au travail sur leurs écrans de contrôle" width="700" height="525">
                 </div>
               </a>
             </div>
@@ -371,10 +368,10 @@
 
           <article class="card reveal d2">
             <div class="imgwrap">
-              <span class="chip">Classement — Design</span>
+              <span class="chip">Classement - Design</span>
               <a class="imglink" href="/classement-meilleures-ecoles-design-france/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp" alt="Nuanciers et matériel de création d'un studio de design" width="700" height="525">
+                  <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp" srcset="/assets/img/nuanciers-design-creation-480.webp 480w, /assets/img/nuanciers-design-creation-960.webp 960w, /assets/img/nuanciers-design-creation.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Nuanciers et matériel de création d'un studio de design" width="700" height="525">
                 </div>
               </a>
             </div>
@@ -384,10 +381,10 @@
 
           <article class="card reveal d3">
             <div class="imgwrap">
-              <span class="chip">Classement — Communication</span>
+              <span class="chip">Classement - Communication</span>
               <a class="imglink" href="/classement-meilleures-ecoles-communication-france/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="/assets/img/micro-studio-communication.webp" alt="Micro de studio, symbole des écoles de communication et de médias" width="700" height="525">
+                  <img loading="lazy" src="/assets/img/micro-studio-communication.webp" srcset="/assets/img/micro-studio-communication-480.webp 480w, /assets/img/micro-studio-communication-960.webp 960w, /assets/img/micro-studio-communication.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Micro de studio, symbole des écoles de communication et de médias" width="700" height="525">
                 </div>
               </a>
             </div>
@@ -400,7 +397,7 @@
               <span class="chip">Grandes écoles - Le trio</span>
               <a class="imglink" href="/top-10-grandes-ecoles-commerce-hec-essec-escp/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="/assets/img/bibliotheque-ancienne-grandes-ecoles.webp" alt="Bibliothèque ancienne, deux siècles d'histoire des grandes écoles" width="700" height="525">
+                  <img loading="lazy" src="/assets/img/bibliotheque-ancienne-grandes-ecoles.webp" srcset="/assets/img/bibliotheque-ancienne-grandes-ecoles-480.webp 480w, /assets/img/bibliotheque-ancienne-grandes-ecoles-960.webp 960w, /assets/img/bibliotheque-ancienne-grandes-ecoles.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Bibliothèque ancienne, deux siècles d'histoire des grandes écoles" width="700" height="525">
                 </div>
               </a>
             </div>
@@ -413,7 +410,7 @@
               <span class="chip">Classement - Commerce post-bac</span>
               <a class="imglink" href="/classement-ecoles-commerce-post-bac-admission-selectivite/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp" alt="Candidat prenant des notes pendant sa préparation aux concours post-bac" width="700" height="525">
+                  <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp" srcset="/assets/img/etudiant-prise-de-notes-concours-480.webp 480w, /assets/img/etudiant-prise-de-notes-concours-960.webp 960w, /assets/img/etudiant-prise-de-notes-concours.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Candidat prenant des notes pendant sa préparation aux concours post-bac" width="700" height="525">
                 </div>
               </a>
             </div>
@@ -426,7 +423,7 @@
               <span class="chip">Orientation - Filières</span>
               <a class="imglink" href="/differences-grandes-ecoles-commerce-ingenieurs-design/" aria-hidden="true" tabindex="-1">
                 <div class="imgbox">
-                  <img loading="lazy" src="/assets/img/remise-diplomes-ecole-commerce.webp" alt="Diplômés de grande école lançant leur toque lors de la remise des diplômes" width="700" height="525">
+                  <img loading="lazy" src="/assets/img/remise-diplomes-ecole-commerce.webp" srcset="/assets/img/remise-diplomes-ecole-commerce-480.webp 480w, /assets/img/remise-diplomes-ecole-commerce-960.webp 960w, /assets/img/remise-diplomes-ecole-commerce.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Diplômés de grande école lançant leur toque lors de la remise des diplômes" width="700" height="525">
                 </div>
               </a>
             </div>
@@ -439,7 +436,7 @@
         <div class="podium reveal" aria-label="Extrait du classement 2026 des écoles de commerce">
           <div class="inner">
             <div class="head">
-              <h3>Le podium 2026 — Écoles de commerce</h3>
+              <h3>Le podium 2026 - Écoles de commerce</h3>
               <span class="maj">Mis à jour le <time datetime="2026-07-17">17 juillet 2026</time></span>
             </div>
             <table>
@@ -520,7 +517,7 @@
         <div class="routes-grid">
           <a class="route-card reveal" href="#">
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp" alt="Professionnel en costume, univers de la banque d'affaires et du conseil" width="700" height="875">
+              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp" srcset="/assets/img/jeune-diplome-costume-finance-480.webp 480w, /assets/img/jeune-diplome-costume-finance-960.webp 960w, /assets/img/jeune-diplome-costume-finance.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Professionnel en costume, univers de la banque d'affaires et du conseil" width="700" height="875">
             </div>
             <span class="num" aria-hidden="true">I.</span>
             <div class="body">
@@ -531,7 +528,7 @@
           </a>
           <a class="route-card reveal d1" href="#">
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/aile-avion-mobilite-internationale.webp" alt="Avion de ligne en vol, univers de l'ingénierie aéronautique" width="700" height="875">
+              <img loading="lazy" src="/assets/img/aile-avion-mobilite-internationale.webp" srcset="/assets/img/aile-avion-mobilite-internationale-480.webp 480w, /assets/img/aile-avion-mobilite-internationale-960.webp 960w, /assets/img/aile-avion-mobilite-internationale.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Avion de ligne en vol, univers de l'ingénierie aéronautique" width="700" height="875">
             </div>
             <span class="num" aria-hidden="true">II.</span>
             <div class="body">
@@ -542,7 +539,7 @@
           </a>
           <a class="route-card reveal d2" href="#">
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp" alt="Matériel de création graphique, univers de la direction artistique" width="700" height="875">
+              <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp" srcset="/assets/img/nuanciers-design-creation-480.webp 480w, /assets/img/nuanciers-design-creation-960.webp 960w, /assets/img/nuanciers-design-creation.webp 1600w" sizes="(max-width: 1080px) 50vw, 400px" alt="Matériel de création graphique, univers de la direction artistique" width="700" height="875">
             </div>
             <span class="num" aria-hidden="true">III.</span>
             <div class="body">
@@ -671,7 +668,7 @@
     <section class="manifesto" aria-label="Notre manifeste">
       <div class="wrap reveal">
         <span class="kicker">Notre manifeste</span>
-        <p>Le Journal des Écoles est un média français indépendant qui analyse, compare et classe les formations de l’enseignement supérieur — écoles de commerce, d’ingénieurs, de design, d’architecture, de communication, filières RH — et décrypte les parcours qui mènent aux métiers. Nos classements reposent sur des critères publics et une <a href="/notre-histoire/#methode">méthodologie transparente</a>, et aucune école ne paie pour y figurer.</p>
+        <p>Le Journal des Écoles est un média français indépendant qui analyse, compare et classe les formations de l’enseignement supérieur - écoles de commerce, d’ingénieurs, de design, d’architecture, de communication, filières RH - et décrypte les parcours qui mènent aux métiers. Nos classements reposent sur des critères publics et une <a href="/notre-histoire/#methode">méthodologie transparente</a>, et aucune école ne paie pour y figurer.</p>
         <p>Des palmarès annuels aux fiches métiers, notre promesse tient en une phrase&nbsp;: vous aider à mieux choisir, mieux préparer et mieux comprendre les études qui décident d’une vie professionnelle.</p>
       </div>
     </section>
@@ -723,7 +720,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -745,7 +742,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -758,8 +755,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){

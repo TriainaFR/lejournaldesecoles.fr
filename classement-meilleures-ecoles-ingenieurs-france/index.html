@@ -7,6 +7,7 @@
   <meta name="description" content="Palmarès 2026 des écoles d'ingénieurs françaises : Figaro Étudiant, L'Étudiant, DAUR, salaires CGE 2025, insertion pro, admissions et accréditation CTI.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/classement-meilleures-ecoles-ingenieurs-france/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -21,10 +22,9 @@
   <meta property="article:section" content="Classements">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
   {
@@ -39,6 +39,7 @@
         "datePublished": "2026-07-17",
         "dateModified": "2026-07-17",
         "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
         "articleSection": "Classements",
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
         "publisher": { "@id": "https://lejournaldesecoles.fr/#organization" },
@@ -59,7 +60,7 @@
       {
         "@type": "ItemList",
         "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-ingenieurs-france/#top10",
-        "name": "Top 10 des écoles d'ingénieurs post-prépa — ordre Figaro Étudiant 2026",
+        "name": "Top 10 des écoles d'ingénieurs post-prépa - ordre Figaro Étudiant 2026",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "numberOfItems": 10,
         "itemListElement": [
@@ -70,7 +71,7 @@
           { "@type": "ListItem", "position": 5, "name": "Télécom Paris" },
           { "@type": "ListItem", "position": 6, "name": "ENSAE Paris" },
           { "@type": "ListItem", "position": 7, "name": "ENSTA" },
-          { "@type": "ListItem", "position": 7, "name": "ISAE-Supaéro" },
+          { "@type": "ListItem", "position": 8, "name": "ISAE-Supaéro" },
           { "@type": "ListItem", "position": 9, "name": "ESPCI Paris" },
           { "@type": "ListItem", "position": 10, "name": "Chimie ParisTech" }
         ]
@@ -139,8 +140,12 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/favicon.svg" },
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
         "foundingDate": "2026",
+        "areaServed": "FR",
+        "publishingPrinciples": "https://lejournaldesecoles.fr/notre-histoire/",
+        "correctionsPolicy": "https://lejournaldesecoles.fr/contact-partenariats/#signaler",
+        "actionableFeedbackPolicy": "https://lejournaldesecoles.fr/contact-partenariats/",
         "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
         "contactPoint": [{ "@type": "ContactPoint", "contactType": "partnerships", "email": "lucas@yonder.fr", "availableLanguage": "French" }],
         "sameAs": [
@@ -382,7 +387,7 @@
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -399,7 +404,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -425,16 +430,16 @@
           <a href="/classements/">Classements</a><i>◆</i>
           <span>Écoles d’ingénieurs</span>
         </nav>
-        <span class="kicker kicker--marine">Classements — Écoles d’ingénieurs</span>
+        <span class="kicker kicker--marine">Classements - Écoles d’ingénieurs</span>
         <h1>Classement des meilleures écoles d’ingénieurs en France 2026&nbsp;: Polytechnique, Mines, CentraleSupélec</h1>
-        <p class="standfirst">Cinq classements, cinq façons de mesurer l’excellence — et une seule école en tête partout. Figaro Étudiant, L’Étudiant, DAUR, L’Usine Nouvelle, Shanghai&nbsp;: notre comparatif croisé, avec salaires réels, insertion à 6 mois et toutes les voies d’admission.</p>
+        <p class="standfirst">Cinq classements, cinq façons de mesurer l’excellence - et une seule école en tête partout. Figaro Étudiant, L’Étudiant, DAUR, L’Usine Nouvelle, Shanghai&nbsp;: notre comparatif croisé, avec salaires réels, insertion à 6 mois et toutes les voies d’admission.</p>
         <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Publié le <time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 20 min</p>
         <figure class="article-hero">
           <div class="imgbox">
-            <img src="/assets/img/ingenieure-laboratoire-industrie.webp"
+            <img src="/assets/img/ingenieure-laboratoire-industrie.webp" srcset="/assets/img/ingenieure-laboratoire-industrie-480.webp 480w, /assets/img/ingenieure-laboratoire-industrie-960.webp 960w, /assets/img/ingenieure-laboratoire-industrie.webp 1600w" sizes="(max-width: 1280px) 100vw, 1240px"
                  alt="Ingénieure travaillant sur un équipement industriel en laboratoire" width="1600" height="686" fetchpriority="high">
           </div>
-          <figcaption>Ingénierie — © Le Journal des Écoles</figcaption>
+          <figcaption>Ingénierie - © Le Journal des Écoles</figcaption>
         </figure>
       </div>
     </div>
@@ -450,10 +455,10 @@
             <p>L’École polytechnique domine tous les classements sérieux, mais le reste du podium change selon qui compte quoi.</p>
             <ul>
               <li><p><strong>Figaro Étudiant 2026 (post-prépa)</strong>&nbsp;: Polytechnique 1ʳᵉ (18,7/20), Mines Paris-PSL 2ᵉ (17,5/20), CentraleSupélec 3ᵉ (17,4/20), Ponts ParisTech 4ᵉ (16,9/20), Télécom Paris 5ᵉ (16,2/20).</p></li>
-              <li><p><strong>L’Étudiant 2025</strong> (170 écoles, note sur 119 points)&nbsp;: Polytechnique 1ʳᵉ (103,5), ENSTA Paris 2ᵉ (102,0), IMT Atlantique 3ᵉ (97,5), CentraleSupélec 4ᵉ (95,5) — un classement qui valorise l’international et la recherche, pas seulement le prestige du concours.</p></li>
-              <li><p><strong>Côté post-bac</strong>&nbsp;: INSA Lyon est 1ʳᵉ au Figaro (18,2/20), devant l’UTC Compiègne (17/20) — deux écoles qui recrutent sur Parcoursup, sans passer par la prépa.</p></li>
+              <li><p><strong>L’Étudiant 2025</strong> (170 écoles, note sur 119 points)&nbsp;: Polytechnique 1ʳᵉ (103,5), ENSTA Paris 2ᵉ (102,0), IMT Atlantique 3ᵉ (97,5), CentraleSupélec 4ᵉ (95,5) - un classement qui valorise l’international et la recherche, pas seulement le prestige du concours.</p></li>
+              <li><p><strong>Côté post-bac</strong>&nbsp;: INSA Lyon est 1ʳᵉ au Figaro (18,2/20), devant l’UTC Compiègne (17/20) - deux écoles qui recrutent sur Parcoursup, sans passer par la prépa.</p></li>
               <li><p><strong>Salaire moyen de sortie (CGE 2025, hors primes)</strong>&nbsp;: 39&nbsp;129&nbsp;€ pour un ingénieur, contre 58&nbsp;000&nbsp;€ médian pour un polytechnicien un an après le diplôme.</p></li>
-              <li><p><strong>Insertion à 6 mois</strong>&nbsp;: 83,3&nbsp;% en moyenne CGE 2025 pour les ingénieurs, avec des écarts énormes selon l’école — de 80&nbsp;% à 99&nbsp;%.</p></li>
+              <li><p><strong>Insertion à 6 mois</strong>&nbsp;: 83,3&nbsp;% en moyenne CGE 2025 pour les ingénieurs, avec des écarts énormes selon l’école - de 80&nbsp;% à 99&nbsp;%.</p></li>
               <li><p><strong>L’accréditation CTI (Commission des Titres d’Ingénieur)</strong> reste le seul prérequis non négociable&nbsp;: sans elle, pas de titre d’ingénieur reconnu par l’État, pas de grade de master.</p></li>
             </ul>
           </section>
@@ -478,7 +483,7 @@
 
           <h3>L’Étudiant 2025&nbsp;: 170 écoles, notées sur 119 points</h3>
           <ul>
-            <li><p><strong>170 écoles d’ingénieurs analysées</strong>, toutes habilitées par la CTI — un principe de base rappelé explicitement par la rédaction.</p></li>
+            <li><p><strong>170 écoles d’ingénieurs analysées</strong>, toutes habilitées par la CTI - un principe de base rappelé explicitement par la rédaction.</p></li>
             <li><p><strong>Méthodologie 2025 revue</strong>&nbsp;: le critère doctorants devient un index (nombre + encadrement par des HDR), le poids de l’alternance passe de 10 à 5 points, la parité femmes-hommes revient en bonus.</p></li>
             <li><p>Seules <strong>sept écoles</strong> obtiennent la note maximale sur le critère doctorants&nbsp;: Polytechnique, CentraleSupélec et INSA Lyon en font partie.</p></li>
           </ul>
@@ -490,14 +495,14 @@
           <p>L’Usine Nouvelle note l’ensemble des écoles habilitées CTI avec un prisme orienté entreprises et recherche contractuelle. Polytechnique (86 points) devance CentraleSupélec (74) et Ponts ParisTech (68, ex&nbsp;æquo à la 4ᵉ place).</p>
 
           <h3>Shanghai ARWU 2025&nbsp;: le seul regard vraiment international</h3>
-          <p>Le classement de Shanghai (Academic Ranking of World Universities) classe par discipline. En ingénierie et technologie, l’<strong>École polytechnique est 16ᵉ mondiale</strong> — la meilleure école française du domaine — devant <strong>CentraleSupélec, 36ᵉ</strong>. Mines Paris-PSL se situe dans la tranche 150-200. L’Institut Polytechnique de Paris (IP Paris), qui regroupe six écoles dont Polytechnique, ENSTA, Ponts, ENSAE et Télécom Paris, entre pour la première fois dans le top 250 mondial toutes disciplines, à la 224ᵉ place — une progression de 99 places en un an.</p>
+          <p>Le classement de Shanghai (Academic Ranking of World Universities) classe par discipline. En ingénierie et technologie, l’<strong>École polytechnique est 16ᵉ mondiale</strong> - la meilleure école française du domaine - devant <strong>CentraleSupélec, 36ᵉ</strong>. Mines Paris-PSL se situe dans la tranche 150-200. L’Institut Polytechnique de Paris (IP Paris), qui regroupe six écoles dont Polytechnique, ENSTA, Ponts, ENSAE et Télécom Paris, entre pour la première fois dans le top 250 mondial toutes disciplines, à la 224ᵉ place - une progression de 99 places en un an.</p>
 
           <h3>L’accréditation CTI&nbsp;: le prérequis avant tout classement</h3>
-          <p>Avant de comparer des notes ou des scores, une question précède toutes les autres&nbsp;: l’école délivre-t-elle un titre d’ingénieur habilité par la <strong>Commission des Titres d’Ingénieur (CTI)</strong>&nbsp;? Sans cette accréditation, aucun classement ne compte — il n’y a tout simplement pas de titre d’ingénieur reconnu par l’État à la sortie.</p>
+          <p>Avant de comparer des notes ou des scores, une question précède toutes les autres&nbsp;: l’école délivre-t-elle un titre d’ingénieur habilité par la <strong>Commission des Titres d’Ingénieur (CTI)</strong>&nbsp;? Sans cette accréditation, aucun classement ne compte - il n’y a tout simplement pas de titre d’ingénieur reconnu par l’État à la sortie.</p>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/fusee-decollage-ingenierie.webp"
+              <img loading="lazy" src="/assets/img/fusee-decollage-ingenierie.webp" srcset="/assets/img/fusee-decollage-ingenierie-480.webp 480w, /assets/img/fusee-decollage-ingenierie-960.webp 960w, /assets/img/fusee-decollage-ingenierie.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Fusée au décollage, symbole de l'excellence des écoles d'ingénieurs françaises" width="1400" height="788">
             </div>
             <figcaption>De Supaéro au CNES&nbsp;: l’ingénierie française vise haut</figcaption>
@@ -536,7 +541,7 @@
 
           <p><strong>Ce que révèle ce croisement&nbsp;:</strong></p>
           <ul>
-            <li><p><strong>Polytechnique, seule école en tête des cinq classements</strong> sans exception — Figaro, L’Étudiant, DAUR, L’Usine Nouvelle et Shanghai ARWU.</p></li>
+            <li><p><strong>Polytechnique, seule école en tête des cinq classements</strong> sans exception - Figaro, L’Étudiant, DAUR, L’Usine Nouvelle et Shanghai ARWU.</p></li>
             <li><p><strong>Mines Paris-PSL chute lourdement chez L’Étudiant</strong> (9ᵉ) alors qu’elle est 2ᵉ au Figaro et au DAUR&nbsp;: la baisse de la part d’étudiants internationaux et de diplômés en poste à l’étranger explique l’écart.</p></li>
             <li><p><strong>ENSTA Paris (avant fusion) était 2ᵉ chez L’Étudiant</strong>, juste derrière Polytechnique, un rang que la nouvelle entité fusionnée devra confirmer lors de la prochaine édition.</p></li>
             <li><p><strong>ESPCI Paris réalise la plus forte progression du top 20 L’Étudiant 2025</strong>&nbsp;: +15 places en un an, portée par sa présence renforcée aux forums entreprises et ses doubles diplômes internationaux.</p></li>
@@ -546,7 +551,7 @@
           <h2 id="post-bac">Podium post-bac&nbsp;: INSA Lyon et UTC Compiègne en tête</h2>
           <p>Pour les bacheliers qui candidatent directement sur Parcoursup, sans passer par la prépa, le classement Figaro 2026 est sans appel&nbsp;:</p>
           <ul>
-            <li><p><strong>INSA Lyon, 1ʳᵉ (18,2/20)</strong> — également 14ᵉ au classement général L’Étudiant 2025 (83,0/119), la seule école post-bac à figurer dans le top 20 toutes catégories confondues.</p></li>
+            <li><p><strong>INSA Lyon, 1ʳᵉ (18,2/20)</strong> - également 14ᵉ au classement général L’Étudiant 2025 (83,0/119), la seule école post-bac à figurer dans le top 20 toutes catégories confondues.</p></li>
             <li><p><strong>UTC Compiègne, 2ᵉ (17/20)</strong>.</p></li>
             <li><p><strong>Epita, 3ᵉ (16,8/20)</strong>.</p></li>
             <li><p><strong>UTT (Université de Technologie de Troyes)</strong>, 3ᵉ des écoles post-bac publiques (16,3/20), ex&nbsp;æquo avec l’INSA Toulouse.</p></li>
@@ -567,7 +572,7 @@
           </div>
 
           <h2 id="fiches">Fiches détaillées&nbsp;: les écoles du top 10, chiffre par chiffre</h2>
-          <p>Salaire de sortie, taux d’insertion à 6 mois et voie d’admission précise — voici ce que chaque école demande et ce qu’elle rapporte.</p>
+          <p>Salaire de sortie, taux d’insertion à 6 mois et voie d’admission précise - voici ce que chaque école demande et ce qu’elle rapporte.</p>
 
           <div class="fiche">
             <h3>École polytechnique (l’X)</h3>
@@ -586,7 +591,7 @@
             <ul>
               <li><p><strong>Classements</strong>&nbsp;: 2ᵉ au Figaro 2026 (17,5/20), 9ᵉ chez L’Étudiant (90,0/119), 2ᵉ au DAUR (77 pts, AAA).</p></li>
               <li><p><strong>Salaire moyen brut en France</strong>&nbsp;: 50&nbsp;168&nbsp;€, avec une médiane du premier emploi à 51&nbsp;339&nbsp;€ primes incluses.</p></li>
-              <li><p><strong>Insertion à 6 mois</strong>&nbsp;: 99&nbsp;% — l’un des meilleurs taux du classement.</p></li>
+              <li><p><strong>Insertion à 6 mois</strong>&nbsp;: 99&nbsp;% - l’un des meilleurs taux du classement.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours Mines-Télécom (banque Mines-Ponts), prépa MP, PC ou PSI.</p></li>
               <li><p><strong>Frais de scolarité</strong>&nbsp;: 4&nbsp;150&nbsp;€/an pour un étudiant français ou UE, 6&nbsp;440&nbsp;€ hors UE.</p></li>
               <li><p><strong>Campus</strong>&nbsp;: Paris.</p></li>
@@ -599,7 +604,7 @@
               <li><p><strong>Classements</strong>&nbsp;: 3ᵉ au Figaro 2026 (17,4/20), 4ᵉ chez L’Étudiant (95,5/119), 3ᵉ au DAUR (73 pts, AAA), 36ᵉ mondiale en ingénierie chez Shanghai ARWU.</p></li>
               <li><p><strong>Salaire de sortie</strong>&nbsp;: 53&nbsp;800&nbsp;€ pour la promotion 2023 (sortie 2025), jusqu’à 57&nbsp;637&nbsp;€ pour la promotion 2022, primes comprises.</p></li>
               <li><p><strong>Insertion à 6 mois</strong>&nbsp;: 95&nbsp;%.</p></li>
-              <li><p><strong>Admission</strong>&nbsp;: concours Centrale-Supélec, ouvert aux prépas MP, PC, PSI et TSI — la banque commune à 13 écoles du réseau Centrale.</p></li>
+              <li><p><strong>Admission</strong>&nbsp;: concours Centrale-Supélec, ouvert aux prépas MP, PC, PSI et TSI - la banque commune à 13 écoles du réseau Centrale.</p></li>
               <li><p><strong>Frais de scolarité</strong>&nbsp;: environ 3&nbsp;660&nbsp;€/an (UE), 5&nbsp;900&nbsp;€ hors UE.</p></li>
               <li><p><strong>Campus</strong>&nbsp;: Gif-sur-Yvette (Paris-Saclay), avec des sites à Metz et Rennes.</p></li>
             </ul>
@@ -632,7 +637,7 @@
             <h3>ENSAE Paris</h3>
             <ul>
               <li><p><strong>Classements</strong>&nbsp;: 6ᵉ au Figaro 2026 (16,1/20), 13ᵉ chez L’Étudiant (84,5/119), 8ᵉ au DAUR (64 pts).</p></li>
-              <li><p><strong>Débouchés dominants</strong>&nbsp;: statistique publique, data science, finance quantitative et actuariat — des filières où les salaires de sortie dépassent régulièrement la moyenne CGE.</p></li>
+              <li><p><strong>Débouchés dominants</strong>&nbsp;: statistique publique, data science, finance quantitative et actuariat - des filières où les salaires de sortie dépassent régulièrement la moyenne CGE.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours Mines-Télécom (banque spécifique ENSAE), prépa MP, PC ou PSI&nbsp;; voie économique également possible après une classe prépa ECG ou une licence d’économie.</p></li>
               <li><p><strong>Campus</strong>&nbsp;: Palaiseau, membre de l’IP Paris.</p></li>
             </ul>
@@ -641,7 +646,7 @@
           <div class="fiche">
             <h3>ENSTA (nouvelle entité Paris-Saclay/Brest)</h3>
             <ul>
-              <li><p><strong>Classements</strong>&nbsp;: 7ᵉ ex&nbsp;æquo au Figaro 2026 (16,0/20) — une entrée directe à cette place suite à la fusion ENSTA Paris + ENSTA Bretagne&nbsp;; l’ex-ENSTA Paris était 2ᵉ chez L’Étudiant 2025 (102,0/119), juste derrière Polytechnique.</p></li>
+              <li><p><strong>Classements</strong>&nbsp;: 7ᵉ ex&nbsp;æquo au Figaro 2026 (16,0/20) - une entrée directe à cette place suite à la fusion ENSTA Paris + ENSTA Bretagne&nbsp;; l’ex-ENSTA Paris était 2ᵉ chez L’Étudiant 2025 (102,0/119), juste derrière Polytechnique.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours Mines-Télécom ou X-ENS selon la filière, prépa MP, PC ou PSI.</p></li>
               <li><p><strong>Campus</strong>&nbsp;: Palaiseau et Brest.</p></li>
             </ul>
@@ -651,7 +656,7 @@
             <h3>ISAE-Supaéro</h3>
             <ul>
               <li><p><strong>Classements</strong>&nbsp;: 7ᵉ ex&nbsp;æquo au Figaro 2026 (16,0/20), devant ENSAE au DAUR 2025.</p></li>
-              <li><p><strong>Spécialité</strong>&nbsp;: aéronautique et spatial — débouchés massifs chez Airbus, Dassault Aviation, Thales, le CNES et l’Agence spatiale européenne.</p></li>
+              <li><p><strong>Spécialité</strong>&nbsp;: aéronautique et spatial - débouchés massifs chez Airbus, Dassault Aviation, Thales, le CNES et l’Agence spatiale européenne.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours Mines-Télécom ou X-ENS, prépa MP, PC ou PSI.</p></li>
               <li><p><strong>Campus</strong>&nbsp;: Toulouse.</p></li>
             </ul>
@@ -660,7 +665,7 @@
           <div class="fiche">
             <h3>ESPCI Paris</h3>
             <ul>
-              <li><p><strong>Classements</strong>&nbsp;: 9ᵉ au Figaro 2026 (15,9/20), 15ᵉ ex&nbsp;æquo chez L’Étudiant (82,0/119) — la plus forte progression du top 20 en 2025 (+15 places).</p></li>
+              <li><p><strong>Classements</strong>&nbsp;: 9ᵉ au Figaro 2026 (15,9/20), 15ᵉ ex&nbsp;æquo chez L’Étudiant (82,0/119) - la plus forte progression du top 20 en 2025 (+15 places).</p></li>
               <li><p><strong>Spécialité</strong>&nbsp;: physique et chimie industrielles, forte proportion de doctorants encadrés par des HDR.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours X-ENS-ESPCI, principalement filière PC.</p></li>
               <li><p><strong>Campus</strong>&nbsp;: Paris, membre de PSL.</p></li>
@@ -680,7 +685,7 @@
           <div class="fiche">
             <h3>INSA Lyon (post-bac)</h3>
             <ul>
-              <li><p><strong>Classements</strong>&nbsp;: 1ʳᵉ des écoles post-bac au Figaro 2026 (18,2/20), 14ᵉ au classement général L’Étudiant 2025 (83,0/119) — la seule école post-bac dans le top 20 toutes catégories.</p></li>
+              <li><p><strong>Classements</strong>&nbsp;: 1ʳᵉ des écoles post-bac au Figaro 2026 (18,2/20), 14ᵉ au classement général L’Étudiant 2025 (83,0/119) - la seule école post-bac dans le top 20 toutes catégories.</p></li>
               <li><p><strong>Salaire moyen de départ</strong>&nbsp;: 36&nbsp;000 à 40&nbsp;000&nbsp;€ brut, médiane à 18 mois de 40&nbsp;315&nbsp;€.</p></li>
               <li><p><strong>Insertion à 6 mois</strong>&nbsp;: plus de 80&nbsp;% en CDI, avec près de la moitié des diplômés recrutés dans l’industrie.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: Parcoursup direct après le bac, cursus de 5 ans avec prépa intégrée.</p></li>
@@ -701,19 +706,19 @@
           <p>Avant de choisir une école sur son classement, sa réputation ou son campus, une seule question compte vraiment&nbsp;: <strong>délivre-t-elle un titre d’ingénieur habilité par la CTI&nbsp;?</strong></p>
           <ul>
             <li><p><strong>La CTI (Commission des Titres d’Ingénieur)</strong> est l’organisme indépendant chargé depuis 1934 d’évaluer et d’accréditer les formations d’ingénieurs, en France comme à l’étranger sur demande.</p></li>
-            <li><p><strong>Sans accréditation CTI, pas de titre d’ingénieur diplômé, pas de grade de master reconnu par l’État</strong> — un point rappelé explicitement par L’Étudiant, qui ne classe que des écoles habilitées.</p></li>
+            <li><p><strong>Sans accréditation CTI, pas de titre d’ingénieur diplômé, pas de grade de master reconnu par l’État</strong> - un point rappelé explicitement par L’Étudiant, qui ne classe que des écoles habilitées.</p></li>
             <li><p><strong>Procédure différente selon le statut</strong>&nbsp;: pour les établissements publics, la CTI émet un avis transmis au ministère qui décide&nbsp;; pour les établissements privés, la CTI rend directement une décision d’accréditation.</p></li>
             <li><p><strong>Durée maximale de 5 ans</strong>, avec réévaluation périodique. Si certains critères ne sont pas remplis, l’accréditation peut être accordée pour une durée plus courte, assortie de mesures correctives.</p></li>
             <li><p><strong>L’arrêté ministériel du 11 décembre 2025</strong> fixe la liste officielle des écoles accréditées pour la rentrée 2026, sur la base du référentiel R&amp;O (Référentiel et critères majeurs d’accréditation) version 2025, approuvé en séance plénière le 12 mars 2025.</p></li>
             <li><p><strong>Le label EUR-ACE</strong>, délivré par la CTI au nom du réseau européen ENAEE, ajoute une reconnaissance européenne à certaines formations.</p></li>
           </ul>
-          <p>Toutes les écoles de ce classement — Polytechnique, Mines Paris-PSL, CentraleSupélec, Ponts ParisTech, Télécom Paris, ENSAE, ENSTA, ISAE-Supaéro, ESPCI, Chimie ParisTech, INSA Lyon, UTC Compiègne — sont accréditées CTI. C’est la condition de base, pas un critère différenciant&nbsp;: le vrai jeu se joue ensuite, sur le salaire, l’insertion et le réseau.</p>
+          <p>Toutes les écoles de ce classement - Polytechnique, Mines Paris-PSL, CentraleSupélec, Ponts ParisTech, Télécom Paris, ENSAE, ENSTA, ISAE-Supaéro, ESPCI, Chimie ParisTech, INSA Lyon, UTC Compiègne - sont accréditées CTI. C’est la condition de base, pas un critère différenciant&nbsp;: le vrai jeu se joue ensuite, sur le salaire, l’insertion et le réseau.</p>
 
           <h2 id="salaires">Salaires 2025&nbsp;: ce que révèlent vraiment les chiffres CGE</h2>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp"
+              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp" srcset="/assets/img/jeune-diplome-costume-finance-480.webp 480w, /assets/img/jeune-diplome-costume-finance-960.webp 960w, /assets/img/jeune-diplome-costume-finance.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Jeune ingénieur en costume avant un entretien, symbole des salaires de sortie" width="1400" height="788">
             </div>
             <figcaption>Conseil, numérique, BTP&nbsp;: les trois premiers secteurs recruteurs d’ingénieurs</figcaption>
@@ -721,9 +726,9 @@
 
           <ul>
             <li><p><strong>Salaire moyen national des ingénieurs, hors primes (CGE 2025)</strong>&nbsp;: <strong>39&nbsp;129&nbsp;€</strong> brut annuel, en légère hausse par rapport à 2024 (39&nbsp;010&nbsp;€).</p></li>
-            <li><p><strong>Comparaison avec les écoles de management</strong>&nbsp;: les managers gagnent en moyenne 41&nbsp;103&nbsp;€ hors primes, soit environ 2&nbsp;000&nbsp;€ de plus que les ingénieurs — un écart qui s’inverse largement dès qu’on regarde les écoles du haut de tableau.</p></li>
+            <li><p><strong>Comparaison avec les écoles de management</strong>&nbsp;: les managers gagnent en moyenne 41&nbsp;103&nbsp;€ hors primes, soit environ 2&nbsp;000&nbsp;€ de plus que les ingénieurs - un écart qui s’inverse largement dès qu’on regarde les écoles du haut de tableau.</p></li>
             <li><p><strong>Écart selon le groupe d’école</strong>&nbsp;: médiane à 43&nbsp;500&nbsp;€ pour les écoles du groupe 1 (Polytechnique, Mines Paris, CentraleSupélec…), 41&nbsp;500&nbsp;€ pour le groupe 2, 40&nbsp;500&nbsp;€ pour le groupe 3.</p></li>
-            <li><p><strong>Écart femmes-hommes</strong>&nbsp;: les ingénieures gagnent en moyenne 4,9&nbsp;% de moins que leurs homologues masculins un an après le diplôme — un écart qui persiste chaque année, sans se résorber.</p></li>
+            <li><p><strong>Écart femmes-hommes</strong>&nbsp;: les ingénieures gagnent en moyenne 4,9&nbsp;% de moins que leurs homologues masculins un an après le diplôme - un écart qui persiste chaque année, sans se résorber.</p></li>
             <li><p><strong>Salaire des apprentis (promotion 2024)</strong>&nbsp;: 39&nbsp;047&nbsp;€ hors primes en moyenne, un niveau très proche de la moyenne générale.</p></li>
             <li><p><strong>Salaire des thèses Cifre</strong>&nbsp;: 34&nbsp;799&nbsp;€ en moyenne, 27&nbsp;% de plus qu’une thèse académique classique hors dispositif Cifre.</p></li>
             <li><p><strong>Secteurs qui recrutent le plus d’ingénieurs (CGE 2025)</strong>&nbsp;: conseil (26,7&nbsp;%), TIC et services numériques (15,8&nbsp;%), construction-BTP (8,4&nbsp;%).</p></li>
@@ -732,11 +737,11 @@
 
           <h2 id="insertion">Insertion professionnelle&nbsp;: un marché plus tendu, mais des écarts énormes</h2>
           <ul>
-            <li><p><strong>Taux net d’emploi moyen (CGE 2025, ingénieurs)</strong>&nbsp;: <strong>83,3&nbsp;%</strong> — un chiffre nettement supérieur à la moyenne toutes filières confondues (80,2&nbsp;%), qui confirme la meilleure employabilité relative des diplômés d’ingénieurs.</p></li>
+            <li><p><strong>Taux net d’emploi moyen (CGE 2025, ingénieurs)</strong>&nbsp;: <strong>83,3&nbsp;%</strong> - un chiffre nettement supérieur à la moyenne toutes filières confondues (80,2&nbsp;%), qui confirme la meilleure employabilité relative des diplômés d’ingénieurs.</p></li>
             <li><p><strong>Le contraste par école est spectaculaire</strong>&nbsp;: de 80&nbsp;% (INSA Lyon) à 99&nbsp;% (Mines Paris-PSL), un écart de près de 20 points entre deux écoles pourtant toutes deux accréditées CTI et bien classées.</p></li>
             <li><p><strong>Mines Paris-PSL (99&nbsp;%), Télécom Paris (98&nbsp;%), Arts et Métiers (97&nbsp;% en moins de 2 mois) et Ponts ParisTech (96&nbsp;%)</strong> forment le peloton de tête de l’insertion rapide.</p></li>
             <li><p><strong>CentraleSupélec (95&nbsp;%) et Polytechnique (89&nbsp;%)</strong> restent au-dessus de la moyenne nationale, malgré un contexte de recrutement cadre en repli.</p></li>
-            <li><p><strong>Marché de l’emploi cadre en recul</strong>&nbsp;: selon l’APEC, les recrutements ont chuté de 8&nbsp;% en 2024 après le pic de 2023, avec une baisse supplémentaire anticipée en 2025 — un contexte qui explique le tassement général des taux d’insertion, sans remettre en cause la hiérarchie des écoles.</p></li>
+            <li><p><strong>Marché de l’emploi cadre en recul</strong>&nbsp;: selon l’APEC, les recrutements ont chuté de 8&nbsp;% en 2024 après le pic de 2023, avec une baisse supplémentaire anticipée en 2025 - un contexte qui explique le tassement général des taux d’insertion, sans remettre en cause la hiérarchie des écoles.</p></li>
             <li><p><strong>Voie d’accès à l’emploi la plus efficace</strong>&nbsp;: le stage de fin d’études et l’alternance, cités par 40,7&nbsp;% des diplômés comme porte d’entrée vers leur premier poste.</p></li>
           </ul>
 
@@ -745,7 +750,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp"
+              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp" srcset="/assets/img/etudiant-prise-de-notes-concours-480.webp 480w, /assets/img/etudiant-prise-de-notes-concours-960.webp 960w, /assets/img/etudiant-prise-de-notes-concours.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Candidat révisant pour les concours d'écoles d'ingénieurs" width="1400" height="788">
             </div>
             <figcaption>Inscriptions SCEI en décembre, écrits fin avril, résultats fin juillet</figcaption>
@@ -802,7 +807,7 @@
               </details>
               <details>
                 <summary>Pourquoi l’accréditation CTI est-elle si importante&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Sans accréditation de la Commission des Titres d’Ingénieur, une école ne peut légalement délivrer ni le titre d’ingénieur diplômé, ni le grade de master reconnu par l’État. C’est un prérequis binaire, valable 5 ans maximum et réévalué périodiquement — toutes les écoles classées dans cet article en disposent.</p>
+                <p class="answer">Sans accréditation de la Commission des Titres d’Ingénieur, une école ne peut légalement délivrer ni le titre d’ingénieur diplômé, ni le grade de master reconnu par l’État. C’est un prérequis binaire, valable 5 ans maximum et réévalué périodiquement - toutes les écoles classées dans cet article en disposent.</p>
               </details>
               <details>
                 <summary>Quelle école choisir selon le secteur visé&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -810,7 +815,7 @@
               </details>
               <details>
                 <summary>Concours Mines-Télécom, CCINP ou X-ENS&nbsp;: lequel choisir&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Cela dépend des écoles visées et de votre filière de prépa. Mines-Télécom (banque Mines-Ponts) ouvre Mines Paris-PSL, Ponts ParisTech, Télécom Paris et ENSAE. Centrale-Supélec ouvre 13 écoles du réseau Centrale. Le CCINP couvre une trentaine d’écoles des instituts nationaux polytechniques. X-ENS est réservé à Polytechnique, l’ENS et l’ESPCI. Rien n’empêche de s’inscrire à plusieurs concours simultanément — la majorité des candidats de prépa le font.</p>
+                <p class="answer">Cela dépend des écoles visées et de votre filière de prépa. Mines-Télécom (banque Mines-Ponts) ouvre Mines Paris-PSL, Ponts ParisTech, Télécom Paris et ENSAE. Centrale-Supélec ouvre 13 écoles du réseau Centrale. Le CCINP couvre une trentaine d’écoles des instituts nationaux polytechniques. X-ENS est réservé à Polytechnique, l’ENS et l’ESPCI. Rien n’empêche de s’inscrire à plusieurs concours simultanément - la majorité des candidats de prépa le font.</p>
               </details>
             </div>
           </div>
@@ -818,15 +823,15 @@
           <h2 id="sources">Sources</h2>
           <div class="sources">
             <ol>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://etudiant.lefigaro.fr/article/etudes/decouvrez-le-palmares-2026-du-figaro-des-meilleures-ecoles-d-ingenieurs-polytechnique-les-mines-et-centralesupelec-en-tete-20251117/">Classement 2026 du Figaro Étudiant des écoles d’ingénieurs</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.letudiant.fr/educpros/actualite/classement-2025-des-ecoles-dingenieurs-polytechnique-et-ensta-paris-toujours-en-tete-imt-atlantique-progresse.html">Classement 2025 des écoles d’ingénieurs — L’Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.daur-rankings.com/rankings/engineering_school/2025">DAUR Rankings 2025 — Écoles d’ingénieurs</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.usinenouvelle.com/editorial/les-ecoles-d-ingenieurs-qui-offrent-les-meilleurs-salaires-de-sortie-en-2025-sont.N2226011">L’Usine Nouvelle — Les écoles d’ingénieurs qui offrent les meilleurs salaires de sortie en 2025</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.shanghairanking.com/rankings/arwu/2025">Classement de Shanghai ARWU 2025</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cge.asso.fr/wp-content/uploads/2025/06/CP-CGE-Enque%CC%82te-Insertion-2025.pdf">Enquête Insertion 2025 — Conférence des Grandes Écoles (CGE)</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cti-commission.fr/accreditation">Commission des Titres d’Ingénieur (CTI) — Accréditation</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.concours-mines-telecom.fr/le-concours-mines-telecom/les-dates-cles/">Concours Mines-Télécom — Dates clés</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://ecoledesponts.fr/sites/default/files/inline-images/synthese_enquete_insertion_2025.pdf">Synthèse enquête insertion 2025 — École des Ponts ParisTech</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://etudiant.lefigaro.fr/article/etudes/decouvrez-le-palmares-2026-du-figaro-des-meilleures-ecoles-d-ingenieurs-polytechnique-les-mines-et-centralesupelec-en-tete-20251117/">Classement 2026 du Figaro Étudiant des écoles d’ingénieurs</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.letudiant.fr/educpros/actualite/classement-2025-des-ecoles-dingenieurs-polytechnique-et-ensta-paris-toujours-en-tete-imt-atlantique-progresse.html">Classement 2025 des écoles d’ingénieurs - L’Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.daur-rankings.com/rankings/engineering_school/2025">DAUR Rankings 2025 - Écoles d’ingénieurs</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.usinenouvelle.com/editorial/les-ecoles-d-ingenieurs-qui-offrent-les-meilleurs-salaires-de-sortie-en-2025-sont.N2226011">L’Usine Nouvelle - Les écoles d’ingénieurs qui offrent les meilleurs salaires de sortie en 2025</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.shanghairanking.com/rankings/arwu/2025">Classement de Shanghai ARWU 2025</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cge.asso.fr/wp-content/uploads/2025/06/CP-CGE-Enque%CC%82te-Insertion-2025.pdf">Enquête Insertion 2025 - Conférence des Grandes Écoles (CGE)</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cti-commission.fr/accreditation">Commission des Titres d’Ingénieur (CTI) - Accréditation</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.concours-mines-telecom.fr/le-concours-mines-telecom/les-dates-cles/">Concours Mines-Télécom - Dates clés</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://ecoledesponts.fr/sites/default/files/inline-images/synthese_enquete_insertion_2025.pdf">Synthèse enquête insertion 2025 - École des Ponts ParisTech</a></li>
             </ol>
           </div>
 
@@ -932,7 +937,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -954,7 +959,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -967,8 +972,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){
@@ -1019,20 +1024,20 @@
         { id:'terminale', label:'Terminale / Bac en poche', voie:'La voie post-bac, via Parcoursup', points:[
           'Candidature directe sur Parcoursup : INSA (Lyon, Toulouse, Rennes, Strasbourg, Rouen…), UTC, UTT, UTBM, réseau Polytech (~30 écoles) et prépas intégrées privées (ECE, ESME, ESIGELEC…).',
           'Têtes de liste au Figaro 2026 : INSA Lyon (18,2/20) et UTC Compiègne (17/20).',
-          'Cursus de 5 ans avec prépa intégrée — aucun concours de CPGE à passer.',
+          'Cursus de 5 ans avec prépa intégrée - aucun concours de CPGE à passer.',
           'Autre stratégie : viser une CPGE scientifique (MP, PC, PSI…) pour tenter le top 10 post-prépa dans deux ans.'
         ]},
         { id:'prepa', label:'Prépa scientifique (2ᵉ année)', hasFiliere:true },
         { id:'sup', label:'Bac+1 à Bac+4 (BTS, BUT, licence…)', voie:'Les admissions parallèles', points:[
           'Concours Advance Parallèle : EPITA, ESME, IPSA et Sup’Biotech, candidatures en février-mars (Bac+1 à Bac+3 et plus).',
-          'AvenirPlus : 7 écoles (Builders, ECE, EIGSI, EPF, ESIGELEC, ESILV, ESTACA) pour les profils Bac+1 à Bac+4 — BTS, BUT, licence, PASS, LAS.',
+          'AvenirPlus : 7 écoles (Builders, ECE, EIGSI, EPF, ESIGELEC, ESILV, ESTACA) pour les profils Bac+1 à Bac+4 - BTS, BUT, licence, PASS, LAS.',
           'Admissions propres de certaines écoles publiques (ex. ENSICAEN), en 1ʳᵉ ou 2ᵉ année du cycle ingénieur.',
           'Environ 15 000 places ouvertes chaque année via l’ensemble des admissions parallèles.'
         ]}
       ];
       var FILIERES = [
         { id:'mp', label:'MP / MPI', voie:'Tous les grands concours post-prépa', points:[
-          'X-ENS : Polytechnique, ENS et ESPCI — attention à la condition d’âge stricte pour l’X (17 à moins de 22 ans au 1ᵉʳ janvier).',
+          'X-ENS : Polytechnique, ENS et ESPCI - attention à la condition d’âge stricte pour l’X (17 à moins de 22 ans au 1ᵉʳ janvier).',
           'Mines-Télécom (banque Mines-Ponts) : Mines Paris-PSL, Ponts ParisTech, Télécom Paris, ENSAE Paris.',
           'Centrale-Supélec : 13 écoles du réseau Centrale, dont CentraleSupélec.',
           'CCINP (~30 écoles des INP) et e3a-Polytech (Polytech + Avenir Prépas) complètent l’éventail.',

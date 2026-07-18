@@ -1,4 +1,4 @@
-/* Le Journal des Écoles — moteur de recherche client (site statique).
+/* Le Journal des Écoles - moteur de recherche client (site statique).
    Index : /assets/search-index.json. Utilisé par l'overlay (suggestions
    instantanées) et par la page /recherche/ (résultats complets). */
 (function () {
@@ -58,7 +58,7 @@
     });
   }
 
-  /* — suggestions instantanées dans l'overlay de recherche — */
+  /* - suggestions instantanées dans l'overlay de recherche - */
   function bindOverlay(inputEl, listEl) {
     if (!inputEl || !listEl) return;
     var timer = null;

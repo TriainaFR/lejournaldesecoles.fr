@@ -7,6 +7,7 @@
   <meta name="description" content="Palmarès 2026 des écoles post-bac : IÉSEG, ESSCA, EM Normandie - Indice Sélectivité Réelle exclusif croisant classement et taux d'admission ACCÈS/SESAME.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/classement-ecoles-commerce-post-bac-admission-selectivite/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -21,10 +22,9 @@
   <meta property="article:section" content="Classements">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
   {
@@ -39,6 +39,7 @@
         "datePublished": "2026-07-18",
         "dateModified": "2026-07-18",
         "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
         "articleSection": "Classements",
         "about": ["Écoles de commerce post-bac", "IÉSEG", "ESSCA", "EM Normandie", "Concours ACCÈS", "Concours SESAME", "Indice Sélectivité Réelle"],
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
@@ -131,6 +132,23 @@
         ]
       },
       {
+        "@type": "Dataset",
+        "@id": "https://lejournaldesecoles.fr/classement-ecoles-commerce-post-bac-admission-selectivite/#dataset",
+        "name": "Indice Sélectivité Réelle 2026 - écoles de commerce post-bac",
+        "description": "Croisement propriétaire du Journal des Écoles entre le rang qualité (Figaro Étudiant 2026) et le taux d'admission réel (candidats admis ÷ candidats inscrits, session 2025) des concours ACCÈS, SESAME et Parcoursup, pour cinq écoles de commerce post-bac. De ~11,5 % (EM Normandie) à ~85 % (Excelia Bachelor).",
+        "url": "https://lejournaldesecoles.fr/classement-ecoles-commerce-post-bac-admission-selectivite/#selectivite",
+        "creator": { "@id": "https://lejournaldesecoles.fr/#organization" },
+        "isPartOf": { "@id": "https://lejournaldesecoles.fr/classement-ecoles-commerce-post-bac-admission-selectivite/#article" },
+        "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-07-18",
+        "temporalCoverage": "2025/2026",
+        "spatialCoverage": "France",
+        "variableMeasured": "Taux d'admission réel (candidats admis ÷ candidats inscrits) croisé avec le rang qualité Figaro Étudiant",
+        "measurementMethod": "Données publiques exclusivement : frais de scolarité officiels publiés par chaque école, enquêtes d'insertion (CGE, écoles) et volumes d'admission publiés par les concours et Parcoursup. Méthodologie détaillée : https://lejournaldesecoles.fr/notre-histoire/#methode",
+        "license": "https://lejournaldesecoles.fr/mentions-legales/#propriete"
+      },
+      {
         "@type": "Person",
         "@id": "https://lejournaldesecoles.fr/#charlotte-montant",
         "name": "Charlotte Montant",
@@ -144,8 +162,12 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/favicon.svg" },
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
         "foundingDate": "2026",
+        "areaServed": "FR",
+        "publishingPrinciples": "https://lejournaldesecoles.fr/notre-histoire/",
+        "correctionsPolicy": "https://lejournaldesecoles.fr/contact-partenariats/#signaler",
+        "actionableFeedbackPolicy": "https://lejournaldesecoles.fr/contact-partenariats/",
         "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
         "contactPoint": [{ "@type": "ContactPoint", "contactType": "partnerships", "email": "lucas@yonder.fr", "availableLanguage": "French" }],
         "sameAs": [
@@ -398,7 +420,7 @@
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -415,7 +437,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -447,7 +469,7 @@
         <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Publié le <time datetime="2026-07-18">18 juillet 2026</time><i>◆</i>Lecture 16 min</p>
         <figure class="article-hero">
           <div class="imgbox">
-            <img src="/assets/img/etudiant-prise-de-notes-concours.webp"
+            <img src="/assets/img/etudiant-prise-de-notes-concours.webp" srcset="/assets/img/etudiant-prise-de-notes-concours-480.webp 480w, /assets/img/etudiant-prise-de-notes-concours-960.webp 960w, /assets/img/etudiant-prise-de-notes-concours.webp 1600w" sizes="(max-width: 1280px) 100vw, 1240px"
                  alt="Candidat prenant des notes pendant sa préparation aux concours ACCÈS et SESAME" width="1600" height="686" fetchpriority="high">
           </div>
           <figcaption>Concours ACCÈS et SESAME - © Le Journal des Écoles</figcaption>
@@ -603,7 +625,7 @@
             </div>
             <div class="out">
               <span class="ratio" id="sim-taux">~24&nbsp;%</span>
-              <p class="verdict" id="sim-verdict"></p>
+              <p class="verdict" id="sim-verdict">À l’IÉSEG, via le concours ACCÈS, le taux d’admission publié est d’environ <b>16&nbsp;%</b>. Avec ce profil de dossier, notre repère indicatif se situe autour de <b>24&nbsp;%</b>, soit environ 1 chance sur 4. Jouable avec une vraie préparation : soignez le dossier, les épreuves éventuelles et l’entretien.</p>
             </div>
             <p class="src">Indice Sélectivité Réelle - repère indicatif du Journal des Écoles, construit à partir des taux d’admission publiés (ACCÈS, SESAME, Parcoursup, session 2025). Ce n’est pas une prédiction individuelle&nbsp;: les jurys évaluent des épreuves, un dossier et un entretien, pas un multiplicateur.</p>
           </div>
@@ -657,7 +679,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp"
+              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp" srcset="/assets/img/jeune-diplome-costume-finance-480.webp 480w, /assets/img/jeune-diplome-costume-finance-960.webp 960w, /assets/img/jeune-diplome-costume-finance.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Jeune diplômé en costume, premier poste après une école de commerce post-bac" width="1400" height="788">
             </div>
             <figcaption>De 35&nbsp;000 à plus de 51&nbsp;750&nbsp;€ primes incluses&nbsp;: l’éventail des salaires de sortie</figcaption>
@@ -698,7 +720,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/quartier-affaires-tours.webp"
+              <img loading="lazy" src="/assets/img/quartier-affaires-tours.webp" srcset="/assets/img/quartier-affaires-tours-480.webp 480w, /assets/img/quartier-affaires-tours-960.webp 960w, /assets/img/quartier-affaires-tours.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Tours de bureaux d'un quartier d'affaires, débouchés des écoles de commerce post-bac" width="1400" height="788">
             </div>
             <figcaption>ACCÈS, SESAME, Parcoursup&nbsp;: trois portes d’entrée, des sélectivités très contrastées</figcaption>
@@ -773,14 +795,14 @@
           <h2 id="sources">Sources</h2>
           <div class="sources">
             <ol>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://etudiant.lefigaro.fr/etudes/ecoles-de-commerce/classement-post-bac/">Classement des écoles de commerce post-bac - Le Figaro Étudiant 2026</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.letudiant.fr/classements/classement-des-grandes-ecoles-de-commerce-post-bac.html">Classement 2026 des grandes écoles de commerce post-bac - L’Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cge.asso.fr/publications/enquete-insertion-cge-2025-rapport/">Enquête Insertion 2025, rapport complet - Conférence des Grandes Écoles (CGE)</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.ieseg.fr/news/insertion-professionnelle-enquete-cge-2025/">Insertion professionnelle, enquête CGE 2025 - IÉSEG</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.essca.eu/actualites/debouches-salaires-insertion-programme-grande-ecole-essca/">Débouchés, salaires et insertion du Programme Grande École - ESSCA</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.em-normandie.com/programmes/programme-grande-ecole/programme-grande-ecole-en-5-ans">Programme Grande École en 5 ans - EM Normandie</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://dossier.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=26109">Fiche formation EM Normandie - Parcoursup</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.chooseandconnect.com/blog/etudes-diplomes/ecoles-de-commerce-post-bac-decrypter-les-classements-et-ce-qu-ils-ne-disent-pas">Écoles de commerce post-bac&nbsp;: décrypter les classements et ce qu’ils ne disent pas - Choose and Connect</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://etudiant.lefigaro.fr/etudes/ecoles-de-commerce/classement-post-bac/">Classement des écoles de commerce post-bac - Le Figaro Étudiant 2026</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.letudiant.fr/classements/classement-des-grandes-ecoles-de-commerce-post-bac.html">Classement 2026 des grandes écoles de commerce post-bac - L’Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cge.asso.fr/publications/enquete-insertion-cge-2025-rapport/">Enquête Insertion 2025, rapport complet - Conférence des Grandes Écoles (CGE)</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.ieseg.fr/news/insertion-professionnelle-enquete-cge-2025/">Insertion professionnelle, enquête CGE 2025 - IÉSEG</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.essca.eu/actualites/debouches-salaires-insertion-programme-grande-ecole-essca/">Débouchés, salaires et insertion du Programme Grande École - ESSCA</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.em-normandie.com/programmes/programme-grande-ecole/programme-grande-ecole-en-5-ans">Programme Grande École en 5 ans - EM Normandie</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://dossier.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=26109">Fiche formation EM Normandie - Parcoursup</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.chooseandconnect.com/blog/etudes-diplomes/ecoles-de-commerce-post-bac-decrypter-les-classements-et-ce-qu-ils-ne-disent-pas">Écoles de commerce post-bac&nbsp;: décrypter les classements et ce qu’ils ne disent pas - Choose and Connect</a></li>
             </ol>
           </div>
 
@@ -884,7 +906,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -906,7 +928,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -919,8 +941,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){

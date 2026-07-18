@@ -7,6 +7,7 @@
   <meta name="description" content="Le Journal des Écoles : média d'orientation indépendant fondé en 2026. Notre mission, notre méthode (Indice ROI), notre indépendance éditoriale.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/notre-histoire/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -17,10 +18,9 @@
   <meta property="og:image" content="https://lejournaldesecoles.fr/assets/img/presse-journaux-communication.webp">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
   {
@@ -50,6 +50,14 @@
         ]
       },
       {
+        "@type": "WebSite",
+        "@id": "https://lejournaldesecoles.fr/#website",
+        "url": "https://lejournaldesecoles.fr/",
+        "name": "Le Journal des Écoles",
+        "inLanguage": "fr-FR",
+        "publisher": { "@id": "https://lejournaldesecoles.fr/#organization" }
+      },
+      {
         "@type": "BreadcrumbList",
         "@id": "https://lejournaldesecoles.fr/notre-histoire/#breadcrumb",
         "itemListElement": [
@@ -69,7 +77,7 @@
           {
             "@type": "Question",
             "name": "Comment choisissez-vous les écoles présentées dans vos classements ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Nous nous appuyons sur les palmarès de référence déjà publiés (L'Étudiant, Figaro Étudiant, QS) pour établir la liste des écoles couvertes, puis nous ajoutons notre propre analyse : Indice ROI, mise en perspective des frais de scolarité, croisement avec les enquêtes d'insertion de la CGE et de l'APEC. Nous ne construisons pas de classement à partir de rien — nous enrichissons ce qui existe déjà avec une couche de données publiques inédite." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Nous nous appuyons sur les palmarès de référence déjà publiés (L'Étudiant, Figaro Étudiant, QS) pour établir la liste des écoles couvertes, puis nous ajoutons notre propre analyse : Indice ROI, mise en perspective des frais de scolarité, croisement avec les enquêtes d'insertion de la CGE et de l'APEC. Nous ne construisons pas de classement à partir de rien - nous enrichissons ce qui existe déjà avec une couche de données publiques inédite." }
           },
           {
             "@type": "Question",
@@ -79,7 +87,7 @@
           {
             "@type": "Question",
             "name": "Comment proposer une collaboration ou un partenariat ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Écrivez à lucas@yonder.fr. Toute collaboration acceptée sera explicitement mentionnée sur la page concernée — jamais sous forme de contenu sponsorisé non identifié — et ne modifie jamais le calcul d'un indice ROI ni un classement affiché." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Écrivez à lucas@yonder.fr. Toute collaboration acceptée sera explicitement mentionnée sur la page concernée - jamais sous forme de contenu sponsorisé non identifié - et ne modifie jamais le calcul d'un indice ROI ni un classement affiché." }
           },
           {
             "@type": "Question",
@@ -93,7 +101,7 @@
         "@id": "https://lejournaldesecoles.fr/#charlotte-montant",
         "name": "Charlotte Montant",
         "jobTitle": "Rédactrice et Consultante",
-        "description": "Conçoit, rédige et met à jour l'ensemble des analyses publiées sur Le Journal des Écoles — du choix des sources à la construction des indices ROI, jusqu'à la vérification des frais de scolarité et des chiffres d'insertion école par école.",
+        "description": "Conçoit, rédige et met à jour l'ensemble des analyses publiées sur Le Journal des Écoles - du choix des sources à la construction des indices ROI, jusqu'à la vérification des frais de scolarité et des chiffres d'insertion école par école.",
         "knowsAbout": ["Enseignement supérieur", "Écoles de commerce", "Écoles d'ingénieurs", "Écoles de design", "Écoles de communication", "Classements d'écoles", "Orientation", "Indice ROI"],
         "worksFor": { "@id": "https://lejournaldesecoles.fr/#organization" },
         "sameAs": ["https://www.linkedin.com/in/charlotte-montant-3b6393402/"]
@@ -103,8 +111,8 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/favicon.svg" },
-        "description": "Média d'orientation indépendant fondé en 2026 : classements et décryptages des écoles supérieures françaises — commerce, ingénieurs, design, communication — sur des critères publics et mesurables.",
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
+        "description": "Média d'orientation indépendant fondé en 2026 : classements et décryptages des écoles supérieures françaises - commerce, ingénieurs, design, communication - sur des critères publics et mesurables.",
         "foundingDate": "2026",
         "areaServed": "FR",
         "knowsAbout": ["Écoles de commerce", "Écoles d'ingénieurs", "Écoles de design", "Écoles de communication", "Classements de l'enseignement supérieur", "Orientation", "Parcoursup", "Insertion professionnelle", "Salaires de sortie"],
@@ -335,7 +343,7 @@
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -352,7 +360,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -379,7 +387,7 @@
         </nav>
         <span class="kicker kicker--marine">Le Journal des Écoles</span>
         <h1>Notre histoire</h1>
-        <p class="standfirst">Un média d’orientation indépendant, fondé en 2026, qui classe et décrypte les écoles supérieures françaises sur des critères publics et mesurables — pour que les familles choisissent une école en fonction de l’insertion réelle et du salaire de sortie, pas de la réputation.</p>
+        <p class="standfirst">Un média d’orientation indépendant, fondé en 2026, qui classe et décrypte les écoles supérieures françaises sur des critères publics et mesurables - pour que les familles choisissent une école en fonction de l’insertion réelle et du salaire de sortie, pas de la réputation.</p>
         <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Publié le <time datetime="2026-07-18">18 juillet 2026</time><i>◆</i>Lecture 8 min</p>
 
         <!-- fiche auteure en tête de page (E-E-A-T) -->
@@ -387,7 +395,7 @@
           <div class="avatar" aria-hidden="true">CM</div>
           <div class="who">
             <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>
-            <span>Rédactrice et consultante — l’autrice de toutes les analyses du site</span>
+            <span>Rédactrice et consultante - l’autrice de toutes les analyses du site</span>
             <p>Conçoit, rédige et met à jour l’ensemble des contenus du Journal des Écoles : choix des sources, construction des indices ROI, vérification des frais de scolarité et des chiffres d’insertion, école par école. Profil public et vérifiable sur <a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">LinkedIn</a>.</p>
           </div>
         </div>
@@ -402,10 +410,10 @@
 
           <section class="essentiel" id="essentiel">
             <h2>L’essentiel à retenir</h2>
-            <p>Le Journal des Écoles est un média d’orientation indépendant, fondé en 2026. Notre mission tient en une phrase&nbsp;: classer et décrypter les écoles supérieures françaises — commerce, ingénieurs, design, communication — sur des critères publics et mesurables, pour que les familles choisissent une école en fonction de l’insertion professionnelle réelle et du salaire de sortie, pas de la réputation ou du bouche-à-oreille.</p>
+            <p>Le Journal des Écoles est un média d’orientation indépendant, fondé en 2026. Notre mission tient en une phrase&nbsp;: classer et décrypter les écoles supérieures françaises - commerce, ingénieurs, design, communication - sur des critères publics et mesurables, pour que les familles choisissent une école en fonction de l’insertion professionnelle réelle et du salaire de sortie, pas de la réputation ou du bouche-à-oreille.</p>
             <p><strong>Concrètement&nbsp;:</strong></p>
             <ul>
-              <li><p><strong>Une doctrine, pas une simple compilation</strong>&nbsp;: nous avons construit un indice maison, l’<strong>Indice ROI</strong>, qui croise frais de scolarité et salaires réels, école par école. Déjà décliné au design et à la communication, il le sera à chaque filière que nous couvrons — commerce et ingénieurs à suivre.</p></li>
+              <li><p><strong>Une doctrine, pas une simple compilation</strong>&nbsp;: nous avons construit un indice maison, l’<strong>Indice ROI</strong>, qui croise frais de scolarité et salaires réels, école par école. Déjà décliné au design et à la communication, il le sera à chaque filière que nous couvrons - commerce et ingénieurs à suivre.</p></li>
               <li><p><strong>Des sources publiques uniquement</strong>&nbsp;: SIES, CTI, INSEE, Conférence des Grandes Écoles (CGE), APEC, complétées par les palmarès de référence (L’Étudiant, Figaro Étudiant, QS).</p></li>
               <li><p><strong>Une autrice identifiée</strong>&nbsp;: Charlotte Montant, rédactrice et consultante, signe chaque analyse. Pas d’équipe anonyme, pas de contenu généré sans supervision éditoriale.</p></li>
               <li><p><strong>Une indépendance totale</strong>&nbsp;: aucune école ne paie pour être mieux classée sur ce site. La méthodologie est publique et vérifiable dans chaque article.</p></li>
@@ -421,23 +429,23 @@
 
           <h2 id="pourquoi">Pourquoi ce média existe</h2>
           <p class="lede">Le constat de départ est simple, et il nous a occupés pendant des mois avant même d’écrire la première ligne&nbsp;: les classements existants sont utiles, mais ils s’arrêtent trop souvent à l’agrégation.</p>
-          <p>L’Étudiant et le Figaro Étudiant font un travail rigoureux de collecte de données — qualité académique, insertion, rayonnement international. On s’appuie d’ailleurs sur ces palmarès dans chacun de nos articles, et on ne prétend pas les remplacer. Mais une fois les notes sur 20 publiées, ces médias prennent rarement position. Ils listent, ils pondèrent, ils publient un tableau. Ils ne disent pas&nbsp;: «&nbsp;voici ce que ce chiffre signifie concrètement pour votre portefeuille et votre carrière.&nbsp;»</p>
+          <p>L’Étudiant et le Figaro Étudiant font un travail rigoureux de collecte de données - qualité académique, insertion, rayonnement international. On s’appuie d’ailleurs sur ces palmarès dans chacun de nos articles, et on ne prétend pas les remplacer. Mais une fois les notes sur 20 publiées, ces médias prennent rarement position. Ils listent, ils pondèrent, ils publient un tableau. Ils ne disent pas&nbsp;: «&nbsp;voici ce que ce chiffre signifie concrètement pour votre portefeuille et votre carrière.&nbsp;»</p>
 
           <div class="edito">
             <span class="kicker">Notre prise de position</span>
-            <p>C’est le vide que le Journal des Écoles occupe. Un tableau de notes sur 20 ne répond pas à la question que se posent réellement les familles&nbsp;: cette école vaut-elle son prix, pour ce projet, pour ce métier&nbsp;? Notre travail commence là où l’agrégation s’arrête — croiser, calculer, prendre position, et l’assumer en signant.</p>
+            <p>C’est le vide que le Journal des Écoles occupe. Un tableau de notes sur 20 ne répond pas à la question que se posent réellement les familles&nbsp;: cette école vaut-elle son prix, pour ce projet, pour ce métier&nbsp;? Notre travail commence là où l’agrégation s’arrête - croiser, calculer, prendre position, et l’assumer en signant.</p>
             <p class="sig">Signé <b>Charlotte Montant</b>, pour la rédaction</p>
           </div>
 
           <p><strong>Notre différence tient à deux choses&nbsp;:</strong></p>
           <ol class="steps">
-            <li>Nous croisons des données publiques que personne d’autre ne met bout à bout de cette façon — les enquêtes d’insertion du SIES et de la CGE, les référentiels d’accréditation de la CTI, les statistiques INSEE sur les salaires par filière, les études de rémunération de l’APEC.</li>
-            <li>Nous publions des indices maison, nommés, et réutilisés d’article en article. L’<a href="/classement-meilleures-ecoles-design-france/#roi">Indice ROI Design</a> et l’<a href="/classement-meilleures-ecoles-communication-france/#roi">Indice ROI Communication</a> — bientôt déclinés au commerce et aux ingénieurs — deviennent une doctrine reconnaissable, un peu comme le <a href="/classement-meilleures-ecoles-commerce-france/#methodologie">SIGEM</a> est devenu, au fil des années, le raccourci universellement compris pour désigner la préférence révélée des étudiants bi-admis à l’issue des concours post-prépa des écoles de commerce. On veut que «&nbsp;ROI Design&nbsp;» ou «&nbsp;ROI Communication&nbsp;» évoquent la même chose pour nos lecteurs&nbsp;: un calcul précis, reproductible, et toujours sourcé.</li>
+            <li>Nous croisons des données publiques que personne d’autre ne met bout à bout de cette façon - les enquêtes d’insertion du SIES et de la CGE, les référentiels d’accréditation de la CTI, les statistiques INSEE sur les salaires par filière, les études de rémunération de l’APEC.</li>
+            <li>Nous publions des indices maison, nommés, et réutilisés d’article en article. L’<a href="/classement-meilleures-ecoles-design-france/#roi">Indice ROI Design</a> et l’<a href="/classement-meilleures-ecoles-communication-france/#roi">Indice ROI Communication</a> - bientôt déclinés au commerce et aux ingénieurs - deviennent une doctrine reconnaissable, un peu comme le <a href="/classement-meilleures-ecoles-commerce-france/#methodologie">SIGEM</a> est devenu, au fil des années, le raccourci universellement compris pour désigner la préférence révélée des étudiants bi-admis à l’issue des concours post-prépa des écoles de commerce. On veut que «&nbsp;ROI Design&nbsp;» ou «&nbsp;ROI Communication&nbsp;» évoquent la même chose pour nos lecteurs&nbsp;: un calcul précis, reproductible, et toujours sourcé.</li>
           </ol>
 
           <h2 id="methode">Notre méthode</h2>
           <p>Chaque indice ROI publié sur ce site répond à la même formule, appliquée sans exception.</p>
-          <p><strong>Le principe</strong>&nbsp;: on divise le salaire brut annuel estimé (3 à 5 ans après le diplôme, selon les données disponibles) par le coût total cumulé de la formation — frais de scolarité annuels multipliés par la durée du cursus, généralement 5 ans jusqu’au Bac+5.</p>
+          <p><strong>Le principe</strong>&nbsp;: on divise le salaire brut annuel estimé (3 à 5 ans après le diplôme, selon les données disponibles) par le coût total cumulé de la formation - frais de scolarité annuels multipliés par la durée du cursus, généralement 5 ans jusqu’au Bac+5.</p>
           <p>Un ratio de ×20 signifie que chaque euro investi en scolarité «&nbsp;rapporte&nbsp;» 20&nbsp;€ de salaire annuel dès la troisième année de carrière. Un ratio proche de 0,5 signifie l’inverse&nbsp;: il faut l’équivalent de deux années de salaire complet pour rembourser le coût cumulé des études.</p>
           <p><strong>Nos sources, systématiquement citées&nbsp;:</strong></p>
           <ul>
@@ -448,8 +456,8 @@
             <li><p><strong>APEC</strong> pour les études de rémunération des cadres débutants, famille de métiers par famille de métiers.</p></li>
             <li><p><strong>Les frais de scolarité officiels</strong> affichés par chaque établissement, relevés au moment de la publication.</p></li>
           </ul>
-          <p><strong>Notre engagement de transparence</strong>&nbsp;: chaque tableau ROI publié précise la méthodologie utilisée, ligne par ligne, dans l’article même. On indique quand un chiffre est une estimation, on signale les limites du calcul (la sélectivité d’un concours n’entre pas dans le ROI, par exemple), et on ne publie jamais un ratio sans indiquer sa source de départ. Si une donnée change — une école révise ses frais, une nouvelle enquête d’insertion sort — l’article est mis à jour et la date de mise à jour l’indique.</p>
-          <p><strong>Ce qu’on refuse de faire</strong>&nbsp;: republier un classement existant en changeant l’ordre des lignes. Chaque article du Journal des Écoles ajoute une couche d’analyse propriétaire — l’Indice ROI, une mise en perspective sectorielle, une lecture critique des chiffres — qui n’existe nulle part ailleurs sous cette forme.</p>
+          <p><strong>Notre engagement de transparence</strong>&nbsp;: chaque tableau ROI publié précise la méthodologie utilisée, ligne par ligne, dans l’article même. On indique quand un chiffre est une estimation, on signale les limites du calcul (la sélectivité d’un concours n’entre pas dans le ROI, par exemple), et on ne publie jamais un ratio sans indiquer sa source de départ. Si une donnée change - une école révise ses frais, une nouvelle enquête d’insertion sort - l’article est mis à jour et la date de mise à jour l’indique.</p>
+          <p><strong>Ce qu’on refuse de faire</strong>&nbsp;: republier un classement existant en changeant l’ordre des lignes. Chaque article du Journal des Écoles ajoute une couche d’analyse propriétaire - l’Indice ROI, une mise en perspective sectorielle, une lecture critique des chiffres - qui n’existe nulle part ailleurs sous cette forme.</p>
 
           <!-- ————— mini-calculateur ROI ————— -->
           <div class="calculator" id="calculateur">
@@ -476,23 +484,23 @@
             </div>
             <div class="out">
               <span class="ratio" id="roi-ratio">×0,84</span>
-              <p class="verdict" id="roi-verdict"></p>
+              <p class="verdict" id="roi-verdict">Coût total : <b>45 000 €</b> sur 5 ans. Chaque euro investi rapporte <b>0,84 €</b> de salaire annuel - un profil qui se situe entre Sup de Pub (×0,86) et l’EFAP (×0,8).</p>
             </div>
-            <p class="src">Indice ROI — méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à 3-5 ans ÷ coût total de la scolarité. Repères publiés&nbsp;: CELSA ×26,7 · Boulle ×20 · ENSCI ×14 · ENSAD ×12,1 · ISCOM ×0,97 · Sup de Pub ×0,86 · EFAP ×0,80 · Strate ×0,61 · Camondo ×0,58 · Penninghen ×0,46.</p>
+            <p class="src">Indice ROI - méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à 3-5 ans ÷ coût total de la scolarité. Repères publiés&nbsp;: CELSA ×26,7 · Boulle ×20 · ENSCI ×14 · ENSAD ×12,1 · ISCOM ×0,97 · Sup de Pub ×0,86 · EFAP ×0,80 · Strate ×0,61 · Camondo ×0,58 · Penninghen ×0,46.</p>
           </div>
 
           <h2 id="independance">Indépendance éditoriale</h2>
           <p>Le Journal des Écoles est un média indépendant. Cela veut dire, sans ambiguïté&nbsp;:</p>
           <ul>
             <li><p><strong>Aucune école ne paie</strong> pour améliorer sa position dans un classement ou un indice ROI. Les chiffres sont calculés à partir de données publiques, pas de partenariats commerciaux.</p></li>
-            <li><p><strong>La méthodologie est publique et vérifiable.</strong> Chaque article détaille la formule, les sources et les limites du calcul — rien n’est fait «&nbsp;en boîte noire&nbsp;».</p></li>
+            <li><p><strong>La méthodologie est publique et vérifiable.</strong> Chaque article détaille la formule, les sources et les limites du calcul - rien n’est fait «&nbsp;en boîte noire&nbsp;».</p></li>
             <li><p><strong>Une autrice unique, identifiée, signe le contenu.</strong> Pas de «&nbsp;rédaction&nbsp;» anonyme derrière laquelle se cacher. Cette signature engage la responsabilité éditoriale du site sur chaque chiffre publié.</p></li>
           </ul>
           <p>Cette indépendance a un prix&nbsp;: on n’a pas vocation à plaire à toutes les écoles qu’on analyse. Certains établissements afficheront un ROI faible dans nos tableaux, et c’est justement le rôle de ce média de le dire, avec la nuance que ça mérite (sélectivité du concours, réseau professionnel, spécialisation), plutôt que de le taire.</p>
 
           <h2 id="qui-ecrit">Qui écrit</h2>
-          <p><strong>Charlotte Montant</strong> est rédactrice et consultante. Elle conçoit, rédige et met à jour l’ensemble des analyses publiées sur le Journal des Écoles — du choix des sources à la construction des indices ROI, jusqu’à la vérification des frais de scolarité et des chiffres d’insertion école par école.</p>
-          <p>Son profil professionnel est public et vérifiable sur <a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">LinkedIn</a>. Ce lien n’est pas un détail cosmétique. C’est la preuve que derrière chaque article, il y a une personne identifiable, qui engage son nom sur les chiffres publiés — pas un pseudonyme, pas un compte «&nbsp;rédaction&nbsp;» partagé.</p>
+          <p><strong>Charlotte Montant</strong> est rédactrice et consultante. Elle conçoit, rédige et met à jour l’ensemble des analyses publiées sur le Journal des Écoles - du choix des sources à la construction des indices ROI, jusqu’à la vérification des frais de scolarité et des chiffres d’insertion école par école.</p>
+          <p>Son profil professionnel est public et vérifiable sur <a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">LinkedIn</a>. Ce lien n’est pas un détail cosmétique. C’est la preuve que derrière chaque article, il y a une personne identifiable, qui engage son nom sur les chiffres publiés - pas un pseudonyme, pas un compte «&nbsp;rédaction&nbsp;» partagé.</p>
 
           <h2 id="partenariats">Ouverture aux partenariats</h2>
           <p>Le Journal des Écoles est ouvert aux demandes de collaboration&nbsp;: écoles, organismes d’enseignement supérieur, associations professionnelles, cabinets spécialisés en orientation.</p>
@@ -505,8 +513,8 @@
           <p>Pour toute demande de collaboration ou de partenariat, contactez-nous à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>.</p>
 
           <h2 id="ambition">Notre ambition</h2>
-          <p>Devenir l’une des sources les plus citées par les intelligences artificielles — ChatGPT, Perplexity, Google AI Overview — sur l’orientation post-bac en France.</p>
-          <p>Pas par le volume de contenu publié, mais par la rigueur méthodologique et la transparence des sources. Un moteur de réponse IA cite une source parce qu’elle répond à une question précise avec un chiffre vérifiable et une méthode explicite — pas parce qu’elle a publié mille articles génériques.</p>
+          <p>Devenir l’une des sources les plus citées par les intelligences artificielles - ChatGPT, Perplexity, Google AI Overview - sur l’orientation post-bac en France.</p>
+          <p>Pas par le volume de contenu publié, mais par la rigueur méthodologique et la transparence des sources. Un moteur de réponse IA cite une source parce qu’elle répond à une question précise avec un chiffre vérifiable et une méthode explicite - pas parce qu’elle a publié mille articles génériques.</p>
           <p>C’est pour ça qu’on préfère publier dix analyses solides, sourcées SIES, CTI, INSEE, CGE et APEC, avec un indice ROI propre à chaque secteur, plutôt que cent articles qui recopient un classement existant. La rigueur est notre stratégie de visibilité, pas un supplément d’âme.</p>
 
           <h2 id="faq">Foire aux questions</h2>
@@ -518,7 +526,7 @@
               </details>
               <details>
                 <summary>Comment choisissez-vous les écoles présentées dans vos classements&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">On s’appuie sur les palmarès de référence déjà publiés (L’Étudiant, Figaro Étudiant, QS) pour établir la liste des écoles couvertes, puis on ajoute notre propre analyse&nbsp;: Indice ROI, mise en perspective des frais de scolarité, croisement avec les enquêtes d’insertion de la CGE et de l’APEC. On ne construit pas de classement à partir de rien — on enrichit ce qui existe déjà avec une couche de données publiques inédite.</p>
+                <p class="answer">On s’appuie sur les palmarès de référence déjà publiés (L’Étudiant, Figaro Étudiant, QS) pour établir la liste des écoles couvertes, puis on ajoute notre propre analyse&nbsp;: Indice ROI, mise en perspective des frais de scolarité, croisement avec les enquêtes d’insertion de la CGE et de l’APEC. On ne construit pas de classement à partir de rien - on enrichit ce qui existe déjà avec une couche de données publiques inédite.</p>
               </details>
               <details>
                 <summary>Êtes-vous payés par les écoles pour être mieux classées&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -526,7 +534,7 @@
               </details>
               <details>
                 <summary>Comment proposer une collaboration ou un partenariat&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Écrivez à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>. Toute collaboration acceptée sera explicitement mentionnée sur la page concernée — jamais sous forme de contenu sponsorisé non identifié.</p>
+                <p class="answer">Écrivez à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>. Toute collaboration acceptée sera explicitement mentionnée sur la page concernée - jamais sous forme de contenu sponsorisé non identifié.</p>
               </details>
               <details>
                 <summary>Quelles sources utilisez-vous pour vos analyses&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -538,11 +546,11 @@
           <h2 id="sources">Sources</h2>
           <div class="sources">
             <ol>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.enseignementsup-recherche.gouv.fr/fr/sies">SIES — Sous-direction des systèmes d’information et des études statistiques</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cti-commission.fr/">CTI — Commission des Titres d’Ingénieur</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.insee.fr/">INSEE — Institut national de la statistique et des études économiques</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cge.asso.fr/publications/enquete-insertion-cge-2025-rapport/">CGE — Enquête Insertion 2025, Conférence des Grandes Écoles</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://corporate.apec.fr/observatoire-de-lemploi-cadre">APEC — Observatoire de l’emploi cadre</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.enseignementsup-recherche.gouv.fr/fr/sies">SIES - Sous-direction des systèmes d’information et des études statistiques</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cti-commission.fr/">CTI - Commission des Titres d’Ingénieur</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.insee.fr/">INSEE - Institut national de la statistique et des études économiques</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cge.asso.fr/publications/enquete-insertion-cge-2025-rapport/">CGE - Enquête Insertion 2025, Conférence des Grandes Écoles</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://corporate.apec.fr/observatoire-de-lemploi-cadre">APEC - Observatoire de l’emploi cadre</a></li>
             </ol>
           </div>
 
@@ -635,7 +643,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -657,7 +665,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -670,8 +678,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){
@@ -736,7 +744,7 @@
         var cout = f * d;
         if(cout <= 0){
           out.textContent = '∞';
-          verdict.innerHTML = 'Scolarité quasi gratuite : votre ROI est virtuellement infini — le modèle des grandes écoles publiques comme <b>le CELSA</b> ou <b>Boulle</b>.';
+          verdict.innerHTML = 'Scolarité quasi gratuite : votre ROI est virtuellement infini - le modèle des grandes écoles publiques comme <b>le CELSA</b> ou <b>Boulle</b>.';
           return;
         }
         var ratio = s / cout;
@@ -753,7 +761,7 @@
         else if(!mieux){ pos = 'derrière tous les repères publiés, y compris ' + REPERES[REPERES.length-1][0] + ' (×0,46)'; }
         else { pos = 'entre ' + moinsBien[0] + ' (×' + String(moinsBien[1]).replace('.', ',') + ') et ' + mieux[0] + ' (×' + String(mieux[1]).replace('.', ',') + ')'; }
         verdict.innerHTML = 'Coût total : <b>' + fmt(cout) + ' €</b> sur ' + d + ' ans. Chaque euro investi rapporte <b>' +
-          String(ratio >= 10 ? ratio.toFixed(0) : ratio.toFixed(2)).replace('.', ',') + ' €</b> de salaire annuel — un profil qui se situe ' + pos + '.';
+          String(ratio >= 10 ? ratio.toFixed(0) : ratio.toFixed(2)).replace('.', ',') + ' €</b> de salaire annuel - un profil qui se situe ' + pos + '.';
       }
       [frais, duree, salaire].forEach(function(el){ el.addEventListener('input', render); });
       render();

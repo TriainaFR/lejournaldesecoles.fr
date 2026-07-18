@@ -1,4 +1,4 @@
-/* Le Journal des Écoles — comportements communs légers.
+/* Le Journal des Écoles - comportements communs légers.
    Date d'édition en direct : le HTML embarque une date statique (lisible par
    les crawlers) que ce script remplace par la date du jour du visiteur. */
 (function () {

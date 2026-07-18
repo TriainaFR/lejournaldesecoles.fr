@@ -7,6 +7,7 @@
   <meta name="description" content="Palmarès 2026 des écoles de design françaises : ENSAD, ENSCI, Boulle, Camondo, Strate - classements Figaro/QS, Indice ROI exclusif, admissions et débouchés.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/classement-meilleures-ecoles-design-france/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -21,10 +22,9 @@
   <meta property="article:section" content="Classements">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
   {
@@ -39,6 +39,7 @@
         "datePublished": "2026-07-18",
         "dateModified": "2026-07-18",
         "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
         "articleSection": "Classements",
         "about": ["Écoles de design", "ENSAD", "ENSCI", "Indice ROI", "Admissions design"],
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
@@ -61,7 +62,7 @@
       {
         "@type": "ItemList",
         "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-design-france/#top10",
-        "name": "Top 10 des écoles de design françaises — palmarès Figaro Étudiant 2026",
+        "name": "Top 10 des écoles de design françaises - palmarès Figaro Étudiant 2026",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "numberOfItems": 10,
         "itemListElement": [
@@ -70,7 +71,7 @@
           { "@type": "ListItem", "position": 3, "name": "ENSAAMA-Olivier de Serres" },
           { "@type": "ListItem", "position": 4, "name": "École Boulle" },
           { "@type": "ListItem", "position": 5, "name": "École Camondo" },
-          { "@type": "ListItem", "position": 5, "name": "ESAD Saint-Étienne" },
+          { "@type": "ListItem", "position": 6, "name": "ESAD Saint-Étienne" },
           { "@type": "ListItem", "position": 7, "name": "L'École de design Nantes Atlantique" },
           { "@type": "ListItem", "position": 8, "name": "Strate - École de design" },
           { "@type": "ListItem", "position": 9, "name": "ESAD Reims" },
@@ -128,6 +129,23 @@
         ]
       },
       {
+        "@type": "Dataset",
+        "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-design-france/#dataset",
+        "name": "Indice ROI Design 2026 - écoles de design françaises",
+        "description": "Ratio propriétaire du Journal des Écoles : salaire brut annuel estimé à 3 ans divisé par le coût total de la scolarité (frais annuels × 5 ans), calculé pour six écoles de design françaises à partir des frais officiels et des enquêtes d'insertion publiques. De ×20 (École Boulle) à ×0,46 (ESAG Penninghen).",
+        "url": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-design-france/#roi",
+        "creator": { "@id": "https://lejournaldesecoles.fr/#organization" },
+        "isPartOf": { "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-design-france/#article" },
+        "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-07-18",
+        "temporalCoverage": "2025/2026",
+        "spatialCoverage": "France",
+        "variableMeasured": "Ratio ROI : salaire brut annuel estimé à 3 ans ÷ coût total de la scolarité sur 5 ans",
+        "measurementMethod": "Données publiques exclusivement : frais de scolarité officiels publiés par chaque école, enquêtes d'insertion (CGE, écoles) et volumes d'admission publiés par les concours et Parcoursup. Méthodologie détaillée : https://lejournaldesecoles.fr/notre-histoire/#methode",
+        "license": "https://lejournaldesecoles.fr/mentions-legales/#propriete"
+      },
+      {
         "@type": "Person",
         "@id": "https://lejournaldesecoles.fr/#charlotte-montant",
         "name": "Charlotte Montant",
@@ -141,8 +159,12 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/favicon.svg" },
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
         "foundingDate": "2026",
+        "areaServed": "FR",
+        "publishingPrinciples": "https://lejournaldesecoles.fr/notre-histoire/",
+        "correctionsPolicy": "https://lejournaldesecoles.fr/contact-partenariats/#signaler",
+        "actionableFeedbackPolicy": "https://lejournaldesecoles.fr/contact-partenariats/",
         "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
         "contactPoint": [{ "@type": "ContactPoint", "contactType": "partnerships", "email": "lucas@yonder.fr", "availableLanguage": "French" }],
         "sameAs": [
@@ -395,7 +417,7 @@
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -412,7 +434,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -438,16 +460,16 @@
           <a href="/classements/">Classements</a><i>◆</i>
           <span>Écoles de design</span>
         </nav>
-        <span class="kicker kicker--marine">Classements — Écoles de design</span>
+        <span class="kicker kicker--marine">Classements - Écoles de design</span>
         <h1>Classement des meilleures écoles de design en France</h1>
-        <p class="standfirst">L’ENSAD reprend la tête, l’ENSCI décroche un Red Dot, Camondo règne sur l’architecture intérieure — et notre Indice ROI exclusif révèle un écart de 1 à 40 entre écoles publiques et privées. Le comparatif complet, admissions et débouchés inclus.</p>
+        <p class="standfirst">L’ENSAD reprend la tête, l’ENSCI décroche un Red Dot, Camondo règne sur l’architecture intérieure - et notre Indice ROI exclusif révèle un écart de 1 à 40 entre écoles publiques et privées. Le comparatif complet, admissions et débouchés inclus.</p>
         <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Publié le <time datetime="2026-07-18">18 juillet 2026</time><i>◆</i>Lecture 17 min</p>
         <figure class="article-hero">
           <div class="imgbox">
-            <img src="/assets/img/atelier-designer-nuancier.webp"
+            <img src="/assets/img/atelier-designer-nuancier.webp" srcset="/assets/img/atelier-designer-nuancier-480.webp 480w, /assets/img/atelier-designer-nuancier-960.webp 960w, /assets/img/atelier-designer-nuancier.webp 1600w" sizes="(max-width: 1280px) 100vw, 1240px"
                  alt="Atelier d'un designer avec nuanciers et croquis, symbole des écoles de design françaises" width="1600" height="686" fetchpriority="high">
           </div>
-          <figcaption>Design — © Le Journal des Écoles</figcaption>
+          <figcaption>Design - © Le Journal des Écoles</figcaption>
         </figure>
       </div>
     </div>
@@ -460,14 +482,14 @@
 
           <section class="essentiel" id="essentiel">
             <h2>L’essentiel à retenir</h2>
-            <p>Le podium 2026 tient en trois écoles publiques parisiennes — et la hiérarchie a changé depuis l’an dernier.</p>
+            <p>Le podium 2026 tient en trois écoles publiques parisiennes - et la hiérarchie a changé depuis l’an dernier.</p>
             <ul>
               <li><p><strong>Le Figaro Étudiant 2026</strong> (publié le 19 mai 2026)&nbsp;: l’<strong>ENSAD</strong> reprend la 1ʳᵉ place avec 18/20, devant l’<strong>ENSCI-Les Ateliers</strong> (17,8/20, 1ʳᵉ en 2025) et l’<strong>ENSAAMA-Olivier de Serres</strong> (17,7/20). Trois écoles publiques, trois logos «&nbsp;Arts Décoratifs&nbsp;» ou assimilés.</p></li>
               <li><p><strong>École Boulle</strong> (16,4/20) complète le top 4, toujours publique. <strong>École Camondo</strong> (15,9/20) est la première école <strong>privée</strong> du classement, ex&nbsp;æquo avec l’<strong>ESAD Saint-Étienne</strong>.</p></li>
               <li><p><strong>QS World University Rankings Art &amp; Design 2025</strong>&nbsp;: l’ENSAD est la mieux classée des écoles françaises au monde, 13ᵉ rang global (score 69,7), devant l’ENSCI (15ᵉ, 67,9) et les Beaux-Arts de Paris (16ᵉ, 67,4).</p></li>
-              <li><p><strong>Architecture intérieure (L’Étudiant 2025, classement des professionnels)</strong>&nbsp;: Camondo est 1ʳᵉ (29 citations), l’École Boulle 2ᵉ (28 citations) — l’ENSAD, pourtant leader généraliste, n’arrive que 5ᵉ (14 citations) sur cette spécialité précise.</p></li>
+              <li><p><strong>Architecture intérieure (L’Étudiant 2025, classement des professionnels)</strong>&nbsp;: Camondo est 1ʳᵉ (29 citations), l’École Boulle 2ᵉ (28 citations) - l’ENSAD, pourtant leader généraliste, n’arrive que 5ᵉ (14 citations) sur cette spécialité précise.</p></li>
               <li><p><strong>Red Dot Award 2025</strong>&nbsp;: l’ENSCI-Les Ateliers décroche un Red Dot: Best of the Best (catégorie Design Concept) pour «&nbsp;Deolis &amp; Terma - Sensor Taps&nbsp;», signe que la reconnaissance française dépasse largement l’Hexagone.</p></li>
-              <li><p><strong>Frais de scolarité</strong>&nbsp;: de 458&nbsp;€ par an à l’ENSCI (école publique) à plus de 13&nbsp;990&nbsp;€ par an à l’ESAG Penninghen (école privée) — l’écart va de 1 à 30.</p></li>
+              <li><p><strong>Frais de scolarité</strong>&nbsp;: de 458&nbsp;€ par an à l’ENSCI (école publique) à plus de 13&nbsp;990&nbsp;€ par an à l’ESAG Penninghen (école privée) - l’écart va de 1 à 30.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours en deux phases (ENSAD, ENSCI), Parcoursup avec portfolio (Camondo, Strate, Boulle), ou simple dossier sans concours ni portfolio en 1ʳᵉ année (Penninghen). Trois logiques bien distinctes.</p></li>
             </ul>
           </section>
@@ -481,17 +503,17 @@
           </div>
 
           <h2 id="methodologie">Méthodologie&nbsp;: quatre classements, quatre logiques</h2>
-          <p>Contrairement au commerce ou à l’ingénierie, le design français n’a pas de mécanisme d’affectation unique type SIGEM. Chaque source mesure une facette différente — voici ce qu’il faut savoir avant de lire le tableau.</p>
+          <p>Contrairement au commerce ou à l’ingénierie, le design français n’a pas de mécanisme d’affectation unique type SIGEM. Chaque source mesure une facette différente - voici ce qu’il faut savoir avant de lire le tableau.</p>
           <ul>
             <li><p><strong>Le Figaro Étudiant</strong> est la référence généraliste. L’édition 2026 (publiée le 19 mai 2026) compare <strong>35 écoles</strong> proposant au minimum un titre RNCP de niveau 7 (Bac+5), sur trois grands critères&nbsp;: <strong>qualité académique</strong> (ENSAD et ENSCI ex&nbsp;æquo à 19,9/20), <strong>insertion professionnelle</strong> (16/20 pour l’ENSAD) et <strong>rayonnement international</strong> (19,2/20 pour l’ENSCI, meilleur score du palmarès). La sélectivité entre aussi en jeu&nbsp;: l’ENSAD affiche un score de 96,95 sur ce critère.</p></li>
             <li><p><strong>QS World University Rankings by Subject - Art &amp; Design 2025</strong> classe les établissements à l’échelle mondiale, toutes disciplines artistiques confondues. Seules les écoles adossées à une reconnaissance universitaire internationale y figurent&nbsp;: l’ENSAD (13ᵉ), l’ENSCI (15ᵉ) et les Beaux-Arts de Paris (16ᵉ). La plupart des écoles privées spécialisées (Strate, LISAA, l’IFM) n’entrent pas dans ce classement, centré sur les grandes institutions universitaires.</p></li>
             <li><p><strong>L’Étudiant - classement architecture intérieure 2025</strong> interroge directement les professionnels du secteur (agences, cabinets) sur les écoles dont ils recrutent le plus volontiers les diplômés. C’est un classement de <strong>citations</strong>, pas de notes&nbsp;: Camondo (29 citations) et Boulle (28) dominent très largement une spécialité où l’ENSAD ne pèse pas autant.</p></li>
             <li><p><strong>Le Red Dot Award</strong> n’est pas un classement d’écoles mais un concours international de design annuel, organisé en Allemagne. Un Red Dot: Best of the Best obtenu par des étudiants d’une école (comme l’ENSCI en 2025) fonctionne comme un signal de reconnaissance à l’international, complémentaire des classements académiques.</p></li>
           </ul>
-          <p>Ces quatre sources ne se contredisent pas&nbsp;: elles éclairent des dimensions différentes du même paysage — excellence académique généraliste, reconnaissance mondiale, réputation professionnelle sectorielle et performance créative internationale.</p>
+          <p>Ces quatre sources ne se contredisent pas&nbsp;: elles éclairent des dimensions différentes du même paysage - excellence académique généraliste, reconnaissance mondiale, réputation professionnelle sectorielle et performance créative internationale.</p>
 
           <h2 id="podium">Podium 2026&nbsp;: le top 10 des écoles de design françaises</h2>
-          <p>Voici le classement complet du Figaro Étudiant 2026, avec le statut public ou privé de chaque établissement — une donnée qui change tout sur le budget à prévoir.</p>
+          <p>Voici le classement complet du Figaro Étudiant 2026, avec le statut public ou privé de chaque établissement - une donnée qui change tout sur le budget à prévoir.</p>
 
           <div class="tablewrap">
             <table>
@@ -522,13 +544,13 @@
           <p><strong>Ce que révèle ce classement&nbsp;:</strong></p>
           <ul>
             <li><p><strong>7 écoles publiques sur 10</strong>, un ratio inversé par rapport au commerce ou à l’ingénierie. Le design supérieur français reste largement piloté par le ministère de la Culture (ENSAD, ENSCI, Boulle, les ESAD régionales) ou l’Éducation nationale (ESAA).</p></li>
-            <li><p><strong>Bascule au sommet</strong>&nbsp;: en 2025, l’ENSCI-Les Ateliers menait avec 18,2/20 devant l’ENSAD (17,8/20). En 2026, les deux écoles inversent leur position — l’écart reste minime (0,2 point), preuve que le duo domine sans partage la hiérarchie française depuis plusieurs années.</p></li>
+            <li><p><strong>Bascule au sommet</strong>&nbsp;: en 2025, l’ENSCI-Les Ateliers menait avec 18,2/20 devant l’ENSAD (17,8/20). En 2026, les deux écoles inversent leur position - l’écart reste minime (0,2 point), preuve que le duo domine sans partage la hiérarchie française depuis plusieurs années.</p></li>
             <li><p><strong>Camondo, seule école privée du top 5</strong>, tire sa place du fait qu’elle est la référence numéro un en architecture intérieure selon les professionnels eux-mêmes.</p></li>
-            <li><p><strong>Strate</strong>, 8ᵉ au classement généraliste, revendique pourtant le 2ᵉ meilleur score d’insertion professionnelle du palmarès (15,1/20) — un cas où le rang global masque une vraie force sectorielle.</p></li>
+            <li><p><strong>Strate</strong>, 8ᵉ au classement généraliste, revendique pourtant le 2ᵉ meilleur score d’insertion professionnelle du palmarès (15,1/20) - un cas où le rang global masque une vraie force sectorielle.</p></li>
           </ul>
 
           <h2 id="roi">L’Indice ROI Design du Journal des Écoles&nbsp;: ce que révèlent vraiment les chiffres</h2>
-          <p><strong>Précision méthodologique avant toute chose</strong>&nbsp;: cet indice est une <strong>analyse propriétaire du Journal des Écoles</strong>, construite à partir de données publiques — frais de scolarité officiels affichés par chaque école et salaires estimés à partir des enquêtes citées plus haut dans cet article. Ce n’est <strong>ni un classement officiel, ni une donnée publiée par un tiers (Figaro Étudiant, QS, L’Étudiant)</strong>. Personne d’autre ne calcule ce ratio aujourd’hui, à notre connaissance — et c’est justement ce qui nous a donné envie de le construire.</p>
+          <p><strong>Précision méthodologique avant toute chose</strong>&nbsp;: cet indice est une <strong>analyse propriétaire du Journal des Écoles</strong>, construite à partir de données publiques - frais de scolarité officiels affichés par chaque école et salaires estimés à partir des enquêtes citées plus haut dans cet article. Ce n’est <strong>ni un classement officiel, ni une donnée publiée par un tiers (Figaro Étudiant, QS, L’Étudiant)</strong>. Personne d’autre ne calcule ce ratio aujourd’hui, à notre connaissance - et c’est justement ce qui nous a donné envie de le construire.</p>
           <p><strong>Le principe est simple</strong>&nbsp;: on divise le salaire brut annuel estimé à 3 ans après le diplôme par le coût total cumulé de la formation (frais de scolarité annuels × durée du cursus, généralement 5 ans jusqu’au Bac+5). Plus le ratio est élevé, plus l’euro investi dans la scolarité «&nbsp;rapporte&nbsp;» vite en salaire.</p>
 
           <div class="tablewrap roi">
@@ -555,7 +577,7 @@
           </div>
           <p class="table-note">Coûts et salaires arrondis à titre indicatif. Les frais annuels moyens de Camondo, Strate et Penninghen intègrent la progression tarifaire entre 1ʳᵉ et 5ᵉ année&nbsp;; voir le détail école par école dans les fiches ci-dessous.</p>
 
-          <p><strong>Ce que dit ce tableau, sans détour</strong>&nbsp;: l’écart n’est pas de quelques points, il est d’un facteur 20 à 40 entre le haut et le bas du classement. École Boulle affiche un ROI mathématique de ×20 — pour chaque euro dépensé en scolarité, le diplômé récupère 20&nbsp;€ de salaire annuel dès la troisième année de carrière. À l’autre bout, un diplômé de Penninghen doit compter sur plus de deux années de salaire complet juste pour «&nbsp;rembourser&nbsp;» le coût cumulé de ses études (ratio de 0,46, soit moins d’un euro de salaire annuel pour un euro investi).</p>
+          <p><strong>Ce que dit ce tableau, sans détour</strong>&nbsp;: l’écart n’est pas de quelques points, il est d’un facteur 20 à 40 entre le haut et le bas du classement. École Boulle affiche un ROI mathématique de ×20 - pour chaque euro dépensé en scolarité, le diplômé récupère 20&nbsp;€ de salaire annuel dès la troisième année de carrière. À l’autre bout, un diplômé de Penninghen doit compter sur plus de deux années de salaire complet juste pour «&nbsp;rembourser&nbsp;» le coût cumulé de ses études (ratio de 0,46, soit moins d’un euro de salaire annuel pour un euro investi).</p>
           <p><strong>La lecture brute serait trompeuse, et il faut la nuancer tout de suite</strong>&nbsp;:</p>
           <ul>
             <li><p>Ce ROI écrasant des écoles publiques (Boulle, ENSCI, ENSAD) tient à un fait simple&nbsp;: l’État finance l’essentiel du coût réel de la formation, que l’étudiant ne paie pas directement. Le «&nbsp;coût&nbsp;» qu’on mesure ici est celui <strong>supporté par l’étudiant</strong>, pas le coût réel de sa formation pour la collectivité.</p></li>
@@ -566,7 +588,7 @@
 
           <div class="edito">
             <span class="kicker">La lecture de la rédaction</span>
-            <p>Ce tableau ne dit pas «&nbsp;évitez les écoles privées&nbsp;» — il dit que le vrai coût d’opportunité d’une école de design publique n’est pas l’argent, mais le risque de ne pas être admis. Si vous avez le niveau pour tenter l’ENSAD, l’ENSCI ou Boulle, le calcul financier penche lourdement en leur faveur. Si le concours est hors de portée immédiate, le ROI d’une école privée redevient un investissement à évaluer au cas par cas, spécialité par spécialité.</p>
+            <p>Ce tableau ne dit pas «&nbsp;évitez les écoles privées&nbsp;» - il dit que le vrai coût d’opportunité d’une école de design publique n’est pas l’argent, mais le risque de ne pas être admis. Si vous avez le niveau pour tenter l’ENSAD, l’ENSCI ou Boulle, le calcul financier penche lourdement en leur faveur. Si le concours est hors de portée immédiate, le ROI d’une école privée redevient un investissement à évaluer au cas par cas, spécialité par spécialité.</p>
             <p class="sig">Signé <b>Charlotte Montant</b>, pour la rédaction</p>
           </div>
 
@@ -595,13 +617,13 @@
             </div>
             <div class="out">
               <span class="ratio" id="roi-ratio">×0,64</span>
-              <p class="verdict" id="roi-verdict"></p>
+              <p class="verdict" id="roi-verdict">Coût total : <b>50 000 €</b> sur 5 ans. Chaque euro investi rapporte <b>0,64 €</b> de salaire annuel à 3 ans - un profil qui se situe entre l’ENSAD (×12,1) et Strate (×0,61).</p>
             </div>
-            <p class="src">Indice ROI Design — méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à 3 ans ÷ coût total de la scolarité. Repères&nbsp;: Boulle ×20 · ENSCI ×14 · ENSAD ×12,1 · Strate ×0,61 · Camondo ×0,58 · Penninghen ×0,46.</p>
+            <p class="src">Indice ROI Design - méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à 3 ans ÷ coût total de la scolarité. Repères&nbsp;: Boulle ×20 · ENSCI ×14 · ENSAD ×12,1 · Strate ×0,61 · Camondo ×0,58 · Penninghen ×0,46.</p>
           </div>
 
           <h2 id="fiches">Fiches détaillées&nbsp;: les écoles qui font la différence</h2>
-          <p>Frais réels, modalités de concours et spécificité de chaque établissement du podium — de quoi comparer sans se fier au seul chiffre du classement.</p>
+          <p>Frais réels, modalités de concours et spécificité de chaque établissement du podium - de quoi comparer sans se fier au seul chiffre du classement.</p>
 
           <div class="fiche">
             <h3>ENSAD (École nationale supérieure des arts décoratifs)</h3>
@@ -641,7 +663,7 @@
           <div class="fiche">
             <h3>École Boulle</h3>
             <ul>
-              <li><p><strong>Statut</strong>&nbsp;: établissement public (ESAA), Paris 12ᵉ — <strong>gratuité totale de la scolarité</strong> pour les résidents UE (hors CVEC ~103&nbsp;€ et frais administratifs ~200&nbsp;€).</p></li>
+              <li><p><strong>Statut</strong>&nbsp;: établissement public (ESAA), Paris 12ᵉ - <strong>gratuité totale de la scolarité</strong> pour les résidents UE (hors CVEC ~103&nbsp;€ et frais administratifs ~200&nbsp;€).</p></li>
               <li><p><strong>Admission multi-voies</strong>, sans concours unique&nbsp;: c’est l’école la plus complexe à candidater du classement, avec un parcours différent selon la formation visée.</p>
                 <ul>
                   <li><p><strong>DNMADE</strong> (Bac+3)&nbsp;: via Parcoursup, dossier scolaire + entretien de motivation + présentation de travaux.</p></li>
@@ -656,7 +678,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/architecture-contemporaine-blanche.webp"
+              <img loading="lazy" src="/assets/img/architecture-contemporaine-blanche.webp" srcset="/assets/img/architecture-contemporaine-blanche-480.webp 480w, /assets/img/architecture-contemporaine-blanche-960.webp 960w, /assets/img/architecture-contemporaine-blanche.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Architecture contemporaine blanche, terrain de jeu des diplômés en design d'espace et architecture intérieure" width="1400" height="788">
             </div>
             <figcaption>Architecture intérieure&nbsp;: Camondo et Boulle, les deux références citées par les professionnels</figcaption>
@@ -666,7 +688,7 @@
             <h3>École Camondo</h3>
             <ul>
               <li><p><strong>Statut</strong>&nbsp;: école <strong>privée</strong>, campus Paris et Toulon (Camondo Méditerranée).</p></li>
-              <li><p><strong>Frais 2026</strong>&nbsp;: étudiants UE — 9&nbsp;450&nbsp;€/an en 1er cycle (années 1 à 3), 12&nbsp;600&nbsp;€/an en 2ᵉ cycle (années 4 et 5). Étudiants hors UE — 11&nbsp;000&nbsp;€ puis 14&nbsp;500&nbsp;€/an. S’ajoutent 150&nbsp;€ de frais de concours et 300&nbsp;€ (UE) ou 700&nbsp;€ (hors UE) de frais de dossier à la première inscription.</p></li>
+              <li><p><strong>Frais 2026</strong>&nbsp;: étudiants UE - 9&nbsp;450&nbsp;€/an en 1er cycle (années 1 à 3), 12&nbsp;600&nbsp;€/an en 2ᵉ cycle (années 4 et 5). Étudiants hors UE - 11&nbsp;000&nbsp;€ puis 14&nbsp;500&nbsp;€/an. S’ajoutent 150&nbsp;€ de frais de concours et 300&nbsp;€ (UE) ou 700&nbsp;€ (hors UE) de frais de dossier à la première inscription.</p></li>
               <li><p><strong>Admission via Parcoursup, en deux phases</strong>&nbsp;:</p>
                 <ul>
                   <li><p><strong>Admissibilité</strong> (seuil&nbsp;: 10/20 minimum)&nbsp;: dossier scolaire, réponse à «&nbsp;Pourquoi candidatez-vous à Camondo&nbsp;?&nbsp;», et un <strong>portfolio d’une douzaine de productions créatives diversifiées</strong> (dessins, photos, textes, liens vidéo) au format A4, JPG ou PDF.</p></li>
@@ -694,7 +716,7 @@
             <ul>
               <li><p><strong>Statut</strong>&nbsp;: école <strong>privée</strong>, Paris 6ᵉ, spécialisée en direction artistique, design graphique et architecture intérieure.</p></li>
               <li><p><strong>Frais 2025-2026</strong>&nbsp;: <strong>10&nbsp;990&nbsp;€ pour l’année préparatoire</strong>, <strong>13&nbsp;990&nbsp;€ pour les années supérieures</strong>, plus 590&nbsp;€ de frais de dossier.</p></li>
-              <li><p><strong>Particularité d’admission unique du marché</strong>&nbsp;: la 1ʳᵉ année (préparatoire) s’obtient <strong>hors Parcoursup, sans concours, sans portfolio et sans entretien</strong> — une simple candidature administrative, dans la limite de 300 places, traitée par ordre d’arrivée.</p></li>
+              <li><p><strong>Particularité d’admission unique du marché</strong>&nbsp;: la 1ʳᵉ année (préparatoire) s’obtient <strong>hors Parcoursup, sans concours, sans portfolio et sans entretien</strong> - une simple candidature administrative, dans la limite de 300 places, traitée par ordre d’arrivée.</p></li>
               <li><p><strong>À partir de la 2ᵉ année et pour le Master</strong>&nbsp;: un vrai <strong>concours avec dossier, portfolio et entretien</strong> devient obligatoire pour les admissions parallèles.</p></li>
               <li><p><strong>Point fort</strong>&nbsp;: école privée de référence en art graphique et en architecture intérieure selon plusieurs classements sectoriels.</p></li>
             </ul>
@@ -708,14 +730,14 @@
             <li><p><strong>Design d’espace / architecture intérieure</strong>&nbsp;: agences d’architecture intérieure, retail, scénographie, muséographie. Salaire de départ&nbsp;: 24&nbsp;000 à 31&nbsp;200&nbsp;€. <strong>Écoles recommandées</strong>&nbsp;: École Camondo (1ʳᵉ citée par les pros), École Boulle (2ᵉ), Strate (filière Espace[s]), ESAG Penninghen.</p></li>
             <li><p><strong>UX/UI design et product design numérique</strong>&nbsp;: le segment le <strong>plus porteur</strong> du marché en 2025-2026, avec un volume d’offres record (environ 200 postes de Product Designer actifs en France en octobre 2025, jusqu’à 400 en comptant les rôles proches). Salaire de départ nettement supérieur&nbsp;: 28&nbsp;000 à 45&nbsp;000&nbsp;€ brut annuel selon les sources, jusqu’à 70&nbsp;000&nbsp;€ pour les profils seniors en Île-de-France. <strong>Écoles recommandées</strong>&nbsp;: Strate (filière UX &amp; Interaction[s]), ENSCI, écoles numériques spécialisées.</p></li>
           </ul>
-          <p>À noter&nbsp;: le taux d’insertion global de la filière design reste l’un des meilleurs du secteur artistique — environ <strong>88&nbsp;% des diplômés en activité trois ans après le diplôme</strong>, dont 87&nbsp;% dans le champ même de leur formation (contre seulement 58&nbsp;% pour les filières artistiques généralistes).</p>
+          <p>À noter&nbsp;: le taux d’insertion global de la filière design reste l’un des meilleurs du secteur artistique - environ <strong>88&nbsp;% des diplômés en activité trois ans après le diplôme</strong>, dont 87&nbsp;% dans le champ même de leur formation (contre seulement 58&nbsp;% pour les filières artistiques généralistes).</p>
 
-          <h2 id="admissions">Admissions&nbsp;: concours, Parcoursup, portfolio — le mode d’emploi</h2>
+          <h2 id="admissions">Admissions&nbsp;: concours, Parcoursup, portfolio - le mode d’emploi</h2>
           <p>Trois logiques de recrutement coexistent en France, et confondre les procédures fait perdre un an à beaucoup de candidats.</p>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp"
+              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp" srcset="/assets/img/etudiant-prise-de-notes-concours-480.webp 480w, /assets/img/etudiant-prise-de-notes-concours-960.webp 960w, /assets/img/etudiant-prise-de-notes-concours.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Candidat préparant son dossier et son portfolio pour les concours des écoles de design" width="1400" height="788">
             </div>
             <figcaption>Le portfolio pèse souvent plus lourd que les notes scolaires</figcaption>
@@ -735,13 +757,13 @@
 
           <h3>Dossier simple, sans concours ni portfolio</h3>
           <ul>
-            <li><p><strong>ESAG Penninghen</strong> est la seule grande école du classement à recruter sa 1ʳᵉ année <strong>hors Parcoursup, sans concours ni portfolio</strong> — juste un dossier administratif traité par ordre d’arrivée.</p></li>
+            <li><p><strong>ESAG Penninghen</strong> est la seule grande école du classement à recruter sa 1ʳᵉ année <strong>hors Parcoursup, sans concours ni portfolio</strong> - juste un dossier administratif traité par ordre d’arrivée.</p></li>
           </ul>
 
           <h3>Le book/portfolio&nbsp;: l’élément qui fait vraiment la différence</h3>
           <ul>
             <li><p>Dans la grande majorité des écoles, le <strong>portfolio (ou book)</strong> pèse plus lourd que les notes scolaires&nbsp;: c’est lui qui démontre la démarche créative, la sensibilité et la cohérence d’un projet artistique.</p></li>
-            <li><p><strong>Exception notable</strong>&nbsp;: l’ENSCI ne demande pas de portfolio classique — elle évalue la personnalité et la réflexion du candidat via une vidéo et des propositions personnelles.</p></li>
+            <li><p><strong>Exception notable</strong>&nbsp;: l’ENSCI ne demande pas de portfolio classique - elle évalue la personnalité et la réflexion du candidat via une vidéo et des propositions personnelles.</p></li>
             <li><p><strong>Autre exception</strong>&nbsp;: ESAG Penninghen, qui n’exige aucun portfolio en 1ʳᵉ année.</p></li>
           </ul>
 
@@ -753,11 +775,11 @@
           </ul>
 
           <h2 id="international">Rayonnement international&nbsp;: QS, Red Dot et la référence ECAL</h2>
-          <p>Le design français ne se juge pas seulement à l’échelle nationale — trois signaux mesurent sa place sur la scène mondiale.</p>
+          <p>Le design français ne se juge pas seulement à l’échelle nationale - trois signaux mesurent sa place sur la scène mondiale.</p>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp"
+              <img loading="lazy" src="/assets/img/nuanciers-design-creation.webp" srcset="/assets/img/nuanciers-design-creation-480.webp 480w, /assets/img/nuanciers-design-creation-960.webp 960w, /assets/img/nuanciers-design-creation.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Nuanciers et matériel de création, symbole du rayonnement international du design français" width="1400" height="788">
             </div>
             <figcaption>ENSAD 13ᵉ, ENSCI 15ᵉ&nbsp;: deux écoles françaises dans le top 20 mondial QS</figcaption>
@@ -781,7 +803,7 @@
               </details>
               <details>
                 <summary>École de design publique ou privée&nbsp;: quelle différence concrète&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Le budget d’abord&nbsp;: une école publique comme l’ENSAD ou l’ENSCI coûte environ 460 à 560&nbsp;€ par an, contre 9&nbsp;000 à 14&nbsp;000&nbsp;€ par an dans une école privée comme Camondo, Strate ou Penninghen. Le statut n’entraîne pas forcément un écart de qualité pédagogique — Camondo, école privée, reste la référence n°1 en architecture intérieure selon les professionnels.</p>
+                <p class="answer">Le budget d’abord&nbsp;: une école publique comme l’ENSAD ou l’ENSCI coûte environ 460 à 560&nbsp;€ par an, contre 9&nbsp;000 à 14&nbsp;000&nbsp;€ par an dans une école privée comme Camondo, Strate ou Penninghen. Le statut n’entraîne pas forcément un écart de qualité pédagogique - Camondo, école privée, reste la référence n°1 en architecture intérieure selon les professionnels.</p>
               </details>
               <details>
                 <summary>Qu’est-ce que l’Indice ROI Design du Journal des Écoles&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -793,11 +815,11 @@
               </details>
               <details>
                 <summary>Quelle école choisir selon sa spécialité&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Pour le design produit, l’ENSCI et Strate dominent. Pour le design graphique, l’ENSAD et Penninghen. Pour l’architecture intérieure et le design d’espace, Camondo et Boulle sont les références citées par les professionnels. Pour l’UX/UI et le product design numérique — le segment le plus recruteur en 2025-2026 —, Strate et l’ENSCI offrent les meilleurs débouchés.</p>
+                <p class="answer">Pour le design produit, l’ENSCI et Strate dominent. Pour le design graphique, l’ENSAD et Penninghen. Pour l’architecture intérieure et le design d’espace, Camondo et Boulle sont les références citées par les professionnels. Pour l’UX/UI et le product design numérique - le segment le plus recruteur en 2025-2026 - , Strate et l’ENSCI offrent les meilleurs débouchés.</p>
               </details>
               <details>
                 <summary>Le portfolio est-il obligatoire pour toutes les écoles de design&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Non. C’est la norme dans la grande majorité des écoles (ENSAD, Camondo, Boulle, Strate), mais l’ENSCI-Les Ateliers ne demande pas de portfolio classique — elle privilégie une vidéo de présentation et des propositions personnelles. ESAG Penninghen n’exige aucun portfolio pour sa 1ʳᵉ année.</p>
+                <p class="answer">Non. C’est la norme dans la grande majorité des écoles (ENSAD, Camondo, Boulle, Strate), mais l’ENSCI-Les Ateliers ne demande pas de portfolio classique - elle privilégie une vidéo de présentation et des propositions personnelles. ESAG Penninghen n’exige aucun portfolio pour sa 1ʳᵉ année.</p>
               </details>
               <details>
                 <summary>Combien coûte une école de design en France&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -813,16 +835,16 @@
           <h2 id="sources">Sources</h2>
           <div class="sources">
             <ol>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://etudiant.lefigaro.fr/article/etudes/les-arts-deco-les-ateliers-olivier-de-serres-voici-les-meilleures-ecoles-de-design-en-2026-selon-le-palmares-du-figaro-etudiant-20260519/">Le palmarès 2026 des écoles de design — Le Figaro Étudiant (19 mai 2026)</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.topuniversities.com/university-subject-rankings/art-design?countries=fr">QS World University Rankings by Subject — Art &amp; Design 2025</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.letudiant.fr/etudes/ecole-art/top-10-des-ecoles-d-architecture-interieure-preferees-des-pros.html">Top 10 des écoles d’architecture intérieure préférées des pros — L’Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.red-dot.org/magazine/red-dot-award-design-concept-2025-results-en">Red Dot Award: Design Concept 2025 — résultats officiels</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.ensad.fr/fr/admissions">Admissions et frais — ENSAD</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.ensci.com/ecole/admissions/faq">Guide du candidat — ENSCI-Les Ateliers</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.ecolecamondo.fr/admission/entrer-a-l-ecole-camondo/1ere-annee/">Entrer en 1ʳᵉ année — École Camondo</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.strate.design/formation/formation-designer-bac-5-lyon">Formation design à Lyon — Strate École de design</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.penninghen.fr/admission/premiere-annee">Admission — ESAG Penninghen</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://ecal.ch/fr/feed/articles/1144/28-diplomees-de-lecal-finalistes-des-prix-suisses-de-design-2025/">École cantonale d’art de Lausanne (ECAL)</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://etudiant.lefigaro.fr/article/etudes/les-arts-deco-les-ateliers-olivier-de-serres-voici-les-meilleures-ecoles-de-design-en-2026-selon-le-palmares-du-figaro-etudiant-20260519/">Le palmarès 2026 des écoles de design - Le Figaro Étudiant (19 mai 2026)</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.topuniversities.com/university-subject-rankings/art-design?countries=fr">QS World University Rankings by Subject - Art &amp; Design 2025</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.letudiant.fr/etudes/ecole-art/top-10-des-ecoles-d-architecture-interieure-preferees-des-pros.html">Top 10 des écoles d’architecture intérieure préférées des pros - L’Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.red-dot.org/magazine/red-dot-award-design-concept-2025-results-en">Red Dot Award: Design Concept 2025 - résultats officiels</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.ensad.fr/fr/admissions">Admissions et frais - ENSAD</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.ensci.com/ecole/admissions/faq">Guide du candidat - ENSCI-Les Ateliers</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.ecolecamondo.fr/admission/entrer-a-l-ecole-camondo/1ere-annee/">Entrer en 1ʳᵉ année - École Camondo</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.strate.design/formation/formation-designer-bac-5-lyon">Formation design à Lyon - Strate École de design</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.penninghen.fr/admission/premiere-annee">Admission - ESAG Penninghen</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://ecal.ch/fr/feed/articles/1144/28-diplomees-de-lecal-finalistes-des-prix-suisses-de-design-2025/">École cantonale d’art de Lausanne (ECAL)</a></li>
             </ol>
           </div>
 
@@ -927,7 +949,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -949,7 +971,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -962,8 +984,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){
@@ -1027,7 +1049,7 @@
         var cout = f * d;
         if(cout <= 0){
           out.textContent = '∞';
-          verdict.innerHTML = 'Scolarité quasi gratuite : votre ROI est virtuellement infini — le modèle des écoles publiques comme <b>Boulle</b> (~1 500 € sur 5 ans).';
+          verdict.innerHTML = 'Scolarité quasi gratuite : votre ROI est virtuellement infini - le modèle des écoles publiques comme <b>Boulle</b> (~1 500 € sur 5 ans).';
           return;
         }
         var ratio = s / cout;
@@ -1044,7 +1066,7 @@
         else if(!mieux){ pos = 'derrière toutes les écoles de notre tableau, y compris ' + REPERES[REPERES.length-1][0] + ' (×0,46)'; }
         else { pos = 'entre ' + moinsBien[0] + ' (×' + String(moinsBien[1]).replace('.', ',') + ') et ' + mieux[0] + ' (×' + String(mieux[1]).replace('.', ',') + ')'; }
         verdict.innerHTML = 'Coût total : <b>' + fmt(cout) + ' €</b> sur ' + d + ' ans. Chaque euro investi rapporte <b>' +
-          String(ratio >= 10 ? ratio.toFixed(0) : ratio.toFixed(2)).replace('.', ',') + ' €</b> de salaire annuel à 3 ans — un profil qui se situe ' + pos + '.';
+          String(ratio >= 10 ? ratio.toFixed(0) : ratio.toFixed(2)).replace('.', ',') + ' €</b> de salaire annuel à 3 ans - un profil qui se situe ' + pos + '.';
       }
       [frais, duree, salaire].forEach(function(el){ el.addEventListener('input', render); });
       render();

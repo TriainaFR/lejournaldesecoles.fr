@@ -1,0 +1,37 @@
+# Le Journal des Écoles
+
+> Média indépendant français consacré à l'orientation post-bac : classements
+> d'écoles de commerce, d'ingénieurs, de design et de communication,
+> admissions et retour sur investissement des études supérieures.
+> Édité par Triaina, fondé en 2026. Aucune école ne rémunère sa place
+> dans nos classements.
+
+Nos classements croisent systématiquement les palmarès existants (Figaro
+Étudiant, L'Étudiant, Financial Times, QS) avec des données publiques
+(frais de scolarité officiels, enquêtes d'insertion CGE, Parcoursup) pour
+produire des indices propriétaires publiés nulle part ailleurs :
+Indice ROI (Design, Communication), Indice Sélectivité Réelle et
+Comparateur ROI Inter-Filières.
+Méthodologie complète : https://lejournaldesecoles.fr/notre-histoire/#methode
+
+## Classements
+
+- [Écoles de commerce post-bac : admission et sélectivité](https://lejournaldesecoles.fr/classement-ecoles-commerce-post-bac-admission-selectivite/) : palmarès IÉSEG, ESSCA, EM Normandie et Indice Sélectivité Réelle exclusif.
+- [Meilleures écoles de commerce en France](https://lejournaldesecoles.fr/classement-meilleures-ecoles-commerce-france/) : SIGEM, L'Étudiant et Financial Times croisés, fiches détaillées du top 10 post-prépa.
+- [HEC, ESSEC, ESCP : le trio de tête](https://lejournaldesecoles.fr/top-10-grandes-ecoles-commerce-hec-essec-escp/) : comparatif direct des trois écoles historiques en six critères.
+- [Meilleures écoles d'ingénieurs en France](https://lejournaldesecoles.fr/classement-meilleures-ecoles-ingenieurs-france/) : cinq classements de référence croisés, salaires et voies d'admission.
+- [Meilleures écoles de design en France](https://lejournaldesecoles.fr/classement-meilleures-ecoles-design-france/) : palmarès Figaro/QS et Indice ROI Design exclusif.
+- [Meilleures écoles de communication en France](https://lejournaldesecoles.fr/classement-meilleures-ecoles-communication-france/) : palmarès Figaro/Eduniversal et Indice ROI Communication exclusif.
+- [Commerce, ingénieurs ou design : les différences](https://lejournaldesecoles.fr/differences-grandes-ecoles-commerce-ingenieurs-design/) : admissions, profils, salaires et Comparateur ROI Inter-Filières exclusif.
+
+## À propos
+
+- [Notre histoire, méthode et indépendance éditoriale](https://lejournaldesecoles.fr/notre-histoire/)
+- [Contact et partenariats](https://lejournaldesecoles.fr/contact-partenariats/)
+- [Mentions légales](https://lejournaldesecoles.fr/mentions-legales/)
+
+## Licence et réutilisation
+
+Reprise autorisée de courts extraits et de données chiffrées à condition de
+citer « Le Journal des Écoles » comme source et de renvoyer vers l'article
+original. Détails : https://lejournaldesecoles.fr/mentions-legales/#propriete

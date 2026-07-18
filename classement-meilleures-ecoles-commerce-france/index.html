@@ -7,6 +7,7 @@
   <meta name="description" content="Palmarès 2026 complet des écoles de commerce françaises : méthodologies SIGEM/L'Étudiant/FT, fiches détaillées des 10 premières écoles, salaires, admissions.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/classement-meilleures-ecoles-commerce-france/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Le Journal des Écoles">
@@ -21,10 +22,9 @@
   <meta property="article:section" content="Classements">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css?v=3">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
 
   <script type="application/ld+json">
   {
@@ -39,6 +39,7 @@
         "datePublished": "2026-07-17",
         "dateModified": "2026-07-17",
         "inLanguage": "fr-FR",
+        "isAccessibleForFree": true,
         "articleSection": "Classements",
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
         "publisher": { "@id": "https://lejournaldesecoles.fr/#organization" },
@@ -57,7 +58,7 @@
       {
         "@type": "ItemList",
         "@id": "https://lejournaldesecoles.fr/classement-meilleures-ecoles-commerce-france/#top15",
-        "name": "Top 15 des écoles de commerce françaises — ordre SIGEM 2025",
+        "name": "Top 15 des écoles de commerce françaises - ordre SIGEM 2025",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
         "numberOfItems": 15,
         "itemListElement": [
@@ -114,7 +115,7 @@
           {
             "@type": "Question",
             "name": "Faut-il passer le concours BCE ou Ecricome pour intégrer une école de commerce ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Cela dépend de l'école visée. HEC, ESSEC, ESCP, EDHEC, emlyon, SKEMA, Audencia, Grenoble EM et TBS Education recrutent exclusivement via la BCE pour leur Master post-prépa. NEOMA, KEDGE, EM Strasbourg, Montpellier BS et Rennes SB passent par Ecricome. Aucune des deux voies n'utilise Parcoursup pour ce cursus — Parcoursup sert uniquement pour les Bachelors et programmes post-bac." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Cela dépend de l'école visée. HEC, ESSEC, ESCP, EDHEC, emlyon, SKEMA, Audencia, Grenoble EM et TBS Education recrutent exclusivement via la BCE pour leur Master post-prépa. NEOMA, KEDGE, EM Strasbourg, Montpellier BS et Rennes SB passent par Ecricome. Aucune des deux voies n'utilise Parcoursup pour ce cursus - Parcoursup sert uniquement pour les Bachelors et programmes post-bac." }
           },
           {
             "@type": "Question",
@@ -142,8 +143,12 @@
         "@id": "https://lejournaldesecoles.fr/#organization",
         "name": "Le Journal des Écoles",
         "url": "https://lejournaldesecoles.fr/",
-        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/favicon.svg" },
+        "logo": { "@type": "ImageObject", "url": "https://lejournaldesecoles.fr/assets/img/logo-jde.png", "width": 512, "height": 512 },
         "foundingDate": "2026",
+        "areaServed": "FR",
+        "publishingPrinciples": "https://lejournaldesecoles.fr/notre-histoire/",
+        "correctionsPolicy": "https://lejournaldesecoles.fr/contact-partenariats/#signaler",
+        "actionableFeedbackPolicy": "https://lejournaldesecoles.fr/contact-partenariats/",
         "ownershipFundingInfo": "Le Journal des Écoles est un média indépendant édité par Triaina. Aucune école ne rémunère sa place dans nos classements, qui reposent sur des critères publics et une méthodologie transparente.",
         "contactPoint": [{ "@type": "ContactPoint", "contactType": "partnerships", "email": "lucas@yonder.fr", "availableLanguage": "French" }],
         "sameAs": [
@@ -357,6 +362,8 @@
       .compare .bar-row{ grid-template-columns:84px 1fr auto; }
       .article-hero .imgbox{ aspect-ratio:16/10; }
     }
+    .tablewrap.data td:first-child{ font-family:var(--serif); font-style:normal; font-weight:500; font-size:1.02rem; color:var(--ink); }
+    .tablewrap.data tr:nth-child(-n+3) td:first-child{ color:var(--ink); }
   </style>
 </head>
 <body>
@@ -379,7 +386,7 @@
       </div>
       <div class="brand">
         <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
-          <a href="/" aria-label="Le Journal des Écoles — accueil">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
             <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
             <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
           </a>
@@ -396,7 +403,7 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav" id="nav" aria-label="Navigation principale">
     <div class="wrap">
-      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
+      <a class="nav-mono" href="/" aria-label="Le Journal des Écoles - accueil">J<em>D</em>E</a>
       <ul>
         <li><a href="/classements/">Classements</a></li>
         <li><a href="/commerce/">Commerce</a></li>
@@ -422,16 +429,16 @@
           <a href="/classements/">Classements</a><i>◆</i>
           <span>Écoles de commerce</span>
         </nav>
-        <span class="kicker kicker--marine">Classements — Écoles de commerce</span>
+        <span class="kicker kicker--marine">Classements - Écoles de commerce</span>
         <h1>Classement des meilleures écoles de commerce en France 2026&nbsp;: SIGEM, L’Étudiant, Financial Times</h1>
-        <p class="standfirst">Il n’existe pas un classement des écoles de commerce, il en existe trois — et ils ne racontent pas la même histoire. Préférences réelles des bi-admis, 85 critères académiques, regard paneuropéen&nbsp;: notre comparatif croisé, sourcé poste par poste.</p>
+        <p class="standfirst">Il n’existe pas un classement des écoles de commerce, il en existe trois - et ils ne racontent pas la même histoire. Préférences réelles des bi-admis, 85 critères académiques, regard paneuropéen&nbsp;: notre comparatif croisé, sourcé poste par poste.</p>
         <p class="byline">Par <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Publié le <time datetime="2026-07-17">17 juillet 2026</time><i>◆</i>Lecture 18 min</p>
         <figure class="article-hero">
           <div class="imgbox">
-            <img src="/assets/img/remise-diplomes-ecole-commerce.webp"
+            <img src="/assets/img/remise-diplomes-ecole-commerce.webp" srcset="/assets/img/remise-diplomes-ecole-commerce-480.webp 480w, /assets/img/remise-diplomes-ecole-commerce-960.webp 960w, /assets/img/remise-diplomes-ecole-commerce.webp 1600w" sizes="(max-width: 1280px) 100vw, 1240px"
                  alt="Diplômés d'une école de commerce lançant leur toque lors de la cérémonie de remise des diplômes" width="1600" height="686" fetchpriority="high">
           </div>
-          <figcaption>Remise des diplômes — © Le Journal des Écoles</figcaption>
+          <figcaption>Remise des diplômes - © Le Journal des Écoles</figcaption>
         </figure>
       </div>
     </div>
@@ -444,13 +451,13 @@
 
           <section class="essentiel" id="essentiel">
             <h2>L’essentiel à retenir</h2>
-            <p>Il n’existe pas UN classement des écoles de commerce françaises, il en existe trois — et ils ne mesurent pas la même chose.</p>
+            <p>Il n’existe pas UN classement des écoles de commerce françaises, il en existe trois - et ils ne mesurent pas la même chose.</p>
             <ul>
               <li><p><strong>SIGEM 2025</strong> (préférence réelle des étudiants bi-admis)&nbsp;: HEC 1ʳᵉ, ESSEC 2ᵉ, ESCP 3ᵉ, EDHEC 4ᵉ, emlyon 5ᵉ. Le trio de tête n’a pas bougé depuis des années.</p></li>
               <li><p><strong>L’Étudiant 2025</strong> (score sur 68 points, 85 critères)&nbsp;: HEC toujours 1ʳᵉ avec 56,5/68, mais emlyon et ESSEC sont ex&nbsp;æquo 2ᵉ à 56/68, devant ESCP (55).</p></li>
               <li><p><strong>Financial Times European Business Schools 2025</strong>&nbsp;: la France place 25 écoles dans ce classement paneuropéen et reste la 1ʳᵉ nation du continent. HEC est 2ᵉ d’Europe, juste derrière INSEAD.</p></li>
               <li><p><strong>Salaire de sortie moyen (CGE 2025)</strong>&nbsp;: 41&nbsp;103&nbsp;€ brut hors primes pour les profils management, avec un écart femmes-hommes de 5,7&nbsp;% qui persiste.</p></li>
-              <li><p><strong>19 écoles françaises</strong> détiennent la triple accréditation AACSB-EQUIS-AMBA — mais pas ESCP, 3ᵉ au SIGEM, qui n’a que deux labels sur trois.</p></li>
+              <li><p><strong>19 écoles françaises</strong> détiennent la triple accréditation AACSB-EQUIS-AMBA - mais pas ESCP, 3ᵉ au SIGEM, qui n’a que deux labels sur trois.</p></li>
               <li><p><strong>Budget PGE</strong>&nbsp;: de 51&nbsp;000&nbsp;€ (KEDGE) à plus de 75&nbsp;000&nbsp;€ (HEC) pour un cursus complet post-prépa en 2026.</p></li>
             </ul>
           </section>
@@ -464,22 +471,22 @@
           </div>
 
           <h2 id="methodologie">Méthodologie&nbsp;: comment sont construits les trois classements</h2>
-          <p>Un classement ne vaut que par ce qu’il mesure. Avant de lire le tableau du podium, comprenez ce que chaque source compte réellement — parce que les trois ne parlent pas de la même chose.</p>
+          <p>Un classement ne vaut que par ce qu’il mesure. Avant de lire le tableau du podium, comprenez ce que chaque source compte réellement - parce que les trois ne parlent pas de la même chose.</p>
 
           <h3>SIGEM 2025&nbsp;: le seul classement sans aucune pondération</h3>
           <p>Le SIGEM n’est pas un palmarès au sens classique. C’est la traduction statistique de la <strong>procédure d’affectation officielle</strong> qui suit les concours BCE et Ecricome.</p>
           <ul>
-            <li><p><strong>Principe unique</strong>&nbsp;: la préférence révélée. On ne demande l’avis de personne, on regarde ce que font réellement les candidats <strong>bi-admis</strong> — c’est-à-dire admis dans au moins deux écoles au même moment.</p></li>
-            <li><p><strong>Le duel direct</strong>&nbsp;: pour deux écoles A et B qui partagent au moins 3 candidats bi-admis, l’école choisie par la majorité «&nbsp;gagne&nbsp;» le duel. Exemple concret&nbsp;: sur les bi-admis HEC/ESSEC 2025, l’immense majorité choisit HEC — HEC gagne donc le duel face à l’ESSEC.</p></li>
+            <li><p><strong>Principe unique</strong>&nbsp;: la préférence révélée. On ne demande l’avis de personne, on regarde ce que font réellement les candidats <strong>bi-admis</strong> - c’est-à-dire admis dans au moins deux écoles au même moment.</p></li>
+            <li><p><strong>Le duel direct</strong>&nbsp;: pour deux écoles A et B qui partagent au moins 3 candidats bi-admis, l’école choisie par la majorité «&nbsp;gagne&nbsp;» le duel. Exemple concret&nbsp;: sur les bi-admis HEC/ESSEC 2025, l’immense majorité choisit HEC - HEC gagne donc le duel face à l’ESSEC.</p></li>
             <li><p><strong>Le duel indirect</strong>&nbsp;: si A et B n’ont pas assez de candidats communs, A peut battre B indirectement si elle bat une école C qui bat elle-même B, sans qu’aucune école ne batte A en perdant contre B.</p></li>
             <li><p><strong>Zéro critère pédagogique</strong>&nbsp;: ni recherche, ni salaire, ni notoriété média ne rentrent dans le calcul. Le SIGEM intègre implicitement tout ce que l’étudiant juge important au moment de trancher, sans qu’aucun analyste ne décide d’une pondération arbitraire.</p></li>
-            <li><p><strong>Ce qu’il ne capte pas</strong>&nbsp;: la qualité de vie étudiante, le contenu pédagogique précis, ou l’insertion professionnelle réelle — seulement l’attractivité relative au moment du choix.</p></li>
+            <li><p><strong>Ce qu’il ne capte pas</strong>&nbsp;: la qualité de vie étudiante, le contenu pédagogique précis, ou l’insertion professionnelle réelle - seulement l’attractivité relative au moment du choix.</p></li>
           </ul>
           <p><strong>SIGEM 2025, ordre des écoles analysées dans cet article</strong>&nbsp;: HEC, ESSEC, ESCP, EDHEC, emlyon, SKEMA, Audencia, NEOMA, Grenoble EM, KEDGE, TBS Education, Rennes SB, IMT-BS, Montpellier BS, ICN.</p>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp"
+              <img loading="lazy" src="/assets/img/etudiant-prise-de-notes-concours.webp" srcset="/assets/img/etudiant-prise-de-notes-concours-480.webp 480w, /assets/img/etudiant-prise-de-notes-concours-960.webp 960w, /assets/img/etudiant-prise-de-notes-concours.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Candidat prenant des notes pendant la préparation des concours d'écoles de commerce" width="1400" height="788">
             </div>
             <figcaption>Concours BCE et Ecricome&nbsp;: 3 candidats bi-admis suffisent à créer un duel SIGEM</figcaption>
@@ -489,8 +496,8 @@
           <p>Le classement de L’Étudiant est à l’opposé du SIGEM&nbsp;: il compile une masse de données factuelles et déclaratives, réparties en huit grandes thématiques.</p>
           <ul>
             <li><p><strong>8 thématiques évaluées</strong>&nbsp;: identité de l’école (accréditations, grade master), origine des intégrés (sélectivité, duels SIGEM ou Parcoursup selon le profil), professionnalisation (stages, alternance), international (nationalités, doubles diplômes), environnement &amp; RSE, satisfaction des diplômés, insertion professionnelle (salaire, taux de CDI, réseau alumni) et attractivité-sélectivité.</p></li>
-            <li><p><strong>85 critères au total</strong>, dont 25 critères dits «&nbsp;classants&nbsp;» qui entrent dans le calcul du score final sur 68 points — les pondérations exactes de chacun ne sont pas publiées par la rédaction.</p></li>
-            <li><p><strong>Nouveauté 2025</strong>&nbsp;: l’ajout d’un critère d’attractivité-sélectivité, construit sur les données Parcoursup 2023 pour les écoles post-bac et SIGEM 2024 pour les écoles post-prépa — les deux familles ne sont jamais comparées entre elles.</p></li>
+            <li><p><strong>85 critères au total</strong>, dont 25 critères dits «&nbsp;classants&nbsp;» qui entrent dans le calcul du score final sur 68 points - les pondérations exactes de chacun ne sont pas publiées par la rédaction.</p></li>
+            <li><p><strong>Nouveauté 2025</strong>&nbsp;: l’ajout d’un critère d’attractivité-sélectivité, construit sur les données Parcoursup 2023 pour les écoles post-bac et SIGEM 2024 pour les écoles post-prépa - les deux familles ne sont jamais comparées entre elles.</p></li>
             <li><p><strong>37 écoles analysées</strong>, toutes titulaires du grade de master reconnu par la CEFDG (Commission d’évaluation des formations et diplômes de gestion).</p></li>
           </ul>
           <p><strong>Top 10 L’Étudiant 2025</strong>&nbsp;: HEC (56,5), emlyon et ESSEC ex&nbsp;æquo (56), ESCP (55), SKEMA (54,5), EDHEC (52), NEOMA (51,5), Audencia (51), IÉSEG (49,5), Grenoble EM et TBS Education ex&nbsp;æquo (48).</p>
@@ -501,7 +508,7 @@
             <li><p><strong>La France, 1ʳᵉ nation du classement européen</strong>&nbsp;: 25 écoles françaises figurent dans ce palmarès 2025, un volume qu’aucun autre pays du continent n’égale.</p></li>
             <li><p><strong>HEC Paris, 2ᵉ d’Europe</strong>, juste derrière INSEAD qui reprend la tête cette année.</p></li>
             <li><p><strong>ESCP 4ᵉ</strong>, notamment portée par son Executive MBA, l’un des mieux notés d’Europe.</p></li>
-            <li><p><strong>ESSEC 7ᵉ</strong>, <strong>EDHEC 9ᵉ</strong> — une 5ᵉ année consécutive dans le top 10 européen pour l’école lilloise.</p></li>
+            <li><p><strong>ESSEC 7ᵉ</strong>, <strong>EDHEC 9ᵉ</strong> - une 5ᵉ année consécutive dans le top 10 européen pour l’école lilloise.</p></li>
             <li><p><strong>emlyon 10ᵉ</strong>, en progression.</p></li>
             <li><p><strong>SKEMA, la remontée la plus spectaculaire</strong>&nbsp;: de la 26ᵉ à la 16ᵉ place en un an.</p></li>
             <li><p><strong>Salaire pondéré ajusté en parité de pouvoir d’achat (USD)</strong>&nbsp;: c’est le critère qui pèse le plus lourd dans les sous-classements MBA et Master in Management, avec la mobilité internationale des diplômés juste derrière.</p></li>
@@ -540,16 +547,41 @@
               </tbody>
             </table>
           </div>
-          <p class="table-note">*Ces écoles figurent bien parmi les 25 françaises classées par le Financial Times en 2025, mais en dehors du top 20 européen publié en détail — le FT ne communique pas systématiquement les rangs individuels au-delà de cette tranche.</p>
+          <p class="table-note">*Ces écoles figurent bien parmi les 25 françaises classées par le Financial Times en 2025, mais en dehors du top 20 européen publié en détail - le FT ne communique pas systématiquement les rangs individuels au-delà de cette tranche.</p>
 
           <p><strong>Ce que révèle ce croisement&nbsp;:</strong></p>
           <ul>
             <li><p>Le trio <strong>HEC-ESSEC-ESCP</strong> reste indéboulonnable au SIGEM&nbsp;: c’est la préférence brute des meilleurs candidats de prépa, année après année.</p></li>
-            <li><p><strong>emlyon dépasse l’ESSEC sur le score L’Étudiant</strong> (56 partout, ex&nbsp;æquo) tout en restant 5ᵉ au SIGEM — preuve que les critères académiques et internationaux de L’Étudiant valorisent des dimensions que le duel SIGEM ne capte pas.</p></li>
+            <li><p><strong>emlyon dépasse l’ESSEC sur le score L’Étudiant</strong> (56 partout, ex&nbsp;æquo) tout en restant 5ᵉ au SIGEM - preuve que les critères académiques et internationaux de L’Étudiant valorisent des dimensions que le duel SIGEM ne capte pas.</p></li>
             <li><p><strong>NEOMA devance Audencia au SIGEM</strong> (8ᵉ vs 7ᵉ selon les lectures), un basculement qui alimente le débat chaque année sur la mécanique des désistements croisés.</p></li>
             <li><p><strong>SKEMA progresse le plus fort au Financial Times</strong>, gagnant dix places en un an sur le classement paneuropéen.</p></li>
             <li><p><strong>IMT-BS et Montpellier BS restent hors du radar international</strong> du FT, mais tiennent leur rang dans le SIGEM et chez L’Étudiant grâce à leur ancrage national.</p></li>
           </ul>
+
+          <div class="tablewrap data">
+            <table>
+              <caption class="sr-only">Frais totaux du Programme Grande École (cursus post-prépa de 3 ans, hors césure), école par école, d'après les fiches administratives 2025-2026.</caption>
+              <thead>
+                <tr>
+                  <th scope="col">École</th>
+                  <th scope="col">Frais totaux du PGE (3 ans)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>HEC Paris</td><td>75&nbsp;350&nbsp;€</td></tr>
+                <tr><td>ESCP</td><td>67&nbsp;800&nbsp;€</td></tr>
+                <tr><td>ESSEC</td><td>66&nbsp;020&nbsp;€</td></tr>
+                <tr><td>EDHEC</td><td>61&nbsp;400&nbsp;€</td></tr>
+                <tr><td>emlyon</td><td>60&nbsp;900&nbsp;€</td></tr>
+                <tr><td>NEOMA</td><td>56&nbsp;000&nbsp;€</td></tr>
+                <tr><td>SKEMA</td><td>55&nbsp;500&nbsp;€</td></tr>
+                <tr><td>Audencia</td><td>55&nbsp;500&nbsp;€</td></tr>
+                <tr><td>Grenoble EM</td><td>53&nbsp;250&nbsp;€</td></tr>
+                <tr><td>KEDGE</td><td>51&nbsp;000&nbsp;€</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">Montants maximaux affichés lorsque l'école publie une fourchette. À Grenoble EM, toute année en alternance est intégralement financée par l'entreprise d'accueil.</p>
 
           <!-- ————— comparateur interactif ————— -->
           <div class="compare" id="comparateur">
@@ -562,11 +594,11 @@
           </div>
 
           <h2 id="fiches">Fiches détaillées&nbsp;: les 10 premières écoles de commerce, chiffre par chiffre</h2>
-          <p>Frais réels, part d’internationaux, ville de campus, salaire de sortie et modalité d’admission précise — voici ce que chaque école du top 10 demande et ce qu’elle apporte.</p>
+          <p>Frais réels, part d’internationaux, ville de campus, salaire de sortie et modalité d’admission précise - voici ce que chaque école du top 10 demande et ce qu’elle apporte.</p>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/quartier-affaires-tours.webp"
+              <img loading="lazy" src="/assets/img/quartier-affaires-tours.webp" srcset="/assets/img/quartier-affaires-tours-480.webp 480w, /assets/img/quartier-affaires-tours-960.webp 960w, /assets/img/quartier-affaires-tours.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Tours de bureaux d'un quartier d'affaires, premier débouché des diplômés d'écoles de commerce" width="1400" height="788">
             </div>
             <figcaption>Conseil, banque, luxe&nbsp;: les débouchés dominants du top 10</figcaption>
@@ -600,7 +632,7 @@
             <ul>
               <li><p><strong>Frais de scolarité PGE (post-prépa, 3 ans)</strong>&nbsp;: 67&nbsp;800&nbsp;€, identiques sur les six campus. Admission sur titre&nbsp;: 51&nbsp;400&nbsp;€ (UE) ou 60&nbsp;600&nbsp;€ (hors UE).</p></li>
               <li><p><strong>Effectifs</strong>&nbsp;: environ 11&nbsp;000 étudiants tous programmes confondus, 66 à 68&nbsp;% d’internationaux, 136 nationalités.</p></li>
-              <li><p><strong>Campus</strong>&nbsp;: six sites — Paris, Londres, Berlin, Madrid, Turin, Varsovie.</p></li>
+              <li><p><strong>Campus</strong>&nbsp;: six sites - Paris, Londres, Berlin, Madrid, Turin, Varsovie.</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours BCE pour le Master post-prépa&nbsp;; Parcoursup pour le Bachelor post-bac (choix du campus dès la candidature). Pas d’Ecricome.</p></li>
               <li><p><strong>Point notable</strong>&nbsp;: ESCP ne détient que deux des trois accréditations de la triple couronne (AACSB et EQUIS, pas AMBA), malgré sa 3ᵉ place au SIGEM et son 4ᵉ rang européen au Financial Times.</p></li>
             </ul>
@@ -633,7 +665,7 @@
             <ul>
               <li><p><strong>Frais de scolarité PGE</strong>&nbsp;: 55&nbsp;500&nbsp;€ pour une entrée en L3 (cursus 3 ans), 37&nbsp;000&nbsp;€ pour une entrée en M1 (cursus 2 ans).</p></li>
               <li><p><strong>Effectifs</strong>&nbsp;: environ 11&nbsp;000 étudiants, 42&nbsp;% d’internationaux, plus de 130 nationalités.</p></li>
-              <li><p><strong>Campus</strong>&nbsp;: Lille, Sophia Antipolis, Paris, plus quatre campus internationaux propres — Raleigh (États-Unis), Suzhou (Chine), Belo Horizonte (Brésil) et Le Cap (Afrique du Sud).</p></li>
+              <li><p><strong>Campus</strong>&nbsp;: Lille, Sophia Antipolis, Paris, plus quatre campus internationaux propres - Raleigh (États-Unis), Suzhou (Chine), Belo Horizonte (Brésil) et Le Cap (Afrique du Sud).</p></li>
               <li><p><strong>Admission</strong>&nbsp;: concours BCE pour le Master post-prépa&nbsp;; candidature directe via Parcoursup pour le Bachelor (SKEMA n’est membre ni d’Ecricome ni de la BCE pour cette voie).</p></li>
               <li><p><strong>Progression FT la plus marquée du marché français</strong>&nbsp;: de la 26ᵉ à la 16ᵉ place européenne en un an.</p></li>
             </ul>
@@ -701,15 +733,15 @@
           <ul>
             <li><p>Une reconnaissance internationale du diplôme qui facilite la recherche d’emploi et la mobilité hors de France, en particulier dans les pays anglo-saxons et en Asie.</p></li>
             <li><p>Un accès élargi aux réseaux d’écoles partenaires pour les doubles diplômes.</p></li>
-            <li><p><strong>Un contre-exemple qui compte</strong>&nbsp;: ESCP, 3ᵉ au SIGEM 2025 et 4ᵉ au Financial Times European Business Schools, ne détient que deux accréditations sur trois (pas d’AMBA) — preuve que la triple couronne n’est ni nécessaire ni suffisante pour dominer les classements généraux.</p></li>
+            <li><p><strong>Un contre-exemple qui compte</strong>&nbsp;: ESCP, 3ᵉ au SIGEM 2025 et 4ᵉ au Financial Times European Business Schools, ne détient que deux accréditations sur trois (pas d’AMBA) - preuve que la triple couronne n’est ni nécessaire ni suffisante pour dominer les classements généraux.</p></li>
           </ul>
 
           <h2 id="salaires">Salaires 2025-2026&nbsp;: ce que révèlent vraiment les chiffres CGE</h2>
-          <p>Le salaire de sortie reste le critère le plus scruté par les familles — et le plus mal compris, tant les méthodes de calcul varient d’une source à l’autre.</p>
+          <p>Le salaire de sortie reste le critère le plus scruté par les familles - et le plus mal compris, tant les méthodes de calcul varient d’une source à l’autre.</p>
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp"
+              <img loading="lazy" src="/assets/img/jeune-diplome-costume-finance.webp" srcset="/assets/img/jeune-diplome-costume-finance-480.webp 480w, /assets/img/jeune-diplome-costume-finance-960.webp 960w, /assets/img/jeune-diplome-costume-finance.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Jeune diplômé en costume ajustant sa veste avant un entretien en banque d'affaires" width="1400" height="788">
             </div>
             <figcaption>Banque-assurance et finance de marché&nbsp;: les secteurs les plus rémunérateurs à la sortie</figcaption>
@@ -718,7 +750,7 @@
           <ul>
             <li><p><strong>Salaire moyen national (CGE 2025, profils management, hors primes)</strong>&nbsp;: 41&nbsp;103&nbsp;€ brut annuel.</p></li>
             <li><p><strong>Salaire médian toutes filières confondues</strong>&nbsp;: environ 39&nbsp;600&nbsp;€.</p></li>
-            <li><p><strong>Écart femmes-hommes</strong>&nbsp;: 5,7&nbsp;% en moyenne globale, qui grimpe à 7,3&nbsp;% spécifiquement chez les managers — un écart qui ne se résorbe pas d’une année sur l’autre.</p></li>
+            <li><p><strong>Écart femmes-hommes</strong>&nbsp;: 5,7&nbsp;% en moyenne globale, qui grimpe à 7,3&nbsp;% spécifiquement chez les managers - un écart qui ne se résorbe pas d’une année sur l’autre.</p></li>
             <li><p><strong>Salaires pondérés par école (Financial Times, alumni à 3 ans, ajustés en parité de pouvoir d’achat)</strong>&nbsp;: emlyon 107&nbsp;742&nbsp;$, Audencia 92&nbsp;192&nbsp;$, KEDGE 77&nbsp;388&nbsp;$. Ces chiffres mesurent une cohorte plus expérimentée que l’enquête CGE et intègrent des primes variables selon les marchés d’expatriation.</p></li>
             <li><p><strong>Secteur le plus rémunérateur</strong>&nbsp;: la banque-assurance et la finance de marché devancent le conseil sur le salaire moyen brut, même si le conseil reste le premier employeur en volume de recrutements.</p></li>
             <li><p><strong>Répartition des recrutements management (CGE 2025)</strong>&nbsp;: conseil et stratégie 22,2&nbsp;%, banque-assurance-finance 15,8&nbsp;%, TIC et services numériques entre 8,8&nbsp;% et 13&nbsp;% selon les écoles, PME 32,3&nbsp;% et TPE 6,2&nbsp;%.</p></li>
@@ -726,9 +758,9 @@
 
           <h2 id="insertion">Insertion professionnelle à 6 mois&nbsp;: un marché plus tendu qu’il y a deux ans</h2>
           <ul>
-            <li><p><strong>Taux net d’emploi à 6 mois (profils management, CGE 2025)</strong>&nbsp;: 78,3&nbsp;%, contre 81,2&nbsp;% en 2024 — un tassement net qui reflète un marché de l’emploi cadre plus tendu.</p></li>
+            <li><p><strong>Taux net d’emploi à 6 mois (profils management, CGE 2025)</strong>&nbsp;: 78,3&nbsp;%, contre 81,2&nbsp;% en 2024 - un tassement net qui reflète un marché de l’emploi cadre plus tendu.</p></li>
             <li><p><strong>Taux global toutes filières confondues</strong>&nbsp;: 80,2&nbsp;%, également en recul.</p></li>
-            <li><p><strong>emlyon et Audencia</strong> revendiquent chacune un taux de 99&nbsp;% à 100&nbsp;% de diplômés en poste trois mois après la sortie, selon les données déclarées au Financial Times — un indicateur mesuré différemment de l’enquête CGE nationale.</p></li>
+            <li><p><strong>emlyon et Audencia</strong> revendiquent chacune un taux de 99&nbsp;% à 100&nbsp;% de diplômés en poste trois mois après la sortie, selon les données déclarées au Financial Times - un indicateur mesuré différemment de l’enquête CGE nationale.</p></li>
             <li><p><strong>KEDGE</strong> communique un taux d’emploi de 93&nbsp;% à 6 mois selon ses propres chiffres, cohérent avec la moyenne nationale du secteur.</p></li>
             <li><p><strong>Facteurs qui font varier ce taux d’une école à l’autre</strong>&nbsp;: le poids de l’alternance dans le cursus (qui sécurise l’insertion), la spécialisation dominante (finance et conseil recrutent plus vite que d’autres filières) et la force du réseau alumni local.</p></li>
           </ul>
@@ -738,7 +770,7 @@
 
           <figure>
             <div class="imgbox">
-              <img loading="lazy" src="/assets/img/bibliotheque-ancienne-grandes-ecoles.webp"
+              <img loading="lazy" src="/assets/img/bibliotheque-ancienne-grandes-ecoles.webp" srcset="/assets/img/bibliotheque-ancienne-grandes-ecoles-480.webp 480w, /assets/img/bibliotheque-ancienne-grandes-ecoles-960.webp 960w, /assets/img/bibliotheque-ancienne-grandes-ecoles.webp 1600w" sizes="(max-width: 1080px) 100vw, 750px"
                    alt="Rayonnages d'une bibliothèque de classe préparatoire aux grandes écoles" width="1400" height="788">
             </div>
             <figcaption>Deux ans de prépa, un concours, une affectation SIGEM</figcaption>
@@ -746,11 +778,11 @@
 
           <h3>Concours BCE vs Ecricome&nbsp;: qui recrute qui</h3>
           <ul>
-            <li><p><strong>Le concours BCE</strong> couvre HEC, ESSEC, ESCP, EDHEC, emlyon, SKEMA, Audencia, Grenoble EM, TBS Education et l’IMT-BS, entre autres. Toutes ces écoles sont accessibles uniquement via la BCE pour la voie post-prépa — aucune n’utilise Parcoursup pour son Master post-prépa.</p></li>
+            <li><p><strong>Le concours BCE</strong> couvre HEC, ESSEC, ESCP, EDHEC, emlyon, SKEMA, Audencia, Grenoble EM, TBS Education et l’IMT-BS, entre autres. Toutes ces écoles sont accessibles uniquement via la BCE pour la voie post-prépa - aucune n’utilise Parcoursup pour son Master post-prépa.</p></li>
             <li><p><strong>Le concours Ecricome</strong> concerne spécifiquement NEOMA, KEDGE, EM Strasbourg, Montpellier Business School et Rennes School of Business.</p></li>
             <li><p><strong>Calendrier BCE 2026</strong>&nbsp;: inscriptions du 8 décembre 2025 au 12 janvier 2026, épreuves écrites du 22 au 29 avril 2026, résultats d’admissibilité début-mi juin, oraux de mi-juin à début juillet, résultats d’admission le 8 juillet 2026.</p></li>
             <li><p><strong>Calendrier Ecricome 2026</strong>&nbsp;: épreuves écrites du 14 au 16 avril 2026, résultats d’admissibilité début juin, oraux de mi-juin à début juillet, résultats d’admission début juillet 2026.</p></li>
-            <li><p><strong>L’affectation finale passe par le SIGEM</strong>&nbsp;: chaque candidat classe ses écoles par ordre de préférence, et le système l’affecte à la meilleure école accessible selon son rang — c’est précisément ce mécanisme qui produit les duels analysés en méthodologie.</p></li>
+            <li><p><strong>L’affectation finale passe par le SIGEM</strong>&nbsp;: chaque candidat classe ses écoles par ordre de préférence, et le système l’affecte à la meilleure école accessible selon son rang - c’est précisément ce mécanisme qui produit les duels analysés en méthodologie.</p></li>
           </ul>
 
           <h3>Parcoursup&nbsp;: uniquement pour les cursus post-bac et les Bachelors</h3>
@@ -769,7 +801,7 @@
           <ul>
             <li><p><strong>Passerelle</strong>&nbsp;: depuis 2025-2026, le <strong>TAGE MAGE n’est plus exigé</strong> pour ce concours. La sélection repose sur le dossier académique, un test d’anglais et un entretien.</p></li>
             <li><p><strong>Ecricome Tremplin</strong> (Bac+2 ou Bac+3)&nbsp;: concerne les écoles du réseau Ecricome comme NEOMA et KEDGE, avec test de logique (TAGE MAGE ou équivalent) et oral d’anglais.</p></li>
-            <li><p><strong>Admission sur titre (AST)</strong> dans les écoles BCE&nbsp;: dossier académique, test de management, test d’anglais et entretien — les modalités précises varient d’une école à l’autre.</p></li>
+            <li><p><strong>Admission sur titre (AST)</strong> dans les écoles BCE&nbsp;: dossier académique, test de management, test d’anglais et entretien - les modalités précises varient d’une école à l’autre.</p></li>
             <li><p><strong>TAGE MAGE</strong>&nbsp;: il est désormais possible de le passer jusqu’à quatre fois par an, une fois par trimestre civil.</p></li>
           </ul>
 
@@ -797,7 +829,7 @@
               </details>
               <details>
                 <summary>Faut-il passer le concours BCE ou Ecricome pour intégrer une école de commerce&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Cela dépend de l’école visée. HEC, ESSEC, ESCP, EDHEC, emlyon, SKEMA, Audencia, Grenoble EM et TBS Education recrutent exclusivement via la BCE pour leur Master post-prépa. NEOMA, KEDGE, EM Strasbourg, Montpellier BS et Rennes SB passent par Ecricome. Aucune des deux voies n’utilise Parcoursup pour ce cursus — Parcoursup sert uniquement pour les Bachelors et programmes post-bac.</p>
+                <p class="answer">Cela dépend de l’école visée. HEC, ESSEC, ESCP, EDHEC, emlyon, SKEMA, Audencia, Grenoble EM et TBS Education recrutent exclusivement via la BCE pour leur Master post-prépa. NEOMA, KEDGE, EM Strasbourg, Montpellier BS et Rennes SB passent par Ecricome. Aucune des deux voies n’utilise Parcoursup pour ce cursus - Parcoursup sert uniquement pour les Bachelors et programmes post-bac.</p>
               </details>
               <details>
                 <summary>Quel salaire espérer à la sortie d’une école de commerce en 2026&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -813,13 +845,13 @@
           <h2 id="sources">Sources</h2>
           <div class="sources">
             <ol>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://etudiant.lefigaro.fr/article/etudes/classement-sigem-2025-zero-admis-pour-l-une-des-ecoles-de-commerce-20250718/">Classement SIGEM 2025 — Le Figaro Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.letudiant.fr/educpros/actualite/classement-2025-des-ecoles-de-commerce-hec-emlyon-et-essec-en-tete.html">Classement 2025 des écoles de commerce — L’Étudiant</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://rankings.ft.com/methodology">Financial Times — Methodology, Business School Rankings</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://poetsandquants.com/2025/12/02/insead-holds-top-spot-in-financial-times-european-business-school-ranking/">The Financial Times European Business Schools Ranking 2025 — Poets&amp;Quants</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cge.asso.fr/publications/enquete-insertion-cge-2025-rapport/">Enquête Insertion 2025 — Conférence des Grandes Écoles (CGE)</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.concours-bce.com/sites/default/files/2025-11/Reglement_Concours_BCE_2026_VA_VF_0_0.pdf">Règlement du concours BCE 2026</a></li>
-              <li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.ecricome.org/wp-content/uploads/2025/03/PPT-LIVE-BACHELOR-technique-11032025-2.pdf">Règlement des concours Ecricome 2026</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://etudiant.lefigaro.fr/article/etudes/classement-sigem-2025-zero-admis-pour-l-une-des-ecoles-de-commerce-20250718/">Classement SIGEM 2025 - Le Figaro Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.letudiant.fr/educpros/actualite/classement-2025-des-ecoles-de-commerce-hec-emlyon-et-essec-en-tete.html">Classement 2025 des écoles de commerce - L’Étudiant</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://rankings.ft.com/methodology">Financial Times - Methodology, Business School Rankings</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://poetsandquants.com/2025/12/02/insead-holds-top-spot-in-financial-times-european-business-school-ranking/">The Financial Times European Business Schools Ranking 2025 - Poets&amp;Quants</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.cge.asso.fr/publications/enquete-insertion-cge-2025-rapport/">Enquête Insertion 2025 - Conférence des Grandes Écoles (CGE)</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.concours-bce.com/sites/default/files/2025-11/Reglement_Concours_BCE_2026_VA_VF_0_0.pdf">Règlement du concours BCE 2026</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.ecricome.org/wp-content/uploads/2025/03/PPT-LIVE-BACHELOR-technique-11032025-2.pdf">Règlement des concours Ecricome 2026</a></li>
             </ol>
           </div>
 
@@ -924,7 +956,7 @@
     </div>
     <div class="foot-bottom">
       <div class="wrap">
-        <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
           <a href="#">Instagram</a>
           <a href="#">TikTok</a>
@@ -946,7 +978,7 @@
         <input id="search-input" type="search" name="q" placeholder="Une école, un master, un métier…" autocomplete="off">
         <button type="submit" class="sr-only">Rechercher</button>
       </form>
-      <p class="hint"><b>Entrée</b> pour rechercher — <b>Échap</b> pour fermer</p>
+      <p class="hint"><b>Entrée</b> pour rechercher - <b>Échap</b> pour fermer</p>
       <ul class="live-results" id="live-results"></ul>
       <div class="sug">
         <span>Recherches populaires</span>
@@ -959,8 +991,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js?v=3"></script>
-  <script src="/assets/site.js?v=3" defer></script>
+  <script src="/assets/search.js?v=4"></script>
+  <script src="/assets/site.js?v=4" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){

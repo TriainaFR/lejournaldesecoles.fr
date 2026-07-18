@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page introuvable - Le Journal des Écoles</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/jde.css?v=4">
+  <style>
+    .nf{ padding:5rem 0 6rem; background:var(--paper); text-align:center; }
+    .nf .code{
+      font-family:var(--serif); font-style:italic; font-weight:600;
+      font-size:clamp(4rem, 10vw, 7rem); color:var(--marine); line-height:1;
+    }
+    .nf h1{ font-family:var(--serif); font-weight:700; font-size:clamp(1.5rem, 3vw, 2.2rem); margin:1rem 0 .8rem; }
+    .nf p{ color:var(--ink-soft); max-width:52ch; margin:0 auto 2rem; line-height:1.7; }
+    .nf .liens{ display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; }
+    .nf .liens a{
+      border:1px solid var(--hairline-strong); padding:.8rem 1.5rem;
+      font-size:.72rem; letter-spacing:.2em; text-transform:uppercase; font-weight:600;
+      transition:border-color .25s, color .25s;
+    }
+    .nf .liens a:hover{ border-color:var(--marine); color:var(--marine); }
+    .nf .orn{ color:var(--gold); font-size:.8rem; margin:1.6rem 0; }
+  </style>
+</head>
+<body>
+
+  <!-- ================= MASTHEAD (compact) ================= -->
+  <header class="masthead">
+    <div class="wrap">
+      <div class="masthead-side">
+        <b>France</b>
+        Le média des études supérieures
+      </div>
+      <div class="brand">
+        <p style="font-family:var(--serif);font-weight:700;color:var(--ink);line-height:.95;letter-spacing:.02em;text-transform:uppercase;">
+          <a href="/" aria-label="Le Journal des Écoles - accueil">
+            <span style="display:block;font-size:clamp(1.3rem,2.6vw,2rem);">Le Journal</span>
+            <span style="display:block;font-size:clamp(1.7rem,3.4vw,2.65rem);letter-spacing:.03em;">des Écoles</span>
+          </a>
+        </p>
+        <p class="tagline">Classements · Écoles · Masters · Métiers</p>
+      </div>
+      <div class="masthead-side right">
+        <b>Fondé en 2026</b>
+        Indépendant &amp; sans concession
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="nf">
+      <div class="wrap">
+        <p class="code" aria-hidden="true">404</p>
+        <h1>Cette page n'existe pas (ou plus)</h1>
+        <p>L'adresse demandée ne correspond à aucune page du Journal des Écoles. Elle a peut-être été déplacée, ou le lien qui vous a amené ici comporte une coquille.</p>
+        <p class="orn" aria-hidden="true">◆ ◆ ◆</p>
+        <div class="liens">
+          <a href="/">Retour à la une</a>
+          <a href="/classements/">Tous les classements</a>
+          <a href="/recherche/">Rechercher</a>
+          <a href="/contact-partenariats/">Signaler un lien mort</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER (compact) ================= -->
+  <footer>
+    <div class="foot-bottom">
+      <div class="wrap">
+        <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
+        <span class="indep">Média indépendant&nbsp;: aucune école ne rémunère sa place dans nos classements.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
