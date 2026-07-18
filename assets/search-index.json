@@ -1,6 +1,69 @@
 [
   {
     "type": "Article",
+    "cat": "Classements — Communication",
+    "title": "Meilleures écoles de communication : classement et débouchés",
+    "url": "/classement-meilleures-ecoles-communication-france/",
+    "date": "2026-07-18",
+    "excerpt": "CELSA, ISCOM, SciencesCom, ISTC, EFAP, Sup de Pub : palmarès Figaro 2026, masters Eduniversal, Indice ROI Communication exclusif, admissions et débouchés par spécialité.",
+    "keywords": "classement école de communication celsa sorbonne iscom sciencescom audencia istc efap esp sup de pub iscpa excelia cesacom figaro étudiant eduniversal palmarès meilleure école communication médias"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Indice ROI",
+    "title": "L'Indice ROI Communication : ×26,7 pour le CELSA, ×0,8 à 1 pour le privé",
+    "url": "/classement-meilleures-ecoles-communication-france/#roi",
+    "date": "2026-07-18",
+    "excerpt": "Salaire estimé à 3-5 ans divisé par le coût total des études : le ratio propriétaire de la rédaction révèle un facteur 27 entre le CELSA public et les grandes écoles privées.",
+    "keywords": "indice roi communication ratio retour investissement coût études frais scolarité salaire celsa iscom efap sup de pub public privé"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Calculateur",
+    "title": "Estimez votre ROI école de communication",
+    "url": "/classement-meilleures-ecoles-communication-france/#calculateur",
+    "date": "2026-07-18",
+    "excerpt": "Frais annuels, durée du cursus, salaire espéré à 3-5 ans : le calculateur applique la méthode de l'Indice ROI Communication à votre projet d'études.",
+    "keywords": "calculateur roi simulateur coût études communication budget frais scolarité"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Podium",
+    "title": "Top 10 des écoles de communication (palmarès Figaro 2026)",
+    "url": "/classement-meilleures-ecoles-communication-france/#podium",
+    "date": "2026-07-18",
+    "excerpt": "CELSA 1ᵉʳ (16,3/20), ISCOM 2ᵉ (16,2), SciencesCom 3ᵉ (15,8), ISTC 4ᵉ, EFAP 5ᵉ : le tableau complet avec statut public ou privé — 9 écoles privées sur 10.",
+    "keywords": "top 10 podium tableau celsa iscom sciencescom istc efap esp sup de pub iscpa excelia cesacom note statut"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Fiches écoles",
+    "title": "CELSA, ISCOM, EFAP, Sup de Pub, ISCPA, SciencesCom : les fiches détaillées",
+    "url": "/classement-meilleures-ecoles-communication-france/#fiches",
+    "date": "2026-07-18",
+    "excerpt": "Frais réels (243 € au CELSA, 9 300 € à l'ISCOM), concours, insertion à 6 mois et spécialité forte de chaque école du podium.",
+    "keywords": "fiche école celsa sorbonne concours l3 iscom campus efap mba événementiel sup de pub omnes iscpa journalisme sciencescom médiacampus nantes frais admission insertion"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Spécialités",
+    "title": "RP, digital, publicité, événementiel, corporate : quelle école pour quel métier",
+    "url": "/classement-meilleures-ecoles-communication-france/#specialites",
+    "date": "2026-07-18",
+    "excerpt": "Salaires par spécialité (25 000 à 50 000 €), écoles recommandées, et l'EFAP n°1 national en événementiel selon Eduniversal.",
+    "keywords": "spécialités débouchés relations presse rp attaché de presse communication digitale community manager social media chef de projet publicité concepteur rédacteur événementiel corporate salaire métier"
+  },
+  {
+    "type": "Section",
+    "cat": "Article — Admissions",
+    "title": "Admissions en école de communication : concours CELSA, dossier, Parcoursup, alternance",
+    "url": "/classement-meilleures-ecoles-communication-france/#admissions",
+    "date": "2026-07-18",
+    "excerpt": "Concours écrit + oral hors Parcoursup (CELSA, ISCOM, EFAP, ISCPA), Parcoursup pour SciencesCom, et l'alternance qui ramène les frais à 0 € dès la 4ᵉ année.",
+    "keywords": "admission concours celsa parcoursup dossier entretien monmaster alternance opco qcm culture générale"
+  },
+  {
+    "type": "Article",
     "cat": "Classements — Design",
     "title": "Classement des meilleures écoles de design en France",
     "url": "/classement-meilleures-ecoles-design-france/",
