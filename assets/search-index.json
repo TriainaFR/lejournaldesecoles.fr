@@ -1,5 +1,68 @@
 [
   {
+    "type": "Article",
+    "cat": "Classements - Commerce post-bac",
+    "title": "Classement des écoles de commerce post-bac : admission et sélectivité",
+    "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/",
+    "date": "2026-07-18",
+    "excerpt": "IÉSEG, ESSCA, EM Normandie, Excelia, EM Strasbourg : palmarès Figaro et L'Étudiant 2026, Indice Sélectivité Réelle exclusif, concours ACCÈS et SESAME, salaires de sortie.",
+    "keywords": "classement école de commerce post-bac ieseg essca em normandie excelia emlv em strasbourg psb esdes ipag edc paris esce isg ebs idrac istec figaro étudiant l'étudiant palmarès sans prépa bachelor cinq ans"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Indice Sélectivité Réelle",
+    "title": "L'Indice Sélectivité Réelle : rang qualité contre taux d'admission réel",
+    "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/#selectivite",
+    "date": "2026-07-18",
+    "excerpt": "16 % d'admis à l'IÉSEG, 11,5 % à EM Normandie, 85 % chez Excelia : le croisement propriétaire entre note de classement et rareté réelle des places, qu'aucun palmarès ne publie.",
+    "keywords": "indice sélectivité réelle taux d'admission candidats places rang qualité ieseg em normandie excelia esdes analyse propriétaire"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Simulateur",
+    "title": "Quelle est ma probabilité d'admission ?",
+    "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/#simulateur",
+    "date": "2026-07-18",
+    "excerpt": "École visée, profil du dossier : le simulateur positionne un repère indicatif à partir des taux d'admission publiés par ACCÈS, SESAME et Parcoursup.",
+    "keywords": "simulateur probabilité admission chances concours accès sésame parcoursup dossier"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Podium",
+    "title": "Le classement complet 2026 des 15 écoles post-bac (Figaro / L'Étudiant)",
+    "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/#podium",
+    "date": "2026-07-18",
+    "excerpt": "IÉSEG 1ʳᵉ (19,3/20 - 57/67), ESSCA 2ᵉ, EM Normandie 3ᵉ : les notes des deux palmarès pour les 15 écoles, et l'anomalie EM Strasbourg.",
+    "keywords": "podium tableau classement ieseg essca em normandie excelia emlv em strasbourg psb esdes ipag edc esce isg ebs idrac istec note figaro l'étudiant"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Fiches écoles",
+    "title": "IÉSEG, ESSCA, EM Normandie, Excelia, EM Strasbourg, PSB, EDC : les fiches détaillées",
+    "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/#fiches",
+    "date": "2026-07-18",
+    "excerpt": "Salaires de sortie (35 000 à 51 750 €), insertion, voie d'admission et frais réels des sept écoles du haut du tableau.",
+    "keywords": "fiche école ieseg essca em normandie excelia em strasbourg psb edc paris salaire sortie insertion cdi frais scolarité admission"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Admissions",
+    "title": "ACCÈS, SESAME, Parcoursup direct : les trois voies d'admission post-bac",
+    "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/#admissions",
+    "date": "2026-07-18",
+    "excerpt": "Concours ACCÈS (IÉSEG, ESSCA, Esdes), concours SESAME (EM Normandie, EM Strasbourg, PSB, EDC, EMLV) et admission directe sur dossier via Parcoursup : le mode d'emploi.",
+    "keywords": "admission concours accès sésame parcoursup épreuves écrit oral entretien inscription places candidats"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Prise de position",
+    "title": "Sélectivité ou accessibilité : comment choisir son école post-bac",
+    "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/#position",
+    "date": "2026-07-18",
+    "excerpt": "IÉSEG pour le rapport prestige/salaire, Excelia pour sécuriser une place en formant bien : la position de la rédaction, dossier par dossier.",
+    "keywords": "choisir école sélectivité accessibilité dossier prestige salaire conseil orientation prise de position"
+  },
+  {
     "type": "Page",
     "cat": "Le Journal des Écoles",
     "title": "Notre histoire : mission, méthode et indépendance du média",

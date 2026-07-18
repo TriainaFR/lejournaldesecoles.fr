@@ -3,9 +3,10 @@
   "configurations": [
     {
       "name": "lejournaldesecoles",
-      "runtimeExecutable": "/Users/l.l/.claude/skills/seo/.venv/bin/python",
-      "runtimeArgs": ["-m", "http.server", "8000"],
-      "port": 8000
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-c", "exec /Users/l.l/.claude/skills/seo/.venv/bin/python -m http.server \"$PORT\""],
+      "port": 8000,
+      "autoPort": true
     }
   ]
 }
