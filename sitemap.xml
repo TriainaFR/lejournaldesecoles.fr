@@ -56,22 +56,5 @@
     <lastmod>2026-07-18</lastmod>
   </url>
 
-  <!--
-    À décommenter au fur et à mesure des mises en ligne : un sitemap ne doit
-    contenir que des URL qui répondent en 200. Les classements gardent une URL
-    stable, millésimée dans le H1 et non dans l'URL, et voient leur <lastmod>
-    mis à jour à chaque nouvelle édition.
-
-  <url><loc>https://lejournaldesecoles.fr/classements/ecoles-de-commerce/</loc><lastmod>2026-07-17</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/classements/ecoles-ingenieurs/</loc><lastmod>2026-07-15</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/classements/ecoles-design/</loc><lastmod>2026-07-12</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/classements/ecoles-communication/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/classements/masters/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/classements/salaires-de-sortie/</loc><lastmod>2026-07-17</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/methodologie/</loc><lastmod>2026-07-17</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/charte-editoriale/</loc><lastmod>2026-07-17</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/a-propos/</loc><lastmod>2026-07-17</lastmod></url>
-  <url><loc>https://lejournaldesecoles.fr/auteurs/charlotte-montant/</loc><lastmod>2026-07-17</lastmod></url>
-  -->
 
 </urlset>
