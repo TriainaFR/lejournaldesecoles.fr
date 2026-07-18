@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Orientation - Grandes écoles",
+    "title": "Grandes écoles : les différences entre commerce, ingénieurs et design",
+    "url": "/differences-grandes-ecoles-commerce-ingenieurs-design/",
+    "date": "2026-07-18",
+    "excerpt": "Admissions (CPGE ECG, prépa scientifique, Parcoursup + portfolio), profils, salaires de sortie et Comparateur ROI Inter-Filières : le guide pour choisir entre les trois grandes filières.",
+    "keywords": "différence école de commerce ingénieurs design filière orientation choisir prépa cpge ecg mpsi pcsi bce ecricome x-ens mines-ponts centrale-supélec portfolio book parcoursup grande école profil bac spécialités"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Comparatif",
+    "title": "Commerce, ingénieurs, design : le tableau comparatif des trois filières",
+    "url": "/differences-grandes-ecoles-commerce-ingenieurs-design/#comparatif",
+    "date": "2026-07-18",
+    "excerpt": "Diplôme, durée, voies d'admission, profil, coût de scolarité, salaire de sortie et insertion : les trois filières grandes écoles en un coup d'œil.",
+    "keywords": "tableau comparatif filières diplôme grade master cti durée admission coût scolarité salaire insertion"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Comparateur ROI",
+    "title": "Le Comparateur ROI Inter-Filières : le public bat le privé, toutes filières confondues",
+    "url": "/differences-grandes-ecoles-commerce-ingenieurs-design/#roi",
+    "date": "2026-07-18",
+    "excerpt": "De ×26,7 (CELSA) et ×20 (Boulle) à ×0,46 (Penninghen) : pour la première fois, les Indices ROI des filières commerce, ingénieurs, design et communication sur la même échelle.",
+    "keywords": "comparateur roi inter-filières indice roi retour investissement coût études salaire boulle ensci celsa centralesupélec mines hec public privé"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Quiz",
+    "title": "Quiz : quelle filière grande école vous correspond ?",
+    "url": "/differences-grandes-ecoles-commerce-ingenieurs-design/#quiz",
+    "date": "2026-07-18",
+    "excerpt": "Spécialités de terminale, motivations, points forts, métier imaginé : quatre questions pour dégager une dominante commerce, ingénierie ou design.",
+    "keywords": "quiz orientation test filière profil commerce ingénieur design spécialités terminale"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Choisir",
+    "title": "Choisir sa filière selon son profil de bac (et en finir avec les faux clivages)",
+    "url": "/differences-grandes-ecoles-commerce-ingenieurs-design/#profil",
+    "date": "2026-07-18",
+    "excerpt": "Spécialités gardées en terminale, résultats réels, book : les questions à se poser dans l'ordre, et les raccourcis à oublier sur les trois filières.",
+    "keywords": "choisir filière profil bac spécialités maths ses hggsp std2a book admissions parallèles passerelle tremplin clichés"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Commerce post-bac",
     "title": "Classement des écoles de commerce post-bac : admission et sélectivité",
     "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/",
