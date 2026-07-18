@@ -1,5 +1,41 @@
 [
   {
+    "type": "Page",
+    "cat": "Le Journal des Écoles",
+    "title": "Contact & partenariats : joindre la rédaction, proposer une donnée",
+    "url": "/contact-partenariats/",
+    "date": "2026-07-18",
+    "excerpt": "Question, correction de donnée, demande presse ou partenariat : une seule adresse, lucas@yonder.fr. Transparence totale : aucune école ne paie pour améliorer son classement.",
+    "keywords": "contact contacter rédaction email adresse partenariat presse journaliste correction erreur signaler donnée collaboration école média"
+  },
+  {
+    "type": "Section",
+    "cat": "Contact - Partenariats",
+    "title": "Partenariats acceptés : données d'écoles, organismes publics, reprises médias",
+    "url": "/contact-partenariats/#partenariats",
+    "date": "2026-07-18",
+    "excerpt": "Trois types de collaborations acceptées, une règle non négociable : tout partenariat est mentionné sur l'article, aucune école ne peut payer pour son classement.",
+    "keywords": "partenariat collaboration école données officielles sies cti cge apec reprise co-publication sponsorisé règle transparence"
+  },
+  {
+    "type": "Section",
+    "cat": "Contact - Corrections",
+    "title": "Signaler une erreur ou proposer une donnée",
+    "url": "/contact-partenariats/#signaler",
+    "date": "2026-07-18",
+    "excerpt": "Article concerné, donnée en question, source officielle : toute erreur factuelle confirmée est corrigée rapidement, avec mise à jour de la date de l'article.",
+    "keywords": "signaler erreur correction donnée obsolète frais scolarité chiffre faux coquille mise à jour"
+  },
+  {
+    "type": "Section",
+    "cat": "Contact - Presse",
+    "title": "Pour la presse : accès à la méthodologie complète des indices",
+    "url": "/contact-partenariats/#presse",
+    "date": "2026-07-18",
+    "excerpt": "Formule de calcul, sources publiques exhaustives et limites méthodologiques de chaque indice, mises à disposition des journalistes sur demande.",
+    "keywords": "presse journaliste citer données méthodologie indice roi formule sources vérification interview"
+  },
+  {
     "type": "Article",
     "cat": "Orientation - Grandes écoles",
     "title": "Grandes écoles : les différences entre commerce, ingénieurs et design",
