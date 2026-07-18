@@ -1,5 +1,23 @@
 [
   {
+    "type": "Page",
+    "cat": "Le Journal des Écoles",
+    "title": "Notre histoire : mission, méthode et indépendance du média",
+    "url": "/notre-histoire/",
+    "date": "2026-07-18",
+    "excerpt": "Média d'orientation indépendant fondé en 2026 : notre mission, la méthode Indice ROI, nos sources publiques (SIES, CTI, INSEE, CGE, APEC) et notre charte d'indépendance.",
+    "keywords": "notre histoire à propos qui sommes nous rédaction charlotte montant indépendance charte éditoriale mission média orientation partenariats"
+  },
+  {
+    "type": "Section",
+    "cat": "Notre histoire — Méthode",
+    "title": "La méthode Indice ROI : formule, sources et transparence",
+    "url": "/notre-histoire/#methode",
+    "date": "2026-07-18",
+    "excerpt": "Salaire estimé à 3-5 ans divisé par le coût total des études : la formule unique de nos indices ROI, ses sources (SIES, CTI, INSEE, CGE, APEC) et ses limites assumées.",
+    "keywords": "méthode méthodologie indice roi formule sources sies cti insee cge apec transparence estimation limites calculateur"
+  },
+  {
     "type": "Article",
     "cat": "Classements — Communication",
     "title": "Meilleures écoles de communication : classement et débouchés",
