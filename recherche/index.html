@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/jde.css">
+  <link rel="stylesheet" href="/assets/jde.css?v=3">
 
   <style>
     /* ————— page recherche ————— */
@@ -74,7 +74,7 @@
   <!-- ================= TOP BAR ================= -->
   <div class="topbar">
     <div class="wrap">
-      <span class="edition">Le Journal des Écoles<span class="ed-label"><i>◆</i>Édition digitale</span></span>
+      <span class="edition"><span id="edition-date">Samedi 18 juillet 2026</span><span class="ed-label"><i>◆</i>Édition digitale</span></span>
       <span class="tagline-top">Commerce&nbsp;· Ingénieurs&nbsp;· Design&nbsp;· Communication&nbsp;· RH</span>
       <a href="/#newsletter">S’abonner à la newsletter</a>
     </div>
@@ -108,13 +108,13 @@
     <div class="wrap">
       <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
       <ul>
-        <li><a href="/#classements">Classements</a></li>
-        <li><a href="/#univers">Commerce</a></li>
-        <li><a href="/#univers">Ingénieurs</a></li>
-        <li><a href="/#univers">Design &amp; Archi</a></li>
-        <li><a href="/#univers">Communication</a></li>
-        <li><a href="/#univers">RH &amp; Gestion</a></li>
-        <li><a href="/#parcours">Métiers</a></li>
+        <li><a href="/classements/">Classements</a></li>
+        <li><a href="/commerce/">Commerce</a></li>
+        <li><a href="/ingenieurs/">Ingénieurs</a></li>
+        <li><a href="/design-architecture/">Design &amp; Archi</a></li>
+        <li><a href="/communication/">Communication</a></li>
+        <li><a href="/rh-gestion/">RH &amp; Gestion</a></li>
+        <li><a href="/metiers/">Métiers</a></li>
       </ul>
     </div>
   </nav>
@@ -153,7 +153,7 @@
         <span>© 2026 Le Journal des Écoles — Tous droits réservés</span>
         <span class="soc">
           <a href="/">Accueil</a>
-          <a href="/#classements">Classements</a>
+          <a href="/classements/">Classements</a>
           <a href="/#newsletter">Newsletter</a>
         </span>
         <span class="indep">Média indépendant&nbsp;: aucune école ne rémunère sa place dans nos classements.</span>
@@ -161,7 +161,8 @@
     </div>
   </footer>
 
-  <script src="/assets/search.js"></script>
+  <script src="/assets/search.js?v=3"></script>
+  <script src="/assets/site.js?v=3" defer></script>
   <script>
     (function(){
       var params = new URLSearchParams(location.search);

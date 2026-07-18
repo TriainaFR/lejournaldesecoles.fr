@@ -29,6 +29,28 @@
     <lastmod>2026-07-18</lastmod>
   </url>
 
+  <!-- Rubriques -->
+  <url>
+    <loc>https://lejournaldesecoles.fr/classements/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://lejournaldesecoles.fr/commerce/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://lejournaldesecoles.fr/ingenieurs/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://lejournaldesecoles.fr/design-architecture/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://lejournaldesecoles.fr/communication/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+
   <!--
     À décommenter au fur et à mesure des mises en ligne : un sitemap ne doit
     contenir que des URL qui répondent en 200. Les classements gardent une URL

@@ -130,14 +130,14 @@
   }
   </script>
 
-  <link rel="stylesheet" href="/assets/jde.css">
+  <link rel="stylesheet" href="/assets/jde.css?v=3">
 </head>
 <body>
 
   <!-- ================= TOP BAR ================= -->
   <div class="topbar">
     <div class="wrap">
-      <span class="edition">Samedi 18 juillet 2026<span class="ed-label"><i>◆</i>Édition digitale</span></span>
+      <span class="edition"><span id="edition-date">Samedi 18 juillet 2026</span><span class="ed-label"><i>◆</i>Édition digitale</span></span>
       <span class="tagline-top">Commerce&nbsp;· Ingénieurs&nbsp;· Design&nbsp;· Communication&nbsp;· RH</span>
       <a href="#newsletter">S’abonner à la newsletter</a>
     </div>
@@ -181,13 +181,13 @@
     <div class="wrap">
       <a class="nav-mono" href="/" aria-label="Le Journal des Écoles — accueil">J<em>D</em>E</a>
       <ul>
-        <li><a href="#classements">Classements</a></li>
-        <li><a href="#univers">Commerce</a></li>
-        <li><a href="#univers">Ingénieurs</a></li>
-        <li><a href="#univers">Design &amp; Archi</a></li>
-        <li><a href="#univers">Communication</a></li>
-        <li><a href="#univers">RH &amp; Gestion</a></li>
-        <li><a href="#parcours">Métiers</a></li>
+        <li><a href="/classements/">Classements</a></li>
+        <li><a href="/commerce/">Commerce</a></li>
+        <li><a href="/ingenieurs/">Ingénieurs</a></li>
+        <li><a href="/design-architecture/">Design &amp; Archi</a></li>
+        <li><a href="/communication/">Communication</a></li>
+        <li><a href="/rh-gestion/">RH &amp; Gestion</a></li>
+        <li><a href="/metiers/">Métiers</a></li>
       </ul>
       <button class="search" type="button" id="search-open" aria-label="Rechercher" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
@@ -267,7 +267,7 @@
               </div>
             </li>
           </ol>
-          <a class="more" href="#">Tous les articles <span class="arrow">→</span></a>
+          <a class="more" href="/classements/">Tous les articles <span class="arrow">→</span></a>
         </aside>
       </div>
     </section>
@@ -299,27 +299,27 @@
           </div>
         </div>
         <div class="univers-grid">
-          <a class="arch reveal" href="#">
+          <a class="arch reveal" href="/commerce/">
             <div class="frame"><img loading="lazy" src="/assets/img/quartier-affaires-tours.webp" alt="Tours de bureaux, symbole des carrières en école de commerce" width="700" height="1000"></div>
             <h3>Commerce &amp; Management</h3>
             <p>PGE · Bachelors · MBA</p>
           </a>
-          <a class="arch reveal d1" href="#">
+          <a class="arch reveal d1" href="/ingenieurs/">
             <div class="frame"><img loading="lazy" src="/assets/img/fusee-decollage-ingenierie.webp" alt="Fusée au décollage, univers des écoles d'ingénieurs" width="700" height="1000"></div>
             <h3>Ingénieurs</h3>
             <p>Prépas · Post-bac · Cycles</p>
           </a>
-          <a class="arch reveal d2" href="#">
+          <a class="arch reveal d2" href="/design-architecture/">
             <div class="frame"><img loading="lazy" src="/assets/img/architecture-contemporaine-blanche.webp" alt="Architecture contemporaine blanche" width="700" height="1000"></div>
             <h3>Design &amp; Architecture</h3>
             <p>Création · Archi · Arts appliqués</p>
           </a>
-          <a class="arch reveal d3" href="#">
+          <a class="arch reveal d3" href="/communication/">
             <div class="frame"><img loading="lazy" src="/assets/img/presse-journaux-communication.webp" alt="Journaux imprimés, symbole des métiers de la communication et des médias" width="700" height="1000"></div>
             <h3>Communication &amp; Médias</h3>
             <p>Com · Journalisme · Digital</p>
           </a>
-          <a class="arch reveal d4" href="#">
+          <a class="arch reveal d4" href="/rh-gestion/">
             <div class="frame"><img loading="lazy" src="/assets/img/equipe-travail-ressources-humaines.webp" alt="Équipe au travail, symbole des métiers des ressources humaines" width="700" height="1000"></div>
             <h3>RH &amp; Gestion</h3>
             <p>RH · Management · Droit social</p>
@@ -463,7 +463,7 @@
           </div>
         </div>
 
-        <p class="center"><a class="btn" href="#">Tous nos classements</a></p>
+        <p class="center"><a class="btn" href="/classements/">Tous nos classements</a></p>
       </div>
     </section>
 
@@ -523,7 +523,7 @@
             </div>
           </a>
         </div>
-        <p class="center"><a class="btn" href="#">Tous les parcours métiers</a></p>
+        <p class="center"><a class="btn" href="/metiers/">Tous les parcours métiers</a></p>
       </div>
     </section>
 
@@ -661,11 +661,11 @@
         <nav aria-label="Univers">
           <h4>Univers</h4>
           <ul>
-            <li><a href="#univers">Commerce &amp; Management</a></li>
-            <li><a href="#univers">Ingénieurs</a></li>
-            <li><a href="#univers">Design &amp; Architecture</a></li>
-            <li><a href="#univers">Communication &amp; Médias</a></li>
-            <li><a href="#univers">RH &amp; Gestion</a></li>
+            <li><a href="/commerce/">Commerce &amp; Management</a></li>
+            <li><a href="/ingenieurs/">Ingénieurs</a></li>
+            <li><a href="/design-architecture/">Design &amp; Architecture</a></li>
+            <li><a href="/communication/">Communication &amp; Médias</a></li>
+            <li><a href="/rh-gestion/">RH &amp; Gestion</a></li>
           </ul>
         </nav>
         <nav aria-label="Classements et guides">
@@ -729,7 +729,8 @@
     </div>
   </div>
 
-  <script src="/assets/search.js"></script>
+  <script src="/assets/search.js?v=3"></script>
+  <script src="/assets/site.js?v=3" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){

@@ -380,10 +380,10 @@
   {
     "type": "Rubrique",
     "cat": "Palmarès",
-    "title": "Les classements du moment",
-    "url": "/#classements",
+    "title": "Classements : tous les palmarès du Journal des Écoles",
+    "url": "/classements/",
     "date": "2026-07-17",
-    "excerpt": "Classements des écoles de commerce, d'ingénieurs, de design et des masters, mis à jour chaque année.",
+    "excerpt": "Commerce, ingénieurs, design, communication : tous les classements croisés de la rédaction, complétés par l'Indice ROI exclusif.",
     "keywords": "classements palmarès podium écoles ingénieurs design masters communication salaires"
   },
   {
@@ -421,5 +421,59 @@
     "date": "2026-07-17",
     "excerpt": "Classements, décryptages et conseils d'orientation, résumés en cinq minutes de lecture chaque jeudi.",
     "keywords": "newsletter l'amphi abonnement email jeudi lettre"
+  },
+  {
+    "type": "Rubrique",
+    "cat": "Rubrique",
+    "title": "Commerce & Management",
+    "url": "/commerce/",
+    "date": "2026-07-18",
+    "excerpt": "Tous les articles de la rubrique Commerce & Management du Journal des Écoles.",
+    "keywords": "classements sigem financial times pge bce ecricome écoles de commerce management rubrique"
+  },
+  {
+    "type": "Rubrique",
+    "cat": "Rubrique",
+    "title": "Ingénieurs",
+    "url": "/ingenieurs/",
+    "date": "2026-07-18",
+    "excerpt": "Tous les articles de la rubrique Ingénieurs du Journal des Écoles.",
+    "keywords": "écoles ingénieurs cti concours mines-télécom centrale x-ens insa rubrique"
+  },
+  {
+    "type": "Rubrique",
+    "cat": "Rubrique",
+    "title": "Design & Architecture",
+    "url": "/design-architecture/",
+    "date": "2026-07-18",
+    "excerpt": "Tous les articles de la rubrique Design & Architecture du Journal des Écoles.",
+    "keywords": "écoles design architecture ensad ensci boulle camondo portfolio manaa rubrique"
+  },
+  {
+    "type": "Rubrique",
+    "cat": "Rubrique",
+    "title": "Communication & Médias",
+    "url": "/communication/",
+    "date": "2026-07-18",
+    "excerpt": "Tous les articles de la rubrique Communication & Médias du Journal des Écoles.",
+    "keywords": "écoles communication médias celsa iscom efap rp digital événementiel rubrique"
+  },
+  {
+    "type": "Rubrique",
+    "cat": "Rubrique",
+    "title": "RH & Gestion",
+    "url": "/rh-gestion/",
+    "date": "2026-07-18",
+    "excerpt": "Tous les articles de la rubrique RH & Gestion du Journal des Écoles.",
+    "keywords": "ressources humaines gestion management droit social masters rh rubrique"
+  },
+  {
+    "type": "Rubrique",
+    "cat": "Rubrique",
+    "title": "Métiers & Parcours",
+    "url": "/metiers/",
+    "date": "2026-07-18",
+    "excerpt": "Tous les articles de la rubrique Métiers & Parcours du Journal des Écoles.",
+    "keywords": "métiers parcours salaires premier poste itinéraires finance ingénierie création rubrique"
   }
 ]

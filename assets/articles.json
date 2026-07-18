@@ -1,0 +1,62 @@
+[
+  {
+    "url": "/classement-meilleures-ecoles-communication-france/",
+    "title": "Meilleures écoles de communication : classement et débouchés",
+    "cat": "Classements — Écoles de communication",
+    "rubriques": ["classements", "communication"],
+    "date": "2026-07-18",
+    "dateLabel": "18 juillet 2026",
+    "minutes": 15,
+    "excerpt": "Le CELSA règne pour la troisième année consécutive, l'ISCOM le talonne à un dixième de point — et notre Indice ROI révèle un facteur 27 entre le public et le privé.",
+    "image": "/assets/img/presse-quotidienne-medias.webp",
+    "alt": "Pile de journaux quotidiens, symbole des métiers de la communication"
+  },
+  {
+    "url": "/classement-meilleures-ecoles-design-france/",
+    "title": "Classement des meilleures écoles de design en France",
+    "cat": "Classements — Écoles de design",
+    "rubriques": ["classements", "design-architecture"],
+    "date": "2026-07-18",
+    "dateLabel": "18 juillet 2026",
+    "minutes": 17,
+    "excerpt": "L'ENSAD reprend la tête, l'ENSCI décroche un Red Dot, Camondo règne sur l'architecture intérieure — et notre Indice ROI exclusif révèle un écart de 1 à 40 entre public et privé.",
+    "image": "/assets/img/atelier-designer-nuancier.webp",
+    "alt": "Atelier d'un designer avec nuanciers et croquis"
+  },
+  {
+    "url": "/classement-meilleures-ecoles-ingenieurs-france/",
+    "title": "Classement des meilleures écoles d'ingénieurs en France 2026 : Polytechnique, Mines, CentraleSupélec",
+    "cat": "Classements — Écoles d'ingénieurs",
+    "rubriques": ["classements", "ingenieurs"],
+    "date": "2026-07-17",
+    "dateLabel": "17 juillet 2026",
+    "minutes": 20,
+    "excerpt": "Cinq classements, cinq façons de mesurer l'excellence — et une seule école en tête partout. Salaires réels, insertion à 6 mois et toutes les voies d'admission.",
+    "image": "/assets/img/ingenieure-laboratoire-industrie.webp",
+    "alt": "Ingénieure travaillant sur un équipement industriel en laboratoire"
+  },
+  {
+    "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/",
+    "title": "Top 10 des grandes écoles de commerce : HEC, ESSEC, ESCP",
+    "cat": "Classements — Grandes écoles",
+    "rubriques": ["classements", "commerce"],
+    "date": "2026-07-17",
+    "dateLabel": "17 juillet 2026",
+    "minutes": 14,
+    "excerpt": "Trois écoles, trois siècles, un même podium : histoire, pédagogies opposées, classements FT et débouchés réels du trio de tête — et l'essentiel sur le reste du top 10.",
+    "image": "/assets/img/bibliotheque-ancienne-grandes-ecoles.webp",
+    "alt": "Bibliothèque ancienne aux reliures patinées, deux siècles d'histoire des grandes écoles"
+  },
+  {
+    "url": "/classement-meilleures-ecoles-commerce-france/",
+    "title": "Classement des meilleures écoles de commerce en France 2026 : SIGEM, L'Étudiant, Financial Times",
+    "cat": "Classements — Écoles de commerce",
+    "rubriques": ["classements", "commerce"],
+    "date": "2026-07-17",
+    "dateLabel": "17 juillet 2026",
+    "minutes": 18,
+    "excerpt": "Trois classements qui ne racontent pas la même histoire : préférences réelles des bi-admis, 85 critères académiques, regard paneuropéen — le comparatif croisé, sourcé poste par poste.",
+    "image": "/assets/img/remise-diplomes-ecole-commerce.webp",
+    "alt": "Diplômés d'une école de commerce lançant leur toque"
+  }
+]
