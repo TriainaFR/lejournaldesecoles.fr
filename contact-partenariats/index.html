@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact &amp; partenariats - Le Journal des Écoles</title>
-  <meta name="description" content="Question, correction de donnée, demande presse ou partenariat : contactez Le Journal des Écoles à lucas@yonder.fr. Aucune école ne paie pour son classement.">
+  <meta name="description" content="Contactez la rédaction du Journal des Écoles par formulaire : question, correction de donnée, demande presse ou partenariat. Réponse sous 3 jours ouvrés.">
   <link rel="canonical" href="https://lejournaldesecoles.fr/contact-partenariats/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -13,7 +13,7 @@
   <meta property="og:site_name" content="Le Journal des Écoles">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:title" content="Contact &amp; partenariats - Le Journal des Écoles">
-  <meta property="og:description" content="Question, correction de donnée, demande presse ou partenariat : une seule adresse, lucas@yonder.fr. Aucune école ne paie pour améliorer son classement.">
+  <meta property="og:description" content="Un formulaire direct vers la rédaction : question, correction de donnée, demande presse ou partenariat. Aucune école ne paie pour son classement.">
   <meta property="og:url" content="https://lejournaldesecoles.fr/contact-partenariats/">
   <meta property="og:image" content="https://lejournaldesecoles.fr/assets/img/micro-studio-communication.webp">
   <meta name="twitter:card" content="summary_large_image">
@@ -31,11 +31,11 @@
         "@id": "https://lejournaldesecoles.fr/contact-partenariats/#page",
         "url": "https://lejournaldesecoles.fr/contact-partenariats/",
         "name": "Contact & partenariats",
-        "description": "Contactez Le Journal des Écoles : question, correction de donnée, demande presse ou partenariat. Une seule adresse : lucas@yonder.fr.",
+        "description": "Contactez la rédaction du Journal des Écoles par formulaire : question, correction de donnée, demande presse ou partenariat. Réponse sous 3 jours ouvrés.",
         "inLanguage": "fr-FR",
         "image": "https://lejournaldesecoles.fr/assets/img/micro-studio-communication.webp",
         "datePublished": "2026-07-18",
-        "dateModified": "2026-07-18",
+        "dateModified": "2026-07-21",
         "isPartOf": { "@id": "https://lejournaldesecoles.fr/#website" },
         "about": { "@id": "https://lejournaldesecoles.fr/#organization" },
         "publisher": { "@id": "https://lejournaldesecoles.fr/#organization" },
@@ -64,7 +64,7 @@
           {
             "@type": "Question",
             "name": "Comment vous contacter ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Une seule adresse : lucas@yonder.fr. Utilisez le bouton « Contacter la rédaction » présent sur cette page, ou écrivez directement à cette adresse pour toute question, correction ou demande presse." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Par le formulaire de cette page : indiquez votre nom, votre e-mail, le motif de votre demande et votre message. Il arrive directement dans la boîte de la rédaction, qui répond sous 3 jours ouvrés en moyenne." }
           },
           {
             "@type": "Question",
@@ -74,12 +74,12 @@
           {
             "@type": "Question",
             "name": "Comment signaler une erreur ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Écrivez à lucas@yonder.fr en indiquant l'article concerné, la donnée contestée et, si possible, une source officielle de correction. Toute erreur confirmée est corrigée rapidement, avec mise à jour de la date de l'article." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Utilisez le formulaire de cette page en choisissant le motif « Correction de donnée », puis indiquez l'article concerné, la donnée contestée et, si possible, une source officielle. Toute erreur confirmée est corrigée rapidement, avec mise à jour de la date de l'article." }
           },
           {
             "@type": "Question",
             "name": "Puis-je citer vos données dans mon propre article ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Oui, à condition de citer clairement le Journal des Écoles comme source et, idéalement, de renvoyer vers l'article original. Pour un usage journalistique approfondi ou une reprise de méthodologie, contactez-nous au préalable à lucas@yonder.fr." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui, à condition de citer clairement le Journal des Écoles comme source et, idéalement, de renvoyer vers l'article original. Pour un usage journalistique approfondi ou une reprise de méthodologie, contactez-nous au préalable via le formulaire de cette page, motif « Demande presse »." }
           },
           {
             "@type": "Question",
@@ -112,9 +112,9 @@
         "correctionsPolicy": "https://lejournaldesecoles.fr/contact-partenariats/#signaler",
         "actionableFeedbackPolicy": "https://lejournaldesecoles.fr/contact-partenariats/",
         "contactPoint": [
-          { "@type": "ContactPoint", "contactType": "editorial", "email": "lucas@yonder.fr", "availableLanguage": "French" },
-          { "@type": "ContactPoint", "contactType": "partnerships", "email": "lucas@yonder.fr", "availableLanguage": "French" },
-          { "@type": "ContactPoint", "contactType": "press", "email": "lucas@yonder.fr", "availableLanguage": "French" }
+          { "@type": "ContactPoint", "contactType": "editorial", "url": "https://lejournaldesecoles.fr/contact-partenariats/#formulaire", "availableLanguage": "French" },
+          { "@type": "ContactPoint", "contactType": "partnerships", "url": "https://lejournaldesecoles.fr/contact-partenariats/#formulaire", "availableLanguage": "French" },
+          { "@type": "ContactPoint", "contactType": "press", "url": "https://lejournaldesecoles.fr/contact-partenariats/#formulaire", "availableLanguage": "French" }
         ],
         "sameAs": [
           "https://www.linkedin.com/company/lejournaldesecoles",
@@ -203,14 +203,49 @@
       float:left; padding:.08em .12em 0 0; color:var(--marine);
     }
 
-    /* bouton contact */
-    .prose a.btn-contact{
-      display:inline-block; margin:.4rem 0 1.2rem; padding:.95rem 1.9rem;
-      background:var(--marine); color:var(--paper); border-bottom:none;
-      font-family:var(--sans); font-size:.72rem; letter-spacing:.22em;
-      text-transform:uppercase; font-weight:600; transition:background .25s;
+    /* formulaire de contact */
+    .contact-form{
+      border:1px solid var(--hairline-strong); padding:1.9rem 1.8rem 1.6rem;
+      margin:2rem 0 1.4rem; max-width:none; position:relative; background:var(--paper);
     }
-    .prose a.btn-contact:hover{ background:var(--ink); color:var(--paper); }
+    .contact-form::after{ content:""; position:absolute; inset:6px; border:1px solid var(--hairline); pointer-events:none; }
+    .contact-form > *{ position:relative; z-index:1; }
+    .contact-form .kicker{ display:block; margin-bottom:.4rem; }
+    .contact-form h3{ margin:0 0 .4rem; color:var(--ink); scroll-margin-top:84px; }
+    .contact-form .hint{ font-size:.85rem; color:var(--ink-soft); margin-bottom:1.4rem; }
+    .contact-form .fields{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.2rem; margin-bottom:1.2rem; }
+    .contact-form .field-full{ margin-bottom:1.2rem; }
+    .contact-form label{
+      display:block; font-size:.66rem; letter-spacing:.18em; text-transform:uppercase;
+      font-weight:600; color:var(--ink-soft); margin-bottom:.5rem;
+    }
+    .contact-form input, .contact-form select, .contact-form textarea{
+      width:100%; border:1px solid var(--hairline-strong); background:transparent;
+      font-family:var(--sans); font-size:1rem; color:var(--ink);
+      padding:.7rem .8rem; border-radius:0; -webkit-appearance:none; appearance:none;
+    }
+    .contact-form textarea{ line-height:1.6; resize:vertical; min-height:150px; }
+    .contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus{
+      outline:none; border-color:var(--marine); box-shadow:inset 0 0 0 1px var(--marine);
+    }
+    .contact-form input[aria-invalid="true"], .contact-form textarea[aria-invalid="true"]{ border-color:#9d2f2f; }
+    .contact-form .cf-hp{ position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden; }
+    .contact-form .cf-actions{
+      display:flex; flex-wrap:wrap; align-items:center; gap:1.2rem;
+      border-top:1px solid var(--hairline-strong); padding-top:1.3rem;
+    }
+    .contact-form button{
+      padding:.95rem 1.9rem; background:var(--marine); color:var(--paper); border:none;
+      font-family:var(--sans); font-size:.72rem; letter-spacing:.22em;
+      text-transform:uppercase; font-weight:600; cursor:pointer; transition:background .25s;
+    }
+    .contact-form button:hover{ background:var(--ink); }
+    .contact-form button[disabled]{ opacity:.55; cursor:progress; }
+    .contact-form .cf-status{ margin:0; font-size:.92rem; line-height:1.5; flex:1; min-width:14ch; }
+    .contact-form .cf-status.ok{ color:var(--marine); font-weight:600; }
+    .contact-form .cf-status.ko{ color:#9d2f2f; }
+    .contact-form .cf-rgpd{ margin:1.2rem 0 0; font-size:.78rem; line-height:1.55; color:var(--ink-soft); }
+    @media (max-width: 640px){ .contact-form .fields{ grid-template-columns:1fr; } }
 
     /* encadré l'essentiel */
     .essentiel{
@@ -340,8 +375,8 @@
         </nav>
         <span class="kicker kicker--marine">Le Journal des Écoles</span>
         <h1>Contact &amp; partenariats</h1>
-        <p class="standfirst">Question, correction de donnée, demande presse ou proposition de partenariat&nbsp;: une seule adresse, une réponse de la rédaction, et une règle non négociable - aucune école ne paie pour améliorer son classement.</p>
-        <p class="byline">Rédaction&nbsp;: <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Mise à jour le <time datetime="2026-07-18">18 juillet 2026</time></p>
+        <p class="standfirst">Question, correction de donnée, demande presse ou proposition de partenariat&nbsp;: un formulaire unique, une réponse de la rédaction, et une règle non négociable - aucune école ne paie pour améliorer son classement.</p>
+        <p class="byline">Rédaction&nbsp;: <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>, Rédactrice et consultante<i>◆</i>Mise à jour le <time datetime="2026-07-21">21 juillet 2026</time></p>
 
         <!-- fiche auteure en tête de page (E-E-A-T) -->
         <div class="author-card">
@@ -349,7 +384,7 @@
           <div class="who">
             <b><a href="https://www.linkedin.com/in/charlotte-montant-3b6393402/" rel="author noopener" target="_blank">Charlotte Montant</a></b>
             <span>Rédactrice et consultante - l’autrice de toutes les analyses du site</span>
-            <p>Signe et supervise l’ensemble du contenu publié sur Le Journal des Écoles. Les messages adressés à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a> sont lus et traités par la rédaction.</p>
+            <p>Signe et supervise l’ensemble du contenu publié sur Le Journal des Écoles. Les messages envoyés depuis le formulaire de cette page sont lus et traités par la rédaction.</p>
           </div>
         </div>
       </div>
@@ -363,10 +398,10 @@
 
           <section class="essentiel" id="essentiel">
             <h2>L’essentiel à retenir</h2>
-            <p>Le Journal des Écoles est ouvert au contact et aux demandes de partenariat. Ce média d’orientation indépendant, fondé en 2026, répond aux familles, aux écoles, aux organismes publics et aux journalistes à une seule adresse&nbsp;: <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>.</p>
+            <p>Le Journal des Écoles est ouvert au contact et aux demandes de partenariat. Ce média d’orientation indépendant, fondé en 2026, répond aux familles, aux écoles, aux organismes publics et aux journalistes depuis un point d’entrée unique&nbsp;: le formulaire de cette page.</p>
             <p><strong>Trois principes gouvernent chaque échange&nbsp;:</strong></p>
             <ul>
-              <li><p><strong>Une seule adresse de contact</strong>, pour toutes les demandes - question, correction de donnée, presse, partenariat.</p></li>
+              <li><p><strong>Un seul point de contact</strong> pour toutes les demandes - question, correction de donnée, presse, partenariat&nbsp;: <a href="#formulaire">le formulaire de cette page</a>.</p></li>
               <li><p><strong>Aucune collaboration cachée.</strong> Tout partenariat accepté est mentionné noir sur blanc sur l’article concerné.</p></li>
               <li><p><strong>Aucune école ne paie pour améliorer son classement.</strong> Nos indices maison (Indice ROI Design, Indice ROI Communication, Indice Sélectivité Réelle, Comparateur ROI Inter-Filières) restent calculés sur des données publiques, jamais sur un accord commercial.</p></li>
             </ul>
@@ -374,22 +409,79 @@
           </section>
 
           <div class="stats-inline" aria-label="Nos engagements en chiffres">
-            <div class="stat"><b>1</b><span>adresse unique pour toutes les demandes</span></div>
+            <div class="stat"><b>3 j</b><span>délai de réponse moyen (jours ouvrés)</span></div>
             <div class="stat"><b>100&nbsp;%</b><span>des partenariats mentionnés sur l’article</span></div>
             <div class="stat"><b>0&nbsp;€</b><span>ne peut acheter une place de classement</span></div>
           </div>
 
           <h2 id="contact">Nous contacter</h2>
-          <p class="lede">Pour toute question, toute suggestion de correction de donnée ou toute demande presse, une seule adresse&nbsp;: <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>.</p>
-          <p><a class="btn-contact" href="mailto:lucas@yonder.fr">Contacter la rédaction</a></p>
-          <p>Ce lien ouvre directement votre messagerie, avec l’adresse déjà renseignée. Pas de formulaire à remplir, pas de délai de modération - un e-mail direct à la rédaction.</p>
+          <p class="lede">Pour toute question, toute suggestion de correction de donnée ou toute demande presse, écrivez-nous directement depuis cette page&nbsp;: le formulaire ci-dessous arrive dans la boîte de la rédaction.</p>
+
+          <!-- ————— formulaire de contact ————— -->
+          <form class="contact-form" id="contact-form" novalidate>
+            <span class="kicker">Écrire à la rédaction</span>
+            <h3 id="formulaire">Votre message</h3>
+            <p class="hint">Tous les champs sont nécessaires pour vous répondre. Réponse sous 3 jours ouvrés en moyenne.</p>
+
+            <div class="fields">
+              <div>
+                <label for="cf-nom">Votre nom</label>
+                <input type="text" id="cf-nom" name="from_name" autocomplete="name" required maxlength="80" placeholder="Prénom et nom">
+              </div>
+              <div>
+                <label for="cf-email">Votre e-mail</label>
+                <input type="email" id="cf-email" name="from_email" autocomplete="email" required maxlength="120" placeholder="vous@exemple.fr">
+              </div>
+            </div>
+
+            <div class="field-full">
+              <label for="cf-objet">Motif de votre message</label>
+              <select id="cf-objet" name="subject" required>
+                <option value="Question générale">Question générale sur un article ou un indice</option>
+                <option value="Correction de donnée">Correction de donnée (chiffre, frais, taux)</option>
+                <option value="Demande presse">Demande presse (citation, méthodologie, interview)</option>
+                <option value="Partenariat">Proposition de partenariat</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+
+            <div class="field-full">
+              <label for="cf-message">Votre message</label>
+              <textarea id="cf-message" name="message" rows="7" required minlength="20" maxlength="4000" placeholder="Pour une correction, précisez l'article concerné, la donnée en question et si possible la source officielle."></textarea>
+            </div>
+
+            <!-- piège à robots : invisible pour les humains, laissé vide -->
+            <div class="cf-hp" aria-hidden="true">
+              <label for="cf-site">Ne remplissez pas ce champ</label>
+              <input type="text" id="cf-site" name="website" tabindex="-1" autocomplete="off">
+            </div>
+            <input type="hidden" name="name" value="">
+            <input type="hidden" name="user_name" value="">
+            <input type="hidden" name="email" value="">
+            <input type="hidden" name="user_email" value="">
+            <input type="hidden" name="reply_to" value="">
+            <input type="hidden" name="title" value="">
+            <input type="hidden" name="user_message" value="">
+            <input type="hidden" name="page" value="Formulaire /contact-partenariats/">
+
+            <div class="cf-actions">
+              <button type="submit" id="cf-submit">Envoyer le message</button>
+              <p class="cf-status" id="cf-status" role="status" aria-live="polite"></p>
+            </div>
+
+            <p class="cf-rgpd">Vos nom, e-mail et message sont transmis à la rédaction via notre prestataire d’envoi EmailJS, uniquement pour traiter votre demande. Aucune revente, aucune newsletter automatique. Détail et droits&nbsp;: <a href="/mentions-legales/#donnees-personnelles">politique de confidentialité</a>.</p>
+          </form>
+
+          <noscript>
+            <p><strong>Le formulaire nécessite JavaScript.</strong> S’il est désactivé, vous pouvez joindre la rédaction par téléphone au <a href="tel:+33614916295">06&nbsp;14&nbsp;91&nbsp;62&nbsp;95</a>, ou retrouver nos coordonnées complètes sur la page <a href="/mentions-legales/">mentions légales</a>.</p>
+          </noscript>
           <p><strong>On répond aux trois types de demandes suivants&nbsp;:</strong></p>
           <ul>
             <li><p><strong>Question générale</strong> sur un article, une méthodologie, un indice ROI ou un chiffre publié.</p></li>
             <li><p><strong>Correction de donnée</strong>&nbsp;: frais de scolarité obsolètes, chiffre d’insertion périmé, coquille factuelle repérée dans un tableau.</p></li>
             <li><p><strong>Demande presse</strong>&nbsp;: citation, interview, mise à disposition de données pour un article tiers.</p></li>
           </ul>
-          <p>Charlotte Montant, rédactrice et consultante, signe et supervise l’ensemble du contenu publié sur ce site. Chaque message reçu à cette adresse est lu et traité par la rédaction.</p>
+          <p>Charlotte Montant, rédactrice et consultante, signe et supervise l’ensemble du contenu publié sur ce site. Chaque message envoyé depuis ce formulaire est lu et traité par la rédaction.</p>
 
           <h2 id="partenariats">Partenariats</h2>
           <p>Le Journal des Écoles accepte trois types de collaborations, et uniquement celles-là&nbsp;:</p>
@@ -410,7 +502,7 @@
           </div>
 
           <h2 id="signaler">Signaler une erreur ou proposer une donnée</h2>
-          <p>Un chiffre vous paraît faux&nbsp;? Des frais de scolarité ont changé depuis la publication d’un article&nbsp;? Écrivez-nous à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>, en précisant&nbsp;:</p>
+          <p>Un chiffre vous paraît faux&nbsp;? Des frais de scolarité ont changé depuis la publication d’un article&nbsp;? Écrivez-nous via <a href="#formulaire">le formulaire</a>, motif «&nbsp;Correction de donnée&nbsp;», en précisant&nbsp;:</p>
           <ul>
             <li><p>l’article concerné (titre ou URL),</p></li>
             <li><p>la donnée en question,</p></li>
@@ -420,7 +512,7 @@
           <p>Cette réactivité n’est pas un détail cosmétique. Un article régulièrement corrigé et daté envoie un signal de fraîcheur et de fiabilité, autant aux lecteurs qu’aux moteurs de réponse IA (Perplexity, ChatGPT, Google AI Overview) qui privilégient les sources à jour pour répondre aux questions d’orientation.</p>
 
           <h2 id="presse">Pour la presse</h2>
-          <p>Les journalistes qui souhaitent citer, vérifier ou reprendre un indice publié sur ce site peuvent demander l’accès à la méthodologie complète à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>.</p>
+          <p>Les journalistes qui souhaitent citer, vérifier ou reprendre un indice publié sur ce site peuvent demander l’accès à la méthodologie complète via <a href="#formulaire">le formulaire</a>, motif «&nbsp;Demande presse&nbsp;».</p>
           <p><strong>On met à disposition, sur demande&nbsp;:</strong></p>
           <ul>
             <li><p><strong>Le détail du calcul</strong> de chaque indice (formule, période de référence, hypothèses).</p></li>
@@ -438,7 +530,7 @@
             <div class="inner" style="max-width:none;">
               <details>
                 <summary>Comment vous contacter&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Une seule adresse&nbsp;: <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>. Utilisez le bouton «&nbsp;Contacter la rédaction&nbsp;» présent sur cette page, ou écrivez directement à cette adresse pour toute question, correction ou demande presse.</p>
+                <p class="answer">Par <a href="#formulaire">le formulaire de cette page</a>&nbsp;: indiquez votre nom, votre e-mail, le motif de votre demande et votre message. Il arrive directement dans la boîte de la rédaction, qui répond sous 3 jours ouvrés en moyenne.</p>
               </details>
               <details>
                 <summary>Proposez-vous des partenariats rémunérés&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -446,11 +538,11 @@
               </details>
               <details>
                 <summary>Comment signaler une erreur&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Écrivez à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a> en indiquant l’article concerné, la donnée contestée et, si possible, une source officielle de correction. Toute erreur confirmée est corrigée rapidement, avec mise à jour de la date de l’article.</p>
+                <p class="answer">Utilisez <a href="#formulaire">le formulaire de cette page</a> en choisissant le motif «&nbsp;Correction de donnée&nbsp;», puis indiquez l’article concerné, la donnée contestée et, si possible, une source officielle. Toute erreur confirmée est corrigée rapidement, avec mise à jour de la date de l’article.</p>
               </details>
               <details>
                 <summary>Puis-je citer vos données dans mon propre article&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
-                <p class="answer">Oui, à condition de citer clairement le Journal des Écoles comme source et, idéalement, de renvoyer vers l’article original. Pour un usage journalistique approfondi ou une reprise de méthodologie, contactez-nous au préalable à <a href="mailto:lucas@yonder.fr">lucas@yonder.fr</a>.</p>
+                <p class="answer">Oui, à condition de citer clairement le Journal des Écoles comme source et, idéalement, de renvoyer vers l’article original. Pour un usage journalistique approfondi ou une reprise de méthodologie, contactez-nous au préalable via <a href="#formulaire">le formulaire</a>, motif «&nbsp;Demande presse&nbsp;».</p>
               </details>
               <details>
                 <summary>Répondez-vous aux sollicitations des écoles&nbsp;? <span class="plus" aria-hidden="true">+</span></summary>
@@ -478,6 +570,7 @@
             <ol>
               <li><a href="#essentiel">L’essentiel à retenir</a></li>
               <li><a href="#contact">Nous contacter</a></li>
+              <li><a href="#formulaire">Le formulaire</a></li>
               <li><a href="#partenariats">Partenariats</a></li>
               <li><a href="#signaler">Signaler une erreur</a></li>
               <li><a href="#presse">Pour la presse</a></li>
@@ -593,6 +686,7 @@
 
   <script src="/assets/search.js?v=5"></script>
   <script src="/assets/site.js?v=5" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
   <script>
     // Nav : ombre + monogramme au scroll
     (function(){
@@ -614,6 +708,73 @@
       closeBtn.addEventListener('click', close);
       document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && overlay.classList.contains('open')) close(); });
       JDESearch.bindOverlay(input, document.getElementById('live-results'));
+    })();
+
+    // Formulaire de contact (EmailJS)
+    (function(){
+      var SERVICE = 'service_w7bdow2', TEMPLATE = 'template_4n5km5l', PUBLIC_KEY = 'E7cFvIw50eYZ8er2v';
+      var form = document.getElementById('contact-form');
+      if(!form) return;
+      var statut = document.getElementById('cf-status');
+      var bouton = document.getElementById('cf-submit');
+      var nom = document.getElementById('cf-nom');
+      var email = document.getElementById('cf-email');
+      var objet = document.getElementById('cf-objet');
+      var message = document.getElementById('cf-message');
+
+      document.addEventListener('DOMContentLoaded', function(){
+        if(window.emailjs) emailjs.init({ publicKey: PUBLIC_KEY });
+      });
+
+      function dire(texte, type){
+        statut.textContent = texte;
+        statut.className = 'cf-status' + (type ? ' ' + type : '');
+      }
+      function invalide(champ, texte){
+        champ.setAttribute('aria-invalid', 'true');
+        champ.focus();
+        dire(texte, 'ko');
+        return false;
+      }
+      function valide(){
+        [nom, email, message].forEach(function(c){ c.removeAttribute('aria-invalid'); });
+        if(nom.value.trim().length < 2) return invalide(nom, 'Merci d’indiquer votre nom.');
+        if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.value.trim())) return invalide(email, 'Cette adresse e-mail semble incomplète.');
+        if(message.value.trim().length < 20) return invalide(message, 'Votre message est un peu court : donnez-nous quelques détails (20 caractères minimum).');
+        return true;
+      }
+
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        if(form.website.value !== '') return;            // piège à robots
+        if(!valide()) return;
+        if(typeof emailjs === 'undefined'){
+          dire('L’envoi est momentanément indisponible (script bloqué par une extension ?). Réessayez ou appelez le 06 14 91 62 95.', 'ko');
+          return;
+        }
+
+        // alias : le message part quel que soit le nommage des variables du modèle
+        form.name.value = form.user_name.value = nom.value.trim();
+        form.email.value = form.user_email.value = form.reply_to.value = email.value.trim();
+        form.user_message.value = message.value.trim();
+        form.title.value = 'Journal des Écoles - ' + objet.value;
+
+        bouton.disabled = true;
+        bouton.textContent = 'Envoi en cours…';
+        dire('Envoi de votre message…');
+
+        emailjs.sendForm(SERVICE, TEMPLATE, form, { publicKey: PUBLIC_KEY })
+          .then(function(){
+            form.reset();
+            bouton.textContent = 'Message envoyé';
+            dire('Merci, votre message est bien parti. La rédaction vous répond sous 3 jours ouvrés en moyenne.', 'ok');
+          })
+          .catch(function(err){
+            bouton.disabled = false;
+            bouton.textContent = 'Envoyer le message';
+            dire('L’envoi a échoué (' + ((err && (err.text || err.message)) || 'erreur inconnue') + '). Réessayez dans un instant, ou appelez le 06 14 91 62 95.', 'ko');
+          });
+      });
     })();
 
     // Sommaire : section active au défilement
