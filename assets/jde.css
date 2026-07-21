@@ -722,7 +722,6 @@ footer li a:hover{ color:var(--gold-soft); }
   .masthead .wrap{ grid-template-columns:1fr; padding:2rem 0 1.6rem; }
   .masthead-side{ display:none; }
   .brand .cap{ right:-2.4rem; }
-  .news .wrap{ grid-template-columns:1fr; gap:2rem; }
   .routes-grid{ grid-template-columns:1fr; max-width:460px; margin-inline:auto; }
   .foot-main .wrap{ grid-template-columns:1fr 1fr; gap:2.4rem; }
   .topbar .tagline-top{ display:none; }
@@ -737,8 +736,6 @@ footer li a:hover{ color:var(--gold-soft); }
   .topbar .ed-label{ display:none; }
   .brand .cap{ right:-1.1rem; top:-2.3rem; width:52px; }
   .foot-bottom .wrap{ flex-direction:column; gap:.8rem; }
-  .news form{ flex-direction:column; border:none; gap:.8rem; }
-  .news input{ border:1px solid rgba(246,248,250,.55); }
   .apropos .stats{ grid-template-columns:1fr; }
 }
 
