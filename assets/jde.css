@@ -563,38 +563,6 @@ a:focus-visible, button:focus-visible, input:focus-visible{
 .occ:hover .pict{ color:var(--gold-soft); }
 .occ:hover p{ color:rgba(246,248,250,.72); }
 
-/* ================= NEWSLETTER ================= */
-.news{
-  background:var(--marine); color:var(--paper); padding:4.8rem 0; position:relative; overflow:hidden;
-}
-.news::before{
-  content:""; position:absolute; inset:0; opacity:.5; pointer-events:none;
-  background:
-    radial-gradient(ellipse 70% 120% at 110% 50%, rgba(19,26,34,.4), transparent 60%),
-    radial-gradient(ellipse 70% 120% at -10% 50%, rgba(19,26,34,.4), transparent 60%);
-}
-.news .wrap{ display:grid; grid-template-columns:1.1fr 1fr; gap:3rem; align-items:center; }
-.news .kicker{ color:var(--gold-soft); }
-.news h2{
-  font-family:var(--serif); font-weight:600; font-size:clamp(1.8rem, 3.2vw, 2.7rem);
-  line-height:1.1; margin-top:.8rem;
-}
-.news .sub{ margin-top:1rem; font-size:1.02rem; color:rgba(246,248,250,.82); max-width:44ch; }
-.news form{ display:flex; border:1px solid rgba(246,248,250,.55); }
-.news input{
-  flex:1; background:transparent; border:none; padding:1.1rem 1.3rem; color:var(--paper);
-  font-family:var(--sans); font-size:.95rem; letter-spacing:.04em; min-width:0;
-}
-.news input::placeholder{ color:rgba(246,248,250,.55); }
-.news button{
-  background:var(--gold); color:var(--ink); border:none; padding:1.1rem 2rem;
-  font-family:var(--sans); font-size:.72rem; letter-spacing:.24em; text-transform:uppercase;
-  font-weight:600; cursor:pointer; transition:background .3s;
-}
-.news button:hover{ background:var(--gold-soft); }
-.news .rgpd{
-  margin-top:.9rem; font-size:.7rem; color:rgba(246,248,250,.55); letter-spacing:.03em;
-}
 
 /* ================= FAQ ================= */
 .faq{ padding:4.6rem 0 5rem; }

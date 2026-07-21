@@ -586,15 +586,6 @@
   },
   {
     "type": "Rubrique",
-    "cat": "Newsletter",
-    "title": "« L'Amphi », la newsletter du jeudi matin",
-    "url": "/#newsletter",
-    "date": "2026-07-17",
-    "excerpt": "Classements, décryptages et conseils d'orientation, résumés en cinq minutes de lecture chaque jeudi.",
-    "keywords": "newsletter l'amphi abonnement email jeudi lettre"
-  },
-  {
-    "type": "Rubrique",
     "cat": "Rubrique",
     "title": "Commerce & Management",
     "url": "/commerce/",

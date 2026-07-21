@@ -61,7 +61,7 @@ RUBRIQUES = {
         "meta": "Ressources humaines et gestion : masters RH, droit social et management - les classements et parcours de la rédaction arrivent.",
         "desc": "Ressources humaines, gestion et management : masters RH, droit social, paie et administration des entreprises. Les premières enquêtes et classements de la rédaction sur cette filière arrivent.",
         "index": False,
-        "empty": "Les premières enquêtes de la rédaction sur les filières RH et gestion sont en préparation. En attendant, explorez nos classements déjà publiés - ou abonnez-vous à « L'Amphi » pour être prévenu de leur sortie.",
+        "empty": "Les premières enquêtes de la rédaction sur les filières RH et gestion sont en préparation. En attendant, explorez nos classements déjà publiés.",
     },
     "metiers": {
         "nav": "Métiers",
@@ -98,7 +98,7 @@ PAGE = """<!DOCTYPE html>
 
   <link rel="preload" href="/assets/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/hanken-grotesk-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/jde.css?v=5">
+  <link rel="stylesheet" href="/assets/jde.css?v=6">
 
   <script type="application/ld+json">
 {jsonld}
@@ -111,7 +111,7 @@ PAGE = """<!DOCTYPE html>
     <div class="wrap">
       <span class="edition"><span id="edition-date">Samedi 18 juillet 2026</span><span class="ed-label"><i>◆</i>Édition digitale</span></span>
       <span class="tagline-top">Commerce&nbsp;· Ingénieurs&nbsp;· Design&nbsp;· Communication&nbsp;· RH</span>
-      <a href="/#newsletter">S’abonner à la newsletter</a>
+      <a href="/contact-partenariats/">Contacter la rédaction</a>
     </div>
   </div>
 
@@ -173,24 +173,6 @@ PAGE = """<!DOCTYPE html>
       </div>
     </section>
 
-    <!-- ================= NEWSLETTER ================= -->
-    <section class="news" id="newsletter" aria-label="Newsletter">
-      <div class="wrap">
-        <div>
-          <span class="kicker">La newsletter du Journal des Écoles</span>
-          <h2>«&nbsp;L’Amphi&nbsp;», chaque jeudi matin</h2>
-          <p class="sub">Classements, décryptages et conseils d’orientation, résumés en cinq minutes de lecture. Rien d’autre, promis.</p>
-        </div>
-        <div>
-          <form action="#" method="post">
-            <label class="sr-only" for="nl-email">Votre adresse e-mail</label>
-            <input id="nl-email" type="email" name="email" placeholder="Votre adresse e-mail" required>
-            <button type="submit">Je m’abonne</button>
-          </form>
-          <p class="rgpd">Un e-mail par semaine, zéro publicité déguisée. Désinscription en un clic, conformément au RGPD.</p>
-        </div>
-      </div>
-    </section>
   </main>
 
   <!-- ================= FOOTER ================= -->
@@ -273,8 +255,8 @@ PAGE = """<!DOCTYPE html>
     </div>
   </div>
 
-  <script src="/assets/search.js?v=5"></script>
-  <script src="/assets/site.js?v=5" defer></script>
+  <script src="/assets/search.js?v=6"></script>
+  <script src="/assets/site.js?v=6" defer></script>
   <script>
     (function(){{
       var nav = document.getElementById('nav');
