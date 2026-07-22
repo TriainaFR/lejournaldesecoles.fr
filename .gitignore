@@ -3,3 +3,10 @@ Thumbs.db
 node_modules/
 .env
 .env.*
+
+# Outillage local uniquement : ne JAMAIS déployer package.json à la racine.
+# Railway sert ce dépôt comme site statique parce qu'il n'y détecte pas de
+# projet Node ; committer package.json le ferait basculer en build Node.
+package.json
+package-lock.json
+scripts/.indexnow-state.json

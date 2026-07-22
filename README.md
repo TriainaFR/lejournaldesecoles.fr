@@ -15,6 +15,32 @@ Média français indépendant consacré aux études supérieures : classements d
 - `index.html` — home page (statique, CSS inline, JSON-LD : NewsMediaOrganization, WebSite, ItemList, FAQPage)
 - `assets/` — favicon et ressources graphiques
 
+## Commandes
+
+Le dépôt est **volontairement dépourvu de `package.json` versionné** : Railway le déploie comme site statique précisément parce qu'il n'y détecte aucun projet Node. Le `package.json` d'outillage existe donc en local uniquement (il est dans `.gitignore`). Pour le recréer sur une nouvelle machine :
+
+```json
+{
+  "name": "lejournaldesecoles-outils", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {
+    "indexnow": "node scripts/indexnow.mjs",
+    "indexnow:new": "node scripts/indexnow.mjs --new",
+    "indexnow:dry": "node scripts/indexnow.mjs --dry",
+    "rubriques": "python3 scripts/build-rubriques.py"
+  }
+}
+```
+
+| Commande | Effet |
+|---|---|
+| `npm run indexnow` | Soumet **toutes** les URL du sitemap à IndexNow |
+| `npm run indexnow:new` | Soumet uniquement les pages **modifiées** depuis le dernier envoi |
+| `npm run indexnow:dry` | Affiche ce qui serait envoyé, sans rien envoyer |
+| `npm run indexnow -- <url>` | Soumet une ou plusieurs URL précises |
+| `npm run rubriques` | Régénère les pages de rubrique depuis `assets/articles.json` |
+
+Une seule soumission IndexNow alimente **Bing** (et donc **Copilot**, qui s'appuie sur l'index Bing), Yandex, Seznam et Naver. **Google n'utilise pas IndexNow** : pour lui, la découverte passe par `sitemap.xml` et la Search Console.
+
 ## SEO / GEO
 
 Le site est pensé pour le référencement classique **et** la citation par les moteurs IA (GEO) : HTML sémantique, bloc « réponse » extractible, tableaux de classement natifs, FAQ structurée, données datées et méthodologie publique.
