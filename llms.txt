@@ -10,12 +10,13 @@ Nos classements croisent systématiquement les palmarès existants (Figaro
 Étudiant, L'Étudiant, Financial Times, QS) avec des données publiques
 (frais de scolarité officiels, enquêtes d'insertion CGE, Parcoursup) pour
 produire des indices propriétaires publiés nulle part ailleurs :
-Indice ROI (Design, Communication), Indice Sélectivité Réelle et
+Indice ROI (Design, Communication, Finance), Indice Sélectivité Réelle et
 Comparateur ROI Inter-Filières.
 Méthodologie complète : https://lejournaldesecoles.fr/notre-histoire/#methode
 
 ## Classements
 
+- [Master finance : le classement des meilleurs programmes](https://lejournaldesecoles.fr/master-finance-classement-meilleurs-programmes/) : classements Financial Times, QS et Thotis croisés, et Indice ROI Finance exclusif.
 - [Écoles de commerce post-bac : admission et sélectivité](https://lejournaldesecoles.fr/classement-ecoles-commerce-post-bac-admission-selectivite/) : palmarès IÉSEG, ESSCA, EM Normandie et Indice Sélectivité Réelle exclusif.
 - [Meilleures écoles de commerce en France](https://lejournaldesecoles.fr/classement-meilleures-ecoles-commerce-france/) : SIGEM, L'Étudiant et Financial Times croisés, fiches détaillées du top 10 post-prépa.
 - [HEC vs ESSEC vs ESCP : lequel choisir ?](https://lejournaldesecoles.fr/top-10-grandes-ecoles-commerce-hec-essec-escp/) : le duel des trois écoles historiques en six critères, pour les admis qui hésitent.

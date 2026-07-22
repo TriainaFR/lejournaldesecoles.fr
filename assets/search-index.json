@@ -1,5 +1,59 @@
 [
   {
+    "type": "Article",
+    "cat": "Classements - Masters",
+    "title": "Master finance : le classement des meilleurs programmes 2026",
+    "url": "/master-finance-classement-meilleurs-programmes/",
+    "date": "2026-07-22",
+    "excerpt": "ESCP, HEC, ESSEC, SKEMA, Paris 1 Panthéon-Sorbonne : les classements Financial Times, QS et Thotis croisés, et l'Indice ROI Finance exclusif du Journal des Écoles.",
+    "keywords": "master finance classement meilleur master finance france escp hec paris essec skema emlyon ieseg edhec paris 1 panthéon-sorbonne dauphine financial times qs thotis mon master finance de marché corporate finance m&a trading asset management salaire"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Indice ROI Finance",
+    "title": "L'Indice ROI Finance : ×138 pour Paris 1, ×4,87 pour ESCP",
+    "url": "/master-finance-classement-meilleurs-programmes/#roi",
+    "date": "2026-07-22",
+    "excerpt": "Salaire à trois ans divisé par le coût des deux années de master : le ratio propriétaire qui met l'université et les grandes écoles sur la même échelle.",
+    "keywords": "indice roi finance ratio coût master frais scolarité salaire paris 1 skema escp hec essec emlyon université grande école"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement FT",
+    "title": "Classement Financial Times 2025 des masters en finance",
+    "url": "/master-finance-classement-meilleurs-programmes/#classement-ft",
+    "date": "2026-07-22",
+    "excerpt": "ESCP 1re mondiale, SKEMA 2e, ESSEC 4e, HEC 5e : quatre écoles françaises dans le top 5 et onze établissements classés.",
+    "keywords": "classement financial times master finance 2025 pre-experience escp skema essec hec tsinghua salaire trois ans"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement QS",
+    "title": "Classement QS 2026 : HEC Paris première mondiale",
+    "url": "/master-finance-classement-meilleurs-programmes/#classement-qs",
+    "date": "2026-07-22",
+    "excerpt": "HEC Paris devant Oxford, ESSEC 10e, ESCP 15e, emlyon 21e, EDHEC 24e : le palmarès QS contredit celui du Financial Times.",
+    "keywords": "classement qs business masters 2026 master finance hec paris oxford essec escp emlyon edhec employabilité"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement Thotis",
+    "title": "Thotis : les masters finance de Paris 1 en tête de l'attractivité",
+    "url": "/master-finance-classement-meilleurs-programmes/#classement-thotis",
+    "date": "2026-07-22",
+    "excerpt": "Mesuré sur les candidatures Mon Master, le classement Thotis fait remonter les parcours universitaires ultra-sélectifs de Paris 1 Panthéon-Sorbonne.",
+    "keywords": "classement thotis master finance mon master attractivité sélectivité paris 1 panthéon-sorbonne finance de marché gestion des risques asset management ingénierie financière"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Spécialisations",
+    "title": "Finance de marché ou corporate finance : quel master choisir",
+    "url": "/master-finance-classement-meilleurs-programmes/#specialisations",
+    "date": "2026-07-22",
+    "excerpt": "Trading et gestion d'actifs d'un côté, fusions-acquisitions et conseil de l'autre : métiers visés, salaires de départ et programmes de référence.",
+    "keywords": "finance de marché corporate finance ingénierie financière trading asset management m&a fusions acquisitions métiers salaire débouchés dauphine edhec"
+  },
+  {
     "type": "Page",
     "cat": "Le Journal des Écoles",
     "title": "Mentions légales et données personnelles",

@@ -1,9 +1,29 @@
 [
   {
+    "url": "/master-finance-classement-meilleurs-programmes/",
+    "title": "Master finance : le classement des meilleurs programmes 2026",
+    "cat": "Classements - Masters",
+    "rubriques": [
+      "classements",
+      "commerce"
+    ],
+    "date": "2026-07-22",
+    "dateLabel": "22 juillet 2026",
+    "minutes": 16,
+    "excerpt": "ESCP 1re au Financial Times, HEC 1re au QS, Paris 1 en tête de l'attractivité : trois classements, trois vainqueurs - et notre Indice ROI Finance qui donne l'université gagnante d'un facteur trente.",
+    "image": "/assets/img/la-defense-quartier-financier-paris.webp",
+    "alt": "Les tours du quartier d'affaires de La Défense à Paris"
+  },
+  {
     "url": "/differences-grandes-ecoles-commerce-ingenieurs-design/",
     "title": "Grandes écoles : les différences entre commerce, ingénieurs et design",
     "cat": "Orientation - Grandes écoles",
-    "rubriques": ["classements", "commerce", "ingenieurs", "design-architecture"],
+    "rubriques": [
+      "classements",
+      "commerce",
+      "ingenieurs",
+      "design-architecture"
+    ],
     "date": "2026-07-18",
     "dateLabel": "18 juillet 2026",
     "minutes": 14,
@@ -15,7 +35,10 @@
     "url": "/classement-ecoles-commerce-post-bac-admission-selectivite/",
     "title": "Classement des écoles de commerce post-bac : admission et sélectivité",
     "cat": "Classements - Commerce post-bac",
-    "rubriques": ["classements", "commerce"],
+    "rubriques": [
+      "classements",
+      "commerce"
+    ],
     "date": "2026-07-18",
     "dateLabel": "18 juillet 2026",
     "minutes": 16,
@@ -27,7 +50,10 @@
     "url": "/classement-meilleures-ecoles-communication-france/",
     "title": "Meilleures écoles de communication : classement et débouchés",
     "cat": "Classements - Écoles de communication",
-    "rubriques": ["classements", "communication"],
+    "rubriques": [
+      "classements",
+      "communication"
+    ],
     "date": "2026-07-18",
     "dateLabel": "18 juillet 2026",
     "minutes": 15,
@@ -39,7 +65,10 @@
     "url": "/classement-meilleures-ecoles-design-france/",
     "title": "Classement des meilleures écoles de design en France",
     "cat": "Classements - Écoles de design",
-    "rubriques": ["classements", "design-architecture"],
+    "rubriques": [
+      "classements",
+      "design-architecture"
+    ],
     "date": "2026-07-18",
     "dateLabel": "18 juillet 2026",
     "minutes": 17,
@@ -51,7 +80,10 @@
     "url": "/classement-meilleures-ecoles-ingenieurs-france/",
     "title": "Classement des meilleures écoles d'ingénieurs en France 2026 : Polytechnique, Mines, CentraleSupélec",
     "cat": "Classements - Écoles d'ingénieurs",
-    "rubriques": ["classements", "ingenieurs"],
+    "rubriques": [
+      "classements",
+      "ingenieurs"
+    ],
     "date": "2026-07-17",
     "dateLabel": "17 juillet 2026",
     "minutes": 20,
@@ -63,7 +95,10 @@
     "url": "/top-10-grandes-ecoles-commerce-hec-essec-escp/",
     "title": "HEC vs ESSEC vs ESCP : lequel choisir ?",
     "cat": "Grandes écoles - Le duel",
-    "rubriques": ["classements", "commerce"],
+    "rubriques": [
+      "classements",
+      "commerce"
+    ],
     "date": "2026-07-17",
     "dateLabel": "17 juillet 2026",
     "minutes": 14,
@@ -75,7 +110,10 @@
     "url": "/classement-meilleures-ecoles-commerce-france/",
     "title": "Classement des meilleures écoles de commerce en France 2026 : SIGEM, L'Étudiant, Financial Times",
     "cat": "Classements - Écoles de commerce",
-    "rubriques": ["classements", "commerce"],
+    "rubriques": [
+      "classements",
+      "commerce"
+    ],
     "date": "2026-07-17",
     "dateLabel": "17 juillet 2026",
     "minutes": 18,
