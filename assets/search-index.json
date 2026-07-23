@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Bachelors",
+    "title": "Classement bachelor école de commerce 2026 : notre Indice ROI",
+    "url": "/classement-bachelor-ecole-commerce/",
+    "date": "2026-07-23",
+    "excerpt": "ESCP, Audencia, ICN, EM Normandie : salaires de sortie, frais sur trois ans et sélectivité Parcoursup croisés dans l'Indice ROI Bachelor exclusif du Journal des Écoles.",
+    "keywords": "classement bachelor école de commerce 2026 meilleur bachelor bac+3 escp audencia icn em normandie em strasbourg ieseg essca tbs bsb rennes school of business parcoursup frais scolarité salaire sortie sélectivité mention bien très bien challenges figaro étudiant"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Indice ROI Bachelor",
+    "title": "L'Indice ROI Bachelor : 62,3 pour l'ESCP, 22,0 pour l'ESSCA",
+    "url": "/classement-bachelor-ecole-commerce/#indice",
+    "date": "2026-07-23",
+    "excerpt": "Salaire de sortie divisé par les frais des trois ans, pondéré par la sélectivité à l'admission : le croisement propriétaire que ni Challenges ni le Figaro ne publient.",
+    "keywords": "indice roi bachelor formule salaire frais sélectivité mentions parcoursup escp icn em strasbourg ieseg audencia analyse propriétaire"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Frais",
+    "title": "Frais de scolarité des bachelors : de 25 500 à 60 700 euros",
+    "url": "/classement-bachelor-ecole-commerce/#frais",
+    "date": "2026-07-23",
+    "excerpt": "35 200 € d'écart entre l'ESCP et EM Normandie sur trois ans, soit près d'une année de salaire de départ : le comparatif complet des dix écoles.",
+    "keywords": "frais scolarité bachelor école de commerce prix coût trois ans escp ieseg tbs essca audencia rennes bsb icn em strasbourg em normandie alternance bourse"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Sélectivité",
+    "title": "Sélectivité Parcoursup des bachelors : la part de mentions B/TB",
+    "url": "/classement-bachelor-ecole-commerce/#selectivite",
+    "date": "2026-07-23",
+    "excerpt": "84 % de mentions bien ou très bien chez les admis ESCP, contre 17 à 34 % ailleurs : l'indicateur le plus fiable de la sélectivité réelle d'un bachelor.",
+    "keywords": "sélectivité bachelor parcoursup 2024 mentions bien très bien admis intégrés open data ministère escp ieseg em strasbourg icn audencia"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Immersion",
+    "title": "Immersion professionnelle : la durée de stage par école",
+    "url": "/classement-bachelor-ecole-commerce/#immersion",
+    "date": "2026-07-23",
+    "excerpt": "14 mois chez Audencia, 7 mois chez Burgundy School of Business : le temps passé en entreprise varie du simple au double selon les bachelors.",
+    "keywords": "immersion professionnelle stage bachelor durée mois alternance audencia essca tbs rennes em normandie employabilité"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Masters",
     "title": "Master finance : le classement des meilleurs programmes 2026",
     "url": "/master-finance-classement-meilleurs-programmes/",
