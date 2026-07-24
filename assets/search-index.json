@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Bachelors à Paris",
+    "title": "Bachelor école de commerce à Paris : le classement ROI 2026",
+    "url": "/bachelor-ecole-commerce-paris/",
+    "date": "2026-07-24",
+    "excerpt": "ESCP, IÉSEG, EMLV, ISC Paris, IPAG, ICD, PSB, ESGCI : frais de 25 500 à 60 700 €, salaires de sortie, sélectivité et alternance des bachelors parisiens comparés par notre Indice ROI.",
+    "keywords": "bachelor école de commerce paris classement 2026 escp ieseg emlv la défense isc paris ipag icd psb esgci inseec ppa frais scolarité alternance apprentissage opco salaire sortie sélectivité parcoursup sesame accès île-de-france"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Indice ROI Paris",
+    "title": "Le classement Indice ROI des bachelors parisiens",
+    "url": "/bachelor-ecole-commerce-paris/#indice",
+    "date": "2026-07-24",
+    "excerpt": "ESCP 62,3, IÉSEG 39,3, EMLV 29,8 : le tableau complet des huit bachelors parisiens, avec la fiabilité des données signalée ligne par ligne.",
+    "keywords": "indice roi bachelor paris classement escp ieseg emlv isc ipag icd psb esgci données vérifiées estimations"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Frais et alternance",
+    "title": "Frais des bachelors parisiens et alternance en 3ᵉ année",
+    "url": "/bachelor-ecole-commerce-paris/#frais",
+    "date": "2026-07-24",
+    "excerpt": "De 8 500 à 20 100 € par an selon l'école, et six écoles sur huit où l'alternance fait prendre en charge les frais par l'entreprise via l'OPCO.",
+    "keywords": "frais scolarité bachelor paris prix par an alternance apprentissage opco reste à charge emlv ipag icd esgci isc psb escp ieseg"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Prime parisienne",
+    "title": "Salaires de sortie et prime parisienne : 8 à 12 % de plus",
+    "url": "/bachelor-ecole-commerce-paris/#salaires",
+    "date": "2026-07-24",
+    "excerpt": "La prime salariale francilienne de 8 à 12 % peut être absorbée par un surcoût de logement de 800 à 1 200 € par mois : l'arbitrage Paris/région en chiffres.",
+    "keywords": "salaire bachelor paris prime géographique île-de-france apec coût de la vie logement loyer province réseau entreprises finance luxe conseil"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Bachelors",
     "title": "Classement bachelor école de commerce 2026 : notre Indice ROI",
     "url": "/classement-bachelor-ecole-commerce/",
