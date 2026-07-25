@@ -26,10 +26,12 @@ Le dépôt est **volontairement dépourvu de `package.json` versionné** : Railw
     "indexnow": "node scripts/indexnow.mjs",
     "indexnow:new": "node scripts/indexnow.mjs --new",
     "indexnow:dry": "node scripts/indexnow.mjs --dry",
-    "rubriques": "python3 scripts/build-rubriques.py"
+    "rubriques": "<chemin-vers-python-3.12>/python scripts/build-rubriques.py"
   }
 }
 ```
+
+⚠️ **`build-rubriques.py` exige Python 3.12 ou plus** (il utilise des f-strings contenant des antislashs, refusées par les versions antérieures). Le `python3` livré avec macOS est en 3.9 et échoue avec une `SyntaxError` : il faut donc pointer le script `rubriques` vers un interpréteur récent plutôt que vers `python3`. Vérifier la version disponible avec `python3 --version`, et sur la machine de la rédaction utiliser `/Users/l.l/.claude/skills/seo/.venv/bin/python`.
 
 | Commande | Effet |
 |---|---|
