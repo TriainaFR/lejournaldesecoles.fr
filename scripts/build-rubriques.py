@@ -222,10 +222,7 @@ PAGE = """<!DOCTYPE html>
       <div class="wrap">
         <span>© 2026 Le Journal des Écoles - Tous droits réservés</span>
         <span class="soc">
-          <a href="#">Instagram</a>
-          <a href="#">TikTok</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">YouTube</a>
+          <a href="https://www.linkedin.com/company/le-journal-des-%C3%A9coles/" rel="me noopener noreferrer" target="_blank">LinkedIn</a>
         </span>
         <span class="indep">Média indépendant&nbsp;: aucune école ne rémunère sa place dans nos classements.</span>
       </div>
