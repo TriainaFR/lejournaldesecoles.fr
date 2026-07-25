@@ -1,5 +1,32 @@
 [
   {
+    "type": "Page",
+    "cat": "Le Journal des Écoles",
+    "title": "Auteurs et rédacteurs : l'équipe éditoriale",
+    "url": "/auteurs/",
+    "date": "2026-07-25",
+    "excerpt": "Qui écrit Le Journal des Écoles : les profils, parcours et spécialités de Charlotte Montant, rédactrice en chef, et de Lucas Lecoq-Pellizzon, co-fondateur et directeur éditorial.",
+    "keywords": "auteurs rédacteurs rédaction équipe éditoriale qui écrit charlotte montant lucas lecoq-pellizzon rédactrice en chef directeur éditorial e-e-a-t indépendance profils"
+  },
+  {
+    "type": "Section",
+    "cat": "La rédaction - Profil",
+    "title": "Charlotte Montant, rédactrice en chef",
+    "url": "/auteurs/#charlotte-montant",
+    "date": "2026-07-25",
+    "excerpt": "Diplômée de l'IÉSEG, experte SEO & GEO chez Triaina (iProspect, Mintense), pionnière du GSO. Elle signe l'Indice ROI et l'Indice Sélectivité Réelle.",
+    "keywords": "charlotte montant rédactrice en chef seo geo gso iprospect mintense iéseg classements indices roi sélectivité réelle"
+  },
+  {
+    "type": "Section",
+    "cat": "La rédaction - Profil",
+    "title": "Lucas Lecoq-Pellizzon, co-fondateur et directeur éditorial",
+    "url": "/auteurs/#lucas-lecoq-pellizzon",
+    "date": "2026-07-25",
+    "excerpt": "Diplômé de l'EMLV, il a piloté le concours SESAME pour son école pendant cinq ans : épreuves, jurys, admissions. Co-fondateur de Triaina.",
+    "keywords": "lucas lecoq-pellizzon co-fondateur directeur éditorial triaina emlv concours sesame admissions jurys grandes écoles"
+  },
+  {
     "type": "Article",
     "cat": "Classements - Masters à Paris",
     "title": "Meilleurs masters finance à Paris : le classement ROI 2026",
