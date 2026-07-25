@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Masters à Paris",
+    "title": "Meilleurs masters finance à Paris : le classement ROI 2026",
+    "url": "/masters-finance-paris/",
+    "date": "2026-07-25",
+    "excerpt": "Dauphine-PSL, Paris 1, Paris-Saclay, Nanterre : salaires officiels InserSup, coûts réels et Indice ROI Finance des masters parisiens.",
+    "keywords": "master finance paris classement 2026 dauphine psl paris 1 panthéon sorbonne nanterre paris-saclay escp msc finance insersup salaire insertion droits inscription cvec diplôme grand établissement indice roi île-de-france"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Indice ROI Finance Paris",
+    "title": "Le classement Indice ROI Finance des masters parisiens",
+    "url": "/masters-finance-paris/#indice",
+    "date": "2026-07-25",
+    "excerpt": "Dauphine ×108,8 à ×2,5, Paris 1 ×97,7, Paris-Saclay ×87,2, Nanterre ×82,4 : le tableau complet, salaires InserSup à l'appui.",
+    "keywords": "indice roi finance master paris tableau dauphine paris 1 saclay nanterre salaire brut coût scolarité"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Barème Dauphine",
+    "title": "L'effet Dauphine : le même master, quarante-trois prix différents",
+    "url": "/masters-finance-paris/#dauphine",
+    "date": "2026-07-25",
+    "excerpt": "De 258 € à 11 100 € par an selon le revenu des parents : le barème du diplôme de grand établissement fait passer Dauphine du premier au dernier rang.",
+    "keywords": "dauphine psl droits modulés barème revenu parents diplôme grand établissement dge tranche 258 11100 euros master finance prix"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Insertion InserSup",
+    "title": "Insertion : pourquoi les taux des masters finance paraissent bas",
+    "url": "/masters-finance-paris/#insertion",
+    "date": "2026-07-25",
+    "excerpt": "InserSup ne compte que l'emploi salarié en France, et la finance expatrie beaucoup : Paris 1 à 79,1 %, Dauphine à 66,0 %, mais plus de 93 % d'emplois stables.",
+    "keywords": "insertion master finance insersup emploi salarié france emploi stable expatriation londres luxembourg suisse taux 18 mois 30 mois"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Le cas ESCP",
+    "title": "Et l'ESCP ? Pourquoi elle n'est pas dans le tableau",
+    "url": "/masters-finance-paris/#escp",
+    "date": "2026-07-25",
+    "excerpt": "Premier mondial au Financial Times 2026, mais 31 800 € de frais et un salaire moyen auto-déclaré : deux mesures qui ne se comparent pas.",
+    "keywords": "escp msc in finance financial times 2026 premier mondial frais 31800 salaire 105200 londres paris comparaison méthode"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Bachelors à Paris",
     "title": "Bachelor école de commerce à Paris : le classement ROI 2026",
     "url": "/bachelor-ecole-commerce-paris/",
