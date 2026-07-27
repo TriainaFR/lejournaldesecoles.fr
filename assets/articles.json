@@ -1,7 +1,22 @@
 [
   {
+    "url": "/classement-bachelor-ecole-commerce/",
+    "title": "Classement Bachelor 2026 : Top 20 Écoles de Commerce",
+    "cat": "Classements - Bachelors",
+    "rubriques": [
+      "classements",
+      "commerce"
+    ],
+    "date": "2026-07-27",
+    "dateLabel": "27 juillet 2026",
+    "minutes": 12,
+    "excerpt": "Classement complet des meilleurs bachelors en école de commerce 2026. Le top 20 avec coûts, salaires et notre Indice ROI propriétaire.",
+    "image": "/assets/img/escp-campus-paris.webp",
+    "alt": "Le campus parisien de l'ESCP Business School"
+  },
+  {
     "url": "/meilleurs-masters-marketing-france/",
-    "title": "Meilleurs masters marketing en France : le classement ROI 2026",
+    "title": "Meilleurs Masters Marketing France 2026 - Classement Journal des Écoles",
     "cat": "Classements - Masters marketing",
     "rubriques": [
       "classements",
@@ -9,55 +24,10 @@
     ],
     "date": "2026-07-27",
     "dateLabel": "27 juillet 2026",
-    "minutes": 11,
-    "excerpt": "HEC, ESSEC et ESCP trustent le podium mondial QS 2026, mais aucune ne publie de données d'insertion comparables. Notre Indice ROI Marketing classe les masters qui, eux, sont mesurables.",
-    "image": "/assets/img/universite-paris-dauphine-campus.webp",
-    "alt": "La façade de l'université Paris Dauphine-PSL"
-  },
-  {
-    "url": "/masters-finance-paris/",
-    "title": "Meilleurs masters finance à Paris : le classement ROI 2026",
-    "cat": "Classements - Masters à Paris",
-    "rubriques": [
-      "classements",
-      "commerce"
-    ],
-    "date": "2026-07-25",
-    "dateLabel": "25 juillet 2026",
-    "minutes": 12,
-    "excerpt": "Dauphine, Paris 1, Nanterre, Paris-Saclay : notre Indice ROI Finance appliqué aux masters parisiens, sur les salaires officiels du ministère. Le barème de Dauphine fait basculer le classement.",
-    "image": "/assets/img/universite-paris-1-pantheon-sorbonne.webp",
-    "alt": "La façade de l'université Paris 1 Panthéon-Sorbonne"
-  },
-  {
-    "url": "/bachelor-ecole-commerce-paris/",
-    "title": "Bachelor école de commerce à Paris : le classement ROI 2026",
-    "cat": "Classements - Bachelors à Paris",
-    "rubriques": [
-      "classements",
-      "commerce"
-    ],
-    "date": "2026-07-24",
-    "dateLabel": "24 juillet 2026",
-    "minutes": 13,
-    "excerpt": "De 25 500 à 60 700 € pour trois ans : notre Indice ROI appliqué aux bachelors parisiens, avec le détail des frais, des salaires de sortie et de l'alternance école par école.",
-    "image": "/assets/img/la-defense-quartier-financier-paris.webp",
-    "alt": "Le quartier d'affaires de La Défense à Paris"
-  },
-  {
-    "url": "/classement-bachelor-ecole-commerce/",
-    "title": "Classement bachelor école de commerce 2026 : notre Indice ROI",
-    "cat": "Classements - Bachelors",
-    "rubriques": [
-      "classements",
-      "commerce"
-    ],
-    "date": "2026-07-23",
-    "dateLabel": "23 juillet 2026",
-    "minutes": 14,
-    "excerpt": "L'ESCP domine mais affiche le pire rapport salaire/frais du panel, Audencia égale ses salaires pour moitié prix : notre Indice ROI Bachelor croise salaires, frais et sélectivité Parcoursup sur dix programmes.",
-    "image": "/assets/img/escp-campus-paris.webp",
-    "alt": "Le campus parisien de l'ESCP Business School"
+    "minutes": 10,
+    "excerpt": "Classement 2026 des meilleurs masters marketing en France. Top 10 écoles, Indice ROI Marketing, salaires, taux d'insertion. HEC, ESSEC, ESCP, NEOMA.",
+    "image": "/assets/img/hec-paris-chateau-jouy-en-josas.webp",
+    "alt": "Le château d'HEC Paris à Jouy-en-Josas"
   },
   {
     "url": "/master-finance-classement-meilleurs-programmes/",

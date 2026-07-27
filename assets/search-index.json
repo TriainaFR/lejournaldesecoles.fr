@@ -1,39 +1,75 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Bachelors",
+    "title": "Classement Bachelor 2026 : Top 20 Écoles de Commerce",
+    "url": "/classement-bachelor-ecole-commerce/",
+    "date": "2026-07-27",
+    "excerpt": "Le top 20 des bachelors en école de commerce 2026 : ESCP, Rennes SB, TBS, Audencia, ESSCA, IÉSEG, avec coûts, salaires et Indice ROI Bachelor.",
+    "keywords": "classement bachelor école de commerce 2026 top 20 escp rennes school of business tbs audencia essca iéseg em strasbourg icn em normandie montpellier excelia clermont imt ipag brest indice roi bachelor parcoursup aacsb equis coût salaire"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Top 20",
+    "title": "Top 20 Bachelors Écoles de Commerce 2026",
+    "url": "/classement-bachelor-ecole-commerce/#classement",
+    "date": "2026-07-27",
+    "excerpt": "ESCP 1re (ROI 74), Rennes 2e (111), TBS 3e (124) : le tableau complet avec accréditations, coût total, salaire débutant et Indice ROI.",
+    "keywords": "top 20 bachelor classement escp rennes tbs audencia essca iéseg indice roi accréditations coût salaire débutant"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Méthodologie",
+    "title": "Indice ROI Bachelor : la méthodologie",
+    "url": "/classement-bachelor-ecole-commerce/#methodologie",
+    "date": "2026-07-27",
+    "excerpt": "Indice ROI Bachelor = (salaire moyen débutant ÷ coût total scolarité) × 100. ESCP 74, IMT Business School 167.",
+    "keywords": "indice roi bachelor méthodologie formule salaire coût scolarité challenges 2026 critères"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Choisir",
+    "title": "Comment choisir son bachelor : 4 profils",
+    "url": "/classement-bachelor-ecole-commerce/#choisir",
+    "date": "2026-07-27",
+    "excerpt": "Quatre profils types, du candidat visant la mobilité internationale à celui contraint budgétairement, et la comparaison bachelor, BUT et BTS.",
+    "keywords": "choisir bachelor profil budget mobilité internationale but bts licence comparaison"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Masters marketing",
-    "title": "Meilleurs masters marketing en France : le classement ROI 2026",
+    "title": "Meilleurs Masters Marketing France 2026 - Classement Journal des Écoles",
     "url": "/meilleurs-masters-marketing-france/",
     "date": "2026-07-27",
-    "excerpt": "Le podium mondial QS 2026 est français mais invérifiable. Notre Indice ROI Marketing classe les masters dont les salaires sont mesurés par le ministère.",
-    "keywords": "master marketing france classement 2026 indice roi marketing insersup qs business masters hec essec escp paris-est créteil paris 1 gustave eiffel dauphine marketing et stratégie salaire insertion alternance"
+    "excerpt": "Top 10 des masters marketing en France : HEC, ESSEC, ESCP, NEOMA, emlyon, EDHEC, Audencia, SKEMA, IAE Paris et Dauphine, avec Indice ROI, salaires et insertion.",
+    "keywords": "meilleurs masters marketing france 2026 classement top 10 hec paris essec escp neoma emlyon edhec audencia skema iae paris sorbonne dauphine indice roi marketing digital data luxe alternance accréditations aacsb equis amba"
   },
   {
     "type": "Section",
-    "cat": "Article - Podium mondial",
-    "title": "Le podium mondial du marketing est français, et invérifiable",
-    "url": "/meilleurs-masters-marketing-france/#podium",
+    "cat": "Article - Top 10",
+    "title": "Classement Top 10 des masters marketing France 2026",
+    "url": "/meilleurs-masters-marketing-france/#classement",
     "date": "2026-07-27",
-    "excerpt": "HEC 1re, ESSEC 2e, ESCP 3e au QS 2026 devant Columbia. Mais InserSup ne recense qu'un seul diplômé pour le marketing de HEC : aucun calcul possible.",
-    "keywords": "qs business masters rankings 2026 marketing hec paris essec escp columbia podium mondial données insertion insersup"
+    "excerpt": "HEC Paris 1re (7,0), ESSEC 2e (6,8), ESCP 3e (6,6) : le tableau complet avec insertion, salaire à 3 ans, accréditations et coût annuel.",
+    "keywords": "top 10 masters marketing classement hec essec escp neoma emlyon edhec audencia skema indice roi insertion salaire accréditations coût"
   },
   {
     "type": "Section",
-    "cat": "Article - Indice ROI Marketing",
-    "title": "Le classement Indice ROI Marketing",
-    "url": "/meilleurs-masters-marketing-france/#indice",
+    "cat": "Article - Spécialisations",
+    "title": "Masters marketing digital, luxe et alternance",
+    "url": "/meilleurs-masters-marketing-france/#specialisations",
     "date": "2026-07-27",
-    "excerpt": "Paris-Est Créteil ×84,5, Paris 1 ×83,9, Gustave Eiffel ×81,1 : le top 10 des masters mention Marketing, vente, repère national à ×70,3.",
-    "keywords": "indice roi marketing classement top 10 créteil paris 1 gustave eiffel nanterre rennes angers tours bordeaux côte d'azur lyon 3"
+    "excerpt": "Digital et data, luxe et brand management, alternance : les meilleures écoles par spécialisation et leurs salaires de sortie.",
+    "keywords": "master marketing digital data analytics luxe brand management lvmh kering alternance neoma kedge skema iae paris"
   },
   {
     "type": "Section",
-    "cat": "Article - Le cas Dauphine",
-    "title": "Dauphine-PSL : le meilleur salaire, et un prix qui dépend de vos parents",
-    "url": "/meilleurs-masters-marketing-france/#dauphine",
+    "cat": "Article - Par ville",
+    "title": "Masters marketing par ville : Paris, Lyon, Bordeaux",
+    "url": "/meilleurs-masters-marketing-france/#villes",
     "date": "2026-07-27",
-    "excerpt": "2 870 € nets à 30 mois, le meilleur du panel, mais un diplôme de grand établissement à droits modulés de 258 à 11 100 € par an. Les M2 en alternance changent le calcul.",
-    "keywords": "dauphine psl master marketing et stratégie diplôme grand établissement droits modulés barème alternance m2 apprentissage frais pris en charge"
+    "excerpt": "Paris concentre 45 % de l'offre. Lyon, Bordeaux, Toulouse, Montpellier et Rennes : les alternatives régionales et leur Indice ROI.",
+    "keywords": "master marketing paris lyon bordeaux toulouse montpellier rennes emlyon iae lyon kedge tbs education"
   },
   {
     "type": "Page",
@@ -61,132 +97,6 @@
     "date": "2026-07-25",
     "excerpt": "Diplômé de l'EMLV, il a piloté le concours SESAME pour son école pendant cinq ans : épreuves, jurys, admissions. Co-fondateur de Triaina.",
     "keywords": "lucas lecoq-pellizzon co-fondateur directeur éditorial triaina emlv concours sesame admissions jurys grandes écoles"
-  },
-  {
-    "type": "Article",
-    "cat": "Classements - Masters à Paris",
-    "title": "Meilleurs masters finance à Paris : le classement ROI 2026",
-    "url": "/masters-finance-paris/",
-    "date": "2026-07-25",
-    "excerpt": "Dauphine-PSL, Paris 1, Paris-Saclay, Nanterre : salaires officiels InserSup, coûts réels et Indice ROI Finance des masters parisiens.",
-    "keywords": "master finance paris classement 2026 dauphine psl paris 1 panthéon sorbonne nanterre paris-saclay escp msc finance insersup salaire insertion droits inscription cvec diplôme grand établissement indice roi île-de-france"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Indice ROI Finance Paris",
-    "title": "Le classement Indice ROI Finance des masters parisiens",
-    "url": "/masters-finance-paris/#indice",
-    "date": "2026-07-25",
-    "excerpt": "Dauphine ×108,8 à ×2,5, Paris 1 ×97,7, Paris-Saclay ×87,2, Nanterre ×82,4 : le tableau complet, salaires InserSup à l'appui.",
-    "keywords": "indice roi finance master paris tableau dauphine paris 1 saclay nanterre salaire brut coût scolarité"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Barème Dauphine",
-    "title": "L'effet Dauphine : le même master, quarante-trois prix différents",
-    "url": "/masters-finance-paris/#dauphine",
-    "date": "2026-07-25",
-    "excerpt": "De 258 € à 11 100 € par an selon le revenu des parents : le barème du diplôme de grand établissement fait passer Dauphine du premier au dernier rang.",
-    "keywords": "dauphine psl droits modulés barème revenu parents diplôme grand établissement dge tranche 258 11100 euros master finance prix"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Insertion InserSup",
-    "title": "Insertion : pourquoi les taux des masters finance paraissent bas",
-    "url": "/masters-finance-paris/#insertion",
-    "date": "2026-07-25",
-    "excerpt": "InserSup ne compte que l'emploi salarié en France, et la finance expatrie beaucoup : Paris 1 à 79,1 %, Dauphine à 66,0 %, mais plus de 93 % d'emplois stables.",
-    "keywords": "insertion master finance insersup emploi salarié france emploi stable expatriation londres luxembourg suisse taux 18 mois 30 mois"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Le cas ESCP",
-    "title": "Et l'ESCP ? Pourquoi elle n'est pas dans le tableau",
-    "url": "/masters-finance-paris/#escp",
-    "date": "2026-07-25",
-    "excerpt": "Premier mondial au Financial Times 2026, mais 31 800 € de frais et un salaire moyen auto-déclaré : deux mesures qui ne se comparent pas.",
-    "keywords": "escp msc in finance financial times 2026 premier mondial frais 31800 salaire 105200 londres paris comparaison méthode"
-  },
-  {
-    "type": "Article",
-    "cat": "Classements - Bachelors à Paris",
-    "title": "Bachelor école de commerce à Paris : le classement ROI 2026",
-    "url": "/bachelor-ecole-commerce-paris/",
-    "date": "2026-07-24",
-    "excerpt": "ESCP, IÉSEG, EMLV, ISC Paris, IPAG, ICD, PSB, ESGCI : frais de 25 500 à 60 700 €, salaires de sortie, sélectivité et alternance des bachelors parisiens comparés par notre Indice ROI.",
-    "keywords": "bachelor école de commerce paris classement 2026 escp ieseg emlv la défense isc paris ipag icd psb esgci inseec ppa frais scolarité alternance apprentissage opco salaire sortie sélectivité parcoursup sesame accès île-de-france"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Indice ROI Paris",
-    "title": "Le classement Indice ROI des bachelors parisiens",
-    "url": "/bachelor-ecole-commerce-paris/#indice",
-    "date": "2026-07-24",
-    "excerpt": "ESCP 62,3, IÉSEG 39,3, EMLV 29,8 : le tableau complet des huit bachelors parisiens, avec la fiabilité des données signalée ligne par ligne.",
-    "keywords": "indice roi bachelor paris classement escp ieseg emlv isc ipag icd psb esgci données vérifiées estimations"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Frais et alternance",
-    "title": "Frais des bachelors parisiens et alternance en 3ᵉ année",
-    "url": "/bachelor-ecole-commerce-paris/#frais",
-    "date": "2026-07-24",
-    "excerpt": "De 8 500 à 20 100 € par an selon l'école, et six écoles sur huit où l'alternance fait prendre en charge les frais par l'entreprise via l'OPCO.",
-    "keywords": "frais scolarité bachelor paris prix par an alternance apprentissage opco reste à charge emlv ipag icd esgci isc psb escp ieseg"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Prime parisienne",
-    "title": "Salaires de sortie et prime parisienne : 8 à 12 % de plus",
-    "url": "/bachelor-ecole-commerce-paris/#salaires",
-    "date": "2026-07-24",
-    "excerpt": "La prime salariale francilienne de 8 à 12 % peut être absorbée par un surcoût de logement de 800 à 1 200 € par mois : l'arbitrage Paris/région en chiffres.",
-    "keywords": "salaire bachelor paris prime géographique île-de-france apec coût de la vie logement loyer province réseau entreprises finance luxe conseil"
-  },
-  {
-    "type": "Article",
-    "cat": "Classements - Bachelors",
-    "title": "Classement bachelor école de commerce 2026 : notre Indice ROI",
-    "url": "/classement-bachelor-ecole-commerce/",
-    "date": "2026-07-23",
-    "excerpt": "ESCP, Audencia, ICN, EM Normandie : salaires de sortie, frais sur trois ans et sélectivité Parcoursup croisés dans l'Indice ROI Bachelor exclusif du Journal des Écoles.",
-    "keywords": "classement bachelor école de commerce 2026 meilleur bachelor bac+3 escp audencia icn em normandie em strasbourg ieseg essca tbs bsb rennes school of business parcoursup frais scolarité salaire sortie sélectivité mention bien très bien challenges figaro étudiant"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Indice ROI Bachelor",
-    "title": "L'Indice ROI Bachelor : 62,3 pour l'ESCP, 22,0 pour l'ESSCA",
-    "url": "/classement-bachelor-ecole-commerce/#indice",
-    "date": "2026-07-23",
-    "excerpt": "Salaire de sortie divisé par les frais des trois ans, pondéré par la sélectivité à l'admission : le croisement propriétaire que ni Challenges ni le Figaro ne publient.",
-    "keywords": "indice roi bachelor formule salaire frais sélectivité mentions parcoursup escp icn em strasbourg ieseg audencia analyse propriétaire"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Frais",
-    "title": "Frais de scolarité des bachelors : de 25 500 à 60 700 euros",
-    "url": "/classement-bachelor-ecole-commerce/#frais",
-    "date": "2026-07-23",
-    "excerpt": "35 200 € d'écart entre l'ESCP et EM Normandie sur trois ans, soit près d'une année de salaire de départ : le comparatif complet des dix écoles.",
-    "keywords": "frais scolarité bachelor école de commerce prix coût trois ans escp ieseg tbs essca audencia rennes bsb icn em strasbourg em normandie alternance bourse"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Sélectivité",
-    "title": "Sélectivité Parcoursup des bachelors : la part de mentions B/TB",
-    "url": "/classement-bachelor-ecole-commerce/#selectivite",
-    "date": "2026-07-23",
-    "excerpt": "84 % de mentions bien ou très bien chez les admis ESCP, contre 17 à 34 % ailleurs : l'indicateur le plus fiable de la sélectivité réelle d'un bachelor.",
-    "keywords": "sélectivité bachelor parcoursup 2024 mentions bien très bien admis intégrés open data ministère escp ieseg em strasbourg icn audencia"
-  },
-  {
-    "type": "Section",
-    "cat": "Article - Immersion",
-    "title": "Immersion professionnelle : la durée de stage par école",
-    "url": "/classement-bachelor-ecole-commerce/#immersion",
-    "date": "2026-07-23",
-    "excerpt": "14 mois chez Audencia, 7 mois chez Burgundy School of Business : le temps passé en entreprise varie du simple au double selon les bachelors.",
-    "keywords": "immersion professionnelle stage bachelor durée mois alternance audencia essca tbs rennes em normandie employabilité"
   },
   {
     "type": "Article",
