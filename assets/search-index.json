@@ -1,5 +1,41 @@
 [
   {
+    "type": "Article",
+    "cat": "Classements - Masters marketing",
+    "title": "Meilleurs masters marketing en France : le classement ROI 2026",
+    "url": "/meilleurs-masters-marketing-france/",
+    "date": "2026-07-27",
+    "excerpt": "Le podium mondial QS 2026 est français mais invérifiable. Notre Indice ROI Marketing classe les masters dont les salaires sont mesurés par le ministère.",
+    "keywords": "master marketing france classement 2026 indice roi marketing insersup qs business masters hec essec escp paris-est créteil paris 1 gustave eiffel dauphine marketing et stratégie salaire insertion alternance"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Podium mondial",
+    "title": "Le podium mondial du marketing est français, et invérifiable",
+    "url": "/meilleurs-masters-marketing-france/#podium",
+    "date": "2026-07-27",
+    "excerpt": "HEC 1re, ESSEC 2e, ESCP 3e au QS 2026 devant Columbia. Mais InserSup ne recense qu'un seul diplômé pour le marketing de HEC : aucun calcul possible.",
+    "keywords": "qs business masters rankings 2026 marketing hec paris essec escp columbia podium mondial données insertion insersup"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Indice ROI Marketing",
+    "title": "Le classement Indice ROI Marketing",
+    "url": "/meilleurs-masters-marketing-france/#indice",
+    "date": "2026-07-27",
+    "excerpt": "Paris-Est Créteil ×84,5, Paris 1 ×83,9, Gustave Eiffel ×81,1 : le top 10 des masters mention Marketing, vente, repère national à ×70,3.",
+    "keywords": "indice roi marketing classement top 10 créteil paris 1 gustave eiffel nanterre rennes angers tours bordeaux côte d'azur lyon 3"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Le cas Dauphine",
+    "title": "Dauphine-PSL : le meilleur salaire, et un prix qui dépend de vos parents",
+    "url": "/meilleurs-masters-marketing-france/#dauphine",
+    "date": "2026-07-27",
+    "excerpt": "2 870 € nets à 30 mois, le meilleur du panel, mais un diplôme de grand établissement à droits modulés de 258 à 11 100 € par an. Les M2 en alternance changent le calcul.",
+    "keywords": "dauphine psl master marketing et stratégie diplôme grand établissement droits modulés barème alternance m2 apprentissage frais pris en charge"
+  },
+  {
     "type": "Page",
     "cat": "Le Journal des Écoles",
     "title": "Auteurs et rédacteurs : l'équipe éditoriale",
