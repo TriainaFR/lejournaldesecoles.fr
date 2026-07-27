@@ -1,5 +1,35 @@
 [
   {
+    "url": "/masters-finance-paris/",
+    "title": "Meilleurs masters finance à Paris : le classement 2026",
+    "cat": "Classements - Masters à Paris",
+    "rubriques": [
+      "classements",
+      "commerce"
+    ],
+    "date": "2026-07-27",
+    "dateLabel": "27 juillet 2026",
+    "minutes": 13,
+    "excerpt": "Classement 2026 des meilleurs masters finance à Paris. HEC, ESSEC, ESCP, Dauphine : le top 15 avec salaires, débouchés à La Défense et Indice ROI Finance Paris.",
+    "image": "/assets/img/bourse-new-york-salle-marches.webp",
+    "alt": "Salle de marchés"
+  },
+  {
+    "url": "/bachelor-ecole-commerce-paris/",
+    "title": "Bachelor Commerce Paris 2026 : Top 15 Écoles",
+    "cat": "Classements - Bachelors à Paris",
+    "rubriques": [
+      "classements",
+      "commerce"
+    ],
+    "date": "2026-07-27",
+    "dateLabel": "27 juillet 2026",
+    "minutes": 12,
+    "excerpt": "Classement 2026 des meilleurs bachelors en école de commerce à Paris et Île-de-France. Le top 15 avec coûts, salaires et notre Indice ROI Paris propriétaire.",
+    "image": "/assets/img/la-defense-quartier-financier-paris.webp",
+    "alt": "Le quartier d'affaires de La Défense à Paris"
+  },
+  {
     "url": "/classement-bachelor-ecole-commerce/",
     "title": "Classement Bachelor 2026 : Top 20 Écoles de Commerce",
     "cat": "Classements - Bachelors",

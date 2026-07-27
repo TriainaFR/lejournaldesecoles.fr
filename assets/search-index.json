@@ -1,6 +1,78 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Masters à Paris",
+    "title": "Meilleurs masters finance à Paris : le classement 2026",
+    "url": "/masters-finance-paris/",
+    "date": "2026-07-27",
+    "excerpt": "Le top 15 des masters finance à Paris : HEC 1er mondial au QS, ESSEC, ESCP, Dauphine, Panthéon-Sorbonne, Assas, avec salaires et Indice ROI Finance Paris.",
+    "keywords": "master finance paris 2026 classement top 15 hec essec escp dauphine panthéon sorbonne assas edhec emlyon skema neoma audencia ieseg psb inseec la défense banque d'affaires asset management qs indice roi finance paris mon master bce"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Top 15 Paris",
+    "title": "Top 15 masters finance à Paris 2026",
+    "url": "/masters-finance-paris/#classement",
+    "date": "2026-07-27",
+    "excerpt": "HEC 1er (ROI 0,68), ESSEC 2e (0,62), ESCP 3e (0,58) : le tableau complet avec type, spécialisation, coût, salaire débutant et rang QS.",
+    "keywords": "top 15 master finance paris hec essec escp dauphine assas edhec emlyon coût salaire indice roi rang qs"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - La Défense",
+    "title": "La Défense et l'écosystème financier parisien",
+    "url": "/masters-finance-paris/#pourquoi",
+    "date": "2026-07-27",
+    "excerpt": "70 % des sièges sociaux des banques françaises à La Défense, plus de 1 500 entreprises du secteur : banque d'affaires, asset management, fintech, conformité.",
+    "keywords": "la défense écosystème financier paris bnp paribas société générale amundi natixis fintech m&a conformité débouchés"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Les 3 filières",
+    "title": "Banque-finance, finance de marché ou ingénierie financière",
+    "url": "/masters-finance-paris/#filieres",
+    "date": "2026-07-27",
+    "excerpt": "Trois filières souvent confondues, trois métiers différents : débouchés, environnement de travail, profil recherché et salaire débutant comparés.",
+    "keywords": "master banque finance mbfa finance de marché ingénierie financière trading asset management m&a structuration salaire"
+  },
+  {
+    "type": "Article",
+    "cat": "Classements - Bachelors à Paris",
+    "title": "Bachelor Commerce Paris 2026 : Top 15 Écoles",
+    "url": "/bachelor-ecole-commerce-paris/",
+    "date": "2026-07-27",
+    "excerpt": "Le top 15 des bachelors en école de commerce à Paris et Île-de-France : ESCP, IESEG, PSB, ISC Paris, EMLV, avec notre Indice ROI Paris qui intègre le coût de la vie.",
+    "keywords": "bachelor école de commerce paris 2026 classement top 15 escp ieseg puteaux psb isc paris emlv la défense esgci isg inseec ipag sup de pub ebs mbway idrac euridis mydigitalschool indice roi paris coût de la vie parcoursup cac 40 île-de-france"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Top 15 Paris",
+    "title": "Top 15 Bachelors Écoles de Commerce à Paris 2026",
+    "url": "/bachelor-ecole-commerce-paris/#classement",
+    "date": "2026-07-27",
+    "excerpt": "ESCP 1re (ROI Paris 52), IESEG 2e (68), PSB 3e (75) : le tableau complet avec campus, accréditations, coût de scolarité et Indice ROI Paris.",
+    "keywords": "top 15 bachelor paris classement escp ieseg psb isc emlv campus accréditations coût indice roi paris"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Indice ROI Paris",
+    "title": "L'Indice ROI Paris : la méthodologie",
+    "url": "/bachelor-ecole-commerce-paris/#methodologie",
+    "date": "2026-07-27",
+    "excerpt": "Indice ROI Paris = (salaire moyen débutant ÷ (coût scolarité + coût vie Paris 3 ans)) × 100. Il intègre les 18 000 € de coût de vie ignorés par l'indice national.",
+    "keywords": "indice roi paris méthodologie formule coût de la vie insee paris 18000 euros scolarité salaire"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Paris ou région",
+    "title": "Bachelor à Paris ou en région : que choisir",
+    "url": "/bachelor-ecole-commerce-paris/#paris-province",
+    "date": "2026-07-27",
+    "excerpt": "40 sièges du CAC 40, 330 000 étudiants, 85 % d'insertion à 6 mois contre 70 % en province, mais un coût de la vie 40 % plus élevé.",
+    "keywords": "bachelor paris province comparaison cac 40 réseau alumni insertion coût de la vie stages"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Bachelors",
     "title": "Classement Bachelor 2026 : Top 20 Écoles de Commerce",
     "url": "/classement-bachelor-ecole-commerce/",
