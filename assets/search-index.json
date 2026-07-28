@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Masters RH",
+    "title": "Meilleurs Masters RH France 2026 : le classement",
+    "url": "/meilleurs-masters-rh-france/",
+    "date": "2026-07-28",
+    "excerpt": "Les 15 meilleurs masters RH de France : ESCP, Sciences Po, IAE Paris-Sorbonne, KEDGE, Dauphine, avec salaires de sortie, insertion à 30 mois et alternance.",
+    "keywords": "meilleurs masters rh france 2026 classement master ressources humaines grh escp sciences po iae paris-sorbonne kedge dauphine neoma skema em normandie assas lyon 2 strasbourg rennes toulouse bordeaux salaire insertion alternance sirh talent management droit social apec sies cge"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement RH",
+    "title": "Classement 2026 des meilleurs masters RH en France",
+    "url": "/meilleurs-masters-rh-france/#classement",
+    "date": "2026-07-28",
+    "excerpt": "ESCP 1re (38 500 €, 94 % d'insertion), Sciences Po 2e, IAE Paris-Sorbonne 3e : le tableau des 15 masters avec salaires, insertion et alternance.",
+    "keywords": "top 15 master rh classement escp sciences po iae kedge dauphine salaire débutant taux insertion alternance"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Coût réel",
+    "title": "Ce que coûte réellement un master RH selon l'établissement",
+    "url": "/meilleurs-masters-rh-france/#regimes",
+    "date": "2026-07-28",
+    "excerpt": "255 € par an à l'université et en IAE, droits modulés de 0 à 20 640 € à Sciences Po, jusqu'à 38 000 € en école de commerce. En alternance, tout est pris en charge.",
+    "keywords": "coût master rh droits universitaires 255 euros sciences po barème dauphine diplôme grand établissement msc école de commerce opco alternance"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Alternance RH",
+    "title": "Master RH en alternance : ce que ça change",
+    "url": "/meilleurs-masters-rh-france/#alternance",
+    "date": "2026-07-28",
+    "excerpt": "62 % des masters RH proposent l'alternance. Salaire de départ supérieur de 8 à 12 %, et 58 % de CDI immédiat contre 38 % pour les non-alternants.",
+    "keywords": "master rh alternance apprentissage rémunération cdi opco rythme deux jours école trois jours entreprise apec"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Alternance",
     "title": "Meilleure école de commerce en alternance Nouvelle-Aquitaine ?",
     "url": "/meilleure-ecole-commerce-alternance-nouvelle-aquitaine/",

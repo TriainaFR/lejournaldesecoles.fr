@@ -302,6 +302,11 @@ def build():
     articles = json.loads((ROOT / "assets/articles.json").read_text(encoding="utf-8"))
     for slug, r in RUBRIQUES.items():
         arts = [a for a in articles if slug in a["rubriques"]]
+        # Une rubrique n'est indexable que si elle contient au moins un article :
+        # une page de rubrique vide n'a aucune valeur pour un moteur et gaspille
+        # du budget de crawl. Le passage en index se fait donc tout seul à la
+        # première publication, et le retour en noindex si la rubrique se vide.
+        indexable = len(arts) > 0
         h1_plain = r["h1"]
         url = f"{SITE}/{slug}/"
 
@@ -325,7 +330,7 @@ def build():
         else:
             others = "\n            ".join(
                 f'<a href="/{s}/">{RUBRIQUES[s]["h1"]}</a>'
-                for s in NAV_ORDER if s != slug and RUBRIQUES[s]["index"]
+                for s in NAV_ORDER if s != slug and any(s in a["rubriques"] for a in articles)
             )
             contenu = f"""        <div class="rubrique-empty">
           <p>{esc(r['empty'])}</p>
@@ -400,7 +405,7 @@ def build():
 
         html = PAGE.format(
             title=esc(r["title"]), meta=esc(r["meta"]),
-            robots="" if r["index"] else '\n  <meta name="robots" content="noindex, follow">',
+            robots="" if indexable else '\n  <meta name="robots" content="noindex, follow">',
             site=SITE, slug=slug, ogimg=ogimg, jsonld=jsonld,
             navitems=navitems, h1=r["h1"], h1_plain=h1_plain, desc=r["desc"],
             contenu=contenu,
@@ -408,7 +413,7 @@ def build():
         out = ROOT / slug / "index.html"
         out.parent.mkdir(exist_ok=True)
         out.write_text(html, encoding="utf-8")
-        print(f"  /{slug}/ - {len(arts)} article(s){' (noindex)' if not r['index'] else ''}")
+        print(f"  /{slug}/ - {len(arts)} article(s){' (noindex)' if not indexable else ''}")
 
 
 if __name__ == "__main__":
