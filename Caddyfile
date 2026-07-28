@@ -1,0 +1,90 @@
+# Le Journal des Écoles - configuration du serveur web servi par Railway.
+#
+# Railway déploie ce dépôt en site statique via Railpack, qui sert les fichiers
+# avec Caddy. Ce fichier REMPLACE le Caddyfile généré par défaut : il en reprend
+# l'intégralité à l'identique (en-têtes de sécurité, compression, try_files,
+# pages d'erreur) et ajoute trois comportements qui ne peuvent exister qu'au
+# niveau HTTP, donc ni dans le HTML ni dans un fichier statique.
+#
+# La variable de racine statique, plus bas dans la directive « root », est
+# substituée par Railpack au moment du build : ne pas la remplacer par un chemin
+# en dur, c'est elle qui résout la racine du site.
+# Toute erreur de syntaxe ici fait échouer le build : Railway conserve alors le
+# déploiement précédent, mais vérifier la prod après chaque modification.
+
+{
+	admin off
+	persist_config off
+	auto_https off
+
+	log {
+		format json
+	}
+
+	servers {
+		trusted_proxies static private_ranges
+	}
+}
+
+:{$PORT:80} {
+	log {
+		format json
+	}
+
+	respond /health 200
+
+	# En-têtes de sécurité - repris tels quels du Caddyfile par défaut de Railpack.
+	header {
+		# Filtre XSS des navigateurs
+		X-XSS-Protection "1; mode=block"
+		# Interdit le MIME-sniffing
+		X-Content-Type-Options "nosniff"
+		# Pas de referrer vers les connexions non chiffrées
+		Referrer-Policy "strict-origin-when-cross-origin"
+		# Politique de sécurité du contenu
+		Content-Security-Policy "default-src 'self'; img-src 'self' data: https: *; style-src 'self' 'unsafe-inline' https: *; script-src 'self' 'unsafe-inline' https: *; font-src 'self' data: https: *; connect-src 'self' https: *; media-src 'self' https: *; object-src 'none'; frame-src 'self' https: *;"
+		# Masque le serveur
+		-Server
+	}
+
+	# 1. Catalogue de ressources sur son chemin standard (RFC 9727).
+	# Railway ne sert pas les dossiers commençant par un point : on réécrit donc
+	# la requête vers /api-catalog.json, qui est le fichier réellement déployé.
+	rewrite /.well-known/api-catalog /api-catalog.json
+
+	# 2. Link headers de découverte pour les agents (RFC 8288), sur les documents
+	# HTML uniquement (accueil, rubriques, articles, pages d'erreur).
+	# Les quatre relations sont enregistrées à l'IANA et pointent vers des
+	# ressources qui répondent 200.
+	@document path / /*/ /*.html
+	header @document Link `</.well-known/api-catalog>; rel="api-catalog", </llms.txt>; rel="describedby"; type="text/plain", </auteurs/>; rel="author", </mentions-legales/#propriete>; rel="license"`
+
+	# 3. Fichiers d'instructions machine : cache court, 5 minutes.
+	# Sans en-tête d'origine, le CDN leur applique 4 heures de TTL et continue de
+	# servir un robots.txt périmé aux scanners longtemps après une mise à jour
+	# (constaté le 2026-07-28 sur les Content Signals).
+	@machine path /robots.txt /llms.txt /sitemap.xml /api-catalog.json /.well-known/api-catalog
+	header @machine Cache-Control "public, max-age=300, must-revalidate"
+
+	root * {{.StaticFileRoot}}
+
+	# Service des fichiers statiques
+	file_server {
+		hide .git
+		hide .env*
+	}
+
+	# Compression
+	encode {
+		gzip
+		zstd
+	}
+
+	# Résolution des URL sans extension
+	try_files {path} {path}.html {path}/index.html
+
+	handle_errors {
+		rewrite * /{err.status_code}.html
+		file_server
+	}
+}
