@@ -1,7 +1,19 @@
 # Le Journal des Écoles — lejournaldesecoles.fr
 # Média indépendant des études supérieures.
 
+# ————————————————————————————————————————————————
+# Content Signals — déclaration de nos préférences d'usage du contenu.
+# Le Journal des Écoles VEUT être lu, indexé et cité par les moteurs de
+# réponse : les trois signaux sont donc positifs, à l'inverse du réglage
+# par défaut de Cloudflare (ai-train=no) qui casserait notre stratégie GEO.
+#   search    : indexation par les moteurs de recherche
+#   ai-input  : utilisation comme source dans une réponse générée (RAG)
+#   ai-train  : utilisation pour l'entraînement de modèles
+# Reprise autorisée à condition de citer la source et de lier l'article.
+# ————————————————————————————————————————————————
+
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 # Recherche interne : pages sans valeur pour un moteur, déjà en noindex.

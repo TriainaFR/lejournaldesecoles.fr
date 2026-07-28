@@ -1,0 +1,50 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://lejournaldesecoles.fr/",
+      "service-doc": [
+        {
+          "href": "https://lejournaldesecoles.fr/llms.txt",
+          "type": "text/plain",
+          "title": "llms.txt - présentation du média, méthodologie et index des classements pour les moteurs de réponse"
+        },
+        {
+          "href": "https://lejournaldesecoles.fr/notre-histoire/",
+          "type": "text/html",
+          "title": "Méthodologie éditoriale et indépendance de la rédaction"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://lejournaldesecoles.fr/sitemap.xml",
+          "type": "application/xml",
+          "title": "Sitemap XML - toutes les pages indexables"
+        },
+        {
+          "href": "https://lejournaldesecoles.fr/assets/articles.json",
+          "type": "application/json",
+          "title": "Registre des articles publiés - titre, URL, date, rubriques, extrait"
+        },
+        {
+          "href": "https://lejournaldesecoles.fr/assets/search-index.json",
+          "type": "application/json",
+          "title": "Index de recherche - articles et sections ancrées avec mots-clés"
+        }
+      ],
+      "author": [
+        {
+          "href": "https://lejournaldesecoles.fr/auteurs/",
+          "type": "text/html",
+          "title": "Auteurs et rédacteurs du Journal des Écoles"
+        }
+      ],
+      "license": [
+        {
+          "href": "https://lejournaldesecoles.fr/mentions-legales/#propriete",
+          "type": "text/html",
+          "title": "Conditions de réutilisation - citation de la source et lien vers l'article requis"
+        }
+      ]
+    }
+  ]
+}
