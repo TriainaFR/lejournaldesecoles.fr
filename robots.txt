@@ -4,6 +4,11 @@
 User-agent: *
 Allow: /
 
+# Recherche interne : pages sans valeur pour un moteur, déjà en noindex.
+# On bloque aussi leur exploration pour ne pas gaspiller le budget de crawl
+# d'un site jeune sur des URL qui ne seront jamais indexées.
+Disallow: /recherche/
+
 # ————————————————————————————————————————————————
 # Moteurs de réponse et crawlers IA — autorisés explicitement.
 # Sans cela, aucune citation possible dans ChatGPT, Perplexity,
