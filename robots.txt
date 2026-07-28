@@ -5,7 +5,8 @@
 # Content Signals — déclaration de nos préférences d'usage du contenu.
 # Le Journal des Écoles VEUT être lu, indexé et cité par les moteurs de
 # réponse : les trois signaux sont donc positifs, à l'inverse du réglage
-# par défaut de Cloudflare (ai-train=no) qui casserait notre stratégie GEO.
+# restrictif appliqué par défaut par certains CDN, qui interdit l'usage du
+# contenu pour l'entraînement et neutraliserait notre stratégie GEO.
 #   search    : indexation par les moteurs de recherche
 #   ai-input  : utilisation comme source dans une réponse générée (RAG)
 #   ai-train  : utilisation pour l'entraînement de modèles
