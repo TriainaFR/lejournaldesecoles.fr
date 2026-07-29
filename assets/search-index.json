@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Ingénieurs",
+    "title": "Écoles d'ingénieurs à Lyon : le classement 2026",
+    "url": "/ecoles-ingenieurs-lyon/",
+    "date": "2026-07-29",
+    "excerpt": "Neuf écoles d'ingénieurs accréditées CTI comparées à Lyon : INSA, Centrale, Polytech, ENTPE, CPE, ECAM, ENISE, ISARA, ESME. Salaires, frais et Indice ROI Ingénieur Lyon.",
+    "keywords": "écoles ingénieurs lyon classement 2026 insa lyon centrale lyon cpe lyon ecam lasalle polytech lyon entpe enise isara esme cti accréditation salaire débutant frais scolarité apprentissage alternance indice roi ingénieur lyon parcoursup prépa auvergne-rhône-alpes"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement ingénieurs Lyon",
+    "title": "Classement 2026 des écoles d'ingénieurs à Lyon",
+    "url": "/ecoles-ingenieurs-lyon/#classement",
+    "date": "2026-07-29",
+    "excerpt": "Le tableau des neuf écoles avec Indice ROI Ingénieur Lyon, salaire débutant, coût annuel, accréditation CTI et apprentissage.",
+    "keywords": "tableau classement neuf écoles ingénieurs lyon indice roi salaire coût cti apprentissage insa centrale polytech entpe cpe ecam enise isara esme"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement ingénieurs Lyon",
+    "title": "Indice ROI Ingénieur Lyon : la méthodologie",
+    "url": "/ecoles-ingenieurs-lyon/#methodologie",
+    "date": "2026-07-29",
+    "excerpt": "Salaire débutant brut annuel divisé par le coût total de la formation sur cinq ans, multiplié par 100 : six critères publics et vérifiables.",
+    "keywords": "méthodologie indice roi ingénieur lyon calcul salaire coût formation cinq ans critères insertion cti sélectivité parcoursup apprentissage"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement ingénieurs Lyon",
+    "title": "Salaires des ingénieurs à Lyon",
+    "url": "/ecoles-ingenieurs-lyon/#salaires",
+    "date": "2026-07-29",
+    "excerpt": "39 129 € de moyenne nationale CGE 2025, 15 à 20 % d'écart avec Paris et un coût de la vie inférieur de 20 à 25 %.",
+    "keywords": "salaire ingénieur lyon débutant brut annuel cge 2025 comparaison paris coût de la vie secteurs recruteurs conseil numérique btp santé industrie"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Classement ingénieurs Lyon",
+    "title": "L'écosystème tech de Lyon",
+    "url": "/ecoles-ingenieurs-lyon/#ecosysteme",
+    "date": "2026-07-29",
+    "excerpt": "Plus de 500 startups, HelloCSE, Tenacy et Santé Académie en tête, et des employeurs comme Capgemini, Cegid, Esker ou bioMérieux.",
+    "keywords": "écosystème tech lyon startups hellocse tenacy santé académie oqoro dymasco capgemini cegid sopra steria esker biomérieux healthtech fintech industrie 4.0"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Masters RH",
     "title": "Meilleurs Masters RH France 2026 : le classement",
     "url": "/meilleurs-masters-rh-france/",
