@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Masters à Paris",
+    "title": "Masters marketing à Paris : le classement 2026",
+    "url": "/masters-marketing-paris/",
+    "date": "2026-07-30",
+    "excerpt": "Le top 10 des masters marketing parisiens : HEC, ESSEC, ESCP, Dauphine, IAE Paris, Paris 1, Assas, NEOMA, EFAP, PSB, avec l'Indice ROI Marketing Paris.",
+    "keywords": "master marketing paris classement 2026 hec essec escp dauphine iae paris sorbonne paris 1 panthéon assas neoma efap psb indice roi marketing paris salaire insertion alternance mon master gmat luxe digital data brand management e-commerce"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters marketing Paris",
+    "title": "Top 10 des masters marketing à Paris 2026",
+    "url": "/masters-marketing-paris/#classement",
+    "date": "2026-07-30",
+    "excerpt": "Le tableau des dix masters avec Indice ROI Marketing Paris, insertion à six mois, salaire à trois ans et coût annuel.",
+    "keywords": "tableau top 10 masters marketing paris indice roi insertion salaire coût annuel hec essec escp dauphine iae neoma efap psb"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters marketing Paris",
+    "title": "Spécialisations marketing à Paris : digital, luxe, data",
+    "url": "/masters-marketing-paris/#specialisations",
+    "date": "2026-07-30",
+    "excerpt": "Digital et data, brand management et luxe, marketing international et e-commerce : les trois familles de spécialisation et leurs salaires.",
+    "keywords": "spécialisation marketing digital data analytics seo sea crm programmatique brand management luxe lvmh kering l'oréal richemont e-commerce growth marketing international"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters marketing Paris",
+    "title": "Master marketing à Paris en alternance",
+    "url": "/masters-marketing-paris/#alternance",
+    "date": "2026-07-30",
+    "excerpt": "Frais nuls pour l'alternant, 1 200 à 1 800 € par mois et une insertion de 94 à 97 % : les cinq écoles parisiennes qui proposent l'alternance.",
+    "keywords": "master marketing alternance paris frais pris en charge employeur salaire apprentissage insertion neoma essec efap iae paris sorbonne psb"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters marketing Paris",
+    "title": "Salaires et débouchés après un master marketing à Paris",
+    "url": "/masters-marketing-paris/#salaires",
+    "date": "2026-07-30",
+    "excerpt": "Consultant, brand manager, growth marketing manager, chef de produit : les salaires à l'embauche, à trois ans et à cinq ans par secteur.",
+    "keywords": "salaire master marketing paris débutant trois ans cinq ans consultant brand manager growth marketing chef de produit apec cge débouchés"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Ingénieurs",
     "title": "Écoles d'ingénieurs à Lyon : le classement 2026",
     "url": "/ecoles-ingenieurs-lyon/",

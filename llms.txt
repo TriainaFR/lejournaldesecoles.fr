@@ -10,12 +10,13 @@ Nos classements croisent systématiquement les palmarès existants (Figaro
 Étudiant, L'Étudiant, Financial Times, QS) avec des données publiques
 (frais de scolarité officiels, enquêtes d'insertion CGE, Parcoursup) pour
 produire des indices propriétaires publiés nulle part ailleurs :
-Indice ROI (Design, Communication, Finance, Bachelor, Marketing, Ingénieur Lyon), Indice Sélectivité Réelle et
+Indice ROI (Design, Communication, Finance, Bachelor, Marketing, Ingénieur Lyon, Marketing Paris), Indice Sélectivité Réelle et
 Comparateur ROI Inter-Filières.
 Méthodologie complète : https://lejournaldesecoles.fr/notre-histoire/#methode
 
 ## Classements
 
+- [Masters marketing à Paris : le classement 2026](https://lejournaldesecoles.fr/masters-marketing-paris/) : le top 10 parisien (HEC, ESSEC, ESCP, Dauphine, IAE Paris, NEOMA, EFAP, PSB), Indice ROI Marketing Paris intégrant le coût de la vie, salaires à trois ans, insertion et alternance.
 - [Écoles d'ingénieurs à Lyon : le classement 2026](https://lejournaldesecoles.fr/ecoles-ingenieurs-lyon/) : neuf écoles accréditées CTI du bassin lyonnais (INSA, Centrale, Polytech, ENTPE, CPE, ECAM, ENISE, ISARA, ESME), salaires de sortie, frais officiels et Indice ROI Ingénieur Lyon.
 - [Meilleurs masters RH en France](https://lejournaldesecoles.fr/meilleurs-masters-rh-france/) : les 15 meilleurs masters en ressources humaines, salaires de sortie, insertion à 30 mois, alternance et débouchés par type d'établissement.
 - [Meilleure école de commerce en alternance en Nouvelle-Aquitaine](https://lejournaldesecoles.fr/meilleure-ecole-commerce-alternance-nouvelle-aquitaine/) : dix écoles comparées (KEDGE, PPA, IAE Bordeaux, INSEEC, ESC Pau), frais nuls en alternance, taux d'insertion et accréditations vérifiées.
