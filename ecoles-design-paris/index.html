@@ -61,25 +61,26 @@
         "author": { "@id": "https://lejournaldesecoles.fr/#charlotte-montant" },
         "publisher": { "@id": "https://lejournaldesecoles.fr/#organization" },
         "mainEntityOfPage": { "@type": "WebPage", "@id": "https://lejournaldesecoles.fr/ecoles-design-paris/" },
-        "mainEntity": { "@id": "https://lejournaldesecoles.fr/ecoles-design-paris/#top10" }
+        "mainEntity": { "@id": "https://lejournaldesecoles.fr/ecoles-design-paris/#classement" }
       },
       {
         "@type": "ItemList",
-        "@id": "https://lejournaldesecoles.fr/ecoles-design-paris/#top10",
-        "name": "Top 10 des écoles de design à Paris 2026",
+        "@id": "https://lejournaldesecoles.fr/ecoles-design-paris/#classement",
+        "name": "Classement 2026 des écoles de design à Paris",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": 10,
+        "numberOfItems": 11,
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "ENSAD - École des Arts Décoratifs (PSL)", "description": "Public. Design généraliste et arts appliqués. Indice ROI Design ×12,1. Note Figaro 2026 : 18,0/20. 13e mondial au QS Art & Design 2025." },
           { "@type": "ListItem", "position": 2, "name": "ENSCI-Les Ateliers", "description": "Public. Seule école publique française dédiée au design industriel. Indice ROI Design ×14,0. Note Figaro 2026 : 17,8/20. Red Dot Best of the Best 2025." },
-          { "@type": "ListItem", "position": 3, "name": "École Boulle", "description": "Public. Design d'espace et architecture intérieure. Indice ROI Design ×20,0, le meilleur du panel. Note Figaro 2026 : 16,4/20." },
-          { "@type": "ListItem", "position": 4, "name": "École Camondo", "description": "Privé. Architecture intérieure, 1re école citée par les professionnels. Indice ROI Design ×0,58. Note Figaro 2026 : 15,9/20." },
-          { "@type": "ListItem", "position": 5, "name": "ESAG Penninghen", "description": "Privé. Arts graphiques et direction artistique. Indice ROI Design ×0,46. Note Figaro 2026 : 13,0/20." },
-          { "@type": "ListItem", "position": 6, "name": "École Duperré", "description": "Public. Arts appliqués et design mode. Indice ROI Design ×11,5. Note Figaro 2026 : 14,2/20." },
-          { "@type": "ListItem", "position": 7, "name": "École Bleue", "description": "Privé. Architecture intérieure. Indice ROI Design ×0,72, le meilleur des écoles privées du panel. Note Figaro 2026 : 12,8/20." },
-          { "@type": "ListItem", "position": 8, "name": "ESAMDESIGN", "description": "Privé. Design mode et design objet. Indice ROI Design ×0,65. Note Figaro 2026 : 12,5/20." },
-          { "@type": "ListItem", "position": 9, "name": "Strate École de design", "description": "Privé, campus de Sèvres. Design industriel et UX/UI. Indice ROI Design ×0,61. Note Figaro 2026 : 15,4/20." },
-          { "@type": "ListItem", "position": 10, "name": "MJM Graphic Design Paris", "description": "Privé. Design graphique et motion design. Indice ROI Design ×0,58. Note Figaro 2026 : 12,2/20." }
+          { "@type": "ListItem", "position": 3, "name": "ENSAAMA-Olivier de Serres", "description": "Public. Arts appliqués et métiers d'art, 17 parcours DNMADE et 6 DSAA. Note Figaro 2026 : 17,7/20, 3e école française. Indice ROI Design non publié." },
+          { "@type": "ListItem", "position": 4, "name": "École Boulle", "description": "Public. Design d'espace et architecture intérieure. Indice ROI Design ×20,0, le meilleur du panel. Note Figaro 2026 : 16,4/20." },
+          { "@type": "ListItem", "position": 5, "name": "École Camondo", "description": "Privé. Architecture intérieure, 1re école citée par les professionnels. Indice ROI Design ×0,58. Note Figaro 2026 : 15,9/20." },
+          { "@type": "ListItem", "position": 6, "name": "ESAG Penninghen", "description": "Privé. Arts graphiques et direction artistique. Indice ROI Design ×0,46. Note Figaro 2026 : 13,0/20." },
+          { "@type": "ListItem", "position": 7, "name": "École Duperré", "description": "Public. Arts appliqués et design mode. Indice ROI Design estimé à ×11,5. Note Figaro 2026 : 14,2/20." },
+          { "@type": "ListItem", "position": 8, "name": "École Bleue", "description": "Privé. Architecture intérieure. Indice ROI Design estimé à ×0,72, le meilleur des écoles privées du panel. Note Figaro 2026 : 12,8/20." },
+          { "@type": "ListItem", "position": 9, "name": "ESAMDESIGN", "description": "Privé. Design mode et design objet. Indice ROI Design estimé à ×0,65. Note Figaro 2026 : 12,5/20." },
+          { "@type": "ListItem", "position": 10, "name": "Strate École de design", "description": "Privé, campus de Sèvres. Design industriel et UX/UI. Indice ROI Design ×0,61. Note Figaro 2026 : 15,4/20." },
+          { "@type": "ListItem", "position": 11, "name": "MJM Graphic Design Paris", "description": "Privé. Design graphique et motion design. Indice ROI Design estimé à ×0,58. Note Figaro 2026 : 12,2/20." }
         ]
       },
       {
@@ -269,6 +270,10 @@
     .tablewrap tr:nth-child(-n+3) td:first-child{ color:var(--marine); }
     .tablewrap td:nth-child(2){ font-family:var(--serif); font-weight:500; font-size:1.05rem; }
     .tablewrap td.roi{ font-family:var(--serif); font-style:italic; font-weight:600; color:var(--marine); font-size:1.08rem; }
+    .tablewrap td.roi em{ display:block; font-style:normal; font-family:var(--sans); font-weight:600;
+      font-size:.6rem; letter-spacing:.14em; text-transform:uppercase; margin-top:.15rem; }
+    .tablewrap em.ver{ color:var(--marine); opacity:.7; }
+    .tablewrap em.est{ color:#9d2f2f; }
     .table-note{ font-size:.85rem; font-style:italic; font-family:var(--serif); color:var(--ink-soft); margin-bottom:1.6rem; }
 
     /* fiche école */
@@ -405,7 +410,7 @@
         </nav>
         <span class="kicker kicker--marine">Classements - Design à Paris</span>
         <h1>Écoles de design à Paris&nbsp;: le classement 2026</h1>
-        <p class="standfirst">Dix écoles parisiennes comparées sur le palmarès Figaro 2026, le QS Art &amp; Design, les citations des professionnels et l’Indice ROI Design. ENSAD, ENSCI, Boulle, Camondo, Penninghen.</p>
+        <p class="standfirst">Onze écoles parisiennes comparées sur le palmarès Figaro 2026, le QS Art &amp; Design, les citations des professionnels et l’Indice ROI Design. ENSAD, ENSCI, ENSAAMA, Boulle, Camondo, Penninghen.</p>
         <p class="byline">Par <b><a href="/auteurs/#charlotte-montant" rel="author">Charlotte Montant</a></b>, Rédactrice en chef<i>◆</i>Publié le <time datetime="2026-07-31">31 juillet 2026</time><i>◆</i>Lecture 16 min</p>
         <figure class="article-hero">
           <div class="imgbox">
@@ -428,7 +433,7 @@
           <section class="essentiel" id="essentiel">
             <h2>TL;DR - L’essentiel en 30 secondes</h2>
             <ul>
-              <li><p><strong>Podium 2026 parisien</strong>&nbsp;: ENSAD (18/20, public), ENSCI-Les Ateliers (17,8/20, public), École Boulle (16,4/20, public). <strong>Six des dix meilleures écoles de design françaises sont en région parisienne.</strong></p></li>
+              <li><p><strong>Podium 2026 parisien</strong>&nbsp;: ENSAD (18/20), ENSCI-Les Ateliers (17,8/20) et ENSAAMA-Olivier de Serres (17,7/20), trois écoles publiques, devant l’École Boulle (16,4/20). <strong>Six des dix meilleures écoles de design françaises sont en région parisienne.</strong></p></li>
               <li><p><strong>Classement mondial QS Art &amp; Design 2025</strong>&nbsp;: ENSAD 13e (69,7), ENSCI 15e (67,9), Beaux-Arts de Paris 16e (67,4).</p></li>
               <li><p><strong>Architecture intérieure, citations professionnelles L’Étudiant 2025</strong>&nbsp;: Camondo 1re (29 citations), Boulle 2e (28 citations), ENSAD 5e (14 citations).</p></li>
               <li><p><strong>Indice ROI Design</strong>&nbsp;: Boulle ×20,0 (meilleur ratio), ENSCI ×14,0, ENSAD ×12,1, Camondo ×0,58, Penninghen ×0,46. <strong>Un facteur 40 entre le haut et le bas du classement.</strong></p></li>
@@ -449,10 +454,10 @@
             <li><p><strong>QS World University Rankings Art &amp; Design 2025</strong>&nbsp;: reconnaissance mondiale, seules les écoles disposant d’une accréditation universitaire y figurent (ENSAD 13e, ENSCI 15e, Beaux-Arts 16e).</p></li>
             <li><p><strong>L’Étudiant, classement architecture intérieure 2025</strong>&nbsp;: citations professionnelles directes par les agences et cabinets. Camondo domine avec 29 citations, Boulle suit avec 28.</p></li>
             <li><p><strong>Red Dot Award 2025</strong>&nbsp;: reconnaissance créative internationale. L’ENSCI décroche un Red Dot: Best of the Best en catégorie Design Concept.</p></li>
-            <li><p><strong>Indice ROI Design</strong>, méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à trois ans divisé par le coût total de la scolarité. Le coût de la vie parisien, environ 12 000&nbsp;€ par an, est traité à part, comme élément de budget et non comme entrée du ratio.</p></li>
+            <li><p><strong>Indice ROI Design</strong>, méthode propriétaire du Journal des Écoles&nbsp;: salaire brut annuel estimé à trois ans divisé par le coût total de la scolarité. Le coût de la vie parisien, environ 12 000&nbsp;€ par an, est traité à part, comme élément de budget et non comme entrée du ratio. Chaque valeur du tableau indique si elle est calculée à partir de données publiées ou estimée par la rédaction.</p></li>
           </ul>
 
-          <h2 id="classement">Classement Journal des Écoles - top 10 des écoles de design à Paris 2026</h2>
+          <h2 id="classement">Classement Journal des Écoles - les onze écoles de design à Paris 2026</h2>
           <div class="tablewrap">
             <table>
               <thead>
@@ -466,20 +471,21 @@
                 </tr>
               </thead>
               <tbody>
-                <tr><td>1</td><td><strong>ENSAD - École des Arts Décoratifs (PSL)</strong></td><td>Public</td><td>Design généraliste, arts appliqués</td><td class="roi">×12,1</td><td>18,0</td></tr>
-                <tr><td>2</td><td><strong>ENSCI-Les Ateliers</strong></td><td>Public</td><td>Design industriel, seule école publique dédiée</td><td class="roi">×14,0</td><td>17,8</td></tr>
-                <tr><td>3</td><td><strong>École Boulle</strong></td><td>Public</td><td>Design d’espace, architecture intérieure</td><td class="roi">×20,0</td><td>16,4</td></tr>
-                <tr><td>4</td><td><strong>École Camondo</strong></td><td>Privé</td><td>Architecture intérieure, 1re aux citations pro</td><td class="roi">×0,58</td><td>15,9</td></tr>
-                <tr><td>5</td><td><strong>ESAG Penninghen</strong></td><td>Privé</td><td>Arts graphiques, direction artistique</td><td class="roi">×0,46</td><td>13,0</td></tr>
-                <tr><td>6</td><td><strong>École Duperré</strong></td><td>Public</td><td>Arts appliqués, design mode</td><td class="roi">×11,5</td><td>14,2</td></tr>
-                <tr><td>7</td><td><strong>École Bleue</strong></td><td>Privé</td><td>Architecture intérieure</td><td class="roi">×0,72</td><td>12,8</td></tr>
-                <tr><td>8</td><td><strong>ESAMDESIGN</strong></td><td>Privé</td><td>Design mode, design objet</td><td class="roi">×0,65</td><td>12,5</td></tr>
-                <tr><td>9</td><td><strong>Strate École de design</strong> (campus de Sèvres)</td><td>Privé</td><td>Design industriel, UX/UI</td><td class="roi">×0,61</td><td>15,4</td></tr>
-                <tr><td>10</td><td><strong>MJM Graphic Design Paris</strong></td><td>Privé</td><td>Design graphique, motion design</td><td class="roi">×0,58</td><td>12,2</td></tr>
+                <tr><td>1</td><td><strong>ENSAD - École des Arts Décoratifs (PSL)</strong></td><td>Public</td><td>Design généraliste, arts appliqués</td><td class="roi">×12,1<em class="ver">calculé</em></td><td>18,0</td></tr>
+                <tr><td>2</td><td><strong>ENSCI-Les Ateliers</strong></td><td>Public</td><td>Design industriel, seule école publique dédiée</td><td class="roi">×14,0<em class="ver">calculé</em></td><td>17,8</td></tr>
+                <tr><td>3</td><td><strong>ENSAAMA-Olivier de Serres</strong></td><td>Public</td><td>Arts appliqués, métiers d’art, design produit</td><td class="roi">n.d.<em class="est">non publié</em></td><td>17,7</td></tr>
+                <tr><td>4</td><td><strong>École Boulle</strong></td><td>Public</td><td>Design d’espace, architecture intérieure</td><td class="roi">×20,0<em class="ver">calculé</em></td><td>16,4</td></tr>
+                <tr><td>5</td><td><strong>École Camondo</strong></td><td>Privé</td><td>Architecture intérieure, 1re aux citations pro</td><td class="roi">×0,58<em class="ver">calculé</em></td><td>15,9</td></tr>
+                <tr><td>6</td><td><strong>ESAG Penninghen</strong></td><td>Privé</td><td>Arts graphiques, direction artistique</td><td class="roi">×0,46<em class="ver">calculé</em></td><td>13,0</td></tr>
+                <tr><td>7</td><td><strong>École Duperré</strong></td><td>Public</td><td>Arts appliqués, design mode</td><td class="roi">×11,5<em class="est">estimé</em></td><td>14,2</td></tr>
+                <tr><td>8</td><td><strong>École Bleue</strong></td><td>Privé</td><td>Architecture intérieure</td><td class="roi">×0,72<em class="est">estimé</em></td><td>12,8</td></tr>
+                <tr><td>9</td><td><strong>ESAMDESIGN</strong></td><td>Privé</td><td>Design mode, design objet</td><td class="roi">×0,65<em class="est">estimé</em></td><td>12,5</td></tr>
+                <tr><td>10</td><td><strong>Strate École de design</strong> (campus de Sèvres)</td><td>Privé</td><td>Design industriel, UX/UI</td><td class="roi">×0,61<em class="ver">calculé</em></td><td>15,4</td></tr>
+                <tr><td>11</td><td><strong>MJM Graphic Design Paris</strong></td><td>Privé</td><td>Design graphique, motion design</td><td class="roi">×0,58<em class="est">estimé</em></td><td>12,2</td></tr>
               </tbody>
             </table>
           </div>
-          <p class="table-note">Le rang croise les cinq sources de la méthodologie&nbsp;: il ne découle pas du seul score Figaro, ce qui explique qu’une école mieux notée par le palmarès puisse figurer plus bas, et inversement. L’Indice ROI Design reprend la méthode publiée dans notre <a href="/classement-meilleures-ecoles-design-france/#roi">classement national</a>, salaire estimé à trois ans divisé par le coût total de la scolarité&nbsp;: les valeurs sont donc directement comparables d’un article à l’autre.</p>
+          <p class="table-note">Le rang croise les cinq sources de la méthodologie&nbsp;: il ne découle pas du seul score Figaro, ce qui explique qu’une école mieux notée par le palmarès puisse figurer plus bas, et inversement. L’Indice ROI Design reprend la méthode publiée dans notre <a href="/classement-meilleures-ecoles-design-france/#roi">classement national</a>, salaire estimé à trois ans divisé par le coût total de la scolarité&nbsp;: les valeurs sont donc directement comparables d’un article à l’autre. <strong>Six indices sont calculés</strong> à partir de frais et de salaires de sortie publiés (ENSAD, ENSCI, Boulle, Camondo, Penninghen, Strate)&nbsp;; <strong>quatre sont des estimations de la rédaction</strong> (Duperré, École Bleue, ESAMDESIGN, MJM), faute de salaire de sortie publié école par école. L’ENSAAMA ne publie ni frais détaillés ni enquête d’insertion&nbsp;: son indice n’est pas calculé, et son rang repose sur le palmarès Figaro et son statut public.</p>
 
           <h2 id="fiches">Fiches des meilleures écoles de design à Paris</h2>
 
@@ -504,6 +510,18 @@
               <li><p><strong>Reconnaissance</strong>&nbsp;: <strong>Red Dot: Best of the Best 2025</strong> en catégorie Design Concept, et <strong>15e rang mondial au QS 2025</strong>. 70&nbsp;% des admis ont déjà un niveau bac+1 à bac+3.</p></li>
               <li><p><strong>Insertion</strong>&nbsp;: plus de 90&nbsp;% en emploi, 80&nbsp;% en CDI.</p></li>
               <li><p><strong>Indice ROI Design</strong>&nbsp;: ×14,0, le deuxième meilleur ratio du panel après Boulle.</p></li>
+            </ul>
+          </div>
+
+          <div class="fiche">
+            <h3>ENSAAMA-Olivier de Serres</h3>
+            <ul>
+              <li><p><strong>Statut</strong>&nbsp;: établissement public (ESAA), École nationale supérieure des arts appliqués et des métiers d’art, 63-65 rue Olivier de Serres, Paris 15e.</p></li>
+              <li><p><strong>Palmarès</strong>&nbsp;: <strong>3e école de design française au Figaro Étudiant 2026 avec 17,7/20</strong>, juste derrière l’ENSAD et l’ENSCI.</p></li>
+              <li><p><strong>Offre de formation</strong>&nbsp;: 17 parcours de DNMADE (design d’espace, objet, graphisme, numérique, mode, matériaux) et 6 DSAA, sur les quatre grands champs des arts appliqués et des métiers d’art.</p></li>
+              <li><p><strong>Admission</strong>&nbsp;: DNMADE via Parcoursup, sur dossier, portfolio numérique (10 pages A4 maximum) et présentation de travaux personnels.</p></li>
+              <li><p><strong>Frais</strong>&nbsp;: tarif public, du même ordre que les autres ESAA parisiennes, École Boulle et Duperré.</p></li>
+              <li><p><strong>Indice ROI Design</strong>&nbsp;: non calculé, l’école ne publiant pas d’enquête d’insertion avec salaire de sortie.</p></li>
             </ul>
           </div>
 
@@ -588,11 +606,11 @@
 
           <h2 id="public-prive">Design public ou privé à Paris&nbsp;: le vrai arbitrage</h2>
           <p>Le choix entre public et privé à Paris n’est pas une question de qualité pédagogique, c’est une question de coût d’opportunité et de profil de candidat.</p>
-          <p><strong>Écoles publiques parisiennes (ENSAD, ENSCI, Boulle, Duperré)&nbsp;:</strong></p>
+          <p><strong>Écoles publiques parisiennes (ENSAD, ENSCI, ENSAAMA, Boulle, Duperré)&nbsp;:</strong></p>
           <ul>
             <li><p>Coût&nbsp;: 300 à 563&nbsp;€ par an, quasi gratuit.</p></li>
-            <li><p>Admission&nbsp;: concours très sélectifs, 4 à 6&nbsp;% à l’ENSAD et à l’ENSCI, ou Parcoursup avec portfolio.</p></li>
-            <li><p>Indice ROI Design&nbsp;: de ×11,5 à ×20,0, excellent.</p></li>
+            <li><p>Admission&nbsp;: concours très sélectifs, 4 à 6&nbsp;% à l’ENSAD et à l’ENSCI, ou Parcoursup avec portfolio pour l’ENSAAMA, Boulle et Duperré.</p></li>
+            <li><p>Indice ROI Design&nbsp;: de ×11,5 à ×20,0, excellent, là où il est mesurable.</p></li>
             <li><p>Réseau&nbsp;: moins de réseaux privés spécialisés, mais un accès direct aux studios parisiens et aux agences de création.</p></li>
             <li><p><strong>Verdict</strong>&nbsp;: pour qui peut franchir le concours, le calcul financier penche lourdement en faveur du public. Le vrai risque n’est pas l’argent, c’est la sélectivité.</p></li>
           </ul>
@@ -616,7 +634,7 @@
             <li><p>Calendrier&nbsp;: inscription via Parcoursup, mais concours propre mené en parallèle.</p></li>
           </ul>
 
-          <h3>Parcoursup avec dossier créatif et portfolio (Camondo, Boulle, Strate, Duperré)</h3>
+          <h3>Parcoursup avec dossier créatif et portfolio (ENSAAMA, Camondo, Boulle, Strate, Duperré)</h3>
           <ul>
             <li><p>Admissibilité&nbsp;: dossier scolaire, portfolio de 12 à 15 planches et lettre de motivation.</p></li>
             <li><p>Admission&nbsp;: entretien de 20 à 30 minutes, ou sujet à traiter suivi d’un oral.</p></li>
@@ -725,7 +743,7 @@
               <li><a href="#essentiel">TL;DR</a></li>
               <li><a href="#pourquoi">Pourquoi Paris</a></li>
               <li><a href="#methodologie">Méthodologie</a></li>
-              <li><a href="#classement">Le top 10 parisien</a></li>
+              <li><a href="#classement">Le classement parisien</a></li>
               <li><a href="#fiches">Les fiches écoles</a></li>
               <li><a href="#roi">L’Indice ROI Design</a></li>
               <li><a href="#public-prive">Public ou privé</a></li>
