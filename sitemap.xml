@@ -4,10 +4,14 @@
   <!-- Home -->
   <url>
     <loc>https://lejournaldesecoles.fr/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
 
   <!-- Articles -->
+  <url>
+    <loc>https://lejournaldesecoles.fr/ecoles-design-paris/</loc>
+    <lastmod>2026-07-31</lastmod>
+  </url>
   <url>
     <loc>https://lejournaldesecoles.fr/masters-marketing-paris/</loc>
     <lastmod>2026-07-30</lastmod>

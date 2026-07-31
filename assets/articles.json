@@ -1,5 +1,20 @@
 [
   {
+    "url": "/ecoles-design-paris/",
+    "title": "Écoles de design à Paris : le classement 2026",
+    "cat": "Classements - Design à Paris",
+    "rubriques": [
+      "classements",
+      "design-architecture"
+    ],
+    "date": "2026-07-31",
+    "dateLabel": "31 juillet 2026",
+    "minutes": 16,
+    "excerpt": "Dix écoles parisiennes comparées sur le palmarès Figaro 2026, le QS Art & Design, les citations des professionnels et l'Indice ROI Design. ENSAD, ENSCI, Boulle, Camondo, Penninghen.",
+    "image": "/assets/img/ecoles-design-paris-hero.webp",
+    "alt": "Mobilier de design coloré à la Cité de la mode et du design à Paris"
+  },
+  {
     "url": "/masters-marketing-paris/",
     "title": "Masters marketing à Paris : le classement 2026",
     "cat": "Classements - Masters à Paris",

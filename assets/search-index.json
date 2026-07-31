@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Design à Paris",
+    "title": "Écoles de design à Paris : le classement 2026",
+    "url": "/ecoles-design-paris/",
+    "date": "2026-07-31",
+    "excerpt": "Le top 10 parisien : ENSAD, ENSCI, Boulle, Camondo, Penninghen, Duperré, École Bleue, ESAMDESIGN, Strate, MJM, avec l'Indice ROI Design et les admissions.",
+    "keywords": "écoles design paris classement 2026 ensad ensci les ateliers école boulle camondo esag penninghen duperré école bleue esamdesign strate mjm architecture intérieure design industriel portfolio concours parcoursup indice roi design qs art design red dot"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Design à Paris",
+    "title": "Top 10 des écoles de design à Paris 2026",
+    "url": "/ecoles-design-paris/#classement",
+    "date": "2026-07-31",
+    "excerpt": "Le tableau des dix écoles avec statut, spécialité, Indice ROI Design et score du palmarès Figaro 2026.",
+    "keywords": "tableau classement dix écoles design paris statut public privé spécialité indice roi score figaro"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Design à Paris",
+    "title": "Indice ROI Design : public contre privé à Paris",
+    "url": "/ecoles-design-paris/#roi",
+    "date": "2026-07-31",
+    "excerpt": "Boulle ×20, ENSCI ×14, ENSAD ×12,1 contre Camondo ×0,58 et Penninghen ×0,46 : un facteur 40 entre le haut et le bas du classement.",
+    "keywords": "indice roi design paris boulle ensci ensad camondo penninghen ratio salaire coût scolarité public privé coût de la vie parisien"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Design à Paris",
+    "title": "Admissions en école de design à Paris : concours, portfolio, Parcoursup",
+    "url": "/ecoles-design-paris/#admissions",
+    "date": "2026-07-31",
+    "excerpt": "Concours propre à l'ENSAD et à l'ENSCI, Parcoursup avec portfolio à Camondo, Boulle, Strate et Duperré, dossier simple sans concours à Penninghen.",
+    "keywords": "admission école design paris concours portfolio parcoursup ensad 4 % ensci 6 % camondo boulle strate duperré penninghen dossier entretien planches"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Design à Paris",
+    "title": "Quelle école de design à Paris pour l'architecture intérieure",
+    "url": "/ecoles-design-paris/#fiches",
+    "date": "2026-07-31",
+    "excerpt": "Camondo première avec 29 citations professionnelles, Boulle deuxième avec 28 : les deux références parisiennes de la spécialité.",
+    "keywords": "architecture intérieure paris camondo boulle citations professionnelles l'étudiant 2025 école bleue design d'espace"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Masters à Paris",
     "title": "Masters marketing à Paris : le classement 2026",
     "url": "/masters-marketing-paris/",
