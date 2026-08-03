@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Masters à Paris",
+    "title": "10 masters RH à Paris : le classement 2026",
+    "url": "/masters-rh-paris/",
+    "date": "2026-08-03",
+    "excerpt": "Le top 10 parisien : Dauphine, Sciences Po, Panthéon-Sorbonne, Assas, IAE Paris-Est, IAE Paris Sorbonne, IGENSIA RH, CELSA, Nanterre, EPB, avec l'Indice ROI RH Paris.",
+    "keywords": "master rh paris classement 2026 ressources humaines dauphine psl sciences po panthéon sorbonne paris 1 assas iae paris est iae paris sorbonne igensia rh igs celsa nanterre epb indice roi rh paris salaire insertion alternance apprentissage drh hr business partner equis"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters RH Paris",
+    "title": "Classement 2026 des 10 meilleurs masters RH à Paris",
+    "url": "/masters-rh-paris/#classement",
+    "date": "2026-08-03",
+    "excerpt": "Le tableau des dix masters avec Indice ROI RH Paris, salaire débutant, coût annuel, alternance et insertion à dix-huit mois.",
+    "keywords": "tableau top 10 masters rh paris indice roi salaire coût alternance insertion dauphine sciences po sorbonne assas igensia epb celsa nanterre"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters RH Paris",
+    "title": "Master RH à Paris en alternance",
+    "url": "/masters-rh-paris/#alternance",
+    "date": "2026-08-03",
+    "excerpt": "Huit masters sur dix proposent l'alternance : frais pris en charge, 700 à 1 600 € par mois et une insertion supérieure de 8 à 12 points.",
+    "keywords": "master rh alternance paris apprentissage professionnalisation smic rémunération opco epb igensia iae paris est insertion frais pris en charge"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters RH Paris",
+    "title": "Débouchés et salaires RH à Paris",
+    "url": "/masters-rh-paris/#debouches",
+    "date": "2026-08-03",
+    "excerpt": "HR Business Partner, talent acquisition manager, DRH adjoint, consultant RH : salaires à l'embauche et à cinq ans par poste.",
+    "keywords": "salaire rh paris hr business partner talent acquisition responsable formation consultant rh drh adjoint hr data analyst relations sociales apec 2024"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Masters RH Paris",
+    "title": "Master RH à Paris : université ou école privée",
+    "url": "/masters-rh-paris/#public-prive",
+    "date": "2026-08-03",
+    "excerpt": "400 à 500 € par an et un diplôme national à l'université, contre un réseau spécialisé et un titre RNCP dans le privé.",
+    "keywords": "université ou école privée master rh paris coût diplôme national titre rncp niveau 7 réseau alumni salaire cinq ans dauphine igensia epb"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Design à Paris",
     "title": "Écoles de design à Paris : le classement 2026",
     "url": "/ecoles-design-paris/",
