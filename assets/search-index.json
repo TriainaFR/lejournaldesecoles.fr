@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Communication à Paris",
+    "title": "10 meilleures écoles de communication à Paris : le classement 2026",
+    "url": "/ecoles-communication-paris/",
+    "date": "2026-08-04",
+    "excerpt": "Le top 10 parisien : CELSA, ISCOM, EFAP, Sup de Pub, Sciences Po, ISCPA, ECS, ICART, CFJ, INA, avec l'Indice ROI Communication, les frais et l'insertion.",
+    "keywords": "écoles communication paris classement 2026 celsa sorbonne iscom efap sup de pub sciences po iscpa ecs icart cfj ina indice roi communication frais insertion alternance journalisme événementiel digital relations publiques concours"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Communication à Paris",
+    "title": "Classement 2026 des écoles de communication à Paris",
+    "url": "/ecoles-communication-paris/#classement",
+    "date": "2026-08-04",
+    "excerpt": "Le tableau des dix écoles avec Indice ROI Communication calculé ou estimé, frais annuels, insertion à six mois et spécialité forte.",
+    "keywords": "tableau classement dix écoles communication paris indice roi frais insertion spécialité celsa iscom efap sup de pub cfj ina"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Communication à Paris",
+    "title": "Admissions en école de communication à Paris",
+    "url": "/ecoles-communication-paris/#admissions",
+    "date": "2026-08-04",
+    "excerpt": "Concours propre hors Parcoursup, dossier et entretien en admissions parallèles, alternance dès la 3e année : les trois logiques de recrutement.",
+    "keywords": "admission école communication paris concours celsa 5,6 % parcoursup dossier entretien admissions parallèles alternance opco iscom efap iscpa cfj ina"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Communication à Paris",
+    "title": "Paris ou province pour étudier la communication",
+    "url": "/ecoles-communication-paris/#paris-province",
+    "date": "2026-08-04",
+    "excerpt": "35 % des agences en Île-de-France, mais un coût de la vie qui alourdit le budget de 30 à 50 % : l'arbitrage chiffré.",
+    "keywords": "paris ou province communication coût de la vie agences île-de-france sciencescom nantes rendement stages réseau alumni"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Masters à Paris",
     "title": "10 masters RH à Paris : le classement 2026",
     "url": "/masters-rh-paris/",
