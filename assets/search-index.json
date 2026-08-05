@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Métiers - Conseil",
+    "title": "Consultant en stratégie : les formations et écoles qui mènent aux cabinets",
+    "url": "/consultant-strategie-formation-ecoles/",
+    "date": "2026-08-05",
+    "excerpt": "Le métier, les salaires par niveau et par cabinet, les écoles les plus recrutées par McKinsey, BCG et Bain, et les voies alternatives sans grande école.",
+    "keywords": "consultant en stratégie devenir consultant conseil mbb mckinsey bcg bain tier 1 tier 2 tier 3 oliver wyman roland berger kearney strategy& hec polytechnique essec escp centralesupélec sciences po emlyon edhec salaire junior senior indice recrutement conseil mba reconversion"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Métier consultant",
+    "title": "Salaire d'un consultant en stratégie en 2026",
+    "url": "/consultant-strategie-formation-ecoles/#salaires",
+    "date": "2026-08-05",
+    "excerpt": "De 35 000 € en boutique à 180 000 € pour un senior en MBB : la grille complète par niveau et par type de cabinet, plus l'Indice ROI Formation Conseil.",
+    "keywords": "salaire consultant stratégie junior confirmé senior manager mbb tier 1 tier 2 boutique indépendant apec cge indice roi formation conseil"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Métier consultant",
+    "title": "Les écoles les plus recrutées par les cabinets de conseil",
+    "url": "/consultant-strategie-formation-ecoles/#classement",
+    "date": "2026-08-05",
+    "excerpt": "HEC 95/100, Polytechnique 90, ESSEC 85 : l'Indice Recrutement Conseil pondère la part de diplômés en cabinet par le tier du cabinet.",
+    "keywords": "indice recrutement conseil hec polytechnique essec escp centralesupélec sciences po emlyon edhec part diplômés cabinet mbb"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Métier consultant",
+    "title": "Devenir consultant en stratégie sans grande école",
+    "url": "/consultant-strategie-formation-ecoles/#sans-grande-ecole",
+    "date": "2026-08-05",
+    "excerpt": "Master universitaire et stage en cabinet, MBA après expérience, reconversion par la certification : les trois voies vers les cabinets Tier 2 et Tier 3.",
+    "keywords": "consultant sans grande école master universitaire dauphine iae paris sciences po stage cabinet mba reconversion certification tier 2 tier 3 réseau"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Communication à Paris",
     "title": "10 meilleures écoles de communication à Paris : le classement 2026",
     "url": "/ecoles-communication-paris/",
