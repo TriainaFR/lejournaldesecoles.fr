@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Formations - BTS au Pays basque",
+    "title": "BTS Tourisme à Bayonne : quelle école choisir en 2026 ?",
+    "url": "/bts-tourisme-bayonne/",
+    "date": "2026-08-06",
+    "excerpt": "Lycée Biarritz Atlantique, TALIS Bayonne, GRETA-CFA Aquitaine : places, coûts, taux de réussite, alternance et débouchés du BTS Tourisme au Pays basque.",
+    "keywords": "bts tourisme bayonne biarritz pays basque lycée biarritz atlantique talis business school greta cfa aquitaine parcoursup apprentissage alternance opco conseiller voyages agent d'escale réceptionniste office de tourisme salaire débutant taux de réussite"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - BTS Tourisme Bayonne",
+    "title": "Les établissements du BTS Tourisme à Bayonne",
+    "url": "/bts-tourisme-bayonne/#etablissements",
+    "date": "2026-08-06",
+    "excerpt": "32 places au lycée Biarritz Atlantique, 15 en apprentissage chez TALIS, plus le GRETA-CFA Aquitaine : statuts, coûts et taux de réussite.",
+    "keywords": "lycée biarritz atlantique talis bayonne greta cfa aquitaine places coût taux de réussite 85 % 90,6 % apprentissage initial"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - BTS Tourisme Bayonne",
+    "title": "Admission en BTS Tourisme à Bayonne",
+    "url": "/bts-tourisme-bayonne/#admission",
+    "date": "2026-08-06",
+    "excerpt": "Parcoursup du 19 janvier au 12 mars 2026 pour le public, jusqu'au 8 septembre pour l'apprentissage, avec contrat obligatoire.",
+    "keywords": "admission bts tourisme bayonne parcoursup calendrier 2026 baccalauréat anglais espagnol b2 sélectivité 21 % dossier entretien contrat apprentissage"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - BTS Tourisme Bayonne",
+    "title": "Débouchés et salaires après un BTS Tourisme",
+    "url": "/bts-tourisme-bayonne/#debouches",
+    "date": "2026-08-06",
+    "excerpt": "1 600 à 2 100 € brut par mois selon le métier, 60 à 72 % d'emploi à six mois, dans un bassin qui accueille 3,5 millions de visiteurs par an.",
+    "keywords": "débouchés bts tourisme salaire conseiller voyages agent d'escale réceptionniste animateur chargé de promotion office de tourisme hôtellerie compagnie aérienne pays basque 3,5 millions visiteurs"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Bachelors à Lyon",
     "title": "Bachelor école de commerce à Lyon : le classement 2026",
     "url": "/bachelor-ecole-commerce-lyon/",
