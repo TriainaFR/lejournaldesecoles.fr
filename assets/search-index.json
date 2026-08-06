@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Bachelors à Lyon",
+    "title": "Bachelor école de commerce à Lyon : le classement 2026",
+    "url": "/bachelor-ecole-commerce-lyon/",
+    "date": "2026-08-06",
+    "excerpt": "Huit bachelors lyonnais : emlyon Global BBA, ESDES, INSEEC, IDRAC, Pigier, ICL, ECEMA, MBway, avec l'Indice ROI Bachelor Lyon, les frais et l'alternance.",
+    "keywords": "bachelor école de commerce lyon classement 2026 emlyon global bba esdes inseec idrac pigier icl ecema mbway indice roi bachelor lyon frais scolarité alternance aacsb equis amba rncp salaire débutant taux emploi"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Bachelor Lyon",
+    "title": "Classement 2026 des bachelors commerce à Lyon",
+    "url": "/bachelor-ecole-commerce-lyon/#classement",
+    "date": "2026-08-06",
+    "excerpt": "Le tableau des huit bachelors avec durée, coût annuel, Indice ROI calculé ou estimé, accréditation et alternance.",
+    "keywords": "tableau classement huit bachelors lyon durée coût indice roi accréditation alternance emlyon esdes inseec idrac pigier icl ecema mbway"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Bachelor Lyon",
+    "title": "Bachelor à Lyon en alternance",
+    "url": "/bachelor-ecole-commerce-lyon/#alternance",
+    "date": "2026-08-06",
+    "excerpt": "60 % des inscrits choisissent l'alternance : dès la 1re année chez IDRAC, ICL, Pigier et MBway, dès la 3e à emlyon.",
+    "keywords": "bachelor lyon alternance apprentissage première deuxième troisième année rémunération coût réel réseau professionnel emlyon esdes inseec idrac icl pigier mbway ecema"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Bachelor Lyon",
+    "title": "Débouchés et salaires après un bachelor commerce à Lyon",
+    "url": "/bachelor-ecole-commerce-lyon/#debouches",
+    "date": "2026-08-06",
+    "excerpt": "31 000 € de salaire débutant moyen, 87 % d'emploi à six mois : les débouchés par école et par métier.",
+    "keywords": "salaire bachelor commerce lyon débutant 31 000 taux emploi 87 % responsable commercial business developer chargé de gestion assistant manager marketing e-commerce consultant"
+  },
+  {
+    "type": "Article",
     "cat": "Métiers - Conseil",
     "title": "Consultant en stratégie : les formations et écoles qui mènent aux cabinets",
     "url": "/consultant-strategie-formation-ecoles/",
