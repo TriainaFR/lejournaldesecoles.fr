@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Formations - BTS dans la Vienne",
+    "title": "Quelle école BTS Tourisme à Poitiers ? Le classement 2026",
+    "url": "/bts-tourisme-poitiers/",
+    "date": "2026-08-07",
+    "excerpt": "CFA Académique, CNED, Isaac de l'Étoile : les trois voies du BTS Tourisme à Poitiers, comparées sur l'Indice ROI, avec les places Parcoursup et les coûts réels.",
+    "keywords": "BTS tourisme Poitiers école Vienne Futuroscope alternance apprentissage CNED Isaac de l'Étoile CFA Académique Parcoursup"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - BTS Tourisme Poitiers",
+    "title": "Les formations au BTS Tourisme à Poitiers",
+    "url": "/bts-tourisme-poitiers/#etablissements",
+    "date": "2026-08-07",
+    "excerpt": "Isaac de l'Étoile en présentiel, le CFA Académique en apprentissage et le CNED à distance : aucun autre établissement de la Vienne ne prépare ce diplôme.",
+    "keywords": "établissements BTS tourisme Poitiers Vienne Isaac Étoile CFA CNED ISTELI IES"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - BTS Tourisme Poitiers",
+    "title": "Le classement Journal des Écoles 2026",
+    "url": "/bts-tourisme-poitiers/#classement",
+    "date": "2026-08-07",
+    "excerpt": "Indice ROI BTS Tourisme Poitiers : non calculable en apprentissage, 1 555 au CNED, 1 416 chez Isaac de l'Étoile, pour 2 830 et 3 108 € sur deux ans.",
+    "keywords": "classement indice ROI BTS tourisme Poitiers coût frais scolarité"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - BTS Tourisme Poitiers",
+    "title": "Comment intégrer un BTS Tourisme à Poitiers",
+    "url": "/bts-tourisme-poitiers/#admission",
+    "date": "2026-08-07",
+    "excerpt": "59 places et 380 vœux chez Isaac de l'Étoile, 6,4 candidats par place, six places en apprentissage, confirmation des vœux jusqu'au 8 septembre 2026.",
+    "keywords": "admission Parcoursup BTS tourisme Poitiers places vœux apprentissage contrat"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - BTS Tourisme Poitiers",
+    "title": "Débouchés du BTS Tourisme dans la Vienne",
+    "url": "/bts-tourisme-poitiers/#pourquoi",
+    "date": "2026-08-07",
+    "excerpt": "6 090 emplois touristiques dans la zone d'emploi de Poitiers, un Futuroscope à 2,6 millions de visiteurs et un technopôle de 10 600 emplois.",
+    "keywords": "débouchés emploi tourisme Poitiers Vienne Futuroscope INSEE salaires"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Ingénieurs",
     "title": "Écoles d'ingénieurs à Toulouse : le classement 2026",
     "url": "/ecoles-ingenieurs-toulouse/",
