@@ -4,10 +4,14 @@
   <!-- Home -->
   <url>
     <loc>https://lejournaldesecoles.fr/</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-07</lastmod>
   </url>
 
   <!-- Articles -->
+  <url>
+    <loc>https://lejournaldesecoles.fr/ecoles-ingenieurs-toulouse/</loc>
+    <lastmod>2026-08-07</lastmod>
+  </url>
   <url>
     <loc>https://lejournaldesecoles.fr/bts-tourisme-bayonne/</loc>
     <lastmod>2026-08-06</lastmod>

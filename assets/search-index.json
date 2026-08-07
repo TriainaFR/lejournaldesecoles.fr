@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Ingénieurs",
+    "title": "Écoles d'ingénieurs à Toulouse : le classement 2026",
+    "url": "/ecoles-ingenieurs-toulouse/",
+    "date": "2026-08-07",
+    "excerpt": "Le top 10 toulousain : ISAE-SUPAERO, ENAC, INSA, ENSEEIHT, ENSIACET, ENSAT, Purpan, ICAM, EPITA, IPSA, avec l'Indice ROI Ingénieurs Toulouse.",
+    "keywords": "écoles ingénieurs toulouse classement 2026 isae supaero enac insa toulouse enseeiht ensiacet ensat purpan icam epita ipsa toulouse inp indice roi ingénieurs toulouse aéronautique spatial airbus thales safran cnes cti parcoursup prépa ccinp mines-ponts salaire insertion"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Ingénieurs Toulouse",
+    "title": "Classement 2026 des écoles d'ingénieurs à Toulouse",
+    "url": "/ecoles-ingenieurs-toulouse/#classement",
+    "date": "2026-08-07",
+    "excerpt": "Le tableau des dix écoles avec Indice ROI Ingénieurs Toulouse, salaire médian, insertion à six mois et spécialité.",
+    "keywords": "tableau classement dix écoles ingénieurs toulouse indice roi salaire médian insertion spécialité isae supaero enac insa enseeiht ensiacet ensat purpan icam epita ipsa"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Ingénieurs Toulouse",
+    "title": "Public ou privé : ce que dit l'Indice ROI Ingénieurs Toulouse",
+    "url": "/ecoles-ingenieurs-toulouse/#public-prive",
+    "date": "2026-08-07",
+    "excerpt": "600 € par an dans le public contre 9 200 € à EPITA : un rendement 10 à 18 fois supérieur, pour des taux d'insertion pourtant proches.",
+    "keywords": "public privé écoles ingénieurs toulouse coût 600 euros 9200 epita icam ipsa purpan rendement indice roi insertion comparaison"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Ingénieurs Toulouse",
+    "title": "Toulouse et l'aéronautique : le débouché local",
+    "url": "/ecoles-ingenieurs-toulouse/#aeronautique",
+    "date": "2026-08-07",
+    "excerpt": "Airbus, Thales Alenia Space, Safran, CNES : plus de 30 000 ingénieurs en poste et moins de 3 % de chômage dans la filière.",
+    "keywords": "toulouse aéronautique spatial airbus thales alenia space safran cnes centre spatial de toulouse 30 000 ingénieurs occitanie chômage débouché local"
+  },
+  {
+    "type": "Article",
     "cat": "Formations - BTS au Pays basque",
     "title": "BTS Tourisme à Bayonne : quelle école choisir en 2026 ?",
     "url": "/bts-tourisme-bayonne/",
