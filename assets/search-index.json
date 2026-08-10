@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Communication à Lyon",
+    "title": "Écoles de communication à Lyon : le classement 2026",
+    "url": "/ecoles-communication-lyon/",
+    "date": "2026-08-10",
+    "excerpt": "ISCPA, ESP, Esupcom, ISCOM et EFAP comparées sur l'Indice ROI Communication Lyon, avec les frais réels, l'insertion et les modalités d'admission.",
+    "keywords": "écoles communication Lyon ISCOM EFAP ISCPA Esupcom ESP indice ROI frais scolarité alternance"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Communication Lyon",
+    "title": "Le classement des écoles de communication à Lyon",
+    "url": "/ecoles-communication-lyon/#classement",
+    "date": "2026-08-10",
+    "excerpt": "ISCPA 76,2, ESP 74,9, Esupcom 68,6, ISCOM 58,8, EFAP 56,7 : une seule de ces cinq écoles publie ses tarifs.",
+    "keywords": "classement indice ROI communication Lyon coût frais scolarité transparence"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Communication Lyon",
+    "title": "Les cinq écoles de communication lyonnaises en détail",
+    "url": "/ecoles-communication-lyon/#fiches",
+    "date": "2026-08-10",
+    "excerpt": "Adresses, formations, frais, admissions et insertion pour ISCPA, ESP, Esupcom, ISCOM et EFAP à Lyon.",
+    "keywords": "ISCOM Lyon EFAP Lyon ISCPA Lyon Esupcom ESP adresse admission concours"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Communication Lyon",
+    "title": "Débouchés et salaires en communication à Lyon",
+    "url": "/ecoles-communication-lyon/#debouches",
+    "date": "2026-08-10",
+    "excerpt": "De 24 000 à 36 000 € brut en début de carrière, dans un marché des jeunes diplômés cadres en contraction selon l'APEC.",
+    "keywords": "salaire communication Lyon débouchés chargé de communication APEC insertion"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Communication Lyon",
+    "title": "Lyon ou Paris pour une école de communication",
+    "url": "/ecoles-communication-lyon/#lyon-paris",
+    "date": "2026-08-10",
+    "excerpt": "800 € de coût de la vie mensuel à Lyon contre 1 200 € à Paris, soit 14 400 € d'écart sur trois ans.",
+    "keywords": "Lyon Paris coût de la vie comparaison école communication"
+  },
+  {
+    "type": "Article",
     "cat": "Formations - BTS dans la Vienne",
     "title": "Quelle école BTS Tourisme à Poitiers ? Le classement 2026",
     "url": "/bts-tourisme-poitiers/",
