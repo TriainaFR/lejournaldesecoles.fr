@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Métiers - Finance & gestion",
+    "title": "Contrôleur de gestion : parcours, écoles et salaires 2026",
+    "url": "/controleur-gestion-parcours-ecoles/",
+    "date": "2026-08-10",
+    "excerpt": "Missions, formations du BTS au master CCA, salaires par niveau, classement Eduniversal 2026 et Indice ROI Métier du Journal des Écoles.",
+    "keywords": "contrôleur de gestion métier formation master CCA DCG DSCG salaire alternance IAE Dauphine SAP Excel Power BI"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Contrôleur de gestion",
+    "title": "Les formations pour devenir contrôleur de gestion",
+    "url": "/controleur-gestion-parcours-ecoles/#formations",
+    "date": "2026-08-10",
+    "excerpt": "BTS CG, BUT GEA, DCG, master CCA en IAE, grandes écoles et alternance : ce que chaque voie ouvre vraiment.",
+    "keywords": "formation contrôle de gestion master CCA DCG DSCG BTS BUT GEA alternance"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Contrôleur de gestion",
+    "title": "Indice ROI Métier et meilleures formations 2026",
+    "url": "/controleur-gestion-parcours-ecoles/#ecoles",
+    "date": "2026-08-10",
+    "excerpt": "Master CCA en IAE 4 708, DCG-DSCG 423, ESSEC et ESCP 106 à 107, HEC 71 : un rapport de un à soixante-six.",
+    "keywords": "classement Eduniversal master CCA indice ROI métier Dauphine iaelyon IAE Paris-Est HEC ESSEC ESCP"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Contrôleur de gestion",
+    "title": "Salaires du contrôleur de gestion en 2026",
+    "url": "/controleur-gestion-parcours-ecoles/#salaires",
+    "date": "2026-08-10",
+    "excerpt": "33 800 € de médiane à l'embauche, 65 000 à 85 000 € après six ans, et un marché en tension dont les offres reculent de 26 %.",
+    "keywords": "salaire contrôleur de gestion junior senior Île-de-France région France Travail Hays Ifocop"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Contrôleur de gestion",
+    "title": "Évolutions de carrière du contrôleur de gestion",
+    "url": "/controleur-gestion-parcours-ecoles/#carriere",
+    "date": "2026-08-10",
+    "excerpt": "De contrôleur junior à directeur administratif et financier, et les passerelles vers l'audit, le conseil et l'expertise comptable.",
+    "keywords": "évolution carrière DAF directeur financier audit interne expertise comptable DEC"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Communication à Lyon",
     "title": "Écoles de communication à Lyon : le classement 2026",
     "url": "/ecoles-communication-lyon/",
