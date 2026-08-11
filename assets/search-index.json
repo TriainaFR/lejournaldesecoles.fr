@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Commerce post-bac à Paris",
+    "title": "Écoles de commerce post-bac à Paris : le classement 2026",
+    "url": "/ecoles-commerce-post-bac-paris/",
+    "date": "2026-08-11",
+    "excerpt": "ESSCA, IÉSEG, EDC, IPAG, PSB : douze écoles post-bac franciliennes classées sur l'Indice ROI Paris, coût de la vie compris.",
+    "keywords": "écoles commerce post-bac Paris IÉSEG ESSCA EDC IPAG PSB EMLV ISC ESLSCA concours ACCÈS SESAME Parcoursup indice ROI"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Commerce post-bac Paris",
+    "title": "Le classement 2026 des écoles post-bac parisiennes",
+    "url": "/ecoles-commerce-post-bac-paris/#classement",
+    "date": "2026-08-11",
+    "excerpt": "ESSCA 35,7, IÉSEG 34,0, EDC 31,0 : le rang suit l'Indice ROI Paris, pas le palmarès Figaro.",
+    "keywords": "classement indice ROI Paris écoles commerce post-bac frais salaire"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Commerce post-bac Paris",
+    "title": "Paris ou la province pour une école de commerce",
+    "url": "/ecoles-commerce-post-bac-paris/#paris-province",
+    "date": "2026-08-11",
+    "excerpt": "1 627 € de budget étudiant mensuel à Paris selon l'UNEF, des loyers supérieurs de 40 % : la province garde six points d'avance au rendement.",
+    "keywords": "Paris province coût de la vie étudiant INSEE UNEF loyer comparaison"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Commerce post-bac Paris",
+    "title": "Concours ACCÈS, SESAME et Parcoursup direct",
+    "url": "/ecoles-commerce-post-bac-paris/#admission",
+    "date": "2026-08-11",
+    "excerpt": "2 335 places au concours ACCÈS, 11,5 % d'admis à l'EM Normandie via SESAME, et l'admission directe pour cinq écoles du panel.",
+    "keywords": "concours ACCÈS SESAME Parcoursup admission places taux calendrier"
+  },
+  {
+    "type": "Article",
     "cat": "Métiers - Finance & gestion",
     "title": "Contrôleur de gestion : parcours, écoles et salaires 2026",
     "url": "/controleur-gestion-parcours-ecoles/",
