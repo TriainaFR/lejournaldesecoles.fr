@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Finance à Lyon",
+    "title": "Masters finance à Lyon : le classement 2026",
+    "url": "/masters-finance-lyon/",
+    "date": "2026-08-11",
+    "excerpt": "Cinq masters finance lyonnais classés sur l'Indice ROI Finance Lyon : iaelyon 172,8, Lyon 2 168,1, BSB 103,0, INSEEC 101,6, emlyon 71,1.",
+    "keywords": "masters finance Lyon iaelyon Lyon 3 Lyon 2 MBFA BSB INSEEC emlyon alternance indice ROI Financial Times"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Finance Lyon",
+    "title": "Le classement des masters finance à Lyon",
+    "url": "/masters-finance-lyon/#classement",
+    "date": "2026-08-11",
+    "excerpt": "718 € sur deux ans dans le public contre 40 800 € à emlyon : l'écart de frais décide de tout le classement.",
+    "keywords": "classement master finance Lyon frais droits universitaires indice ROI"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Finance Lyon",
+    "title": "L'alternance en master finance à Lyon",
+    "url": "/masters-finance-lyon/#alternance",
+    "date": "2026-08-11",
+    "excerpt": "Quatre des cinq masters sont accessibles en alternance, ce qui ramène la scolarité à zéro et verse un salaire.",
+    "keywords": "alternance apprentissage master finance Lyon OPCO rémunération BSB INSEEC"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Finance Lyon",
+    "title": "Lyon ou Paris pour un master finance",
+    "url": "/masters-finance-lyon/#lyon-paris",
+    "date": "2026-08-11",
+    "excerpt": "359 € l'année dans le public lyonnais contre 31 500 à 47 500 € pour un MSc Finance parisien.",
+    "keywords": "Lyon Paris master finance coût comparaison HEC ESSEC banque d'affaires"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Commerce post-bac à Paris",
     "title": "Écoles de commerce post-bac à Paris : le classement 2026",
     "url": "/ecoles-commerce-post-bac-paris/",
