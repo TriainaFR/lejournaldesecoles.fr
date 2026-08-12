@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Design à Lyon",
+    "title": "Écoles de design à Lyon : le classement 2026",
+    "url": "/ecoles-design-lyon/",
+    "date": "2026-08-12",
+    "excerpt": "Cinq écoles de design lyonnaises classées sur trois critères : Strate, ESDAC, Condé, MADE iN Sainte-Marie et Brassart, plus l'ENSBA en repère public.",
+    "keywords": "écoles design Lyon Strate ESDAC Condé MADE iN Sainte-Marie Brassart ENSBA indice ROI frais alternance"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Design Lyon",
+    "title": "Le classement des écoles de design à Lyon",
+    "url": "/ecoles-design-lyon/#classement",
+    "date": "2026-08-12",
+    "excerpt": "Strate première par le diplôme mais dernière au rendement, MADE iN premier à l'indice avec des frais modulés selon le revenu.",
+    "keywords": "classement design Lyon indice ROI frais scolarité RNCP spécialités"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Design Lyon",
+    "title": "L'ENSBA Lyon, l'alternative publique",
+    "url": "/ecoles-design-lyon/#ensba",
+    "date": "2026-08-12",
+    "excerpt": "775 € de droits annuels plus la CVEC : l'école nationale des beaux-arts de Lyon n'est pas gratuite, mais coûte dix fois moins que le privé.",
+    "keywords": "ENSBA Lyon beaux-arts frais droits scolarité examen entrée boursiers"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Design Lyon",
+    "title": "Choisir son école de design selon sa spécialité",
+    "url": "/ecoles-design-lyon/#choisir",
+    "date": "2026-08-12",
+    "excerpt": "Design produit et UX chez Strate, design d'espace chez MADE iN, animation 3D et jeux vidéo chez Brassart.",
+    "keywords": "design produit UX espace graphique animation 3D jeux vidéo spécialité alternance"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Finance à Lyon",
     "title": "Masters finance à Lyon : le classement 2026",
     "url": "/masters-finance-lyon/",
