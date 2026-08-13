@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Métiers - Digital & marketing",
+    "title": "Chef de projet digital : formation, salaire et débouchés en 2026",
+    "url": "/chef-projet-digital-formation-debouches/",
+    "date": "2026-08-13",
+    "excerpt": "Missions, salaires par niveau et par secteur, formations du bachelor au master, alternance et évolutions de carrière du chef de projet digital.",
+    "keywords": "chef de projet digital métier formation salaire débouchés master marketing digital alternance agile Scrum Google Analytics"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Chef de projet digital",
+    "title": "Les salaires du chef de projet digital",
+    "url": "/chef-projet-digital-formation-debouches/#salaires",
+    "date": "2026-08-13",
+    "excerpt": "28 000 à 32 000 € en début de carrière, 45 000 à 60 000 € après cinq ans, sous le premier décile cadre à l'entrée.",
+    "keywords": "salaire chef de projet digital débutant senior APEC secteur agence e-commerce"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Chef de projet digital",
+    "title": "Les formations pour devenir chef de projet digital",
+    "url": "/chef-projet-digital-formation-debouches/#formations",
+    "date": "2026-08-13",
+    "excerpt": "Master en deux ans de 10 000 à 18 000 € par an, bachelor en trois ans, ou alternance gratuite et rémunérée.",
+    "keywords": "formation master marketing digital bachelor BTS BUT MMI alternance apprentissage"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Chef de projet digital",
+    "title": "Ce que coûte et rapporte chaque voie",
+    "url": "/chef-projet-digital-formation-debouches/#roi",
+    "date": "2026-08-13",
+    "excerpt": "Indice 140 pour un master seul, 70 pour un parcours complet, non calculable en alternance.",
+    "keywords": "indice ROI métier coût formation master bachelor alternance rendement"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Design à Lyon",
     "title": "Écoles de design à Lyon : le classement 2026",
     "url": "/ecoles-design-lyon/",
