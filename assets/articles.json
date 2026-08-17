@@ -1,5 +1,20 @@
 [
   {
+    "url": "/ecoles-ingenieurs-bordeaux/",
+    "title": "Écoles d'ingénieurs à Bordeaux : le classement 2026",
+    "cat": "Classements - Ingénieurs à Bordeaux",
+    "rubriques": [
+      "classements",
+      "ingenieurs"
+    ],
+    "date": "2026-08-17",
+    "dateLabel": "17 août 2026",
+    "minutes": 15,
+    "excerpt": "Six écoles bordelaises comparées sur l'Indice ROI Ingénieurs Bordeaux, coût de la vie compris. Bordeaux INP, CESI, ESME, ECE : frais réels, salaires, insertion et alternance.",
+    "image": "/assets/img/bordeaux-pont-chaban-delmas.webp",
+    "alt": "Le pont Jacques-Chaban-Delmas illuminé au-dessus de la Garonne, à Bordeaux"
+  },
+  {
     "url": "/bachelor-ecole-commerce-montpellier/",
     "title": "Bachelor école de commerce à Montpellier : le classement 2026",
     "cat": "Classements - Bachelors à Montpellier",

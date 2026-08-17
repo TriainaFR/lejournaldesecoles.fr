@@ -1,6 +1,42 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Ingénieurs à Bordeaux",
+    "title": "Écoles d'ingénieurs à Bordeaux : le classement 2026",
+    "url": "/ecoles-ingenieurs-bordeaux/",
+    "date": "2026-08-17",
+    "excerpt": "ENSEIRB-MATMECA, ENSMAC, ENSEGID, CESI, ESME et ECE comparées sur l'Indice ROI Ingénieurs Bordeaux.",
+    "keywords": "écoles ingénieurs Bordeaux Bordeaux INP ENSEIRB MATMECA ENSMAC ENSCBP ENSEGID ENSPIMA CESI ESME ECE alternance CTI"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Ingénieurs Bordeaux",
+    "title": "Le classement des écoles d'ingénieurs à Bordeaux",
+    "url": "/ecoles-ingenieurs-bordeaux/#classement",
+    "date": "2026-08-17",
+    "excerpt": "610 € l'année dans le public contre 7 500 à 9 200 € dans le privé : l'écart de frais fait tout le classement.",
+    "keywords": "classement indice ROI ingénieurs Bordeaux frais scolarité public privé"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Ingénieurs Bordeaux",
+    "title": "Les six écoles du groupe Bordeaux INP",
+    "url": "/ecoles-ingenieurs-bordeaux/#bordeaux-inp",
+    "date": "2026-08-17",
+    "excerpt": "ENSEIRB-MATMECA, ENSMAC ex-ENSCBP, ENSEGID, ENSTBB, ENSC et ENSPIMA, l'école aéronautique du groupe.",
+    "keywords": "Bordeaux INP écoles internes ENSPIMA ENSTBB ENSC PEIP prépa intégrée"
+  },
+  {
+    "type": "Section",
+    "cat": "Article - Ingénieurs Bordeaux",
+    "title": "Salaires et insertion des ingénieurs à Bordeaux",
+    "url": "/ecoles-ingenieurs-bordeaux/#salaires",
+    "date": "2026-08-17",
+    "excerpt": "36 000 à 40 000 € en Nouvelle-Aquitaine contre 39 129 € de moyenne nationale, et 83,3 % d'insertion à six mois.",
+    "keywords": "salaire ingénieur Bordeaux Nouvelle-Aquitaine CGE insertion aéronautique Mérignac"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Bachelors à Montpellier",
     "title": "Bachelor école de commerce à Montpellier : le classement 2026",
     "url": "/bachelor-ecole-commerce-montpellier/",
