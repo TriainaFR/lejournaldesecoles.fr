@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Métiers - Data & numérique",
+    "title": "Ingénieur data : formations, écoles et salaires en 2026",
+    "url": "/ingenieur-data-formation-ecoles/",
+    "date": "2026-08-19",
+    "excerpt": "Les voies vers le métier d’ingénieur data : écoles CTI, masters, bootcamps, avec les frais réels, les salaires par niveau d’expérience et les concours d’admission.",
+    "keywords": "ingénieur data data engineer data scientist data analyst ENSAE Télécom Paris CentraleSupélec ENSAI IMT Atlantique ESIEE EFREI ISEN CTI Mines-Ponts CCINP Parcoursup alternance salaire big data machine learning Python SQL Spark Airflow Kafka"
+  },
+  {
+    "type": "Section",
+    "cat": "Métiers - Data & numérique",
+    "title": "Classement des écoles ingénieurs data 2026",
+    "url": "/ingenieur-data-formation-ecoles/#classement",
+    "date": "2026-08-19",
+    "excerpt": "Huit écoles d’ingénieurs avec spécialisation data classées sur l’Indice ROI Data, l’accréditation CTI et la voie d’admission.",
+    "keywords": "classement écoles ingénieurs data ENSAE Télécom Paris CentraleSupélec ENSAI IMT Atlantique ESIEE EFREI ISEN indice ROI Data"
+  },
+  {
+    "type": "Section",
+    "cat": "Métiers - Data & numérique",
+    "title": "Salaires d’un ingénieur data",
+    "url": "/ingenieur-data-formation-ecoles/#salaires",
+    "date": "2026-08-19",
+    "excerpt": "38 000 à 45 000 € pour un débutant, 55 000 à 75 000 € après cinq ans, avec les primes par secteur.",
+    "keywords": "salaire ingénieur data débutant senior lead architecte finance banque tech APEC insertion chômage"
+  },
+  {
+    "type": "Section",
+    "cat": "Métiers - Data & numérique",
+    "title": "Voies d’admission vers une école data",
+    "url": "/ingenieur-data-formation-ecoles/#admission",
+    "date": "2026-08-19",
+    "excerpt": "Post-bac sur Parcoursup, post-prépa via Mines-Ponts, Centrale-Supélec ou CCINP, admissions parallèles, alternance et reconversion.",
+    "keywords": "admission Parcoursup post-bac post-prépa concours Mines-Ponts Centrale-Supélec CCINP admissions parallèles alternance apprentissage VAE bootcamp"
+  },
+  {
+    "type": "Section",
+    "cat": "Métiers - Data & numérique",
+    "title": "Formations pour devenir ingénieur data",
+    "url": "/ingenieur-data-formation-ecoles/#formations",
+    "date": "2026-08-19",
+    "excerpt": "Écoles d’ingénieurs CTI en cinq ans, masters universitaires MIAGE, bootcamps de reconversion et alternance.",
+    "keywords": "formation ingénieur data école CTI master MIAGE université bootcamp Le Wagon Jedha DataScientest OpenClassrooms CPF alternance"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Marketing à Lyon",
     "title": "Masters marketing à Lyon : le classement 2026 de 5 écoles",
     "url": "/masters-marketing-lyon/",

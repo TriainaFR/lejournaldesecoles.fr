@@ -3,6 +3,12 @@
 
   <!-- Home -->
   <url>
+    <loc>https://lejournaldesecoles.fr/ingenieur-data-formation-ecoles/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://lejournaldesecoles.fr/masters-marketing-lyon/</loc>
     <lastmod>2026-08-18</lastmod>
   </url>
@@ -16,7 +22,7 @@
   </url>
   <url>
     <loc>https://lejournaldesecoles.fr/chef-projet-digital-formation-debouches/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-19</lastmod>
   </url>
   <url>
     <loc>https://lejournaldesecoles.fr/ecoles-design-lyon/</loc>
@@ -82,7 +88,7 @@
   </url>
   <url>
     <loc>https://lejournaldesecoles.fr/ecoles-ingenieurs-lyon/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-19</lastmod>
   </url>
   <url>
     <loc>https://lejournaldesecoles.fr/meilleurs-masters-rh-france/</loc>
@@ -122,7 +128,7 @@
   </url>
   <url>
     <loc>https://lejournaldesecoles.fr/classement-meilleures-ecoles-ingenieurs-france/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-19</lastmod>
   </url>
   <url>
     <loc>https://lejournaldesecoles.fr/classement-meilleures-ecoles-design-france/</loc>
@@ -138,7 +144,7 @@
   </url>
   <url>
     <loc>https://lejournaldesecoles.fr/differences-grandes-ecoles-commerce-ingenieurs-design/</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
   </url>
 
   <url>
