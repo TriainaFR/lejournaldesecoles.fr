@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - Commerce post-bac à Lyon",
+    "title": "Écoles de commerce post-bac à Lyon : le classement 2026",
+    "url": "/ecoles-commerce-post-bac-lyon/",
+    "date": "2026-08-20",
+    "excerpt": "Cinq écoles lyonnaises passées à l’Indice ROI Lyon, coût de la vie compris : ESDES, ICL, IDRAC, EKLYA, INSEEC. Frais estimés, admission et alternance.",
+    "keywords": "écoles de commerce post-bac lyon bachelor commerce lyon ESDES ICL IDRAC EKLYA INSEEC concours ACCÈS Parcoursup indice ROI Lyon alternance CFA FORMASUP frais scolarité insertion"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - Commerce post-bac à Lyon",
+    "title": "Classement des écoles de commerce post-bac à Lyon",
+    "url": "/ecoles-commerce-post-bac-lyon/#classement",
+    "date": "2026-08-20",
+    "excerpt": "Cinq écoles classées par Indice ROI Lyon, de 489 pour l’ESDES à 386 pour l’INSEEC.",
+    "keywords": "classement écoles commerce post-bac Lyon ESDES ICL IDRAC EKLYA INSEEC indice ROI Lyon frais"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - Commerce post-bac à Lyon",
+    "title": "Admission : concours ACCÈS ou Parcoursup",
+    "url": "/ecoles-commerce-post-bac-lyon/#admission",
+    "date": "2026-08-20",
+    "excerpt": "Le concours ACCÈS réunit ESSCA, IÉSEG et ESDES. Les autres écoles recrutent sur dossier via Parcoursup.",
+    "keywords": "admission concours ACCÈS Parcoursup dossier entretien taux admission calendrier 2026 Lyon"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - Commerce post-bac à Lyon",
+    "title": "L’alternance à Lyon, ROI hors barème",
+    "url": "/ecoles-commerce-post-bac-lyon/#alternance",
+    "date": "2026-08-20",
+    "excerpt": "Scolarité prise en charge et rémunération de 800 à 1 450 € par mois : le coût net devient négatif.",
+    "keywords": "alternance apprentissage CFA FORMASUP AuRA rémunération SMIC Lyon commerce"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - Commerce post-bac à Lyon",
+    "title": "Méthodologie de l’Indice ROI Lyon",
+    "url": "/ecoles-commerce-post-bac-lyon/#methodologie",
+    "date": "2026-08-20",
+    "excerpt": "Salaire régional de 23 500 € rapporté aux frais et au coût de la vie sur trois ans.",
+    "keywords": "méthodologie indice ROI Lyon salaire APEC coût de la vie INSEE calcul formule"
+  },
+  {
+    "type": "Article",
     "cat": "Métiers - Data & numérique",
     "title": "Ingénieur data : formations, écoles et salaires en 2026",
     "url": "/ingenieur-data-formation-ecoles/",
