@@ -1,6 +1,51 @@
 [
   {
     "type": "Article",
+    "cat": "Classements - RH à Lyon",
+    "title": "Masters RH à Lyon : le classement 2026",
+    "url": "/masters-rh-lyon/",
+    "date": "2026-08-21",
+    "excerpt": "Cinq masters RH lyonnais passés à l’Indice ROI RH Lyon : IAE Lyon 3, Lyon 2, Sciences Po, IGENSIA, Pigier. Frais, alternance, insertion et salaires.",
+    "keywords": "master rh lyon master ressources humaines lyon master rh alternance lyon IAE Lyon 3 RHO Lyon 2 ETRH Sciences Po Lyon IGENSIA Pigier indice ROI RH Lyon salaire insertion apprentissage"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - RH à Lyon",
+    "title": "Classement des masters RH à Lyon",
+    "url": "/masters-rh-lyon/#classement",
+    "date": "2026-08-21",
+    "excerpt": "Cinq masters RH classés par Indice ROI RH Lyon, de 84 pour l’IAE Lyon 3 et Lyon 2 à 51 pour Pigier.",
+    "keywords": "classement master RH Lyon IAE Lyon 3 RHO Lyon 2 ETRH Sciences Po IGENSIA Pigier indice ROI frais insertion"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - RH à Lyon",
+    "title": "Master RH en alternance à Lyon",
+    "url": "/masters-rh-lyon/#alternance",
+    "date": "2026-08-21",
+    "excerpt": "Scolarité prise en charge et rémunération de 990 à 1 450 € par mois selon la grille légale 2026.",
+    "keywords": "alternance master RH Lyon apprentissage professionnalisation IGENSIA IAE Lyon 3 Pigier rémunération SMIC OPCO CFA"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - RH à Lyon",
+    "title": "Salaires RH à Lyon",
+    "url": "/masters-rh-lyon/#salaires",
+    "date": "2026-08-21",
+    "excerpt": "De 24 000 € pour un assistant RH débutant à 120 000 € pour un DRH senior, par poste et par niveau.",
+    "keywords": "salaire RH Lyon assistant chargé responsable DRH débutant confirmé senior APEC"
+  },
+  {
+    "type": "Section",
+    "cat": "Classements - RH à Lyon",
+    "title": "Méthodologie de l’Indice ROI RH Lyon",
+    "url": "/masters-rh-lyon/#methodologie",
+    "date": "2026-08-21",
+    "excerpt": "Salaire débutant régional rapporté aux frais et au coût de la vie UNEF sur deux ans.",
+    "keywords": "méthodologie indice ROI RH Lyon salaire APEC coût vie UNEF formule calcul"
+  },
+  {
+    "type": "Article",
     "cat": "Classements - Commerce post-bac à Lyon",
     "title": "Écoles de commerce post-bac à Lyon : le classement 2026",
     "url": "/ecoles-commerce-post-bac-lyon/",
